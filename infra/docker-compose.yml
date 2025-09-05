@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: cfb
+      POSTGRES_PASSWORD: cfb
+      POSTGRES_DB: cfb
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+volumes:
+  db_data:
