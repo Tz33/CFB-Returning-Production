@@ -25,3 +25,29 @@ class Roster(Base):
     position: Mapped[str | None] = mapped_column(String, nullable=True)
     jersey: Mapped[int | None] = mapped_column(nullable=True)
     player_cfbd_id: Mapped[int | None] = mapped_column(index=True, nullable=True)
+class PlayerStatsOffense(Base):
+    __tablename__ = "player_stats_offense"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+    player_id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    
+    passing_yards: Mapped[int] = mapped_column(Integer)
+    rushing_yards: Mapped[int] = mapped_column(Integer)
+    receiving_yards: Mapped[int] = mapped_column(Integer)
+    total_yards: Mapped[int] = mapped_column(Integer)
+    touchdowns: Mapped[int] = mapped_column(Integer)
+    receptions: Mapped[int] = mapped_column(Integer)
+
+class PlayerStatsDefense(Base):
+    __tablename__ = "player_stats_defense"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+    player_id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+
+    tackles: Mapped[int] = mapped_column(Integer)
+    tackles_for_loss: Mapped[int] = mapped_column(Integer)
+    sacks: Mapped[int] = mapped_column(Integer)
+    interceptions: Mapped[int] = mapped_column(Integer)
+    touchdowns: Mapped[int] = mapped_column(Integer)
+
+    

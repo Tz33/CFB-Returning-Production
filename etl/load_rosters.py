@@ -1,5 +1,6 @@
 # etl/load_rosters.py
 import os, httpx
+import argparse
 from dotenv import load_dotenv
 from db.session import SessionLocal
 from db.models import Team, Roster
@@ -55,6 +56,25 @@ def upsert_roster(team: str, year: int):
 
 
 if __name__ == "__main__":
-    # example: load LSU for 2024 (Y-1) and 2025 (Y)
-    for y in (2024, 2025):
-        upsert_roster("LSU", y)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--team", help="Exact school name (e.g., 'LSU'). If omitted and --all is used, loads every team.")
+    parser.add_argument("--year", type=int, action="append", help="Season(s) to load. Use multiple --year flags, e.g., --year 2024 --year 2025")
+    parser.add_argument("--all", action="store_true", help="Load all teams from the teams table")
+    args = parser.parse_args()
+
+    years = args.year or [2024, 2025]  # default seasons
+
+    if args.all:
+        # load every team from DB
+        with SessionLocal() as s:
+            team_names = [t.school for t in s.query(Team).order_by(Team.school).all()]
+        for tname in team_names:
+            for y in years:
+                print(f"[load] {tname} {y}")
+                upsert_roster(tname, y)       # <-- pass STRING school name
+    else:
+        if not args.team:
+            raise SystemExit("Provide --team 'School Name' OR use --all")
+        for y in years:
+            print(f"[load] {args.team} {y}")
+            upsert_roster(args.team, y) 
