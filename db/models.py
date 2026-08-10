@@ -88,6 +88,20 @@ class ReturningDetail(Base):
     weighted_def_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
     weighted_overall_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
 
+    # continuity index including translated incoming-transfer production (2021+);
+    # an index, not a share — can exceed 1.0
+    adjusted_off_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+    adjusted_def_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+    adjusted_overall_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+
+class TeamSeason(Base):
+    __tablename__ = "team_seasons"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+
+    conference: Mapped[str | None] = mapped_column(String, nullable=True)
+    classification: Mapped[str] = mapped_column(String, default="fbs")
+
 class CoachChange(Base):
     __tablename__ = "coach_changes"
     season: Mapped[int] = mapped_column(Integer, primary_key=True)
