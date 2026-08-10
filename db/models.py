@@ -94,6 +94,49 @@ class ReturningDetail(Base):
     adjusted_def_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
     adjusted_overall_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
 
+class WinProjection(Base):
+    __tablename__ = "win_projections"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+
+    rating_pred: Mapped[float] = mapped_column(Float)
+    n_games: Mapped[int] = mapped_column(Integer)
+    expected_wins: Mapped[float] = mapped_column(Float)
+    p_ge_6: Mapped[float] = mapped_column(Float)
+    p_ge_8: Mapped[float] = mapped_column(Float)
+    p_ge_10: Mapped[float] = mapped_column(Float)
+    win_dist: Mapped[str] = mapped_column(String)  # JSON array, P(0 wins)..P(n_games wins)
+    model_version: Mapped[str | None] = mapped_column(String, nullable=True)
+
+class Recruiting(Base):
+    __tablename__ = "recruiting"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+
+    rank: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    # raw source points; scale drifts across eras — z-scored within season at fit time
+    points: Mapped[float | None] = mapped_column(Float, nullable=True)
+
+class Game(Base):
+    __tablename__ = "games"
+    game_id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    season: Mapped[int] = mapped_column(Integer, index=True)
+    week: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    season_type: Mapped[str | None] = mapped_column(String, nullable=True)
+
+    # NULL team_id = non-FBS side; raw school names kept for FCS opponents in reports
+    home_team_id: Mapped[int | None] = mapped_column(ForeignKey("teams.team_id"), nullable=True)
+    away_team_id: Mapped[int | None] = mapped_column(ForeignKey("teams.team_id"), nullable=True)
+    home_school: Mapped[str | None] = mapped_column(String, nullable=True)
+    away_school: Mapped[str | None] = mapped_column(String, nullable=True)
+    home_classification: Mapped[str | None] = mapped_column(String, nullable=True)
+    away_classification: Mapped[str | None] = mapped_column(String, nullable=True)
+    neutral_site: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
+    conference_game: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
+    home_points: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    away_points: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    completed: Mapped[bool] = mapped_column(Boolean, default=False)
+
 class WinTotal(Base):
     __tablename__ = "win_totals"
     season: Mapped[int] = mapped_column(Integer, primary_key=True)
