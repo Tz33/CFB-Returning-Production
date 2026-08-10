@@ -1,25 +1,19 @@
 # etl/load_rosters.py
-import os, httpx
 import argparse
-from dotenv import load_dotenv
 from db.session import SessionLocal
 from db.models import Team, Roster
-
-load_dotenv()
-BASE = "https://api.collegefootballdata.com"
-HEADERS = {"Authorization": f"Bearer {os.getenv('CFBD_API_KEY')}"}
+from etl.cfbd_client import get
 
 def fetch_roster(team: str, year: int):
-    r = httpx.get(f"{BASE}/roster", params={"year": year, "team": team}, headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    return r.json()
+    return get("/roster", year=year, team=team)
 
-def upsert_roster(team: str, year: int):
+def upsert_roster(team: str, year: int, team_id: int | None = None):
     rows = fetch_roster(team, year)
     with SessionLocal() as s:
-        team_id = s.query(Team.team_id).filter(Team.school == team).scalar()
-        if not team_id:
-            raise RuntimeError(f"Team not found in DB: {team}")
+        if team_id is None:
+            team_id = s.query(Team.team_id).filter(Team.school == team).scalar()
+            if not team_id:
+                raise RuntimeError(f"Team not found in DB: {team}")
 
         # inside upsert_roster(...)
         for p in rows:
@@ -67,14 +61,15 @@ if __name__ == "__main__":
     if args.all:
         # load every team from DB
         with SessionLocal() as s:
-            team_names = [t.school for t in s.query(Team).order_by(Team.school).all()]
-        for tname in team_names:
+            teams = s.query(Team.school, Team.team_id).order_by(Team.school).all()
+        for school, tid in teams:
             for y in years:
-                print(f"[load] {tname} {y}")
-                upsert_roster(tname, y)       # <-- pass STRING school name
+                print(f"[load] {school} {y}")
+                upsert_roster(school, y, team_id=tid)
     else:
         if not args.team:
             raise SystemExit("Provide --team 'School Name' OR use --all")
         for y in years:
             print(f"[load] {args.team} {y}")
-            upsert_roster(args.team, y) 
+            upsert_roster(args.team, y)
+
