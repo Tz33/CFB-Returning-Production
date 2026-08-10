@@ -9,12 +9,16 @@ import time
 import httpx
 
 from db.metrics import refresh_materialized_views
-from etl import compute_incoming, compute_returning, load_teams
+from etl import compute_incoming, compute_returning, compute_returning_detail, load_teams
+from etl.load_coach_changes import load_coach_changes
 from etl.load_player_stats import upsert_player_stats_year
 from etl.load_rosters import upsert_roster_year
 from etl.load_team_outcomes import upsert_team_outcomes
+from etl.load_team_seasons import upsert_team_seasons
+from etl.load_game_lines import upsert_game_lines
 
-STAGES = ["teams", "rosters", "stats", "outcomes", "refresh", "returning", "incoming"]
+STAGES = ["teams", "team_seasons", "rosters", "stats", "outcomes", "coaches", "lines", "refresh",
+          "returning", "returning_detail", "incoming"]
 
 def _with_retry(fn, *args, attempts: int = 3):
     for attempt in range(1, attempts + 1):
@@ -39,13 +43,18 @@ def main(start_year: int, end_year: int, stages: list[str]) -> None:
             _with_retry(load_teams.main, y)
             time.sleep(1)
 
-    for stage, loader in (("rosters", upsert_roster_year),
+    for stage, loader in (("team_seasons", upsert_team_seasons),
+                          ("rosters", upsert_roster_year),
                           ("stats", upsert_player_stats_year),
-                          ("outcomes", upsert_team_outcomes)):
+                          ("outcomes", upsert_team_outcomes),
+                          ("lines", upsert_game_lines)):
         if stage in stages:
             for y in years:
                 _with_retry(loader, y)
                 time.sleep(1)
+
+    if "coaches" in stages:
+        _with_retry(load_coach_changes, start_year, end_year)
 
     if "refresh" in stages:
         print("[refresh] materialized views")
@@ -53,6 +62,9 @@ def main(start_year: int, end_year: int, stages: list[str]) -> None:
 
     if "returning" in stages:
         compute_returning.run(seasons=metric_seasons)
+
+    if "returning_detail" in stages:
+        compute_returning_detail.run(seasons=metric_seasons)
 
     if "incoming" in stages:
         compute_incoming.run(seasons=metric_seasons)

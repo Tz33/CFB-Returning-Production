@@ -1,5 +1,5 @@
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
-from sqlalchemy import String, Integer, BigInteger, Float, ForeignKey
+from sqlalchemy import String, Integer, BigInteger, Float, Boolean, ForeignKey
 
 class Base(DeclarativeBase): pass
 
@@ -67,6 +67,79 @@ class IncomingSummary(Base):
 
     transfer_share: Mapped[float] = mapped_column(Float)
     freshman_count: Mapped[int] = mapped_column(Integer)
+
+class ReturningDetail(Base):
+    __tablename__ = "returning_detail"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+
+    # per-category shares of prior-season production from returning players;
+    # NULL (not 0.0) when the prior-season denominator is zero
+    ret_passing_yards: Mapped[float | None] = mapped_column(Float, nullable=True)
+    ret_rushing_yards: Mapped[float | None] = mapped_column(Float, nullable=True)
+    ret_receiving_yards: Mapped[float | None] = mapped_column(Float, nullable=True)
+    ret_receptions: Mapped[float | None] = mapped_column(Float, nullable=True)
+    ret_tackles: Mapped[float | None] = mapped_column(Float, nullable=True)
+    ret_sacks: Mapped[float | None] = mapped_column(Float, nullable=True)
+    ret_tackles_for_loss: Mapped[float | None] = mapped_column(Float, nullable=True)
+    ret_interceptions: Mapped[float | None] = mapped_column(Float, nullable=True)
+
+    weighted_off_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+    weighted_def_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+    weighted_overall_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+
+    # continuity index including translated incoming-transfer production (2021+);
+    # an index, not a share — can exceed 1.0
+    adjusted_off_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+    adjusted_def_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+    adjusted_overall_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+
+class WinTotal(Base):
+    __tablename__ = "win_totals"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+
+    win_total: Mapped[float] = mapped_column(Float)
+    over_odds: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    under_odds: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    source: Mapped[str | None] = mapped_column(String, nullable=True)
+
+class GameLine(Base):
+    __tablename__ = "game_lines"
+    game_id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    season: Mapped[int] = mapped_column(Integer, index=True)
+    week: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    season_type: Mapped[str | None] = mapped_column(String, nullable=True)
+
+    # NULL team_id = non-FBS side, filtered at analysis time
+    home_team_id: Mapped[int | None] = mapped_column(ForeignKey("teams.team_id"), nullable=True)
+    away_team_id: Mapped[int | None] = mapped_column(ForeignKey("teams.team_id"), nullable=True)
+    home_score: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    away_score: Mapped[int | None] = mapped_column(Integer, nullable=True)
+
+    # home-relative: negative = home favored
+    spread: Mapped[float | None] = mapped_column(Float, nullable=True)
+    spread_open: Mapped[float | None] = mapped_column(Float, nullable=True)
+    over_under: Mapped[float | None] = mapped_column(Float, nullable=True)
+    provider: Mapped[str | None] = mapped_column(String, nullable=True)
+
+class TeamSeason(Base):
+    __tablename__ = "team_seasons"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+
+    conference: Mapped[str | None] = mapped_column(String, nullable=True)
+    classification: Mapped[str] = mapped_column(String, default="fbs")
+
+class CoachChange(Base):
+    __tablename__ = "coach_changes"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+
+    new_head_coach: Mapped[bool] = mapped_column(Boolean)
+    is_interim: Mapped[bool] = mapped_column(Boolean, default=False)
+    coach_name: Mapped[str | None] = mapped_column(String, nullable=True)
+    tenure_start_year: Mapped[int | None] = mapped_column(Integer, nullable=True)
 
 class TeamOutcome(Base):
     __tablename__ = "team_outcomes"
