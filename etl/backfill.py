@@ -16,9 +16,11 @@ from etl.load_rosters import upsert_roster_year
 from etl.load_team_outcomes import upsert_team_outcomes
 from etl.load_team_seasons import upsert_team_seasons
 from etl.load_game_lines import upsert_game_lines
+from etl.load_games import upsert_games
+from etl.load_recruiting import upsert_recruiting
 
-STAGES = ["teams", "team_seasons", "rosters", "stats", "outcomes", "coaches", "lines", "refresh",
-          "returning", "returning_detail", "incoming"]
+STAGES = ["teams", "team_seasons", "rosters", "stats", "outcomes", "coaches", "lines", "games",
+          "recruiting", "refresh", "returning", "returning_detail", "incoming"]
 
 def _with_retry(fn, *args, attempts: int = 3):
     for attempt in range(1, attempts + 1):
@@ -47,7 +49,9 @@ def main(start_year: int, end_year: int, stages: list[str]) -> None:
                           ("rosters", upsert_roster_year),
                           ("stats", upsert_player_stats_year),
                           ("outcomes", upsert_team_outcomes),
-                          ("lines", upsert_game_lines)):
+                          ("lines", upsert_game_lines),
+                          ("games", upsert_games),
+                          ("recruiting", upsert_recruiting)):
         if stage in stages:
             for y in years:
                 _with_retry(loader, y)

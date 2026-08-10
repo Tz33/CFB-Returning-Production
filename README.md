@@ -32,6 +32,25 @@ Returning production correlates with year-over-year improvement: overall returni
 - **Coaching continuity** (`analysis/validate_coaching_interaction.py`): new-coach teams average -1.1 SP+ vs +0.3 under continuity; the returning-production interaction is directionally negative but not significant — no correction applied.
 - **Market benchmarks**: early-season spreads (`analysis/validate_market_spreads.py`) show the market already prices returning production (extreme-quintile betting 52.8%, p=.14, no early/late attenuation). Preseason win totals are not in CFBD — fill `data/win_totals.csv` from the committed template and run `python -m etl.load_win_totals`, then `python -m analysis.validate_win_totals`.
 
+## Win projections (2026-08 milestone)
+
+```
+python -m model.run_projections --season 2026      # fit, simulate, store win_projections
+python -m analysis.backtest_win_projections        # time-safe backtest vs baselines + market
+python -m analysis.divergence_board                # the portal divergence board
+```
+
+The model predicts each team's SP+ rating from preseason-knowable features (prior SP+ .61, portal-adjusted continuity +12.3 per unit, new head coach -1.8, recruiting z +3.3 — all p<.001), converts rating gaps to per-game win probabilities (logistic on 7,769 games: .128/SP+ point, home field +.30, FCS opponents 93.7%), applies Platt recalibration (gamma=.66, fixes tail overconfidence from predicted-rating noise), and sums exact Poisson-binomial win distributions over the real schedule.
+
+**Backtest (2019, 2022-2025, everything fit strictly pre-season):** MAE 1.69 wins vs 1.70 (raw-returning baseline) and 1.82 (carry-forward); **58.1% against market win totals (243/418, p=.001)**; on the portal-divergence subset the model hits **60.0% vs 51.2%** for an otherwise-identical raw-returning model — the unpublished portal adjustment earns its edge precisely where published returning production is most wrong.
+
+### Model caveats
+
+- CCGs sit inside CFBD's regular season; book totals mostly exclude them (small upward bias for contenders, uncorrected — and it inflates the market hit rate slightly since both lean and result share the bias).
+- The 2019 backtest fold has no portal signal by construction; divergence claims rest on 2022-2025 (n=80 market-covered divergence teams).
+- The divergence gap is one-sided (incoming production only adds); the complementary view is the lowest-adjusted-continuity "depleted" table.
+- August rosters are preseason snapshots — rerun rosters -> returning stages and projections as rosters settle.
+
 ### Data caveats
 
 - CFBD defensive stats are sparse before 2016 (~800 rows vs ~6,000/season after), so `def_pct` for the 2015-2016 seasons is unreliable.
