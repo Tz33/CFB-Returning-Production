@@ -25,6 +25,13 @@ Individual loaders also support `--bulk` (all teams, one call per year) alongsid
 
 Returning production correlates with year-over-year improvement: overall returning share vs SP+ change r = 0.26, vs win change r = 0.19. The bucket means are monotonic — teams returning <40% of production averaged -0.73 wins and -3.0 SP+ vs the prior year, while teams returning 80%+ averaged +1.06 wins and +3.8 SP+. Offensive returning production carries nearly all of the signal (off r = 0.25 vs def r = 0.07 against SP+ change).
 
+### Differentiation features (2026-08 milestone)
+
+- **Per-category weights** (`analysis/estimate_category_weights.py` -> `db/weights.py`): offense ordering matches Connelly (receiving .42 > passing .33 > rushing .25). The weighted overall composite ties the baseline (LOSO r=.227 vs .260 — the simple share already captures the signal), but the defensive weighting (TFL/INT-heavy) lifts defensive predictive power from r=.07 to r=.21.
+- **Transfer translation** (`analysis/estimate_transfer_translation.py` -> `db/translation.py`): from 2,828 portal-era movers, G5->P4 transfers keep ~58-64% of production, P4->G5 gain ~50%, same-tier ~1.0. The **portal-adjusted continuity index** (returning + translated incoming production, 2021+) is the milestone headline: the plain metric collapsed to r=.157 in 2022-2025, the adjusted index restores r=.254 (Steiger p=.004). Teams above 100% adjusted continuity averaged +1.9 wins.
+- **Coaching continuity** (`analysis/validate_coaching_interaction.py`): new-coach teams average -1.1 SP+ vs +0.3 under continuity; the returning-production interaction is directionally negative but not significant — no correction applied.
+- **Market benchmarks**: early-season spreads (`analysis/validate_market_spreads.py`) show the market already prices returning production (extreme-quintile betting 52.8%, p=.14, no early/late attenuation). Preseason win totals are not in CFBD — fill `data/win_totals.csv` from the committed template and run `python -m etl.load_win_totals`, then `python -m analysis.validate_win_totals`.
+
 ### Data caveats
 
 - CFBD defensive stats are sparse before 2016 (~800 rows vs ~6,000/season after), so `def_pct` for the 2015-2016 seasons is unreliable.
