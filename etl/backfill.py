@@ -10,11 +10,12 @@ import httpx
 
 from db.metrics import refresh_materialized_views
 from etl import compute_incoming, compute_returning, compute_returning_detail, load_teams
+from etl.load_coach_changes import load_coach_changes
 from etl.load_player_stats import upsert_player_stats_year
 from etl.load_rosters import upsert_roster_year
 from etl.load_team_outcomes import upsert_team_outcomes
 
-STAGES = ["teams", "rosters", "stats", "outcomes", "refresh", "returning", "returning_detail", "incoming"]
+STAGES = ["teams", "rosters", "stats", "outcomes", "coaches", "refresh", "returning", "returning_detail", "incoming"]
 
 def _with_retry(fn, *args, attempts: int = 3):
     for attempt in range(1, attempts + 1):
@@ -46,6 +47,9 @@ def main(start_year: int, end_year: int, stages: list[str]) -> None:
             for y in years:
                 _with_retry(loader, y)
                 time.sleep(1)
+
+    if "coaches" in stages:
+        _with_retry(load_coach_changes, start_year, end_year)
 
     if "refresh" in stages:
         print("[refresh] materialized views")

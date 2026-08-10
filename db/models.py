@@ -1,5 +1,5 @@
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
-from sqlalchemy import String, Integer, BigInteger, Float, ForeignKey
+from sqlalchemy import String, Integer, BigInteger, Float, Boolean, ForeignKey
 
 class Base(DeclarativeBase): pass
 
@@ -87,6 +87,16 @@ class ReturningDetail(Base):
     weighted_off_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
     weighted_def_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
     weighted_overall_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+
+class CoachChange(Base):
+    __tablename__ = "coach_changes"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+
+    new_head_coach: Mapped[bool] = mapped_column(Boolean)
+    is_interim: Mapped[bool] = mapped_column(Boolean, default=False)
+    coach_name: Mapped[str | None] = mapped_column(String, nullable=True)
+    tenure_start_year: Mapped[int | None] = mapped_column(Integer, nullable=True)
 
 class TeamOutcome(Base):
     __tablename__ = "team_outcomes"
