@@ -50,3 +50,20 @@ class PlayerStatsDefense(Base):
     sacks: Mapped[float] = mapped_column(Float)
     interceptions: Mapped[int] = mapped_column(Integer)
     touchdowns: Mapped[int] = mapped_column(Integer)
+
+class ReturningSummary(Base):
+    __tablename__ = "returning_summary"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+
+    off_pct: Mapped[float] = mapped_column(Float)
+    def_pct: Mapped[float] = mapped_column(Float)
+    overall_pct: Mapped[float] = mapped_column(Float)
+
+class IncomingSummary(Base):
+    __tablename__ = "incoming_summary"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+
+    transfer_share: Mapped[float] = mapped_column(Float)
+    freshman_count: Mapped[int] = mapped_column(Integer)
