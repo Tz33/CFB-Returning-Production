@@ -67,3 +67,14 @@ class IncomingSummary(Base):
 
     transfer_share: Mapped[float] = mapped_column(Float)
     freshman_count: Mapped[int] = mapped_column(Integer)
+
+class TeamOutcome(Base):
+    __tablename__ = "team_outcomes"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+
+    # nullable: a team can have a record but no SP+ row (or vice versa) in old seasons
+    wins: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    losses: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    win_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+    sp_rating: Mapped[float | None] = mapped_column(Float, nullable=True)
