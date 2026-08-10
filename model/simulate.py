@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 from sqlalchemy import text
 
+from model.calibration import recalibrate
 from model.game_prob import game_prob
 
 SCHEDULE_SQL = """
@@ -47,14 +48,14 @@ def team_game_probs(schedule: pd.DataFrame, ratings: dict[int, float],
             if team_id not in out:
                 continue
             if opp_class == "fcs" or opp_id is None:
-                prob = fcs_prob
+                prob = fcs_prob  # empirical rate — already calibrated
             else:
                 own = ratings[team_id]
                 opp = ratings.get(opp_id, fallback)
                 if is_home:
-                    prob = game_prob(own, opp, bool(row.neutral_site), beta)
+                    prob = recalibrate(game_prob(own, opp, bool(row.neutral_site), beta))
                 else:
-                    prob = 1.0 - game_prob(opp, own, bool(row.neutral_site), beta)
+                    prob = 1.0 - recalibrate(game_prob(opp, own, bool(row.neutral_site), beta))
             won = None
             if row.completed and row.home_points is not None and row.away_points is not None:
                 won = (row.home_points > row.away_points) == is_home

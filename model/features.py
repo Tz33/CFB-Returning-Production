@@ -40,8 +40,8 @@ def build_features(engine, start: int = 2015, end: int = 2026) -> pd.DataFrame:
 
     df["continuity"] = df["adjusted_overall_pct"].fillna(df["overall_pct"])
     df["portal_era"] = (df["season"] >= PORTAL_ERA_START).astype(float)
-    df["new_head_coach"] = df["new_head_coach"].fillna(False).astype(float)
-    df["is_interim"] = df["is_interim"].fillna(False).astype(bool)
+    df["new_head_coach"] = df["new_head_coach"].astype(object).fillna(False).astype(float)
+    df["is_interim"] = df["is_interim"].astype(object).fillna(False).astype(bool)
 
     # recruiting: fill missing with the season's FBS minimum, then z-score within season
     df["recruit_points"] = df.groupby("season")["recruit_points"].transform(

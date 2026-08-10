@@ -46,7 +46,9 @@ def expanding_window_fit(df: pd.DataFrame, eval_season: int,
         & df["sp_rating"].notna()
     ].dropna(subset=features)
     assert train["season"].max() < eval_season, "time-safety violated"
-    return fit_ols(train[features].to_numpy(float), train["sp_rating"].to_numpy(float), features)
+    # constant columns (e.g. portal_era in pre-2022 windows) are collinear with the intercept
+    usable = [f for f in features if train[f].nunique() > 1]
+    return fit_ols(train[usable].to_numpy(float), train["sp_rating"].to_numpy(float), usable)
 
 
 def predict_ratings(rows: pd.DataFrame, fit: dict) -> pd.Series:
