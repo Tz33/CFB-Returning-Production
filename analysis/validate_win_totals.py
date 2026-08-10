@@ -44,6 +44,7 @@ LEFT JOIN returning_detail d ON d.team_id = wt.team_id AND d.season = wt.season
 JOIN team_outcomes cur  ON cur.team_id = wt.team_id AND cur.season = wt.season
 JOIN team_outcomes prev ON prev.team_id = wt.team_id AND prev.season = wt.season - 1
 WHERE wt.season NOT IN (2020, 2021)
+  AND wt.season > :fit_end
 """
 
 
@@ -83,7 +84,7 @@ def main() -> None:
     print(f"naive model fit on {FIT_SEASONS[0]}-{FIT_SEASONS[1]} (n={len(fit)}): "
           f"model_wins = prior_wins + {a:.2f} + {b:.2f} * returning_pct")
 
-    df = pd.read_sql(text(EVAL_SQL), engine)
+    df = pd.read_sql(text(EVAL_SQL), engine, params={"fit_end": FIT_SEASONS[1]})
     if df.empty:
         raise SystemExit("no win totals loaded — fill data/win_totals.csv and run "
                          "python -m etl.load_win_totals")

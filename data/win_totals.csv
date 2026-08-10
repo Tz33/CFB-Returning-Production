@@ -1,0 +1,628 @@
+season,school,win_total,over_odds,under_odds,source
+2025,Air Force,5.5,-170,135,SportsBettingDime
+2025,Akron,4.5,120,-150,SportsBettingDime
+2025,Alabama,9.5,-125,105,SportsBettingDime
+2025,Appalachian State,5.5,-160,125,SportsBettingDime
+2025,Arizona,4.5,-180,145,SportsBettingDime
+2025,Arizona State,8.5,-105,-115,SportsBettingDime
+2025,Arkansas,5.5,110,-130,SportsBettingDime
+2025,Arkansas State,5.5,125,-160,SportsBettingDime
+2025,Auburn,7.5,-160,135,SportsBettingDime
+2025,Ball State,3.5,-140,110,SportsBettingDime
+2025,Baylor,7.5,-105,-115,SportsBettingDime
+2025,Boise State,9.5,-180,140,SportsBettingDime
+2025,Boston College,5.5,100,-120,SportsBettingDime
+2025,Bowling Green,6.5,150,-190,SportsBettingDime
+2025,BYU,6.5,-135,115,SportsBettingDime
+2025,California,5.5,110,-130,SportsBettingDime
+2025,Central Michigan,5.5,110,-140,SportsBettingDime
+2025,Charlotte,2.5,-150,120,SportsBettingDime
+2025,Cincinnati,6.5,110,-130,SportsBettingDime
+2025,Clemson,9.5,-170,140,SportsBettingDime
+2025,Coastal Carolina,5.5,-110,-120,SportsBettingDime
+2025,Colorado,6.5,145,-170,SportsBettingDime
+2025,Colorado State,6.5,125,-155,SportsBettingDime
+2025,Delaware,4.5,-160,125,SportsBettingDime
+2025,Duke,6.5,-160,135,SportsBettingDime
+2025,East Carolina,6.5,120,-150,SportsBettingDime
+2025,Eastern Michigan,4.5,-105,-125,SportsBettingDime
+2025,FIU,5.5,-115,-115,SportsBettingDime
+2025,Florida,7.5,115,-135,SportsBettingDime
+2025,Florida Atlantic,4.5,105,-135,SportsBettingDime
+2025,Florida State,6.5,-150,125,SportsBettingDime
+2025,Fresno State,6.5,-130,100,SportsBettingDime
+2025,Georgia,9.5,-170,140,SportsBettingDime
+2025,Georgia Southern,7.5,-105,-125,SportsBettingDime
+2025,Georgia State,3.5,-120,-110,SportsBettingDime
+2025,Georgia Tech,7.5,-150,125,SportsBettingDime
+2025,Hawaii,6.5,125,-160,SportsBettingDime
+2025,Houston,6.5,120,-140,SportsBettingDime
+2025,Illinois,7.5,-160,135,SportsBettingDime
+2025,Indiana,8.5,115,-135,SportsBettingDime
+2025,Iowa,7.5,135,-165,SportsBettingDime
+2025,Iowa State,7.5,115,-135,SportsBettingDime
+2025,Jacksonville State,5.5,-115,-115,SportsBettingDime
+2025,James Madison,7.5,-160,125,SportsBettingDime
+2025,Kansas,6.5,-155,130,SportsBettingDime
+2025,Kansas State,8.5,-115,-105,SportsBettingDime
+2025,Kennesaw State,3.5,-150,120,SportsBettingDime
+2025,Kent State,1.5,-180,140,SportsBettingDime
+2025,Kentucky,4.5,-115,-105,SportsBettingDime
+2025,Liberty,9.5,110,-140,SportsBettingDime
+2025,Louisiana,7.5,-115,-115,SportsBettingDime
+2025,Louisiana Tech,5.5,-175,135,SportsBettingDime
+2025,Louisville,8.5,-130,110,SportsBettingDime
+2025,LSU,8.5,-140,120,SportsBettingDime
+2025,Marshall,5.5,140,-180,SportsBettingDime
+2025,Maryland,4.5,110,-130,SportsBettingDime
+2025,Memphis,8.5,115,-145,SportsBettingDime
+2025,Miami FL,9.5,135,-160,SportsBettingDime
+2025,Miami OH,6.5,110,-140,SportsBettingDime
+2025,Michigan,8.5,-160,135,SportsBettingDime
+2025,Michigan State,5.5,-135,115,SportsBettingDime
+2025,Middle Tennessee,4.5,-150,120,SportsBettingDime
+2025,Minnesota,7.5,130,-155,SportsBettingDime
+2025,Mississippi State,3.5,-160,135,SportsBettingDime
+2025,Missouri,7.5,130,-155,SportsBettingDime
+2025,Missouri State,4.5,-135,105,SportsBettingDime
+2025,Navy,8.5,-125,-105,SportsBettingDime
+2025,NC State,6.5,125,-150,SportsBettingDime
+2025,Nebraska,7.5,-130,110,SportsBettingDime
+2025,Nevada,3.5,-150,120,SportsBettingDime
+2025,New Mexico,3.5,105,-135,SportsBettingDime
+2025,New Mexico State,4.5,-150,120,SportsBettingDime
+2025,North Carolina,7.5,140,-165,SportsBettingDime
+2025,North Texas,6.5,-110,-120,SportsBettingDime
+2025,Northern Illinois,6.5,130,-165,SportsBettingDime
+2025,Northwestern,3.5,-180,140,SportsBettingDime
+2025,Notre Dame,10.5,125,-150,SportsBettingDime
+2025,Ohio,7.5,100,-130,SportsBettingDime
+2025,Ohio State,10.5,120,-140,SportsBettingDime
+2025,Oklahoma,6.5,-170,140,SportsBettingDime
+2025,Oklahoma State,4.5,-170,140,SportsBettingDime
+2025,Old Dominion,6.5,130,-165,SportsBettingDime
+2025,Ole Miss,8.5,-120,100,SportsBettingDime
+2025,Oregon,10.5,120,-140,SportsBettingDime
+2025,Oregon State,6.5,-170,135,SportsBettingDime
+2025,Penn State,10.5,125,-150,SportsBettingDime
+2025,Pittsburgh,6.5,135,-160,SportsBettingDime
+2025,Purdue,2.5,-180,150,SportsBettingDime
+2025,Rice,3.5,-140,110,SportsBettingDime
+2025,Rutgers,5.5,-125,105,SportsBettingDime
+2025,Sam Houston,4.5,-140,110,SportsBettingDime
+2025,San Diego State,4.5,-140,110,SportsBettingDime
+2025,San Jose State,7.5,-125,-105,SportsBettingDime
+2025,SMU,8.5,-105,-115,SportsBettingDime
+2025,South Alabama,7.5,140,-180,SportsBettingDime
+2025,South Carolina,7.5,125,-150,SportsBettingDime
+2025,South Florida,6.5,110,-140,SportsBettingDime
+2025,Southern Miss,4.5,-180,140,SportsBettingDime
+2025,Stanford,3.5,130,-150,SportsBettingDime
+2025,TCU,6.5,-160,135,SportsBettingDime
+2025,Temple,3.5,105,-135,SportsBettingDime
+2025,Tennessee,8.5,115,-135,SportsBettingDime
+2025,Texas,9.5,-170,140,SportsBettingDime
+2025,Texas A&M,8.5,125,-150,SportsBettingDime
+2025,Texas State,7.5,125,-160,SportsBettingDime
+2025,Texas Tech,8.5,-120,100,SportsBettingDime
+2025,Toledo,8.5,-115,-115,SportsBettingDime
+2025,Troy,5.5,-115,-115,SportsBettingDime
+2025,Tulane,8.5,105,-135,SportsBettingDime
+2025,Tulsa,2.5,-190,145,SportsBettingDime
+2025,UAB,4.5,120,-150,SportsBettingDime
+2025,UCF,5.5,-120,100,SportsBettingDime
+2025,UCLA,5.5,115,-135,SportsBettingDime
+2025,UConn,7.5,100,-130,SportsBettingDime
+2025,ULM,4.5,-125,-105,SportsBettingDime
+2025,UMass,3.5,-135,105,SportsBettingDime
+2025,UNLV,8.5,-105,-125,SportsBettingDime
+2025,USC,7.5,-135,115,SportsBettingDime
+2025,Utah,7.5,-175,135,SportsBettingDime
+2025,Utah State,4.5,110,-140,SportsBettingDime
+2025,UTEP,5.5,110,-140,SportsBettingDime
+2025,UTSA,7.5,-135,105,SportsBettingDime
+2025,Vanderbilt,5.5,130,-155,SportsBettingDime
+2025,Virginia,6.5,115,-135,SportsBettingDime
+2025,Virginia Tech,6.5,125,-150,SportsBettingDime
+2025,Wake Forest,4.5,105,-125,SportsBettingDime
+2025,Washington,7.5,110,-130,SportsBettingDime
+2025,Washington State,5.5,130,-160,SportsBettingDime
+2025,West Virginia,5.5,110,-140,SportsBettingDime
+2025,Western Kentucky,7.5,-125,-105,SportsBettingDime
+2025,Western Michigan,5.5,120,-150,SportsBettingDime
+2025,Wisconsin,5.5,125,-150,SportsBettingDime
+2025,Wyoming,5.5,120,-150,SportsBettingDime
+2024,Alabama,9.5,120,-140,SportsBettingDime
+2024,Arizona,8.0,120,-140,SportsBettingDime
+2024,Arizona State,4.5,135,-160,SportsBettingDime
+2024,Arkansas,4.5,-110,-110,SportsBettingDime
+2024,Auburn,7.5,125,-145,SportsBettingDime
+2024,Baylor,5.5,100,-120,SportsBettingDime
+2024,Boston College,5.0,110,-130,SportsBettingDime
+2024,BYU,4.5,105,-125,SportsBettingDime
+2024,California,6.0,-105,-115,SportsBettingDime
+2024,Cincinnati,5.0,-160,135,SportsBettingDime
+2024,Clemson,9.5,135,-160,SportsBettingDime
+2024,Colorado,5.5,-140,120,SportsBettingDime
+2024,Duke,5.5,130,-150,SportsBettingDime
+2024,Florida,4.5,-155,130,SportsBettingDime
+2024,Florida State,9.5,-110,-110,SportsBettingDime
+2024,Georgia,10.5,-120,100,SportsBettingDime
+2024,Georgia Tech,5.0,-120,100,SportsBettingDime
+2024,Houston,3.5,-160,135,SportsBettingDime
+2024,Illinois,5.5,100,-120,SportsBettingDime
+2024,Indiana,5.5,-110,-110,SportsBettingDime
+2024,Iowa,8.0,-115,-105,SportsBettingDime
+2024,Iowa State,7.5,-115,-105,SportsBettingDime
+2024,Kansas,8.0,-125,105,SportsBettingDime
+2024,Kansas State,9.5,125,-145,SportsBettingDime
+2024,Kentucky,6.5,-115,-105,SportsBettingDime
+2024,Louisville,8.5,115,-135,SportsBettingDime
+2024,LSU,9.0,-120,100,SportsBettingDime
+2024,Maryland,6.5,105,-125,SportsBettingDime
+2024,Miami,9.0,-125,105,SportsBettingDime
+2024,Michigan,9.0,115,-135,SportsBettingDime
+2024,Michigan State,5.0,-105,-115,SportsBettingDime
+2024,Minnesota,5.0,-160,135,SportsBettingDime
+2024,Mississippi State,4.0,-150,130,SportsBettingDime
+2024,Missouri,9.5,135,-160,SportsBettingDime
+2024,Nebraska,7.5,-120,100,SportsBettingDime
+2024,North Carolina,7.5,-115,-105,SportsBettingDime
+2024,NC State,8.5,-130,110,SportsBettingDime
+2024,Northwestern,4.5,-135,115,SportsBettingDime
+2024,Notre Dame,10.0,-110,-110,SportsBettingDime
+2024,Ohio State,10.5,-150,125,SportsBettingDime
+2024,Oklahoma,7.5,-115,-105,SportsBettingDime
+2024,Oklahoma State,8.0,-130,110,SportsBettingDime
+2024,Ole Miss,9.5,-115,-105,SportsBettingDime
+2024,Oregon,10.5,100,-120,SportsBettingDime
+2024,Oregon State,7.5,105,-125,SportsBettingDime
+2024,Penn State,10.5,140,-165,SportsBettingDime
+2024,Pittsburgh,5.5,100,-120,SportsBettingDime
+2024,Purdue,4.5,130,-150,SportsBettingDime
+2024,Rutgers,4.5,100,-120,SportsBettingDime
+2024,South Carolina,5.5,-115,-105,SportsBettingDime
+2024,Stanford,3.5,-160,135,SportsBettingDime
+2024,Syracuse,7.0,-120,100,SportsBettingDime
+2024,TCU,7.5,120,-140,SportsBettingDime
+2024,Tennessee,8.5,-170,145,SportsBettingDime
+2024,Texas,10.5,140,-170,SportsBettingDime
+2024,Texas A&M,8.5,-120,100,SportsBettingDime
+2024,Texas Tech,7.5,-120,100,SportsBettingDime
+2024,UCF,7.5,-115,-105,SportsBettingDime
+2024,UCLA,5.0,-125,105,SportsBettingDime
+2024,USC,7.0,-125,105,SportsBettingDime
+2024,Utah,9.5,-145,125,SportsBettingDime
+2024,Vanderbilt,3.0,-125,105,SportsBettingDime
+2024,Virginia,4.5,100,-120,SportsBettingDime
+2024,Virginia Tech,8.5,105,-125,SportsBettingDime
+2024,Wake Forest,4.5,-160,135,SportsBettingDime
+2024,Washington,6.5,-105,-115,SportsBettingDime
+2024,Washington State,7.5,-120,100,SportsBettingDime
+2024,West Virginia,6.5,-130,110,SportsBettingDime
+2024,Wisconsin,7.0,-105,-115,SportsBettingDime
+2023,Alabama,10.5,150,-175,SportsBettingDime
+2023,Arizona,5.0,100,-120,SportsBettingDime
+2023,Arizona State,5.0,135,-160,SportsBettingDime
+2023,Arkansas,7.0,125,-145,SportsBettingDime
+2023,Auburn,6.5,-135,115,SportsBettingDime
+2023,Baylor,7.0,-120,100,SportsBettingDime
+2023,Boston College,5.5,-125,105,SportsBettingDime
+2023,BYU,5.5,-110,-110,SportsBettingDime
+2023,California,5.0,-130,110,SportsBettingDime
+2023,Cincinnati,5.5,140,-165,SportsBettingDime
+2023,Clemson,10.0,-105,-115,SportsBettingDime
+2023,Colorado,3.5,120,-140,SportsBettingDime
+2023,Duke,6.5,130,-150,SportsBettingDime
+2023,Florida,5.5,-130,110,SportsBettingDime
+2023,Florida State,10.0,130,-150,SportsBettingDime
+2023,Georgia,11.5,115,-135,SportsBettingDime
+2023,Georgia Tech,4.5,120,-140,SportsBettingDime
+2023,Houston,4.5,-135,115,SportsBettingDime
+2023,Illinois,6.5,-120,100,SportsBettingDime
+2023,Indiana,3.5,-145,125,SportsBettingDime
+2023,Iowa,8.0,-150,130,SportsBettingDime
+2023,Iowa State,5.5,115,-135,SportsBettingDime
+2023,Kansas,6.5,145,-170,SportsBettingDime
+2023,Kansas State,8.5,135,-155,SportsBettingDime
+2023,Kentucky,7.0,-115,-105,SportsBettingDime
+2023,Louisville,8.0,-105,-115,SportsBettingDime
+2023,LSU,9.5,-125,105,SportsBettingDime
+2023,Maryland,7.0,-105,-115,SportsBettingDime
+2023,Miami,7.5,120,-140,SportsBettingDime
+2023,Michigan,10.5,-120,100,SportsBettingDime
+2023,Michigan State,5.5,135,-155,SportsBettingDime
+2023,Minnesota,7.0,110,-130,SportsBettingDime
+2023,Mississippi State,6.5,125,-145,SportsBettingDime
+2023,Missouri,6.5,110,-130,SportsBettingDime
+2023,Nebraska,6.0,-120,100,SportsBettingDime
+2023,North Carolina,8.0,-130,110,SportsBettingDime
+2023,NC State,6.5,-145,125,SportsBettingDime
+2023,Northwestern,3.0,100,-120,SportsBettingDime
+2023,Notre Dame,8.5,-135,115,SportsBettingDime
+2023,Ohio State,10.5,-105,-115,SportsBettingDime
+2023,Oklahoma,9.5,100,-120,SportsBettingDime
+2023,Oklahoma State,6.5,105,-125,SportsBettingDime
+2023,Ole Miss,7.5,-115,-105,SportsBettingDime
+2023,Oregon,9.5,100,-120,SportsBettingDime
+2023,Oregon State,8.5,120,-140,SportsBettingDime
+2023,Penn State,9.5,-140,120,SportsBettingDime
+2023,Pittsburgh,6.5,-140,120,SportsBettingDime
+2023,Purdue,5.5,110,-130,SportsBettingDime
+2023,Rutgers,4.5,100,-120,SportsBettingDime
+2023,South Carolina,6.5,115,-135,SportsBettingDime
+2023,Stanford,3.0,100,-120,SportsBettingDime
+2023,Syracuse,6.5,105,-125,SportsBettingDime
+2023,TCU,7.5,-130,110,SportsBettingDime
+2023,Tennessee,9.5,155,-180,SportsBettingDime
+2023,Texas,9.5,-140,120,SportsBettingDime
+2023,Texas A&M,8.0,-115,-105,SportsBettingDime
+2023,Texas Tech,7.5,120,-140,SportsBettingDime
+2023,UCF,6.5,-150,135,SportsBettingDime
+2023,UCLA,8.5,110,-130,SportsBettingDime
+2023,USC,10.0,100,-120,SportsBettingDime
+2023,Utah,8.5,120,-140,SportsBettingDime
+2023,Vanderbilt,3.5,-155,135,SportsBettingDime
+2023,Virginia,3.5,-120,100,SportsBettingDime
+2023,Virginia Tech,5.0,-105,-115,SportsBettingDime
+2023,Wake Forest,6.0,-120,100,SportsBettingDime
+2023,Washington,9.5,125,-145,SportsBettingDime
+2023,Washington State,6.5,-120,100,SportsBettingDime
+2023,West Virginia,4.5,-140,120,SportsBettingDime
+2023,Wisconsin,8.5,-145,125,SportsBettingDime
+2022,Air Force,8.5,-145,125,SportsBettingDime
+2022,Alabama,10.5,-230,185,SportsBettingDime
+2022,Appalachian State,8.5,-110,-110,SportsBettingDime
+2022,Arizona,2.5,-125,105,SportsBettingDime
+2022,Arizona State,6.5,-115,-105,SportsBettingDime
+2022,Arkansas,7.5,125,-145,SportsBettingDime
+2022,Army,8.0,-115,-105,SportsBettingDime
+2022,Auburn,6.5,135,-160,SportsBettingDime
+2022,Baylor,7.5,-130,110,SportsBettingDime
+2022,Boise State,9.5,130,-150,SportsBettingDime
+2022,Boston College,6.5,120,-140,SportsBettingDime
+2022,BYU,8.5,115,-135,SportsBettingDime
+2022,California,5.5,-120,100,SportsBettingDime
+2022,Cincinnati,9.0,-130,110,SportsBettingDime
+2022,Clemson,10.5,110,-130,SportsBettingDime
+2022,Coastal Carolina,8.0,120,-140,SportsBettingDime
+2022,Colorado,3.5,120,-135,SportsBettingDime
+2022,Duke,3.0,100,-120,SportsBettingDime
+2022,Florida,7.0,-130,110,SportsBettingDime
+2022,Florida State,6.5,100,-120,SportsBettingDime
+2022,Fresno State,8.5,-125,105,SportsBettingDime
+2022,Georgia,10.5,-205,165,SportsBettingDime
+2022,Georgia Tech,3.5,-125,105,SportsBettingDime
+2022,Houston,9.0,-110,-110,SportsBettingDime
+2022,Illinois,4.5,-125,105,SportsBettingDime
+2022,Indiana,4.0,-110,-110,SportsBettingDime
+2022,Iowa,7.5,-105,-115,SportsBettingDime
+2022,Iowa State,6.5,100,-120,SportsBettingDime
+2022,Kansas,2.5,105,-125,SportsBettingDime
+2022,Kansas State,6.5,-135,115,SportsBettingDime
+2022,Kentucky,7.5,-160,135,SportsBettingDime
+2022,Liberty,6.5,-140,120,SportsBettingDime
+2022,Louisiana,8.5,-120,100,SportsBettingDime
+2022,Louisville,6.5,-125,105,SportsBettingDime
+2022,LSU,7.0,-120,100,SportsBettingDime
+2022,Marshall,6.5,-145,125,SportsBettingDime
+2022,Maryland,6.0,100,-120,SportsBettingDime
+2022,Memphis,7.5,120,-140,SportsBettingDime
+2022,Miami,8.5,100,-120,SportsBettingDime
+2022,Michigan,9.5,-120,100,SportsBettingDime
+2022,Michigan State,7.5,100,-120,SportsBettingDime
+2022,Minnesota,7.5,100,-120,SportsBettingDime
+2022,Mississippi State,6.5,-130,110,SportsBettingDime
+2022,Missouri,5.5,100,-120,SportsBettingDime
+2022,NC State,8.5,-145,125,SportsBettingDime
+2022,Nebraska,7.5,-120,100,SportsBettingDime
+2022,North Carolina,7.5,115,-135,SportsBettingDime
+2022,Northwestern,4.0,-120,100,SportsBettingDime
+2022,Notre Dame,8.5,-125,105,SportsBettingDime
+2022,Ohio State,10.5,-205,165,SportsBettingDime
+2022,Oklahoma,9.5,-110,-110,SportsBettingDime
+2022,Oklahoma State,8.5,-115,-105,SportsBettingDime
+2022,Ole Miss,7.5,-130,110,SportsBettingDime
+2022,Oregon,8.5,105,-125,SportsBettingDime
+2022,Oregon State,6.5,115,-135,SportsBettingDime
+2022,Penn State,8.5,105,-125,SportsBettingDime
+2022,Pittsburgh,8.5,-125,105,SportsBettingDime
+2022,Purdue,7.5,100,-120,SportsBettingDime
+2022,Rutgers,4.0,-110,-110,SportsBettingDime
+2022,SMU,7.0,-105,-115,SportsBettingDime
+2022,South Carolina,6.0,-130,110,SportsBettingDime
+2022,Stanford,4.5,135,-160,SportsBettingDime
+2022,Syracuse,5.0,115,-135,SportsBettingDime
+2022,TCU,6.5,-120,100,SportsBettingDime
+2022,Tennessee,7.5,-160,135,SportsBettingDime
+2022,Texas,8.0,-135,115,SportsBettingDime
+2022,Texas A&M,8.5,-150,130,SportsBettingDime
+2022,Texas Tech,5.5,100,-120,SportsBettingDime
+2022,UCF,8.5,100,-120,SportsBettingDime
+2022,UCLA,8.5,-110,-110,SportsBettingDime
+2022,USC,9.5,-130,110,SportsBettingDime
+2022,Utah,9.0,-115,-105,SportsBettingDime
+2022,Vanderbilt,2.5,120,-140,SportsBettingDime
+2022,Virginia,7.5,120,-140,SportsBettingDime
+2022,Virginia Tech,6.5,120,-140,SportsBettingDime
+2022,Wake Forest,8.5,110,-130,SportsBettingDime
+2022,Washington,7.5,100,-120,SportsBettingDime
+2022,Washington State,5.5,125,-145,SportsBettingDime
+2022,West Virginia,5.5,-130,110,SportsBettingDime
+2022,Wisconsin,8.5,-145,125,SportsBettingDime
+2021,Air Force,6.5,-113,-113,SportsBettingDime
+2021,Alabama,11.5,-113,-113,SportsBettingDime
+2021,Appalachian State,9.0,-113,-113,SportsBettingDime
+2021,Arizona,2.5,-113,-113,SportsBettingDime
+2021,Arizona State,9.0,-113,-113,SportsBettingDime
+2021,Arkansas,6.0,125,-159,SportsBettingDime
+2021,Army,8.0,100,-125,SportsBettingDime
+2021,Auburn,7.0,120,-152,SportsBettingDime
+2021,Baylor,5.5,110,-139,SportsBettingDime
+2021,Boise State,9.0,105,-134,SportsBettingDime
+2021,Boston College,7.0,-113,-113,SportsBettingDime
+2021,BYU,6.5,-113,-113,SportsBettingDime
+2021,California,6.0,100,-125,SportsBettingDime
+2021,Cincinnati,10.0,-113,-113,SportsBettingDime
+2021,Clemson,11.5,100,-125,SportsBettingDime
+2021,Coastal Carolina,10.0,-113,-113,SportsBettingDime
+2021,Colorado,4.5,100,-125,SportsBettingDime
+2021,Duke,3.5,-125,100,SportsBettingDime
+2021,Florida,9.0,100,-125,SportsBettingDime
+2021,Florida State,5.5,-113,-113,SportsBettingDime
+2021,Fresno State,6.0,-113,-113,SportsBettingDime
+2021,Georgia,10.5,-125,100,SportsBettingDime
+2021,Georgia Tech,5.0,-113,-113,SportsBettingDime
+2021,Houston,8.0,-134,105,SportsBettingDime
+2021,Illinois,3.5,-134,105,SportsBettingDime
+2021,Indiana,8.0,120,-152,SportsBettingDime
+2021,Iowa,8.5,100,-125,SportsBettingDime
+2021,Iowa State,9.5,-106,-121,SportsBettingDime
+2021,Kansas,1.0,-195,150,SportsBettingDime
+2021,Kansas State,5.5,-139,110,SportsBettingDime
+2021,Kentucky,7.0,-125,100,SportsBettingDime
+2021,Liberty,9.0,-125,100,SportsBettingDime
+2021,Louisiana,9.5,100,-125,SportsBettingDime
+2021,Louisville,7.0,105,-134,SportsBettingDime
+2021,LSU,8.5,100,-125,SportsBettingDime
+2021,Marshall,8.0,-125,100,SportsBettingDime
+2021,Maryland,6.0,100,-125,SportsBettingDime
+2021,Memphis,8.0,-113,-113,SportsBettingDime
+2021,Miami,9.5,100,-125,SportsBettingDime
+2021,Michigan,7.5,-152,120,SportsBettingDime
+2021,Michigan State,4.5,-113,-113,SportsBettingDime
+2021,Minnesota,7.0,-113,-113,SportsBettingDime
+2021,Mississippi State,6.0,-113,-113,SportsBettingDime
+2021,Missouri,7.0,-139,110,SportsBettingDime
+2021,NC State,6.0,-139,110,SportsBettingDime
+2021,Nebraska,6.0,-134,105,SportsBettingDime
+2021,North Carolina,10.0,110,-139,SportsBettingDime
+2021,Northwestern,6.0,-125,100,SportsBettingDime
+2021,Notre Dame,9.0,100,-125,SportsBettingDime
+2021,Ohio State,11.0,-125,100,SportsBettingDime
+2021,Oklahoma,11.0,-125,100,SportsBettingDime
+2021,Oklahoma State,7.5,-113,-113,SportsBettingDime
+2021,Ole Miss,7.5,-125,100,SportsBettingDime
+2021,Oregon,9.0,-121,-105,SportsBettingDime
+2021,Oregon State,4.5,-113,-113,SportsBettingDime
+2021,Penn State,9.0,100,-125,SportsBettingDime
+2021,Pittsburgh,7.0,-113,-113,SportsBettingDime
+2021,Purdue,5.0,-113,-113,SportsBettingDime
+2021,San Diego State,6.5,100,-125,SportsBettingDime
+2021,SMU,6.0,-159,125,SportsBettingDime
+2021,South Carolina,3.5,-159,125,SportsBettingDime
+2021,Stanford,4.0,-113,-113,SportsBettingDime
+2021,Syracuse,3.0,-125,100,SportsBettingDime
+2021,TCU,7.5,100,-125,SportsBettingDime
+2021,Tennessee,6.0,110,-139,SportsBettingDime
+2021,Texas,8.0,110,-139,SportsBettingDime
+2021,Texas A&M,9.5,100,-125,SportsBettingDime
+2021,Texas Tech,4.5,-152,120,SportsBettingDime
+2021,UCF,9.5,-113,-113,SportsBettingDime
+2021,UCLA,7.0,-106,-121,SportsBettingDime
+2021,USC,8.5,100,-125,SportsBettingDime
+2021,Utah,8.5,-125,100,SportsBettingDime
+2021,Vanderbilt,3.0,-125,100,SportsBettingDime
+2021,Virginia,6.0,-134,105,SportsBettingDime
+2021,Virginia Tech,7.0,105,-134,SportsBettingDime
+2021,Wake Forest,6.5,-134,105,SportsBettingDime
+2021,Washington,9.0,110,-139,SportsBettingDime
+2021,Washington State,6.0,-113,-113,SportsBettingDime
+2021,West Virginia,6.5,-125,100,SportsBettingDime
+2021,Wisconsin,9.5,110,-139,SportsBettingDime
+2020,Air Force,8.0,-110,-110,SportsBettingDime
+2020,Alabama,10.5,-200,162,SportsBettingDime
+2020,Appalachian State,9.5,-134,110,SportsBettingDime
+2020,Arizona,5.0,-110,-110,SportsBettingDime
+2020,Arizona State,7.5,-121,100,SportsBettingDime
+2020,Arkansas,3.5,-110,-110,SportsBettingDime
+2020,Army,6.5,-121,100,SportsBettingDime
+2020,Auburn,9.0,115,-143,SportsBettingDime
+2020,Baylor,7.0,100,-121,SportsBettingDime
+2020,Boise State,10.0,100,-121,SportsBettingDime
+2020,Boston College,4.5,100,-121,SportsBettingDime
+2020,BYU,6.5,-121,100,SportsBettingDime
+2020,California,6.5,-134,110,SportsBettingDime
+2020,Cincinnati,8.5,100,-121,SportsBettingDime
+2020,Clemson,11.5,-134,110,SportsBettingDime
+2020,Colorado,3.0,-137,110,SportsBettingDime
+2020,Duke,5.5,-121,100,SportsBettingDime
+2020,Florida,10.0,100,-121,SportsBettingDime
+2020,Florida State,7.5,100,-121,SportsBettingDime
+2020,Georgia,10.0,-121,100,SportsBettingDime
+2020,Georgia Tech,3.0,110,-134,SportsBettingDime
+2020,Illinois,5.0,110,-137,SportsBettingDime
+2020,Indiana,7.0,-134,110,SportsBettingDime
+2020,Iowa,7.5,110,-134,SportsBettingDime
+2020,Iowa State,7.5,-134,110,SportsBettingDime
+2020,Kansas,3.0,125,-155,SportsBettingDime
+2020,Kansas State,6.0,100,-121,SportsBettingDime
+2020,Kentucky,7.0,-110,-110,SportsBettingDime
+2020,Liberty,6.0,-121,100,SportsBettingDime
+2020,Louisiana,9.5,-120,100,SportsBettingDime
+2020,Louisville,6.5,-134,110,SportsBettingDime
+2020,LSU,9.0,-121,100,SportsBettingDime
+2020,Memphis,9.0,-134,110,SportsBettingDime
+2020,Miami,9.0,100,-121,SportsBettingDime
+2020,Michigan,9.0,-110,-110,SportsBettingDime
+2020,Michigan State,5.5,110,-134,SportsBettingDime
+2020,Minnesota,8.5,100,-121,SportsBettingDime
+2020,Mississippi State,6.5,100,-121,SportsBettingDime
+2020,Missouri,6.5,100,-121,SportsBettingDime
+2020,Navy,7.5,-121,100,SportsBettingDime
+2020,NC State,5.0,-120,100,SportsBettingDime
+2020,Nebraska,7.5,100,-121,SportsBettingDime
+2020,North Carolina,8.5,-137,110,SportsBettingDime
+2020,Northwestern,5.5,-137,110,SportsBettingDime
+2020,Notre Dame,10.0,110,-134,SportsBettingDime
+2020,Ohio State,11.0,-134,110,SportsBettingDime
+2020,Oklahoma,10.0,-121,100,SportsBettingDime
+2020,Oklahoma State,8.0,-121,100,SportsBettingDime
+2020,Ole Miss,5.5,-121,100,SportsBettingDime
+2020,Oregon,9.5,110,-137,SportsBettingDime
+2020,Oregon State,5.0,100,-121,SportsBettingDime
+2020,Penn State,9.5,-121,100,SportsBettingDime
+2020,Pittsburgh,6.5,-155,125,SportsBettingDime
+2020,Purdue,5.5,125,-155,SportsBettingDime
+2020,SMU,7.5,-121,100,SportsBettingDime
+2020,South Carolina,5.5,100,-121,SportsBettingDime
+2020,Stanford,6.0,110,-137,SportsBettingDime
+2020,Syracuse,6.0,110,-134,SportsBettingDime
+2020,TCU,7.5,100,-121,SportsBettingDime
+2020,Tennessee,7.0,-110,-110,SportsBettingDime
+2020,Texas,9.5,100,-121,SportsBettingDime
+2020,Texas A&M,9.5,110,-137,SportsBettingDime
+2020,Texas Tech,5.5,-110,-110,SportsBettingDime
+2020,UCF,10.0,100,-121,SportsBettingDime
+2020,UCLA,6.0,110,-137,SportsBettingDime
+2020,USC,9.0,110,-134,SportsBettingDime
+2020,Utah,8.0,-110,-110,SportsBettingDime
+2020,Vanderbilt,3.0,100,-121,SportsBettingDime
+2020,Virginia,6.0,-137,110,SportsBettingDime
+2020,Virginia Tech,8.5,-110,-110,SportsBettingDime
+2020,Wake Forest,6.0,-110,-110,SportsBettingDime
+2020,Washington,8.0,-121,100,SportsBettingDime
+2020,Washington State,7.0,-134,110,SportsBettingDime
+2020,West Virginia,6.0,-121,100,SportsBettingDime
+2020,Wisconsin,9.5,110,-137,SportsBettingDime
+2020,Wyoming,6.5,110,-134,SportsBettingDime
+2019,Air Force,7.5,-110,-110,SportsBettingDime
+2019,Akron,3.5,140,-160,SportsBettingDime
+2019,Alabama,11.0,-145,125,SportsBettingDime
+2019,Appalachian State,9.0,-140,120,SportsBettingDime
+2019,Arizona,6.5,120,-140,SportsBettingDime
+2019,Arizona State,6.5,-150,130,SportsBettingDime
+2019,Arkansas,5.5,130,-150,SportsBettingDime
+2019,Army,10.0,-120,100,SportsBettingDime
+2019,Auburn,7.5,-135,115,SportsBettingDime
+2019,Baylor,7.5,-120,100,SportsBettingDime
+2019,Boise State,10.0,105,-125,SportsBettingDime
+2019,Boston College,6.0,110,-130,SportsBettingDime
+2019,Buffalo,6.0,-135,115,SportsBettingDime
+2019,BYU,6.5,110,-130,SportsBettingDime
+2019,California,5.5,100,-120,SportsBettingDime
+2019,Cincinnati,7.5,-155,125,SportsBettingDime
+2019,Clemson,11.5,100,-120,SportsBettingDime
+2019,Colorado,4.0,-110,-110,SportsBettingDime
+2019,Connecticut,2.5,-105,-115,SportsBettingDime
+2019,Duke,5.5,100,-120,SportsBettingDime
+2019,Florida,9.0,140,-160,SportsBettingDime
+2019,Florida Atlantic,7.5,-110,-110,SportsBettingDime
+2019,Florida State,7.5,-115,-105,SportsBettingDime
+2019,Fresno State,8.0,100,-120,SportsBettingDime
+2019,Georgia,10.5,-140,120,SportsBettingDime
+2019,Georgia Tech,3.5,-110,-110,SportsBettingDime
+2019,Hawaii,5.5,-130,110,SportsBettingDime
+2019,Houston,7.5,115,-135,SportsBettingDime
+2019,Illinois,4.5,105,-125,SportsBettingDime
+2019,Indiana,6.0,-155,135,SportsBettingDime
+2019,Iowa,7.5,-160,140,SportsBettingDime
+2019,Iowa State,8.0,100,-120,SportsBettingDime
+2019,Kansas,3.0,105,-125,SportsBettingDime
+2019,Kansas State,5.5,125,-145,SportsBettingDime
+2019,Kentucky,6.5,-140,120,SportsBettingDime
+2019,Liberty,5.5,-125,105,SportsBettingDime
+2019,Louisville,3.5,-130,110,SportsBettingDime
+2019,LSU,9.0,-130,110,SportsBettingDime
+2019,Maryland,4.0,-135,115,SportsBettingDime
+2019,Memphis,9.5,-130,110,SportsBettingDime
+2019,Miami,8.5,-145,125,SportsBettingDime
+2019,Michigan,9.5,-200,170,SportsBettingDime
+2019,Michigan State,8.0,-160,140,SportsBettingDime
+2019,Minnesota,7.5,-140,120,SportsBettingDime
+2019,Mississippi State,7.5,-145,125,SportsBettingDime
+2019,Missouri,8.0,-155,135,SportsBettingDime
+2019,NC State,7.5,120,-140,SportsBettingDime
+2019,Nebraska,8.5,-115,-105,SportsBettingDime
+2019,North Carolina,4.5,-165,145,SportsBettingDime
+2019,Northwestern,6.5,110,-130,SportsBettingDime
+2019,Notre Dame,9.0,-130,110,SportsBettingDime
+2019,Ohio State,10.0,-115,-105,SportsBettingDime
+2019,Oklahoma,10.5,-120,100,SportsBettingDime
+2019,Oklahoma State,7.5,110,-130,SportsBettingDime
+2019,Ole Miss,5.0,110,-130,SportsBettingDime
+2019,Oregon,9.0,105,-125,SportsBettingDime
+2019,Oregon State,2.5,-140,120,SportsBettingDime
+2019,Penn State,8.5,-115,-105,SportsBettingDime
+2019,Pittsburgh,6.0,-130,110,SportsBettingDime
+2019,Purdue,7.0,120,-140,SportsBettingDime
+2019,Rutgers,2.5,-170,150,SportsBettingDime
+2019,San Diego State,8.0,100,-120,SportsBettingDime
+2019,SMU,6.0,-135,115,SportsBettingDime
+2019,South Carolina,5.5,-145,125,SportsBettingDime
+2019,South Florida,6.5,-120,100,SportsBettingDime
+2019,Stanford,6.5,-140,120,SportsBettingDime
+2019,Syracuse,7.5,-120,100,SportsBettingDime
+2019,TCU,7.5,-105,-115,SportsBettingDime
+2019,Temple,6.5,-130,110,SportsBettingDime
+2019,Tennessee,6.5,-135,110,SportsBettingDime
+2019,Texas,9.5,180,-220,SportsBettingDime
+2019,Texas A&M,7.5,-130,100,SportsBettingDime
+2019,Texas Tech,6.0,-135,115,SportsBettingDime
+2019,UCF,9.0,-140,120,SportsBettingDime
+2019,UCLA,6.0,-115,-105,SportsBettingDime
+2019,USC,7.0,-110,-110,SportsBettingDime
+2019,Utah,9.0,-145,125,SportsBettingDime
+2019,Vanderbilt,5.0,105,-125,SportsBettingDime
+2019,Virginia,7.5,-130,110,SportsBettingDime
+2019,Virginia Tech,8.0,-140,120,SportsBettingDime
+2019,Wake Forest,6.0,-105,-115,SportsBettingDime
+2019,Washington,9.5,-115,-105,SportsBettingDime
+2019,Washington State,8.0,105,-125,SportsBettingDime
+2019,West Virginia,5.5,130,-150,SportsBettingDime
+2019,Wisconsin,8.0,-140,120,SportsBettingDime
+2018,Alabama,11.0,110,-140,SportsBettingDime
+2018,Auburn,9.0,-120,-110,SportsBettingDime
+2018,Baylor,6.0,-105,-125,SportsBettingDime
+2018,UCF,9.5,-105,-125,SportsBettingDime
+2018,Clemson,11.0,-115,-115,SportsBettingDime
+2018,Florida,8.0,105,-135,SportsBettingDime
+2018,Florida State,7.5,-170,140,SportsBettingDime
+2018,Georgia,10.5,-120,-110,SportsBettingDime
+2018,LSU,7.0,-125,-105,SportsBettingDime
+2018,Louisville,7.0,-130,100,SportsBettingDime
+2018,Miami,9.5,-110,-120,SportsBettingDime
+2018,Michigan State,9.0,100,120,SportsBettingDime
+2018,Mississippi State,8.5,105,-135,SportsBettingDime
+2018,Missouri,6.5,-160,130,SportsBettingDime
+2018,NC State,7.0,-125,-105,SportsBettingDime
+2018,Nebraska,6.5,-120,-110,SportsBettingDime
+2018,Notre Dame,9.5,110,-140,SportsBettingDime
+2018,Ohio State,10.5,-125,-105,SportsBettingDime
+2018,Oklahoma,10.0,-115,-115,SportsBettingDime
+2018,Oklahoma State,8.0,-125,-105,SportsBettingDime
+2018,Oregon,8.5,-145,-105,SportsBettingDime
+2018,Penn State,9.5,-115,-115,SportsBettingDime
+2018,South Carolina,7.5,-175,145,SportsBettingDime
+2018,Stanford,8.0,-165,135,SportsBettingDime
+2018,TCU,7.5,-135,105,SportsBettingDime
+2018,Tennessee,5.5,-150,120,SportsBettingDime
+2018,Texas A&M,7.0,-145,115,SportsBettingDime
+2018,Texas,8.5,-130,100,SportsBettingDime
+2018,UCLA,5.5,-110,-120,SportsBettingDime
+2018,USC,8.5,-105,-125,SportsBettingDime
+2018,Virginia Tech,8.5,110,-140,SportsBettingDime
+2018,Washington,10.5,115,-145,SportsBettingDime
+2018,Washington State,6.5,120,-150,SportsBettingDime
+2018,West Virginia,7.0,-175,145,SportsBettingDime
+2018,Wisconsin,10.0,100,-130,SportsBettingDime
