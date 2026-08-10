@@ -1,0 +1,62 @@
+# CFB Returning Production
+
+Utilities for loading CollegeFootballData rosters and stats into Postgres, computing returning and incoming production summaries, and validating that returning production predicts year-over-year team success.
+
+## Setup
+
+1. Install dependencies with `pip install -r requirements.txt`.
+2. Set `CFBD_API_KEY` in your environment or a `.env` file before running ETL scripts.
+3. Configure the database connection via `DATABASE_URL` in `.env` (see `.env.example`; use `127.0.0.1` rather than `localhost` on Windows — IPv6 fallback makes `localhost` connections hang for ~2 minutes).
+4. `docker compose -f infra/docker-compose.yml up -d` starts Postgres (5432) and Adminer (8080).
+5. `alembic upgrade head` applies all migrations.
+
+## Historical backfill and validation
+
+```
+python -m etl.backfill --start-year 2014 --end-year 2025
+python -m analysis.validate_returning_production
+```
+
+The backfill runs stages `teams -> rosters -> stats -> outcomes -> refresh -> returning -> incoming` (each skippable via `--only` / `--skip`) using one bulk API call per year per dataset (~60 calls total). The analysis script joins `returning_summary` with `team_outcomes` (wins and SP+ ratings) at seasons Y and Y-1 and reports correlations, OLS slopes, and bucket summaries; it writes the merged dataset to `analysis/output/`.
+
+Individual loaders also support `--bulk` (all teams, one call per year) alongside the original `--team` / `--all` modes, e.g. `python -m etl.load_rosters --bulk --year 2024`.
+
+### Validation results (2015-2025, COVID pairs excluded, n=1212)
+
+Returning production correlates with year-over-year improvement: overall returning share vs SP+ change r = 0.26, vs win change r = 0.19. The bucket means are monotonic — teams returning <40% of production averaged -0.73 wins and -3.0 SP+ vs the prior year, while teams returning 80%+ averaged +1.06 wins and +3.8 SP+. Offensive returning production carries nearly all of the signal (off r = 0.25 vs def r = 0.07 against SP+ change).
+
+### Data caveats
+
+- CFBD defensive stats are sparse before 2016 (~800 rows vs ~6,000/season after), so `def_pct` for the 2015-2016 seasons is unreliable.
+- 2020/2021 season pairs are COVID-distorted and excluded from the analysis by default (`--include-covid` to keep them).
+- Teams that joined FBS mid-window can have FCS-era rows with tiny stat denominators; the analysis drops shares outside [0,1].
+- Transfer classification only sees FBS-to-FBS moves; FCS/JUCO arrivals count as freshmen.
+
+## Make Targets
+
+The included `Makefile` wraps the most common project workflows:
+
+- `make up` / `make down` – start or stop the Docker Compose stack in `infra/docker-compose.yml`.
+- `make reset-db` – drop and reapply all Alembic migrations.
+- `make teams TEAMS_YEAR=2024` – seed the `teams` table for the requested season.
+- `make rosters ROSTER_YEARS="2024 2025" [ROSTER_TEAM="LSU"]` – load rosters for the listed seasons (optionally for a single team).
+- `make stats STATS_YEARS="2024 2025" [STATS_TEAM="LSU"]` – load player offense and defense stats.
+- `make ret RET_SEASONS="2025" [RET_TEAM="LSU"]` – compute returning production percentages.
+- `make inc INC_SEASONS="2025" [INC_TEAM="LSU"]` – compute incoming player mix metrics.
+- `make api [API_HOST=0.0.0.0 API_PORT=8000]` – run the FastAPI service with live reloading.
+
+## API
+
+Run `make api` and query the following endpoints:
+
+- `GET /returning/{team_id}/{season}` – offensive, defensive, and overall returning shares from `returning_summary`.
+- `GET /incoming/{team_id}/{season}` – transfer share and freshman count from `incoming_summary`.
+- `GET /teams` – list teams already loaded into the database.
+
+## Sanity SQL
+
+`sql/sanity_checks.sql` contains helper queries that count player stat rows by season and report LSU's 2025 returning percentages once the ETL has populated `returning_summary`.
+
+## Tests
+
+Run `pytest` to execute the toy SQLite fixtures that validate the returning and incoming metric helpers.

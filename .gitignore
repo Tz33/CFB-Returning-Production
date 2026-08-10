@@ -16,6 +16,9 @@ venv/
 # Notebooks
 .ipynb_checkpoints/
 
+# Analysis artifacts
+analysis/output/
+
 # OS/Editor
 .DS_Store
 .vscode/
