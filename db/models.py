@@ -68,6 +68,26 @@ class IncomingSummary(Base):
     transfer_share: Mapped[float] = mapped_column(Float)
     freshman_count: Mapped[int] = mapped_column(Integer)
 
+class ReturningDetail(Base):
+    __tablename__ = "returning_detail"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+
+    # per-category shares of prior-season production from returning players;
+    # NULL (not 0.0) when the prior-season denominator is zero
+    ret_passing_yards: Mapped[float | None] = mapped_column(Float, nullable=True)
+    ret_rushing_yards: Mapped[float | None] = mapped_column(Float, nullable=True)
+    ret_receiving_yards: Mapped[float | None] = mapped_column(Float, nullable=True)
+    ret_receptions: Mapped[float | None] = mapped_column(Float, nullable=True)
+    ret_tackles: Mapped[float | None] = mapped_column(Float, nullable=True)
+    ret_sacks: Mapped[float | None] = mapped_column(Float, nullable=True)
+    ret_tackles_for_loss: Mapped[float | None] = mapped_column(Float, nullable=True)
+    ret_interceptions: Mapped[float | None] = mapped_column(Float, nullable=True)
+
+    weighted_off_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+    weighted_def_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+    weighted_overall_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+
 class TeamOutcome(Base):
     __tablename__ = "team_outcomes"
     season: Mapped[int] = mapped_column(Integer, primary_key=True)
