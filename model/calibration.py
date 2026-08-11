@@ -17,9 +17,13 @@ import math
 CALIBRATION: dict[str, float] = {"alpha": 0.0809, "gamma": 0.6563}
 
 
-def recalibrate(prob: float) -> float:
-    if not CALIBRATION:
+def recalibrate(prob: float, params: dict[str, float] | None = None) -> float:
+    """Apply Platt constants; `params=None` uses the production CALIBRATION,
+    backtests pass fold-specific constants fit on pre-fold seasons only."""
+    if params is None:
+        params = CALIBRATION
+    if not params:
         return prob
     prob = min(max(prob, 1e-9), 1 - 1e-9)
-    z = CALIBRATION["alpha"] + CALIBRATION["gamma"] * math.log(prob / (1 - prob))
+    z = params["alpha"] + params["gamma"] * math.log(prob / (1 - prob))
     return 1.0 / (1.0 + math.exp(-z))
