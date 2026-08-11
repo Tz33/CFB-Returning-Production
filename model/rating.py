@@ -2,18 +2,24 @@
 """Expanding-window OLS rating model: predict a team's final SP+ rating from
 preseason-knowable features.
 
-The 2021 boundary: continuity coalesces the portal-adjusted index (2021+)
-with the raw returning share (earlier), with a portal_era dummy absorbing the
-level shift. The portal adjustment's incremental value is identified by the
-head-to-head against the raw-returning baseline (same rows, overall_pct in
-place of continuity), not by the pooled coefficient.
+Continuity enters as separate offensive and defensive features — the old
+blended overall_pct gave offense ~90% weight purely because yards outnumber
+tackles; here OLS fits the balance. Each side coalesces the portal-adjusted
+index (2021+) with the raw returning share (earlier), with a portal_era dummy
+absorbing the level shift. The portal adjustment's incremental value is
+identified by the head-to-head against the raw-returning baseline (same rows,
+raw shares in place of the adjusted indexes), not by the pooled coefficients.
+Defensive shares for the 2015-2016 seasons rest on sparse CFBD stats (see
+README data caveats), so early folds fit the defensive coefficient on noise.
 """
 import numpy as np
 import pandas as pd
 
-FEATURES = ["sp_prev", "continuity", "new_head_coach", "recruit_z", "portal_era", "is_new_fbs"]
-# baseline (b): identical spec but raw returning share replaces the portal-adjusted index
-BASELINE_FEATURES = ["sp_prev", "overall_pct", "new_head_coach", "recruit_z", "portal_era", "is_new_fbs"]
+FEATURES = ["sp_prev", "continuity_off", "continuity_def",
+            "new_head_coach", "recruit_z", "portal_era", "is_new_fbs"]
+# baseline (b): identical spec but raw returning shares replace the portal-adjusted indexes
+BASELINE_FEATURES = ["sp_prev", "off_pct", "def_pct",
+                     "new_head_coach", "recruit_z", "portal_era", "is_new_fbs"]
 COVID_SEASONS = {2020, 2021}
 
 

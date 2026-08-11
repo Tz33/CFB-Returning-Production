@@ -15,7 +15,7 @@ from model.rating import FEATURES, expanding_window_fit, predict_ratings, coeffi
 from model.game_prob import fit_win_curve, fcs_win_prob
 from model.simulate import simulate_season
 
-MODEL_VERSION = "v1-ols-portal-continuity"
+MODEL_VERSION = "v2-ols-split-continuity"
 
 
 def project_season(season: int) -> pd.DataFrame:
