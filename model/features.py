@@ -18,7 +18,11 @@ SELECT
     cur.sp_rating                    AS sp_rating,
     prev.sp_rating                   AS sp_prev,
     rs.overall_pct,
+    rs.off_pct,
+    rs.def_pct,
     rd.adjusted_overall_pct,
+    rd.adjusted_off_pct,
+    rd.adjusted_def_pct,
     rd.weighted_def_pct,
     cc.new_head_coach,
     cc.is_interim,
@@ -38,7 +42,10 @@ WHERE rs.season BETWEEN :start AND :end
 def build_features(engine, start: int = 2015, end: int = 2026) -> pd.DataFrame:
     df = pd.read_sql(text(FEATURE_SQL), engine, params={"start": start, "end": end})
 
-    df["continuity"] = df["adjusted_overall_pct"].fillna(df["overall_pct"])
+    # separate sides: the blended overall_pct weights offense ~90% by the
+    # accident of yards vs tackles units; the model fits the balance instead
+    df["continuity_off"] = df["adjusted_off_pct"].fillna(df["off_pct"])
+    df["continuity_def"] = df["adjusted_def_pct"].fillna(df["def_pct"])
     df["portal_era"] = (df["season"] >= PORTAL_ERA_START).astype(float)
     df["new_head_coach"] = df["new_head_coach"].astype(object).fillna(False).astype(float)
     df["is_interim"] = df["is_interim"].astype(object).fillna(False).astype(bool)

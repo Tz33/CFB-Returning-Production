@@ -5,15 +5,52 @@ import pandas as pd
 from sqlalchemy import text
 
 from model.calibration import recalibrate
-from model.game_prob import game_prob
+from model.game_prob import fcs_prob, game_prob
 
 SCHEDULE_SQL = """
-SELECT game_id, home_team_id, away_team_id, home_classification, away_classification,
-       neutral_site, completed, home_points, away_points
-FROM games
-WHERE season = :season AND season_type = 'regular'
-  AND (home_classification = 'fbs' OR away_classification = 'fbs')
+SELECT g.game_id, g.home_team_id, g.away_team_id, g.home_classification,
+       g.away_classification, g.neutral_site, g.completed, g.home_points,
+       g.away_points, g.week,
+       hs.conference AS home_conf, aw.conference AS away_conf
+FROM games g
+LEFT JOIN team_seasons hs ON hs.team_id = g.home_team_id AND hs.season = g.season
+LEFT JOIN team_seasons aw ON aw.team_id = g.away_team_id AND aw.season = g.season
+WHERE g.season = :season AND g.season_type = 'regular'
+  AND (g.home_classification = 'fbs' OR g.away_classification = 'fbs')
 """
+
+
+def drop_ccgs(schedule: pd.DataFrame) -> pd.DataFrame:
+    """Remove conference championship games from a season schedule.
+
+    CFBD files CCGs under season_type='regular', so a completed season's
+    schedule contains matchups determined by that season's results — outcome
+    information a preseason projection cannot have, and games that sportsbook
+    win totals exclude. No CFBD flag marks them reliably (2025 CCGs carry
+    conference_game=False), so identify them structurally: championship week
+    is the first week > 12 with 5-20 FBS games (full weeks run 50+, the lone
+    Army-Navy week runs 1), and a CCG is a same-conference matchup that week.
+    When a conference has several same-conference games that week (2022 MAC:
+    snow-displaced Buffalo-Akron alongside the title game), the neutral-site
+    one is the CCG. Preseason schedules list no CCG matchups, so this is a
+    no-op for live projections.
+    """
+    counts = schedule.groupby("week")["game_id"].count()
+    champ_weeks = [w for w, n in counts.items() if w > 12 and 5 <= n <= 20]
+    if not champ_weeks:
+        return schedule
+    wk = schedule[schedule["week"] == min(champ_weeks)]
+    same_conf = wk[wk["home_conf"].notna() & (wk["home_conf"] == wk["away_conf"])
+                   & (wk["home_conf"] != "FBS Independents")]
+    drop_ids: list[int] = []
+    for _, group in same_conf.groupby("home_conf"):
+        if len(group) == 1:
+            drop_ids.extend(group["game_id"])
+        else:
+            neutral = group[group["neutral_site"].fillna(False).astype(bool)]
+            if len(neutral) == 1:
+                drop_ids.extend(neutral["game_id"])
+    return schedule[~schedule["game_id"].isin(drop_ids)]
 
 
 def win_distribution(probs: list[float]) -> np.ndarray:
@@ -28,8 +65,9 @@ def win_distribution(probs: list[float]) -> np.ndarray:
 
 
 def team_game_probs(schedule: pd.DataFrame, ratings: dict[int, float],
-                    beta: np.ndarray, fcs_prob: float,
-                    completed_only: bool = False) -> dict[int, list[dict]]:
+                    beta: np.ndarray, fcs_curve: dict,
+                    completed_only: bool = False,
+                    calibration: dict[str, float] | None = None) -> dict[int, list[dict]]:
     """Per FBS team: list of {game_id, prob, won} over its scheduled games.
 
     FBS opponents missing a predicted rating (e.g., no returning metrics) get
@@ -48,14 +86,16 @@ def team_game_probs(schedule: pd.DataFrame, ratings: dict[int, float],
             if team_id not in out:
                 continue
             if opp_class == "fcs" or opp_id is None:
-                prob = fcs_prob  # empirical rate — already calibrated
+                # rating-conditioned empirical curve; not Platt-recalibrated
+                # (the Platt fit covers FBS-vs-FBS raw probs only)
+                prob = fcs_prob(ratings[team_id], fcs_curve)
             else:
                 own = ratings[team_id]
                 opp = ratings.get(opp_id, fallback)
                 if is_home:
-                    prob = recalibrate(game_prob(own, opp, bool(row.neutral_site), beta))
+                    prob = recalibrate(game_prob(own, opp, bool(row.neutral_site), beta), calibration)
                 else:
-                    prob = 1.0 - recalibrate(game_prob(opp, own, bool(row.neutral_site), beta))
+                    prob = 1.0 - recalibrate(game_prob(opp, own, bool(row.neutral_site), beta), calibration)
             won = None
             if row.completed and row.home_points is not None and row.away_points is not None:
                 won = (row.home_points > row.away_points) == is_home
@@ -64,10 +104,11 @@ def team_game_probs(schedule: pd.DataFrame, ratings: dict[int, float],
 
 
 def simulate_season(engine, season: int, ratings: dict[int, float],
-                    beta: np.ndarray, fcs_prob: float,
-                    completed_only: bool = False) -> pd.DataFrame:
-    schedule = pd.read_sql(text(SCHEDULE_SQL), engine, params={"season": season})
-    per_team = team_game_probs(schedule, ratings, beta, fcs_prob, completed_only)
+                    beta: np.ndarray, fcs_curve: dict,
+                    completed_only: bool = False,
+                    calibration: dict[str, float] | None = None) -> pd.DataFrame:
+    schedule = drop_ccgs(pd.read_sql(text(SCHEDULE_SQL), engine, params={"season": season}))
+    per_team = team_game_probs(schedule, ratings, beta, fcs_curve, completed_only, calibration)
 
     rows = []
     for team_id, games in per_team.items():

@@ -12,10 +12,10 @@ from db.session import SessionLocal, engine
 from db.models import WinProjection
 from model.features import build_features
 from model.rating import FEATURES, expanding_window_fit, predict_ratings, coefficient_table
-from model.game_prob import fit_win_curve, fcs_win_prob
+from model.game_prob import fit_win_curve, fcs_win_curve, fcs_prob
 from model.simulate import simulate_season
 
-MODEL_VERSION = "v1-ols-portal-continuity"
+MODEL_VERSION = "v2-ols-split-continuity"
 
 
 def project_season(season: int) -> pd.DataFrame:
@@ -30,12 +30,13 @@ def project_season(season: int) -> pd.DataFrame:
     ratings = dict(zip(target["team_id"], target["rating_pred"]))
 
     curve = fit_win_curve(engine, max_season=season - 1)
-    fcs_p = fcs_win_prob(engine, max_season=season - 1)
+    fcs_c = fcs_win_curve(engine, max_season=season - 1)
     print(f"\nwin curve (n={curve['n']}): intercept={curve['beta'][0]:.3f} "
           f"per-SP+-point={curve['beta'][1]:.4f} home-field={curve['beta'][2]:.3f}; "
-          f"FCS win prob={fcs_p:.3f}")
+          f"FCS curve (n={fcs_c['n']}): p at SP+ -10/0/+20 = "
+          f"{fcs_prob(-10, fcs_c):.3f}/{fcs_prob(0, fcs_c):.3f}/{fcs_prob(20, fcs_c):.3f}")
 
-    sim = simulate_season(engine, season, ratings, curve["beta"], fcs_p)
+    sim = simulate_season(engine, season, ratings, curve["beta"], fcs_c)
     sim = sim.merge(target[["team_id", "school", "rating_pred"]], on="team_id")
     return sim.sort_values("expected_wins", ascending=False)
 
