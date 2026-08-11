@@ -42,7 +42,7 @@ python -m analysis.divergence_board                # the portal divergence board
 
 The model predicts each team's SP+ rating from preseason-knowable features (prior SP+ .61, portal-adjusted continuity +12.3 per unit, new head coach -1.8, recruiting z +3.3 — all p<.001), converts rating gaps to per-game win probabilities (logistic on 7,769 games: .128/SP+ point, home field +.30, FCS opponents 93.7%), applies Platt recalibration (gamma=.66, fixes tail overconfidence from predicted-rating noise), and sums exact Poisson-binomial win distributions over the real schedule.
 
-**Backtest (2019, 2022-2025, everything fit strictly pre-season):** MAE 1.69 wins vs 1.70 (raw-returning baseline) and 1.82 (carry-forward); **58.1% against market win totals (243/418, p=.001)**; on the portal-divergence subset the model hits **60.0% vs 51.2%** for an otherwise-identical raw-returning model — the unpublished portal adjustment earns its edge precisely where published returning production is most wrong.
+**Backtest (2019, 2022-2025, everything fit strictly pre-season):** MAE 1.69 wins vs 1.70 (raw-returning baseline) and 1.82 (carry-forward); **58.1% against market win totals (243/418, p=.001)**; on the portal-divergence subset the model hits **60.0% vs 51.2%** for an otherwise-identical raw-returning model — the unpublished portal adjustment earns its edge precisely where published returning production is most wrong. On identical market-covered team-seasons the model's MAE (1.73) also beats the posted totals' own MAE (1.82) in 4 of 5 seasons — though the CCG accounting slightly handicaps the market in that comparison, so read it as market-grade accuracy rather than dominance.
 
 ### Model caveats
 
