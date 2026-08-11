@@ -13,8 +13,9 @@ Empty dict = identity (used while fitting the calibration itself).
 import math
 
 # provenance: analysis/backtest_win_projections.py --fit-calibration,
-# 3,743 pooled completed games from time-safe folds 2019/2022-2025
-CALIBRATION: dict[str, float] = {"alpha": 0.0809, "gamma": 0.6563}
+# 3,743 pooled completed games from time-safe folds 2019/2022-2025,
+# v2-ols-split-continuity model
+CALIBRATION: dict[str, float] = {"alpha": 0.0811, "gamma": 0.6549}
 
 
 def recalibrate(prob: float, params: dict[str, float] | None = None) -> float:
