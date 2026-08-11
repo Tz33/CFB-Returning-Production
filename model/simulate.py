@@ -5,7 +5,7 @@ import pandas as pd
 from sqlalchemy import text
 
 from model.calibration import recalibrate
-from model.game_prob import game_prob
+from model.game_prob import fcs_prob, game_prob
 
 SCHEDULE_SQL = """
 SELECT g.game_id, g.home_team_id, g.away_team_id, g.home_classification,
@@ -65,7 +65,7 @@ def win_distribution(probs: list[float]) -> np.ndarray:
 
 
 def team_game_probs(schedule: pd.DataFrame, ratings: dict[int, float],
-                    beta: np.ndarray, fcs_prob: float,
+                    beta: np.ndarray, fcs_curve: dict,
                     completed_only: bool = False,
                     calibration: dict[str, float] | None = None) -> dict[int, list[dict]]:
     """Per FBS team: list of {game_id, prob, won} over its scheduled games.
@@ -86,7 +86,9 @@ def team_game_probs(schedule: pd.DataFrame, ratings: dict[int, float],
             if team_id not in out:
                 continue
             if opp_class == "fcs" or opp_id is None:
-                prob = fcs_prob  # empirical rate — already calibrated
+                # rating-conditioned empirical curve; not Platt-recalibrated
+                # (the Platt fit covers FBS-vs-FBS raw probs only)
+                prob = fcs_prob(ratings[team_id], fcs_curve)
             else:
                 own = ratings[team_id]
                 opp = ratings.get(opp_id, fallback)
@@ -102,11 +104,11 @@ def team_game_probs(schedule: pd.DataFrame, ratings: dict[int, float],
 
 
 def simulate_season(engine, season: int, ratings: dict[int, float],
-                    beta: np.ndarray, fcs_prob: float,
+                    beta: np.ndarray, fcs_curve: dict,
                     completed_only: bool = False,
                     calibration: dict[str, float] | None = None) -> pd.DataFrame:
     schedule = drop_ccgs(pd.read_sql(text(SCHEDULE_SQL), engine, params={"season": season}))
-    per_team = team_game_probs(schedule, ratings, beta, fcs_prob, completed_only, calibration)
+    per_team = team_game_probs(schedule, ratings, beta, fcs_curve, completed_only, calibration)
 
     rows = []
     for team_id, games in per_team.items():

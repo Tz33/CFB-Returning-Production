@@ -17,6 +17,13 @@ Conference championship games are excluded from every simulated schedule
 and sportsbook totals exclude them. They do remain in the Platt-fitting game
 pool — there they are ordinary completed prob/outcome pairs from pre-fold
 seasons, not schedule composition.
+
+Transfer-translation coefficients are re-derived per fold from destination
+seasons strictly before the eval season (analysis.fold_translation), rather
+than the production db.translation constants whose 2021-2025 window overlaps
+the 2022-2024 folds; --db-translation restores the leaky constants for
+comparison. The divergence-subset definition stays DB-based — it selects
+WHICH teams are scored, descriptively, not what the model knows.
 """
 import argparse
 
@@ -25,11 +32,14 @@ import pandas as pd
 from scipy import stats
 from sqlalchemy import text
 
+from analysis.fold_translation import (ADJUSTED_START, FoldTranslator,
+                                       apply_translation, fold_coefficients)
 from db.session import engine
+from db.translation import TRANSLATION
 from model.features import build_features
 from model.rating import (FEATURES, BASELINE_FEATURES, COVID_SEASONS,
                           expanding_window_fit, predict_ratings)
-from model.game_prob import fit_logistic, fit_win_curve, fcs_win_prob, game_prob
+from model.game_prob import fit_logistic, fit_win_curve, fcs_win_curve, game_prob
 from model.simulate import SCHEDULE_SQL, simulate_season
 
 EVAL_SEASONS = [2019, 2022, 2023, 2024, 2025]
@@ -108,14 +118,15 @@ def fit_platt(games: pd.DataFrame) -> dict[str, float]:
 _raw_probs_cache: dict[int, pd.DataFrame] = {}
 
 
-def expanding_platt(eval_season: int, features_df: pd.DataFrame) -> dict[str, float]:
+def expanding_platt(eval_season: int, frame_fn) -> dict[str, float]:
     """Platt constants fit on raw probs from seasons strictly before eval_season
     (COVID excluded, matching the rating fit), so the calibration layer is as
-    time-safe as the rest of the fold."""
+    time-safe as the rest of the fold. frame_fn(season) supplies the feature
+    frame for each calibration season (fold-safe translation applied)."""
     cal_seasons = [s for s in range(CAL_START, eval_season) if s not in COVID_SEASONS]
     for s in cal_seasons:
         if s not in _raw_probs_cache:
-            _raw_probs_cache[s] = collect_raw_game_probs(s, features_df)
+            _raw_probs_cache[s] = collect_raw_game_probs(s, frame_fn(s))
     pooled = pd.concat([_raw_probs_cache[s] for s in cal_seasons])
     return fit_platt(pooled)
 
@@ -160,9 +171,27 @@ def main() -> None:
                         help="Fit Platt on pooled folds and print PRODUCTION constants "
                              "for model/calibration.py (the backtest itself now uses "
                              "fold-specific pre-eval calibration, not these)")
+    parser.add_argument("--db-translation", action="store_true",
+                        help="Use production db.translation coefficients (dest 2021-2025) "
+                             "instead of fold-safe pre-eval windows — the leaky pre-review "
+                             "behavior, kept for comparison")
     args = parser.parse_args()
 
     features_df = build_features(engine, start=2015, end=2026)
+
+    translator = None if args.db_translation else FoldTranslator(engine)
+    fold_coeffs: dict[int, dict] = {}
+    frame_cache: dict[int, pd.DataFrame] = {}
+
+    def fold_frame(season: int) -> pd.DataFrame:
+        """Feature frame with translation coefficients knowable before `season`."""
+        if translator is None or season - 1 < ADJUSTED_START:
+            return features_df
+        if season not in frame_cache:
+            fold_coeffs[season] = fold_coefficients(season)
+            frame_cache[season] = apply_translation(
+                features_df, translator.boosts(fold_coeffs[season]))
+        return frame_cache[season]
 
     if args.fit_calibration:
         pooled = pd.concat([collect_raw_game_probs(s, features_df) for s in EVAL_SEASONS])
@@ -177,13 +206,14 @@ def main() -> None:
     div_records: dict[str, list] = {"model": [], "baseline_raw_ret": []}
     for season in EVAL_SEASONS:
         curve = fit_win_curve(engine, max_season=season - 1)
-        fcs_p = fcs_win_prob(engine, max_season=season - 1)
-        platt = expanding_platt(season, features_df)
+        fcs_p = fcs_win_curve(engine, max_season=season - 1)
+        platt = expanding_platt(season, fold_frame)
+        fold_df = fold_frame(season)
 
         sims = {
-            "model": simulate_fold(season, features_df, FEATURES, curve, fcs_p, platt),
-            "baseline_raw_ret": simulate_fold(season, features_df, BASELINE_FEATURES, curve, fcs_p, platt),
-            "baseline_carry": carry_forward_fold(season, features_df, curve, fcs_p, platt),
+            "model": simulate_fold(season, fold_df, FEATURES, curve, fcs_p, platt),
+            "baseline_raw_ret": simulate_fold(season, fold_df, BASELINE_FEATURES, curve, fcs_p, platt),
+            "baseline_carry": carry_forward_fold(season, fold_df, curve, fcs_p, platt),
         }
         for name, sim in sims.items():
             mae_rows.append({
@@ -257,6 +287,18 @@ def main() -> None:
     print(calib.groupby(["threshold", "bucket"], observed=True)
           .agg(n=("realized", "size"), predicted=("pred", "mean"), realized=("realized", "mean"))
           .round(3).to_string())
+
+    if fold_coeffs:
+        print("\n=== Fold-safe translation coefficients "
+              "(dest 2021..fold-1, shrunk toward 1.0, K=25) ===")
+        for s in sorted(fold_coeffs):
+            for side in ("offense", "defense"):
+                cells = {f"{o}->{d}": round(float(v), 3)
+                         for (o, d), v in fold_coeffs[s][side].items()}
+                print(f"  fold {s} {side}: {cells}")
+        for side in ("offense", "defense"):
+            cells = {f"{o}->{d}": v for (o, d), v in TRANSLATION[side].items()}
+            print(f"  production {side} (dest 2021-2025): {cells}")
 
     print("\nCaveats: The 2019 fold has no portal signal by construction; "
           "divergence claims rest on 2022-2025.")

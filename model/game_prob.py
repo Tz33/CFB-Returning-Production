@@ -32,13 +32,19 @@ FCS_SQL = """
 SELECT
     CASE WHEN g.home_classification = 'fbs'
          THEN (g.home_points > g.away_points)::int
-         ELSE (g.away_points > g.home_points)::int END AS fbs_win
+         ELSE (g.away_points > g.home_points)::int END AS fbs_win,
+    fo.sp_rating AS fbs_rating
 FROM games g
+JOIN team_outcomes fo
+  ON fo.season = g.season
+ AND fo.team_id = CASE WHEN g.home_classification = 'fbs'
+                       THEN g.home_team_id ELSE g.away_team_id END
 WHERE g.season BETWEEN 2015 AND :max_season
   AND g.season != 2020
   AND g.completed
   AND g.home_points IS NOT NULL AND g.away_points IS NOT NULL
   AND ((g.home_classification = 'fbs') != (g.away_classification = 'fbs'))
+  AND fo.sp_rating IS NOT NULL
 """
 
 
@@ -73,9 +79,23 @@ def fit_win_curve(engine, max_season: int) -> dict:
     return {"beta": beta, "n": len(df)}
 
 
-def fcs_win_prob(engine, max_season: int) -> float:
+def fcs_win_curve(engine, max_season: int) -> dict:
+    """P(FBS beats FCS) = sigmoid(a + b * FBS team's rating).
+
+    A flat historical average made every FBS team equally likely to beat an
+    FCS opponent, overstating weak-team wins and understating elite-team
+    wins by a game's worth of tail probability. Fitted on final-season
+    ratings and applied to predicted ones, like the main win curve; the
+    backtest measures that mismatch end-to-end.
+    """
     df = pd.read_sql(text(FCS_SQL), engine, params={"max_season": max_season})
-    return float(df["fbs_win"].mean())
+    X = np.column_stack([np.ones(len(df)), df["fbs_rating"].to_numpy(float)])
+    beta = fit_logistic(X, df["fbs_win"].to_numpy(float))
+    return {"beta": beta, "n": len(df)}
+
+
+def fcs_prob(rating: float, curve: dict) -> float:
+    return float(sigmoid(np.array(curve["beta"][0] + curve["beta"][1] * rating)))
 
 
 def game_prob(rating_home: float, rating_away: float, neutral: bool, beta: np.ndarray) -> float:
