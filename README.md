@@ -32,6 +32,29 @@ Returning production correlates with year-over-year improvement: overall returni
 - **Coaching continuity** (`analysis/validate_coaching_interaction.py`): new-coach teams average -1.1 SP+ vs +0.3 under continuity; the returning-production interaction is directionally negative but not significant — no correction applied.
 - **Market benchmarks**: early-season spreads (`analysis/validate_market_spreads.py`) show the market already prices returning production (extreme-quintile betting 52.8%, p=.14, no early/late attenuation). Preseason win totals are not in CFBD — fill `data/win_totals.csv` from the committed template and run `python -m etl.load_win_totals`, then `python -m analysis.validate_win_totals`.
 
+## Offensive line continuity (NCAA GP/GS pipeline)
+
+OL production is invisible to every stat-based returning metric (linemen accrue no
+box-score stats, and CFBD has no snap or participation data). The workaround is
+games started, scraped from stats.ncaa.org roster pages, which list GP/GS for all
+players — OL included — back a decade-plus:
+
+```
+# 1. Collect: stats.ncaa.org blocks plain HTTP clients, so the scrape runs in a
+#    real browser — see instructions at the top of etl/scrape_ncaa_participation.js.
+#    Output lands in data/participation/<season>.csv.
+python -m etl.load_participation                   # 2. load CSVs -> player_participation
+python -m etl.compute_ol_continuity                # 3. ret_ol_starts_share -> returning_detail
+```
+
+`ret_ol_starts_share` = prior-season games started by OL who are on this season's
+CFBD roster ÷ all prior-season OL games started. NCAA and CFBD share no player ids,
+so "returning" is a normalized-name match (`db/names.py`: diacritics, punctuation,
+and Jr./Sr./III suffixes stripped). Denominators are self-checking: a team's OL
+starts should be ≈ 5 × games played. The feature is deliberately separate from the
+production-share composites — it is a starts share, not a yards share — and must
+earn model weight through the validation harness before it enters projections.
+
 ## Win projections (2026-08 milestone)
 
 ```
@@ -69,6 +92,8 @@ The included `Makefile` wraps the most common project workflows:
 - `make stats STATS_YEARS="2024 2025" [STATS_TEAM="LSU"]` – load player offense and defense stats.
 - `make ret RET_SEASONS="2025" [RET_TEAM="LSU"]` – compute returning production percentages.
 - `make inc INC_SEASONS="2025" [INC_TEAM="LSU"]` – compute incoming player mix metrics.
+- `make participation` – load `data/participation/*.csv` into `player_participation`.
+- `make ol OL_SEASONS="2025" [OL_TEAM="LSU"]` – compute returning OL starts share.
 - `make api [API_HOST=0.0.0.0 API_PORT=8000]` – run the FastAPI service with live reloading.
 
 ## API

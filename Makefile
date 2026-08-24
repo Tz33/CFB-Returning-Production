@@ -1,4 +1,4 @@
-.PHONY: up down reset-db teams rosters stats ret inc api
+.PHONY: up down reset-db teams rosters stats ret inc participation ol api
 
 COMPOSE := docker compose -f infra/docker-compose.yml
 PYTHON ?= python
@@ -41,6 +41,12 @@ ret:
 
 inc:
 	$(PYTHON) -m etl.compute_incoming $(if $(strip $(INC_TEAM)),--team "$(INC_TEAM)") $(foreach season,$(INC_SEASONS),--season $(season))
+
+participation:
+	$(PYTHON) -m etl.load_participation
+
+ol:
+	$(PYTHON) -m etl.compute_ol_continuity $(if $(strip $(OL_TEAM)),--team "$(OL_TEAM)") $(foreach season,$(OL_SEASONS),--season $(season))
 
 api:
 	$(UVICORN) api.main:app --host $(API_HOST) --port $(API_PORT) --reload

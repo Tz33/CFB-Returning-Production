@@ -94,6 +94,10 @@ class ReturningDetail(Base):
     adjusted_def_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
     adjusted_overall_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
 
+    # share of prior-season OL games-started returning (NCAA GP/GS source);
+    # NULL when no prior-season OL starts are recorded
+    ret_ol_starts_share: Mapped[float | None] = mapped_column(Float, nullable=True)
+
 class WinProjection(Base):
     __tablename__ = "win_projections"
     season: Mapped[int] = mapped_column(Integer, primary_key=True)
@@ -145,6 +149,24 @@ class WinTotal(Base):
     win_total: Mapped[float] = mapped_column(Float)
     over_odds: Mapped[int | None] = mapped_column(Integer, nullable=True)
     under_odds: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    source: Mapped[str | None] = mapped_column(String, nullable=True)
+
+class PlayerParticipation(Base):
+    """Per-player games played/started, scraped from stats.ncaa.org rosters.
+
+    Covers positions that accrue no box-score stats (OL especially). Players
+    are keyed by name within a team-season because NCAA has no id shared with
+    CFBD; cross-source joins go through db.names.normalize_player_name.
+    """
+    __tablename__ = "player_participation"
+    season: Mapped[int] = mapped_column(Integer, primary_key=True)
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.team_id"), primary_key=True)
+    player_name: Mapped[str] = mapped_column(String, primary_key=True)
+
+    class_year: Mapped[str | None] = mapped_column(String, nullable=True)
+    position: Mapped[str | None] = mapped_column(String, nullable=True)
+    games_played: Mapped[int] = mapped_column(Integer)
+    games_started: Mapped[int] = mapped_column(Integer)
     source: Mapped[str | None] = mapped_column(String, nullable=True)
 
 class GameLine(Base):
