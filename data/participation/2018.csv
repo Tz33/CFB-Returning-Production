@@ -1,0 +1,940 @@
+season,school,player_name,class_year,position,gp,gs
+2018,Air Force,Scott Hattok,Jr.,OL,12,12
+2018,Air Force,Christopher Mitchell,Jr.,OL,12,5
+2018,Air Force,Colin Marquez,Sr.,OL,11,3
+2018,Air Force,Griffin Landram,Sr.,OL,12,12
+2018,Air Force,Connor Vikupitz,Jr.,OL,11,7
+2018,Air Force,Nolan Laufenberg,So.,OL,12,9
+2018,Air Force,Parker Ferguson,So.,OL,12,10
+2018,Akron,Undrea Bullard,Sr.,OL,10,9
+2018,Akron,Trevor Brown,Jr.,OL,12,12
+2018,Akron,Brandon Council,Jr.,OL,3,3
+2018,Akron,Hunter Corne,Fr.,OL,12,12
+2018,Akron,Bryce Petersen,So.,OL,12,12
+2018,Akron,Kyle Ritz,Sr.,OL,12,12
+2018,Alabama,Lester Cotton Sr.,Sr.,OL,14,10
+2018,Alabama,Alex Leatherwood,So.,OL,15,15
+2018,Alabama,Ross Pierschbacher,Sr.,OL,15,15
+2018,Alabama,Jonah Williams,Jr.,OL,15,15
+2018,Alabama,Jedrick Wills Jr.,So.,OL,15,15
+2018,Alabama,Deonte Brown,So.,OL,12,5
+2018,App State,Chandler Greer,Sr.,OL,13,13
+2018,App State,Noah Hannon,So.,OL,13,13
+2018,App State,Victor Johnson,Jr.,OL,12,12
+2018,App State,Cole Garrison,So.,OL,13,2
+2018,App State,Ryan Neuzil,So.,OL,13,12
+2018,App State,Baer Hunter,So.,OL,13,12
+2018,Arizona,Michael Eletise,So.,OL,12,4
+2018,Arizona,Josh McCauley,So.,OL,12,12
+2018,Arizona,Bryson Cain,So.,OL,9,9
+2018,Arizona,Cody Creason,Jr.,OL,12,12
+2018,Arizona,Tshiyombu Lukusa,So.,OL,12,2
+2018,Arizona,Layth Friekh,Sr.,OL,9,9
+2018,Arizona,Donovan Laie,Fr.,OL,12,12
+2018,Arizona St.,Cohl Cabral,Jr.,OL,13,13
+2018,Arizona St.,Quinn Bailey,Sr.,OL,13,13
+2018,Arizona St.,Zach Robertson,Jr.,OL,9,8
+2018,Arizona St.,Tyson Rising,Sr.,OL,8,1
+2018,Arizona St.,Alex Losoya,Jr.,OL,13,11
+2018,Arizona St.,Casey Tucker,Sr.,OL,12,11
+2018,Arizona St.,Steven Miller,Jr.,OL,12,6
+2018,Arizona St.,Roy Hemsley,Jr.,OL,11,2
+2018,Arkansas,Shane Clenin,Fr.,OL,7,1
+2018,Arkansas,Kirby Adcock,Fr.,OL,4,1
+2018,Arkansas,Hjalte Froholdt,Sr.,OL,12,12
+2018,Arkansas,Johnny Gibson Jr.,Sr.,OL,12,12
+2018,Arkansas,Colton Jackson,Jr.,OL,10,8
+2018,Arkansas,Ty Clary,So.,OL,12,11
+2018,Arkansas,Noah Gatlin,Fr.,OL,4,2
+2018,Arkansas,Dalton Wagner,Fr.,OL,11,1
+2018,Arkansas,Brian Wallace,Sr.,OL,12,12
+2018,Arkansas St.,Justin Dutton,Fr.,OL,4,3
+2018,Arkansas St.,"Andre Harris, Jr.",So.,OL,13,11
+2018,Arkansas St.,Nour-Eddine Seidnaly,Sr.,OL,10,10
+2018,Arkansas St.,Jacob Still,So.,OL,13,13
+2018,Arkansas St.,Marvis Brown,Sr.,OL,13,13
+2018,Arkansas St.,Tyler Reed,Jr.,OL,13,5
+2018,Arkansas St.,Klint Harvey,Jr.,OL,13,2
+2018,Arkansas St.,Lanard Bonner,Sr.,OL,13,13
+2018,Army West Point,JB Hunter,So.,OL,13,12
+2018,Army West Point,Jaxson Deaton,Jr.,OL,13,13
+2018,Army West Point,Mike Johnson,Jr.,OL,12,1
+2018,Army West Point,Jack Sides,Jr.,OL,10,1
+2018,Army West Point,Austin Schuffert,Sr.,OL,13,13
+2018,Army West Point,Bryce Holland,Sr.,OL,13,13
+2018,Auburn,Mike Horton,Jr.,OL,13,13
+2018,Auburn,Prince Tega Wanogho,Jr.,OL,13,13
+2018,Auburn,Marquel Harrell,Jr.,OL,13,13
+2018,Auburn,Nick Brahms,Fr.,OL,8,5
+2018,Auburn,Jack Driscoll,Jr.,OL,12,12
+2018,Auburn,Kaleb Kim,Jr.,OL,8,8
+2018,Auburn,Calvin Ashley,Fr.,OL,6,1
+2018,BYU,Keanu Saleapaga,Fr.,OL,10,8
+2018,BYU,James Empey,Fr.,OL,13,13
+2018,BYU,Brady Christensen,Fr.,OL,13,13
+2018,BYU,Thomas Shoaf,Jr.,OL,9,2
+2018,BYU,Tristen Hoge,So.,OL,13,13
+2018,BYU,Austin Hoyt,Sr.,OL,13,13
+2018,BYU,Kieffer Longson,So.,OL,9,3
+2018,Ball St.,Zac Ricketts,Jr.,OL,11,11
+2018,Ball St.,Danny Pinter,Jr.,OL,12,12
+2018,Ball St.,Andrew Poenitsch,Jr.,OL,11,11
+2018,Ball St.,Alex Joss,Sr.,OL,2,1
+2018,Ball St.,Kaleb Slaven,So.,OL,3,3
+2018,Ball St.,Curtis Blackwell,So.,OL,12,11
+2018,Ball St.,Grant Williamson,Jr.,OL,9,1
+2018,Ball St.,Luke Martin,Fr.,OL,3,2
+2018,Ball St.,Chris Beech,So.,OL,12,8
+2018,Baylor,Jake Fruhmorgen,Jr.,OL,7,3
+2018,Baylor,Eleasah Anderson,Fr.,OL,4,2
+2018,Baylor,Sam Tecklenburg,Jr.,OL,13,12
+2018,Baylor,Blake Blackmar,Sr.,OL,13,13
+2018,Baylor,Christian Beard,Sr.,OL,8,1
+2018,Baylor,Josh Malin,Sr.,OL,10,2
+2018,Baylor,Xavier Newman,So.,OL,7,3
+2018,Baylor,Johncarlo Valentin,Jr.,OL,11,9
+2018,Baylor,Connor Galvin,Fr.,OL,13,6
+2018,Baylor,Patrick Lawrence,Sr.,OL,13,13
+2018,Boise St.,Eric Quevedo,Jr.,OL,10,9
+2018,Boise St.,Garrett Larson,Jr.,OL,12,12
+2018,Boise St.,Ezra Cleveland,So.,OL,13,13
+2018,Boise St.,Andres Preciado,Sr.,OL,12,6
+2018,Boise St.,John Molchon,Jr.,OL,13,13
+2018,Boise St.,Donte Harrington,So.,OL,6,4
+2018,Boise St.,John Ojukwu,Fr.,OL,12,7
+2018,Boston College,Ben Petrula,So.,OL,12,12
+2018,Boston College,Aaron Monteiro,Sr.,OL,12,12
+2018,Boston College,Chris Lindstrom,Sr.,OL,12,12
+2018,Boston College,Jon Baker,Sr.,OL,11,11
+2018,Boston College,Sam Schmal,Sr.,OL,8,6
+2018,Boston College,Alec Lindstrom,Fr.,OL,11,1
+2018,Boston College,John Phillips,Jr.,OL,12,6
+2018,Bowling Green,Jack Kramer,Jr.,OL,11,11
+2018,Bowling Green,Lorenzo Taborn,Jr.,OL,9,9
+2018,Bowling Green,Derek Downs,So.,OL,11,3
+2018,Bowling Green,John Kurtz,Sr.,OL,10,8
+2018,Bowling Green,Caleb Bright,So.,OL,9,6
+2018,Bowling Green,Austin Labus,Sr.,OL,10,10
+2018,Bowling Green,Matt Tanner,So.,OL,11,7
+2018,Buffalo,Kayode Awosika,So.,OL,14,14
+2018,Buffalo,Jacob Gall,Fr.,OL,13,5
+2018,Buffalo,Paul Nosworthy,Jr.,OL,13,13
+2018,Buffalo,Evin Ksiezarczyk,Jr.,OL,14,14
+2018,Buffalo,James O'Hagan,Sr.,OL,14,14
+2018,Buffalo,Trey Derouen,Jr.,OL,6,1
+2018,Buffalo,Tomas Jack-Kurdyla,Jr.,OL,14,9
+2018,Buffalo,Jacquis Webb,Sr.,OL,9,1
+2018,California,Gentle Williams,So.,OL,7,3
+2018,California,Jake Curhan,So.,OL,13,13
+2018,California,Valentino Daltoso,So.,OL,13,13
+2018,California,Michael Saffell,So.,OL,6,5
+2018,California,Addison Ooms,Sr.,OL,13,13
+2018,California,Ryan Gibson,Jr.,OL,9,7
+2018,California,Patrick Mekari,Sr.,OL,10,10
+2018,Central Mich.,Clay Walderzak,Sr.,OL,9,7
+2018,Central Mich.,Alex Neering,Sr.,OL,3,3
+2018,Central Mich.,Derek Smith,So.,OL,8,8
+2018,Central Mich.,Jeff Strome,So.,OL,3,1
+2018,Central Mich.,Joe Komel,Sr.,OL,4,1
+2018,Central Mich.,Nick Follmer,Fr.,OL,9,6
+2018,Central Mich.,Shakir Carr,Sr.,OL,12,12
+2018,Central Mich.,Jamezz Kimbrough,Fr.,OL,12,12
+2018,Central Mich.,Steve Eipper,Jr.,OL,11,10
+2018,Charlotte,Jaelin Fisher,So.,OL,12,12
+2018,Charlotte,Nate Davis,Sr.,OL,8,7
+2018,Charlotte,Cameron Clark,Jr.,OL,12,12
+2018,Charlotte,Jalen Allen,Sr.,OL,4,4
+2018,Charlotte,Chris Brown,Sr.,OL,12,12
+2018,Charlotte,Darren Drake,Sr.,OL,12,12
+2018,Charlotte,Dominic Taylor,Jr.,OL,10,1
+2018,Cincinnati,Jakari Robinson,Fr.,OL,8,6
+2018,Cincinnati,Vincent McConnell,Fr.,OL,12,1
+2018,Cincinnati,Kyle Trout,Sr.,OL,13,13
+2018,Cincinnati,Garrett Campbell,Sr.,OL,8,8
+2018,Cincinnati,Morgan James,Jr.,OL,13,13
+2018,Cincinnati,Chris Ferguson,Sr.,OL,12,12
+2018,Cincinnati,Dino Boyd,Sr.,OL,13,12
+2018,Clemson,John Simpson,Jr.,OL,15,15
+2018,Clemson,Gage Cervenka,Jr.,OL,15,8
+2018,Clemson,Mitch Hyatt,Sr.,OL,15,15
+2018,Clemson,Sean Pollard,Jr.,OL,14,7
+2018,Clemson,Cade Stewart,So.,OL,15,1
+2018,Clemson,Tremayne Anchrum,Jr.,OL,15,15
+2018,Clemson,Justin Falcinelli,Sr.,OL,14,14
+2018,Coastal Carolina,Trey Carter,So.,OL,12,12
+2018,Coastal Carolina,Brock Hoffman,So.,OL,12,12
+2018,Coastal Carolina,Steven Bedosky,So.,OL,12,11
+2018,Coastal Carolina,Jack Franklin,So.,OL,10,5
+2018,Coastal Carolina,Sean Fitzgerald,Fr.,OL,12,7
+2018,Coastal Carolina,Ethan Howard,Jr.,OL,12,12
+2018,Colorado,Colby Pursell,Fr.,OL,12,12
+2018,Colorado,William Sherman,Fr.,OL,12,9
+2018,Colorado,Aaron Haigler,Jr.,OL,12,11
+2018,Colorado,Brett Tonz,Jr.,OL,9,6
+2018,Colorado,Josh Kaiser,Sr.,OL,12,10
+2018,Colorado,Jacob Moretti,Fr.,OL,7,2
+2018,Colorado,Tim Lynott,Jr.,OL,10,7
+2018,Colorado St.,Salofi Gaoa,Jr.,OL,11,2
+2018,Colorado St.,Jeff Taylor,Jr.,OL,12,11
+2018,Colorado St.,Ben Knox,Sr.,OL,12,12
+2018,Colorado St.,Tyler Bjorklund,Sr.,OL,6,6
+2018,Colorado St.,Colby Meeks,Sr.,OL,12,12
+2018,Colorado St.,T.J. Roundtree,Sr.,OL,12,3
+2018,Colorado St.,Barry Wesley,So.,OL,12,12
+2018,Duke,Robert Kraeling,So.,OL,13,13
+2018,Duke,Rakavius Chambers,So.,OL,13,12
+2018,Duke,Zach Harmon,Sr.,OL,10,10
+2018,Duke,Christian Harris,Sr.,OL,13,10
+2018,Duke,Jack Wohlabaugh,So.,OL,13,9
+2018,Duke,Julian Santos,Jr.,OL,13,7
+2018,Duke,Jaylen Miller,So.,OL,7,3
+2018,East Carolina,Garrett McGhin,Sr.,OL,12,12
+2018,East Carolina,John Spellacy,So.,OL,6,6
+2018,East Carolina,Dqmarcus Shaw,Sr.,OL,5,2
+2018,East Carolina,Cortez Herrin,Jr.,OL,12,12
+2018,East Carolina,Branden Pena,Sr.,OL,4,4
+2018,East Carolina,D'Ante Smith,Jr.,OL,12,12
+2018,East Carolina,Peyton Winstead,Fr.,OL,9,6
+2018,East Carolina,Fernando Frye,Jr.,OL,8,5
+2018,East Carolina,Jordan Johnson,So.,OL,1,1
+2018,Eastern Mich.,Steve Nielsen,Jr.,OL,13,13
+2018,Eastern Mich.,Ka'John Armstrong,Sr.,OL,13,2
+2018,Eastern Mich.,Jeremy Hickey,Sr.,OL,13,12
+2018,Eastern Mich.,Dakota Tallman,Sr.,OL,13,13
+2018,Eastern Mich.,Sidy Sow,So.,OL,13,11
+2018,Eastern Mich.,Brian Dooley,Fr.,OL,4,2
+2018,Eastern Mich.,Jake Donnellon,So.,OL,13,3
+2018,Eastern Mich.,Jimmy Leatiota,Sr.,OL,11,10
+2018,FIU,Shane McGough,So.,OL,13,9
+2018,FIU,Daquane Wilkie,Sr.,OL,13,9
+2018,FIU,Kai Absheer,Sr.,OL,12,7
+2018,FIU,Dallas Connell,Jr.,OL,12,12
+2018,FIU,Neal Mars,Sr.,OL,7,1
+2018,FIU,Jordan Budwig,Sr.,OL,13,13
+2018,FIU,D'Antne Demery,So.,OL,11,10
+2018,Fla. Atlantic,Nick Weber,So.,OL,12,1
+2018,Fla. Atlantic,Antonio Riles,Jr.,OL,12,12
+2018,Fla. Atlantic,Reggie Bain,Sr.,OL,12,12
+2018,Fla. Atlantic,Brandon Walton,Jr.,OL,11,11
+2018,Fla. Atlantic,BJ Etienne,So.,OL,12,11
+2018,Fla. Atlantic,Junior Diaz,Jr.,OL,11,11
+2018,Florida,Jawaan Taylor,Jr.,OL,13,12
+2018,Florida,Stone Forsythe,So.,OL,13,1
+2018,Florida,Martez Ivey,Sr.,OL,13,13
+2018,Florida,Noah Banks,Jr.,OL,12,1
+2018,Florida,Tyler Jordan,Sr.,OL,13,13
+2018,Florida,Nick Buchanan,Jr.,OL,12,12
+2018,Florida,Fred Johnson,Sr.,OL,13,13
+2018,Florida St.,Mike Arnold,So.,OL,12,11
+2018,Florida St.,Cole Minshew,Jr.,OL,8,7
+2018,Florida St.,Derrick Kelly II,Sr.,OL,10,9
+2018,Florida St.,Brady Scott,Fr.,OL,10,6
+2018,Florida St.,Abdul Bello,Jr.,OL,11,2
+2018,Florida St.,Alec Eberle,Sr.,OL,12,12
+2018,Florida St.,Arthur Williams,Sr.,OL,12,5
+2018,Florida St.,Landon Dickerson,So.,OL,2,2
+2018,Florida St.,Jauan Williams,So.,OL,8,6
+2018,Fresno St.,Quireo Woodley,So.,OL,3,1
+2018,Fresno St.,Logan Hughes,Sr.,OL,14,9
+2018,Fresno St.,Markus Boyer,Sr.,OL,14,13
+2018,Fresno St.,Christian Cronk,Sr.,OL,14,14
+2018,Fresno St.,Syrus Tuitele,So.,OL,12,12
+2018,Fresno St.,Micah St. Andrew,Sr.,OL,14,14
+2018,Fresno St.,Dontae Bull,Fr.,OL,7,1
+2018,Fresno St.,Netane Muti,So.,OL,3,2
+2018,Fresno St.,Nick Abbs,Jr.,OL,13,3
+2018,Ga. Southern,Peyton Backer,Fr.,OL,4,1
+2018,Ga. Southern,Brian Miller,Fr.,OL,13,13
+2018,Ga. Southern,Caleb Kelly,So.,OL,3,1
+2018,Ga. Southern,Curtis Rainey,Sr.,OL,13,11
+2018,Ga. Southern,Lawrence Edwards,So.,OL,13,4
+2018,Ga. Southern,Jake Edwards,Jr.,OL,13,1
+2018,Ga. Southern,Jakob Cooper,Jr.,OL,12,11
+2018,Ga. Southern,Jeremiah Culbreth,Sr.,OL,13,13
+2018,Ga. Southern,Drake Grall,Sr.,OL,7,2
+2018,Ga. Southern,Aaron Dowdell,So.,OL,13,9
+2018,Georgia,Solomon Kindley,So.,OL,14,14
+2018,Georgia,Lamont Gaillard,Sr.,OL,14,14
+2018,Georgia,Ben Cleveland,So.,OL,8,4
+2018,Georgia,Isaiah Wilson,Fr.,OL,14,14
+2018,Georgia,Andrew Thomas,So.,OL,13,13
+2018,Georgia,Cade Mays,Fr.,OL,11,7
+2018,Georgia,Trey Hill,Fr.,OL,14,4
+2018,Georgia St.,Hunter Atkinson,Jr.,OL,12,12
+2018,Georgia St.,Gabe Mobley,Sr.,OL,6,6
+2018,Georgia St.,Pat Bartlett,So.,OL,12,5
+2018,Georgia St.,Shamarious Gilmore,So.,OL,12,12
+2018,Georgia St.,Jalen Jackson,Fr.,OL,9,8
+2018,Georgia St.,Lucas Johnson,Sr.,OL,12,7
+2018,Georgia St.,Jamal Paxton,Sr.,OL,7,7
+2018,Georgia St.,Malik Sumter,So.,OL,10,5
+2018,Georgia Tech,Jahaziel Lee,Jr.,OL,11,6
+2018,Georgia Tech,Zach Quinney,So.,OL,13,12
+2018,Georgia Tech,Brad Morgan,Sr.,OL,11,3
+2018,Georgia Tech,Kenny Cooper,Jr.,OL,11,7
+2018,Georgia Tech,Connor Hansen,So.,OL,11,9
+2018,Georgia Tech,Will Bryan,Sr.,OL,6,2
+2018,Georgia Tech,Bailey Ivemeyer,Sr.,OL,7,1
+2018,Georgia Tech,Parker Braun,Jr.,OL,13,13
+2018,Georgia Tech,Andrew Marshall,Sr.,OL,12,12
+2018,Hawaii,Taaga Tuulima,So.,OL,13,11
+2018,Hawaii,J.R. Hensley,Jr.,OL,14,14
+2018,Hawaii,Solo Vaipulu,Fr.,OL,14,14
+2018,Hawaii,Ilm Manning,Fr.,OL,14,14
+2018,Hawaii,Kohl Levao,Jr.,OL,14,14
+2018,Hawaii,Joey Nu'uanu-Kuhi'iki,So.,OL,7,3
+2018,Houston,Braylon Jones,Jr.,OL,13,13
+2018,Houston,Mason Denley,Sr.,OL,12,12
+2018,Houston,Keenan Murphy,So.,OL,13,1
+2018,Houston,Will Noble,Sr.,OL,13,13
+2018,Houston,Jarrid Williams,Jr.,OL,13,13
+2018,Houston,Josh Jones,Jr.,OL,13,13
+2018,Illinois,Doug Kramer,So.,OL,12,12
+2018,Illinois,Alex Palczewski,So.,OL,12,12
+2018,Illinois,Vederian Lowe,So.,OL,12,12
+2018,Illinois,Nick Allegretti,Sr.,OL,12,12
+2018,Illinois,Kendrick Green,Fr.,OL,12,12
+2018,Indiana,Delroy Baker,Sr.,OL,12,1
+2018,Indiana,Coy Cronk,Jr.,OL,11,11
+2018,Indiana,Brandon Knight,Sr.,OL,12,12
+2018,Indiana,Simon Stepaniak,Jr.,OL,12,12
+2018,Indiana,Wes Martin,Sr.,OL,12,12
+2018,Indiana,Hunter Littlejohn,Jr.,OL,12,4
+2018,Indiana,Nick Linder,Sr.,OL,12,8
+2018,Iowa,Cole Banwart,So.,OL,11,7
+2018,Iowa,Tristan Wirfs,So.,OL,12,12
+2018,Iowa,Keegan Render,Sr.,OL,13,13
+2018,Iowa,Ross Reynolds,Sr.,OL,13,13
+2018,Iowa,Alaric Jackson,So.,OL,12,12
+2018,Iowa,Levi Paulsen,Jr.,OL,12,1
+2018,Iowa,Dalton Ferguson,Sr.,OL,9,7
+2018,Iowa St.,Colin Newell,Fr.,OL,13,12
+2018,Iowa St.,Josh Knipfel,Jr.,OL,13,13
+2018,Iowa St.,Bryce Meeker,Jr.,OL,13,13
+2018,Iowa St.,Josh Mueller,So.,OL,3,2
+2018,Iowa St.,Collin Olson,Jr.,OL,13,11
+2018,Iowa St.,Sean Foster,So.,OL,4,1
+2018,Iowa St.,Julian Good-Jones,Jr.,OL,13,13
+2018,Kansas,Andru Tovi,Jr.,OL,12,6
+2018,Kansas,Malik Clark,So.,OL,11,11
+2018,Kansas,Hakeem Adeniji,Jr.,OL,12,12
+2018,Kansas,Alex Fontana,Sr.,OL,12,9
+2018,Kansas,Dwayne Wallace,Sr.,OL,12,10
+2018,Kansas,Kevin Feder,Jr.,OL,12,12
+2018,Kansas St.,Dalton Risner,Sr.,OL,12,12
+2018,Kansas St.,Scott Frantz,Jr.,OL,12,12
+2018,Kansas St.,Abdul Beecham,Sr.,OL,12,11
+2018,Kansas St.,Tyler Mitchell,Jr.,OL,11,11
+2018,Kansas St.,Josh Rivas,Fr.,OL,12,2
+2018,Kansas St.,Adam Holtorf,Jr.,OL,12,12
+2018,Kent St.,Nate Warnock,Jr.,OL,12,12
+2018,Kent St.,Mike Marinelli,Jr.,OL,11,10
+2018,Kent St.,Bryce Gibbs,Jr.,OL,8,6
+2018,Kent St.,Chase Van Hoef,Jr.,OL,9,5
+2018,Kent St.,Julian Sams,Fr.,OL,12,12
+2018,Kent St.,Jamil Viaud,Jr.,OL,10,7
+2018,Kentucky,Naasir Watkins,So.,OL,11,1
+2018,Kentucky,Logan Stenberg,Jr.,OL,13,13
+2018,Kentucky,George Asafo-Adjei,Sr.,OL,12,12
+2018,Kentucky,Drake Jackson,Jr.,OL,13,13
+2018,Kentucky,Jervontius Stallings,Sr.,OL,13,13
+2018,Kentucky,E.J. Price,So.,OL,13,11
+2018,Kentucky,Darian Kinnard,Fr.,OL,9,2
+2018,LSU,Lloyd Cushenberry,So.,OL,13,13
+2018,LSU,Donavaughn Campbell,So.,OL,3,1
+2018,LSU,Garrett Brumfield,Sr.,OL,9,9
+2018,LSU,Adrian Magee,Jr.,OL,10,4
+2018,LSU,Badara Traore,Jr.,OL,13,2
+2018,LSU,Chasen Hines,Fr.,OL,8,1
+2018,LSU,Damien Lewis,Jr.,OL,13,13
+2018,LSU,Saahdiq Charles,So.,OL,10,10
+2018,LSU,Austin Deculus,So.,OL,13,12
+2018,Liberty,Thomas Sargeant,So.,OL,12,12
+2018,Liberty,Julio Lozano,Sr.,OL,12,12
+2018,Liberty,Sam Isaacson,Jr.,OL,9,1
+2018,Liberty,Ben Fiordelise,Sr.,OL,12,8
+2018,Liberty,Ethan Crawford,Jr.,OL,8,5
+2018,Liberty,Cooper McCaw,Fr.,OL,12,3
+2018,Liberty,Dontae Duff,Jr.,OL,12,12
+2018,Liberty,Tristan Schultz,So.,OL,12,10
+2018,Louisiana,Kevin Dotson,Jr.,OL,14,14
+2018,Louisiana,Robert Hunt,Jr.,OL,14,14
+2018,Louisiana,Rico Robinson,Jr.,OL,14,14
+2018,Louisiana,Ken Marks,Jr.,OL,13,13
+2018,Louisiana,Cole Prudhomme,Jr.,OL,14,14
+2018,Louisiana Tech,Joshua Mote,Fr.,OL,4,4
+2018,Louisiana Tech,Kody Russey,So.,OL,13,13
+2018,Louisiana Tech,O'Shea Dugas,Sr.,OL,12,11
+2018,Louisiana Tech,Ethan Reed,Jr.,OL,13,13
+2018,Louisiana Tech,Shane Carpenter,Sr.,OL,13,4
+2018,Louisiana Tech,Michael Rodriguez,Sr.,OL,12,10
+2018,Louisiana Tech,Devante Lovett,Jr.,OL,11,1
+2018,Louisiana Tech,Drew Kirkpatrick,Jr.,OL,11,5
+2018,Louisiana Tech,Willie Allen,So.,OL,12,2
+2018,Louisiana Tech,Hanner Shipley,Sr.,OL,12,2
+2018,Louisville,Mekhi Becton,So.,OL,12,12
+2018,Louisville,Linwood Foy,Sr.,OL,12,12
+2018,Louisville,Nathan Scheler,Jr.,OL,10,5
+2018,Louisville,Cole Bentley,So.,OL,12,12
+2018,Louisville,Caleb Chandler,Fr.,OL,5,3
+2018,Louisville,Kenny Thomas,Sr.,OL,9,4
+2018,Louisville,Lukayus McNeil,Sr.,OL,12,12
+2018,Marshall,Alex Mollette,So.,OL,4,4
+2018,Marshall,Cain Madden,So.,OL,13,9
+2018,Marshall,Alex Locklear,Jr.,OL,13,1
+2018,Marshall,Levi Brown,Jr.,OL,13,13
+2018,Marshall,Tarik Adams,So.,OL,12,12
+2018,Marshall,Jordan Dowrey,Sr.,OL,13,13
+2018,Marshall,Will Ulmer,So.,OL,13,13
+2018,Maryland,Derwin Gray,Sr.,OL,10,10
+2018,Maryland,Marcus Minor,So.,OL,3,3
+2018,Maryland,Johnny Jordan,So.,OL,10,6
+2018,Maryland,Tyler Hamilton,So.,OL,1,1
+2018,Maryland,Sean Christie,Sr.,OL,11,11
+2018,Maryland,Damian Prince,Sr.,OL,10,9
+2018,Maryland,Ellis McKennie,Jr.,OL,12,3
+2018,Maryland,Brendan Moore,Sr.,OL,12,12
+2018,Maryland,Terrance Davis,Jr.,OL,8,6
+2018,Massachusetts,"Ray Thomas-Ishman, Sr.",Jr.,OL,12,11
+2018,Massachusetts,Lukas Kolter,Sr.,OL,10,9
+2018,Massachusetts,Derek Dumais,Jr.,OL,12,12
+2018,Massachusetts,Mike Yerardi,Jr.,OL,12,4
+2018,Massachusetts,Jake Largay,Sr.,OL,12,12
+2018,Massachusetts,Larnel Coleman,So.,OL,12,12
+2018,Memphis,Drew Kyser,Sr.,OL,14,14
+2018,Memphis,Dustin Woodard,Jr.,OL,14,14
+2018,Memphis,Trevon Tate,Sr.,OL,14,14
+2018,Memphis,Dylan Parham,Fr.,OL,14,14
+2018,Memphis,Roger Joseph,Sr.,OL,14,14
+2018,Miami (FL),Hayden Mahoney,Jr.,OL,13,10
+2018,Miami (FL),Tyree St. Louis,Sr.,OL,13,13
+2018,Miami (FL),Navaughn Donaldson,So.,OL,12,10
+2018,Miami (FL),Tyler Gauthier,Sr.,OL,12,12
+2018,Miami (FL),Jahair Jones,Sr.,OL,13,5
+2018,Miami (FL),Venzell Boulware,Jr.,OL,13,6
+2018,Miami (FL),"DJ Scaife, Jr.",Fr.,OL,13,7
+2018,Miami (OH),Sam McCollum,Sr.,OL,12,12
+2018,Miami (OH),Jarrett LaRubbio,Sr.,OL,12,11
+2018,Miami (OH),Jordan Rigg,Sr.,OL,12,12
+2018,Miami (OH),Matt Skibinski,Jr.,OL,12,2
+2018,Miami (OH),Tommy Doyle,So.,OL,10,10
+2018,Miami (OH),Danny Godlevske,Jr.,OL,12,12
+2018,Miami (OH),Ryan Mullen,Sr.,OL,6,1
+2018,Michigan,Jon Runyan,Sr.,OL,13,13
+2018,Michigan,Michael Onwenu,Jr.,OL,13,13
+2018,Michigan,Ben Bredeson,Jr.,OL,13,13
+2018,Michigan,Cesar Ruiz,So.,OL,13,13
+2018,Michigan,Juwann Bushell-Beatty,Sr.,OL,11,11
+2018,Michigan,Andrew Stueber,So.,OL,13,2
+2018,Michigan St.,Jordan Reid,So.,OL,13,13
+2018,Michigan St.,Cole Chewins,Jr.,OL,12,9
+2018,Michigan St.,Matt Allen,So.,OL,10,7
+2018,Michigan St.,David Beedle,Sr.,OL,6,4
+2018,Michigan St.,Tyler Higby,Jr.,OL,13,13
+2018,Michigan St.,Luke Campbell,So.,OL,9,5
+2018,Michigan St.,Kevin Jarvis,So.,OL,9,7
+2018,Michigan St.,Blake Bueter,Fr.,OL,13,7
+2018,Middle Tenn.,Angelo Owens,Sr.,OL,13,1
+2018,Middle Tenn.,Amir Luckett,Jr.,OL,14,14
+2018,Middle Tenn.,Carlos Johnson,Sr.,OL,14,14
+2018,Middle Tenn.,Josh Fannin,Jr.,OL,14,14
+2018,Middle Tenn.,Ty Watkins,Sr.,OL,14,2
+2018,Middle Tenn.,Chandler Brewer,Sr.,OL,14,14
+2018,Middle Tenn.,Robert Behanan,Sr.,OL,13,13
+2018,Minnesota,Blaise Andries,Fr.,OL,13,13
+2018,Minnesota,Jared Weyler,Sr.,OL,13,13
+2018,Minnesota,Donnell Greene,Sr.,OL,11,10
+2018,Minnesota,Sam Schlueter,So.,OL,13,8
+2018,Minnesota,Conner Olson,So.,OL,13,13
+2018,Minnesota,Daniel Faalele,Fr.,OL,10,8
+2018,Minnesota,Curtis Dunlap Jr.,Fr.,OL,4,1
+2018,Mississippi St.,Michael Story,Jr.,OL,9,1
+2018,Mississippi St.,Greg Eiland,So.,OL,13,13
+2018,Mississippi St.,Stewart Reese,So.,OL,13,13
+2018,Mississippi St.,Deion Calhoun,Sr.,OL,13,13
+2018,Mississippi St.,Elgton Jenkins,Sr.,OL,13,13
+2018,Mississippi St.,Darryl Williams,Jr.,OL,12,12
+2018,Missouri,Kevin Pendleton,Sr.,OL,12,12
+2018,Missouri,Paul Adams,Sr.,OL,13,13
+2018,Missouri,Yasir Durant,Jr.,OL,13,13
+2018,Missouri,Trystan Colon-Castillo,So.,OL,13,13
+2018,Missouri,Sam Bailey,Sr.,OL,13,2
+2018,Missouri,Tre'Vour Wallace-Simms,Jr.,OL,13,13
+2018,NC State,Terronne Prescod,Sr.,OL,12,12
+2018,NC State,Tyler Jones,Sr.,OL,13,13
+2018,NC State,Kendall Brown,So.,OL,6,1
+2018,NC State,Justin Witt,So.,OL,12,11
+2018,NC State,Joe Sculthorpe,So.,OL,13,2
+2018,NC State,Tyrone Riley,Jr.,OL,12,2
+2018,NC State,Garrett Bradbury,Sr.,OL,13,13
+2018,NC State,Joshua Fedd-Jackson,So.,OL,12,12
+2018,NIU,Luke Shively,Sr.,OL,14,14
+2018,NIU,Jordan Steckler,Sr.,OL,10,10
+2018,NIU,Brayden Patton,Jr.,OL,14,8
+2018,NIU,Max Scharping,Sr.,OL,14,14
+2018,NIU,Ryan Roberts,Sr.,OL,11,2
+2018,NIU,Isaac Hawn,So.,OL,5,2
+2018,NIU,C.J. Perez,Jr.,OL,11,11
+2018,Navy,Laurent Njiki,Sr.,OL,13,13
+2018,Navy,Kendel Wright,Jr.,OL,6,3
+2018,Navy,Chris Gesell,Sr.,OL,13,13
+2018,Navy,David Forney,Jr.,OL,12,1
+2018,Navy,Jake Hawk,Sr.,OL,11,4
+2018,Navy,Adam Amosa-Tagovalioa,Jr.,OL,10,2
+2018,Navy,Ford Higgins,Jr.,OL,13,13
+2018,Navy,Andrew Wood,Sr.,OL,13,13
+2018,Nebraska,Jerald Foster,Sr.,OL,12,11
+2018,Nebraska,Brenden Jaimes,So.,OL,12,12
+2018,Nebraska,Tanner Farmer,Sr.,OL,12,11
+2018,Nebraska,Cole Conrad,Sr.,OL,6,4
+2018,Nebraska,Matt Farniok,So.,OL,12,12
+2018,Nebraska,Boe Wilson,So.,OL,12,9
+2018,Nevada,Nate Brown,So.,OL,13,13
+2018,Nevada,Sean Krepsz,Sr.,OL,10,9
+2018,Nevada,Anthony Palomares,Sr.,OL,13,13
+2018,Nevada,Kalei Meyer,Sr.,OL,12,11
+2018,Nevada,Miles Beach,So.,OL,10,2
+2018,Nevada,Jake Nelson,Jr.,OL,13,13
+2018,Nevada,Jermaine Ledbetter,So.,OL,8,1
+2018,Nevada,Aaron Frost,Fr.,OL,8,2
+2018,New Mexico,Chris Estrella,Jr.,OL,12,12
+2018,New Mexico,Aaron Jenkins,Sr.,OL,12,12
+2018,New Mexico,Teton Saltes,So.,OL,12,12
+2018,New Mexico,Kyle Stapley,So.,OL,12,12
+2018,New Mexico,Jarred Sylvester,Jr.,OL,12,6
+2018,New Mexico,Charlie Grammel,Jr.,OL,12,6
+2018,New Mexico St.,Sebastian Anderson,Jr.,OL,5,5
+2018,New Mexico St.,Sage Doxtater,Jr.,OL,12,12
+2018,New Mexico St.,Isaac McClain,Sr.,OL,12,12
+2018,New Mexico St.,Tony Bello,Jr.,OL,8,7
+2018,New Mexico St.,Brian Trujillo,Jr.,OL,12,12
+2018,New Mexico St.,Jamin Smith,Sr.,OL,12,12
+2018,North Carolina,Charlie Heck,Jr.,OL,11,11
+2018,North Carolina,Nick Polino,Jr.,OL,11,11
+2018,North Carolina,William Sweet,Jr.,OL,10,10
+2018,North Carolina,Jonathan Trull,Sr.,OL,10,5
+2018,North Carolina,Billy Ross,Fr.,OL,11,11
+2018,North Carolina,Jordan Tucker,Fr.,OL,8,1
+2018,North Carolina,Jay-Jay McCargo,So.,OL,7,5
+2018,North Texas,Manase Mose,Fr.,OL,13,13
+2018,North Texas,Sosaia Mose,Jr.,OL,12,12
+2018,North Texas,Jacob Brammer,Fr.,OL,7,4
+2018,North Texas,Jordan Murray,Sr.,OL,12,9
+2018,North Texas,Thomas Preston III,Jr.,OL,5,1
+2018,North Texas,Elex Woodworth,Jr.,OL,13,13
+2018,North Texas,Riley Mayfield,Sr.,OL,13,13
+2018,Northwestern,Rashawn Slater,So.,OL,14,14
+2018,Northwestern,Blake Hance,Sr.,OL,13,13
+2018,Northwestern,J.B. Butler,Sr.,OL,13,13
+2018,Northwestern,Gunnar Vogel,So.,OL,3,1
+2018,Northwestern,Nik Urban,So.,OL,7,3
+2018,Northwestern,Jared Thomas,Jr.,OL,14,14
+2018,Northwestern,Tommy Doles,Sr.,OL,13,12
+2018,Notre Dame,Liam Eichenberg,Jr.,OL,13,13
+2018,Notre Dame,Tommy Kraemer,Jr.,OL,12,10
+2018,Notre Dame,Aaron Banks,So.,OL,13,6
+2018,Notre Dame,Alex Bars,Sr.,OL,5,5
+2018,Notre Dame,Sam Mustipher,Sr.,OL,13,13
+2018,Notre Dame,Trevor Ruhland,Sr.,OL,9,5
+2018,Notre Dame,Robert Hainsey,So.,OL,13,13
+2018,Ohio,Steven Hayes,Jr.,OL,6,3
+2018,Ohio,Joe Anderson,Sr.,OL,13,13
+2018,Ohio,Joe Lowery,Sr.,OL,13,13
+2018,Ohio,Austen Pleasants,Jr.,OL,13,13
+2018,Ohio,Brett Kittrell,So.,OL,10,10
+2018,Ohio,Durrell Wood,Sr.,OL,13,13
+2018,Ohio St.,Demetrius Knox,Sr.,OL,12,12
+2018,Ohio St.,Michael Jordan,Jr.,OL,13,13
+2018,Ohio St.,Thayer Munford,So.,OL,13,13
+2018,Ohio St.,Joshua Alabi,Sr.,OL,9,1
+2018,Ohio St.,Isaiah Prince,Sr.,OL,13,13
+2018,Ohio St.,Malcolm Pridgeon,Sr.,OL,14,14
+2018,Ohio St.,Wyatt Davis,So.,OL,7,2
+2018,Ohio St.,Brandon Pahl,Sr.,OL,1,1
+2018,Oklahoma,Bobby Evans,Jr.,OL,14,14
+2018,Oklahoma,Cody Ford,Jr.,OL,14,14
+2018,Oklahoma,Dru Samia,Sr.,OL,14,14
+2018,Oklahoma,Creed Humphrey,Fr.,OL,14,12
+2018,Oklahoma,Ben Powers,Sr.,OL,13,13
+2018,Oklahoma,Jonathan Alvarez,Sr.,OL,4,3
+2018,Oklahoma St.,Deionte Noel,Sr.,OL,7,1
+2018,Oklahoma St.,Marcus Keyes,Jr.,OL,13,11
+2018,Oklahoma St.,Dylan Galloway,So.,OL,9,5
+2018,Oklahoma St.,Arlington Hambright,Jr.,OL,6,5
+2018,Oklahoma St.,Teven Jenkins,So.,OL,13,13
+2018,Oklahoma St.,Larry Williams,Sr.,OL,12,12
+2018,Oklahoma St.,Ry Schneider,So.,OL,5,1
+2018,Oklahoma St.,Johnny Wilson,Jr.,OL,12,12
+2018,Oklahoma St.,Shane Richards,Sr.,OL,9,5
+2018,Old Dominion,Nick Clarke,Sr.,OL,12,12
+2018,Old Dominion,A.J. Davison,Sr.,OL,11,10
+2018,Old Dominion,Isaac Weaver,So.,OL,12,12
+2018,Old Dominion,Tony Barnett,Jr.,OL,12,12
+2018,Old Dominion,Chad Hendricks,Sr.,OL,6,6
+2018,Old Dominion,Eric Magwood,Jr.,OL,12,6
+2018,Old Dominion,Andrew Lawson,Fr.,OL,7,2
+2018,Ole Miss,Jordan Sims,Sr.,OL,12,1
+2018,Ole Miss,Ben Brown,Fr.,OL,12,12
+2018,Ole Miss,Sean Rawlings,Sr.,OL,11,11
+2018,Ole Miss,Javon Patterson,Sr.,OL,12,12
+2018,Ole Miss,Greg Little,Jr.,OL,12,12
+2018,Ole Miss,Alex Givens,Jr.,OL,12,12
+2018,Oregon,Calvin Throckmorton,Jr.,OL,13,13
+2018,Oregon,Dallas Warmack,Jr.,OL,13,12
+2018,Oregon,Brady Aiello,Jr.,OL,13,7
+2018,Oregon,Steven Jones,Fr.,OL,5,1
+2018,Oregon,Penei Sewell,Fr.,OL,7,7
+2018,Oregon,Jake Hanson,Jr.,OL,13,12
+2018,Oregon,Shane Lemieux,Jr.,OL,13,13
+2018,Oregon St.,Trent Moore,Sr.,OL,12,12
+2018,Oregon St.,Sumner Houston,Sr.,OL,12,12
+2018,Oregon St.,Blake Brandel,Jr.,OL,12,12
+2018,Oregon St.,Kammy Delp,Sr.,OL,12,9
+2018,Oregon St.,Yanni Demogerontas,Sr.,OL,8,3
+2018,Oregon St.,Gus Lavaka,Jr.,OL,12,12
+2018,Penn St.,Steven Gonzalez,Jr.,OL,13,13
+2018,Penn St.,Michal Menet,So.,OL,12,12
+2018,Penn St.,Mike Miranda,Fr.,OL,13,1
+2018,Penn St.,Connor McGovern,Jr.,OL,13,13
+2018,Penn St.,Will Fries,So.,OL,13,11
+2018,Penn St.,Chasz Wright,Sr.,OL,13,2
+2018,Penn St.,Ryan Bates,Jr.,OL,13,13
+2018,Pittsburgh,Connor Dintino,Sr.,OL,14,13
+2018,Pittsburgh,Alex Bookser,Sr.,OL,13,13
+2018,Pittsburgh,Jimmy Morrissey,So.,OL,11,11
+2018,Pittsburgh,Carson Van Lynn,Fr.,OL,12,5
+2018,Pittsburgh,Mike Herndon,Sr.,OL,14,14
+2018,Pittsburgh,Stefano Millin,Sr.,OL,14,14
+2018,Pittsburgh,Gabe Houy,Fr.,OL,6,1
+2018,Pittsburgh,Bryce Hargrove,So.,OL,14,3
+2018,Purdue,Eric Swingler,Sr.,OL,12,6
+2018,Purdue,Kirk Barron,Sr.,OL,13,13
+2018,Purdue,Matt McCann,Jr.,OL,13,13
+2018,Purdue,Grant Hermanns,So.,OL,9,9
+2018,Purdue,Shane Evans,Sr.,OL,11,11
+2018,Purdue,Dennis Edwards,Sr.,OL,13,13
+2018,Rice,Uzo Osuji,So.,OL,10,9
+2018,Rice,Joseph Dill,Jr.,OL,10,10
+2018,Rice,Shea Baker,Fr.,OL,13,13
+2018,Rice,Clay Servin,Fr.,OL,4,3
+2018,Rice,Jake Syptak,Fr.,OL,5,1
+2018,Rice,Cole Garcia,Fr.,OL,9,6
+2018,Rice,Jack Greene,So.,OL,13,10
+2018,Rice,Sam Pierce,Sr.,OL,13,13
+2018,Rutgers,Kamaal Seymour,Jr.,OL,12,12
+2018,Rutgers,Zach Venesky,Jr.,OL,6,5
+2018,Rutgers,Sam Vretman,So.,OL,5,2
+2018,Rutgers,Mike Lonsdorf,So.,OL,6,4
+2018,Rutgers,Michael Maietti,So.,OL,12,12
+2018,Rutgers,Tariq Cole,Sr.,OL,11,11
+2018,Rutgers,Nick Krimin,So.,OL,10,3
+2018,Rutgers,Reggie Sutton,Fr.,OL,4,1
+2018,Rutgers,Jonah Jackson,Jr.,OL,11,11
+2018,SMU,Nick Natour,Sr.,OL,8,8
+2018,SMU,Alan Ali,Fr.,OL,11,8
+2018,SMU,Jacob Todora,So.,OL,7,2
+2018,SMU,Beau Morris,So.,OL,4,3
+2018,SMU,Jaylon Thomas,Fr.,OL,7,6
+2018,SMU,Nick Dennis,Jr.,OL,10,2
+2018,SMU,Larry Hughes,Sr.,OL,12,12
+2018,SMU,Chad Pursley,Sr.,OL,8,7
+2018,SMU,Hayden Howerton,So.,OL,12,12
+2018,San Diego St.,Ryan Pope,Sr.,OL,13,13
+2018,San Diego St.,Kyle Spalding,So.,OL,13,3
+2018,San Diego St.,Nick Gerhard,Jr.,OL,11,5
+2018,San Diego St.,Daishawn Dixon,Jr.,OL,12,12
+2018,San Diego St.,Tyler Roemer,So.,OL,10,10
+2018,San Diego St.,Dominic Gudino,So.,OL,10,8
+2018,San Diego St.,Keith Ismael,So.,OL,12,12
+2018,San Diego St.,Zachary Thomas,So.,OL,3,2
+2018,San Jose St.,Jack Snyder,So.,OL,12,12
+2018,San Jose St.,Jake Colman,Sr.,OL,12,12
+2018,San Jose St.,Jesse Chamberlain,Fr.,OL,6,1
+2018,San Jose St.,Jaime Navarro,Fr.,OL,4,3
+2018,San Jose St.,Troy Kowalski,Jr.,OL,12,12
+2018,San Jose St.,Kyle Hoppe,So.,OL,12,7
+2018,San Jose St.,Trevor Robbins,Fr.,OL,7,5
+2018,San Jose St.,Deano Motes,Jr.,OL,10,8
+2018,South Alabama,Troy Thingstad,Jr.,OL,12,12
+2018,South Alabama,Brian Ankerson,So.,OL,12,12
+2018,South Alabama,Hadon Merchant,So.,OL,12,12
+2018,South Alabama,Rowan Godwin,Jr.,OL,12,6
+2018,South Alabama,Kevin Haas,Jr.,OL,10,1
+2018,South Alabama,Ryan Alexander,Jr.,OL,12,11
+2018,South Alabama,Roy Albritton,Jr.,OL,12,6
+2018,South Carolina,Malik Young,Sr.,OL,10,1
+2018,South Carolina,Donell Stanley,Sr.,OL,13,13
+2018,South Carolina,Dennis Daley,Sr.,OL,12,12
+2018,South Carolina,Zack Bailey,Sr.,OL,12,12
+2018,South Carolina,Sadarius Hutcherson,So.,OL,13,13
+2018,South Carolina,Blake Camper,Sr.,OL,10,6
+2018,South Carolina,Dylan Wonnum,Fr.,OL,9,7
+2018,South Carolina,Hank Manos,Fr.,OL,2,1
+2018,South Fla.,Eric Mayes,Sr.,OL,10,6
+2018,South Fla.,Demetris Harris,Fr.,OL,11,11
+2018,South Fla.,Marcus Norman,Jr.,OL,13,13
+2018,South Fla.,Brad Cecil,Fr.,OL,11,7
+2018,South Fla.,Donovan Jennings,Fr.,OL,13,4
+2018,South Fla.,Michael Wiggs,So.,OL,7,6
+2018,South Fla.,Hal Roberson,Jr.,OL,10,2
+2018,South Fla.,William Atterbury,Jr.,OL,13,13
+2018,Southern California,Andrew Vorhees,So.,OL,12,11
+2018,Southern California,Chris Brown,Sr.,OL,12,12
+2018,Southern California,Jalen McKenzie,Fr.,OL,12,2
+2018,Southern California,Austin Jackson,So.,OL,12,12
+2018,Southern California,Toa Lobendahn,Sr.,OL,11,11
+2018,Southern California,Brett Neilon,Fr.,OL,6,1
+2018,Southern California,Chuma Edoga,Sr.,OL,10,10
+2018,Southern California,Jordan Austin,Sr.,OL,12,1
+2018,Southern Miss.,Paul Gainer,So.,OL,6,3
+2018,Southern Miss.,Bryce Foxworth,So.,OL,7,5
+2018,Southern Miss.,Arvin Fletcher,So.,OL,11,11
+2018,Southern Miss.,Ty Pollard,Jr.,OL,10,10
+2018,Southern Miss.,Drake Dorbeck,Jr.,OL,11,11
+2018,Southern Miss.,Grey Best,So.,OL,5,1
+2018,Southern Miss.,Trace Clopton,Fr.,OL,11,7
+2018,Southern Miss.,Woodlyson Alcius,So.,OL,10,6
+2018,Stanford,Devery Hamilton,Jr.,OL,10,5
+2018,Stanford,Drew Dalman,So.,OL,6,3
+2018,Stanford,Dylan Powell,Jr.,OL,10,2
+2018,Stanford,Nate Herbig,Jr.,OL,6,6
+2018,Stanford,Jesse Burkett,Sr.,OL,9,9
+2018,Stanford,A.T. Hall,Sr.,OL,12,11
+2018,Stanford,Brandon Fanaika,Sr.,OL,11,8
+2018,Stanford,Walker Little,So.,OL,11,11
+2018,Syracuse,Aaron Roberts,Sr.,OL,13,13
+2018,Syracuse,Evan Adams,Jr.,OL,13,12
+2018,Syracuse,Sam Heckel,So.,OL,13,1
+2018,Syracuse,Koda Martin,Sr.,OL,13,13
+2018,Syracuse,Airon Servais,So.,OL,13,13
+2018,Syracuse,Cody Conway,Sr.,OL,13,13
+2018,TCU,Lucas Niang,Jr.,OL,13,13
+2018,TCU,Austin Myers,So.,OL,10,9
+2018,TCU,Cordel Iwuagwu,Jr.,OL,5,4
+2018,TCU,Anthony McKinney,Jr.,OL,13,9
+2018,TCU,Wes Harris,Fr.,OL,11,5
+2018,TCU,Trey Elliott,Sr.,OL,13,4
+2018,TCU,Kellton Hollins,So.,OL,11,11
+2018,TCU,Chris Gaynor,Sr.,OL,12,10
+2018,Temple,James McHale,Sr.,OL,10,3
+2018,Temple,Matt Hennessy,So.,OL,11,11
+2018,Temple,Jaelin Robinson,Sr.,OL,13,13
+2018,Temple,Vincent Picozzi,So.,OL,13,13
+2018,Temple,Isaac Moore,Fr.,OL,13,2
+2018,Temple,Adam Klein,Fr.,OL,13,10
+2018,Temple,Jovahn Fair,Jr.,OL,13,13
+2018,Tennessee,Nathan Niehaus,So.,OL,10,6
+2018,Tennessee,Jahmir Johnson,Jr.,OL,11,11
+2018,Tennessee,Drew Richmond,Jr.,OL,12,12
+2018,Tennessee,Trey Smith,So.,OL,7,7
+2018,Tennessee,Marcus Tatum,Jr.,OL,12,5
+2018,Tennessee,Ryan Johnson,So.,OL,12,12
+2018,Tennessee,Brandon Kennedy,So.,OL,1,1
+2018,Tennessee,Jerome Carvin,Fr.,OL,12,6
+2018,Texas,Zach Shackelford,Jr.,OL,11,10
+2018,Texas,Derek Kerstetter,So.,OL,14,5
+2018,Texas,Calvin Anderson,Sr.,OL,14,14
+2018,Texas,Samuel Cosmi,Fr.,OL,14,13
+2018,Texas,Elijah Rodriguez,Sr.,OL,14,14
+2018,Texas,Patrick Vahe,Sr.,OL,14,14
+2018,Texas A&M,Erik McCoy,Jr.,OL,13,13
+2018,Texas A&M,Connor Lanfear,Sr.,OL,11,1
+2018,Texas A&M,Keaton Sutherland,Sr.,OL,12,10
+2018,Texas A&M,Ryan McCollum,So.,OL,12,7
+2018,Texas St.,Josiah Washington,Jr.,OL,10,2
+2018,Texas St.,Aaron Brewer,Jr.,OL,12,12
+2018,Texas St.,Reece Jordan,So.,OL,12,11
+2018,Texas St.,David Tachie,Jr.,OL,5,5
+2018,Texas St.,Kameron Jemison,So.,OL,3,2
+2018,Texas St.,Kylar Cooks,Fr.,OL,4,3
+2018,Texas St.,Jacob Rowland,Jr.,OL,11,9
+2018,Texas St.,Tate Heitmeier,Fr.,OL,9,3
+2018,Texas St.,Morgan Moore,Fr.,OL,10,6
+2018,Texas St.,Jalen Momerelle,Fr.,OL,8,7
+2018,Texas Tech,Paul Stawarz,Sr.,OL,10,10
+2018,Texas Tech,Madison Akamnonu,Jr.,OL,12,7
+2018,Texas Tech,Travis Bruffy,Jr.,OL,11,11
+2018,Texas Tech,Bailey Smith,Jr.,OL,11,2
+2018,Texas Tech,Terence Steele,Jr.,OL,12,12
+2018,Texas Tech,Jacob Hines,Sr.,OL,7,4
+2018,Texas Tech,Jack Anderson,So.,OL,12,12
+2018,Texas Tech,Dawson Deaton,Fr.,OL,12,2
+2018,Toledo,Luke Doerger,So.,OL,6,2
+2018,Toledo,Mitchell Berg,Fr.,OL,13,3
+2018,Toledo,Sami Kassem,Sr.,OL,12,12
+2018,Toledo,Cameron Bell,Jr.,OL,13,9
+2018,Toledo,Bryce Harris,Jr.,OL,13,13
+2018,Toledo,Kelvin Ateman,Fr.,OL,5,1
+2018,Toledo,Brandon Heidecker,Jr.,OL,5,4
+2018,Toledo,Yazeed Atariwa,Sr.,OL,9,8
+2018,Toledo,Brock Ruble,Sr.,OL,12,12
+2018,Troy,Zach Branner,Jr.,OL,5,1
+2018,Troy,Deontae Crumitie,Sr.,OL,12,12
+2018,Troy,J.L. Gaston,Jr.,OL,12,12
+2018,Troy,Kirk Kelley,Jr.,OL,11,10
+2018,Troy,Dylan Bradshaw,So.,OL,9,2
+2018,Troy,Austin Stidham,Fr.,OL,12,12
+2018,Troy,Tristan Crowder,Jr.,OL,12,11
+2018,Tulane,Joey Claybrook,Fr.,OL,11,4
+2018,Tulane,Tyler Johnson,Jr.,OL,10,3
+2018,Tulane,Dominique Briggs,Sr.,OL,13,13
+2018,Tulane,Corey Dublin,So.,OL,13,13
+2018,Tulane,John Leglue,Sr.,OL,13,13
+2018,Tulane,Keyshawn McLeod,Jr.,OL,10,9
+2018,Tulane,Noah Fisher,Sr.,OL,11,8
+2018,Tulsa,Willie Wright,Sr.,OL,12,12
+2018,Tulsa,Tiller Bucktrot,So.,OL,12,4
+2018,Tulsa,Tyler Bowling,Sr.,OL,6,6
+2018,Tulsa,Chris Ivy Jr.,Jr.,OL,12,12
+2018,Tulsa,Chris Paul,Fr.,OL,12,8
+2018,Tulsa,Tristan Wyatt,Jr.,OL,9,3
+2018,Tulsa,Chandler Miller,Sr.,OL,12,12
+2018,Tulsa,Dylan Couch,So.,OL,9,3
+2018,UAB,David Galten,Jr.,OL,14,1
+2018,UAB,Lee Dufour,Jr.,OL,9,9
+2018,UAB,Malique Johnson,Sr.,OL,14,14
+2018,UAB,James Davis,Sr.,OL,14,14
+2018,UAB,Greg Fecanin,So.,OL,12,3
+2018,UAB,Rishard Cook,Sr.,OL,13,13
+2018,UAB,Andrew Smith Jr.,Jr.,OL,4,2
+2018,UAB,Justice Powers,Sr.,OL,14,14
+2018,UCF,Cole Schneider,So.,OL,13,12
+2018,UCF,Jake Brown,Jr.,OL,13,13
+2018,UCF,Wyatt Miller,Sr.,OL,13,13
+2018,UCF,Tyler Hudanick,Sr.,OL,11,10
+2018,UCF,Bailey Granier,Sr.,OL,13,3
+2018,UCF,Jordan Johnson,Jr.,OL,13,13
+2018,UCLA,Boss Tagaloa,Jr.,OL,9,9
+2018,UCLA,Josh Wariboko-Alali,Jr.,OL,10,1
+2018,UCLA,Andre James,Jr.,OL,12,12
+2018,UCLA,Justin Murphy,Sr.,OL,6,4
+2018,UCLA,Chris Murray,Fr.,OL,12,12
+2018,UConn,Cam DeGeorge,Jr.,OL,12,12
+2018,UConn,Christian Haynes,Fr.,OL,2,1
+2018,UConn,Matt Peart,Jr.,OL,12,12
+2018,UConn,Ryan Crozier,Sr.,OL,12,12
+2018,UConn,Ryan Van Demark,So.,OL,12,12
+2018,UConn,Nino Leone,Jr.,OL,12,11
+2018,ULM,Eastwood Thomas,Sr.,OL,11,11
+2018,ULM,Devin Jackson Jr,Sr.,OL,11,11
+2018,ULM,T.J. Fiailoa,Jr.,OL,11,11
+2018,ULM,Bobby Reynolds,Sr.,OL,11,11
+2018,ULM,Trace Ellison,So.,OL,11,11
+2018,UNLV,Justin Polu,Jr.,OL,12,12
+2018,UNLV,Justice Oluwaseun,So.,OL,7,4
+2018,UNLV,Sid Acosta,Sr.,OL,11,11
+2018,UNLV,Julio Garcia,Jr.,OL,3,1
+2018,UNLV,Zack Singer,Sr.,OL,6,1
+2018,UNLV,Matt Brayton,So.,OL,7,3
+2018,UNLV,Jaron Caldwell,Jr.,OL,8,7
+2018,UNLV,Jackson Reynolds,So.,OL,2,1
+2018,UNLV,Donovan Outlaw,So.,OL,12,8
+2018,UNLV,Nathan Jacobson,Sr.,OL,12,12
+2018,UTEP,Bobby Deharo,Fr.,OL,12,12
+2018,UTEP,Bijan Hosseini,Sr.,OL,10,6
+2018,UTEP,Josiah Gray,So.,OL,7,2
+2018,UTEP,Ruben Guerra,Jr.,OL,7,7
+2018,UTEP,Jerrod Brooks,Sr.,OL,10,9
+2018,UTEP,Zuri Henry,Fr.,OL,8,8
+2018,UTEP,Gamaliel Barboza,So.,OL,2,1
+2018,UTEP,Elijah Klein,Fr.,OL,4,4
+2018,UTEP,Markos Lujan,Jr.,OL,11,11
+2018,UTSA,Josh Dunlop,Jr.,OL,12,12
+2018,UTSA,Jordan Wright,Sr.,OL,7,6
+2018,UTSA,Kevin Davis,Fr.,OL,12,12
+2018,UTSA,Jalyn Galmore,Jr.,OL,5,5
+2018,UTSA,Spencer Burford,Fr.,OL,10,10
+2018,UTSA,Jacob Graner,So.,OL,11,3
+2018,Utah,Orlando Umana,So.,OL,14,13
+2018,Utah,Darrin Paulo,Jr.,OL,13,13
+2018,Utah,Jackson Barton,Sr.,OL,14,14
+2018,Utah,Nick Ford,Fr.,OL,11,7
+2018,Utah,Jordan Agasiva,Sr.,OL,14,14
+2018,Utah,Lo Falemaka,Sr.,OL,10,9
+2018,Utah St.,Roman Andrus,Sr.,OL,13,13
+2018,Utah St.,Quin Ficklin,Sr.,OL,13,13
+2018,Utah St.,Alfred Edwards,Fr.,OL,12,11
+2018,Utah St.,Demytrick Ali'ifua,So.,OL,13,2
+2018,Utah St.,Rob Castaneda,Sr.,OL,13,13
+2018,Utah St.,Sean Taylor,Sr.,OL,13,13
+2018,Vanderbilt,Bryce Bailey,So.,OL,11,1
+2018,Vanderbilt,Cole Clemens,So.,OL,13,12
+2018,Vanderbilt,Devin Cochran,So.,OL,13,13
+2018,Vanderbilt,Saige Young,Jr.,OL,8,4
+2018,Vanderbilt,Bruno Reagan,Sr.,OL,13,13
+2018,Vanderbilt,Justin Skule,Sr.,OL,13,13
+2018,Vanderbilt,Sean McMoore,So.,OL,5,1
+2018,Vanderbilt,Egidio DellaRipa,Sr.,OL,11,9
+2018,Virginia,R.J. Proctor,Jr.,OL,11,6
+2018,Virginia,Dillon Reinkensmeyer,So.,OL,13,13
+2018,Virginia,Chris Glaser,So.,OL,13,7
+2018,Virginia,Marcus Applefield,Sr.,OL,13,13
+2018,Virginia,Ryan Nelson,Fr.,OL,13,13
+2018,Virginia,Jake Fieler,Sr.,OL,13,13
+2018,Virginia,Ryan Swoboda,Fr.,OL,12,1
+2018,Virginia Tech,Silas Dzansi,Fr.,OL,10,4
+2018,Virginia Tech,Kyle Chung,Sr.,OL,13,13
+2018,Virginia Tech,Zachariah Hoyt,So.,OL,12,9
+2018,Virginia Tech,Braxton Pfaff,Sr.,OL,13,13
+2018,Virginia Tech,Yosuah Nijman,Sr.,OL,10,10
+2018,Virginia Tech,Christian Darrisaw,Fr.,OL,12,12
+2018,Wake Forest,Ryan Anderson,Sr.,OL,13,13
+2018,Wake Forest,Justin Herron,Sr.,OL,1,1
+2018,Wake Forest,Nathan Gilliam,Jr.,OL,13,13
+2018,Wake Forest,Phil Haynes,Sr.,OL,13,13
+2018,Wake Forest,Zach Tom,Fr.,OL,12,1
+2018,Wake Forest,Patrick Osterhage,Sr.,OL,12,11
+2018,Wake Forest,Jake Benzinger,Jr.,OL,13,13
+2018,Washington,Luke Wattenberg,So.,OL,14,14
+2018,Washington,Trey Adams,Sr.,OL,4,2
+2018,Washington,Jared Hilbers,Jr.,OL,12,11
+2018,Washington,Henry Roberts,Jr.,OL,8,1
+2018,Washington,Kaleb McGary,Sr.,OL,14,14
+2018,Washington,Jaxson Kirkland,Fr.,OL,14,14
+2018,Washington,Jesse Sosebee,Sr.,OL,14,1
+2018,Washington,Nick Harris,Jr.,OL,13,13
+2018,Washington St.,Frederick Mauigoa,Jr.,OL,13,13
+2018,Washington St.,Liam Ryan,So.,OL,13,13
+2018,Washington St.,Robert Valencia,Sr.,OL,13,1
+2018,Washington St.,Josh Watson,So.,OL,12,12
+2018,Washington St.,Andre Dillard,Sr.,OL,13,13
+2018,Washington St.,Abraham Lucas,Fr.,OL,13,13
+2018,West Virginia,Kelby Wickline,Jr.,OL,12,2
+2018,West Virginia,Colton McKivitz,Jr.,OL,12,12
+2018,West Virginia,Chase Behrndt,So.,OL,11,3
+2018,West Virginia,Matt Jones,Jr.,OL,12,12
+2018,West Virginia,Yodny Cajuste,Sr.,OL,11,10
+2018,West Virginia,Josh Sills,So.,OL,12,12
+2018,West Virginia,Isaiah Hardy,Sr.,OL,10,7
+2018,West Virginia,Joe Brown,Jr.,OL,4,1
+2018,Western Ky.,Cole Spencer,So.,OL,3,3
+2018,Western Ky.,Parker Howell,Jr.,OL,10,9
+2018,Western Ky.,Miles Pate,Jr.,OL,12,12
+2018,Western Ky.,Jordan Meredith,So.,OL,11,11
+2018,Western Ky.,Seth Joest,So.,OL,12,12
+2018,Western Ky.,Tyler Witt,So.,OL,12,12
+2018,Western Mich.,Zach Novoselsky,Sr.,OL,12,7
+2018,Western Mich.,Wesley French,Jr.,OL,13,4
+2018,Western Mich.,John Keenoy,Sr.,OL,13,13
+2018,Western Mich.,Mark Brooks,So.,OL,6,6
+2018,Western Mich.,Jordan Asbury,So.,OL,7,1
+2018,Western Mich.,Luke Juriga,Jr.,OL,13,13
+2018,Western Mich.,Mike Caliendo,So.,OL,13,12
+2018,Western Mich.,Jaylon Moore,So.,OL,13,13
+2018,Wisconsin,David Edwards,Jr.,OL,11,11
+2018,Wisconsin,Logan Bruss,Fr.,OL,13,6
+2018,Wisconsin,Beau Benzschawel,Sr.,OL,13,13
+2018,Wisconsin,Jason Erdmann,Jr.,OL,13,1
+2018,Wisconsin,Michael Deiter,Sr.,OL,13,13
+2018,Wisconsin,Tyler Biadasz,So.,OL,13,13
+2018,Wisconsin,Cole Van Lanen,So.,OL,13,1
+2018,Wisconsin,Jon Dietzen,Jr.,OL,12,12
+2018,Wyoming,Logan Harris,So.,OL,11,1
+2018,Wyoming,Kaden Jackson,Sr.,OL,12,12
+2018,Wyoming,Zach Wallace,Sr.,OL,12,12
+2018,Wyoming,Parick Arnold,So.,OL,4,4
+2018,Wyoming,Eric Abojei,So.,OL,12,5
+2018,Wyoming,Zach Watts,Fr.,OL,3,3
+2018,Wyoming,Alonzo Velazquez,So.,OL,5,5
+2018,Wyoming,Keegan Cryder,So.,OL,12,11
+2018,Wyoming,Rudy Stofer,So.,OL,12,7

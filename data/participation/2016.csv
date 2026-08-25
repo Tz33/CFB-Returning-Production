@@ -1,0 +1,940 @@
+season,school,player_name,class_year,position,gp,gs
+2016,Air Force,Jackson Wilson,Sr.,OL,13,3
+2016,Air Force,Dylan Vail,Sr.,OL,13,13
+2016,Air Force,Alexander Norton,Jr.,OL,13,13
+2016,Air Force,Allen Caunitz,Sr.,OL,9,5
+2016,Air Force,Colin Sandor,Sr.,OL,11,10
+2016,Air Force,Jake Barnhorst,Jr.,OL,12,7
+2016,Air Force,JC Rast,Jr.,OL,13,13
+2016,Akron,LaVonne Gauthney,Jr.,OL,2,2
+2016,Akron,Jovann Letuli,Jr.,OL,11,11
+2016,Akron,Kyle Ritz,So.,OL,12,12
+2016,Akron,Logan Tuley-Tillman,Jr.,OL,12,12
+2016,Akron,Stephen Ericksen,Jr.,OL,12,12
+2016,Akron,Xavier Quigley,Jr.,OL,12,1
+2016,Alabama,Jonah Williams,Fr.,OL,15,15
+2016,Alabama,Brandon Greene,Sr.,OL,15,1
+2016,Alabama,Korren Kirven,Sr.,OL,15,6
+2016,Alabama,Alphonse Taylor,Sr.,OL,5,4
+2016,Alabama,Ross Pierschbacher,So.,OL,15,15
+2016,Alabama,Cam Robinson,Jr.,OL,15,15
+2016,Alabama,Bradley Bozeman,Jr.,OL,15,15
+2016,Alabama,Lester Cotton Sr.,So.,OL,12,5
+2016,App State,Tobias Edge-Campbell,So.,OL,11,2
+2016,App State,Victor Johnson,So.,OL,13,13
+2016,App State,Colby Gossett,Jr.,OL,13,13
+2016,App State,Parker Collins,Sr.,OL,13,13
+2016,App State,Beau Nunn,Jr.,OL,10,10
+2016,Arizona,Christian Boettcher,So.,OL,11,7
+2016,Arizona,Gerhard de Beer,Jr.,OL,8,8
+2016,Arizona,Layth Friekh,Jr.,OL,12,12
+2016,Arizona,Jacob Alsadek,Jr.,OL,11,10
+2016,Arizona,Freddie Tagaloa,Sr.,OL,9,7
+2016,Arizona,Cody Creason,Fr.,OL,12,4
+2016,Arizona,Nathan Eldridge,Fr.,OL,12,12
+2016,Arizona St.,Stephon McCray,Sr.,OL,10,10
+2016,Arizona St.,Sam Jones,So.,OL,7,7
+2016,Arizona St.,Quinn Bailey,So.,OL,12,12
+2016,Arizona St.,Evan Goodman,Sr.,OL,12,12
+2016,Arizona St.,Steven Miller,Fr.,OL,11,3
+2016,Arizona St.,Zach Robertson,Fr.,OL,10,5
+2016,Arizona St.,A.J. McCollum,Jr.,OL,10,8
+2016,Arizona St.,Tyler McClure,Jr.,OL,6,2
+2016,Arizona St.,Marshal Nathe,Fr.,OL,1,1
+2016,Arkansas,Dan Skipper,Sr.,OL,13,13
+2016,Arkansas,Johnny Gibson Jr.,So.,OL,13,5
+2016,Arkansas,Frank Ragnow,Jr.,OL,13,13
+2016,Arkansas,Brian Wallace,So.,OL,12,10
+2016,Arkansas,Colton Jackson,Fr.,OL,12,3
+2016,Arkansas,Hjalte Froholdt,So.,OL,13,13
+2016,Arkansas,Jake Raulerson,Jr.,OL,11,8
+2016,Arkansas St.,Joseph Bacchus,Sr.,OL,12,12
+2016,Arkansas St.,Colton Jackson,Sr.,OL,10,10
+2016,Arkansas St.,Devin Mondie,Sr.,OL,11,11
+2016,Arkansas St.,Austin Moreton,Sr.,OL,12,12
+2016,Arkansas St.,Jemar Clark,Sr.,OL,12,12
+2016,Arkansas St.,Troy Elliott,Fr.,OL,8,2
+2016,Arkansas St.,Brandon Berg,Sr.,OL,6,1
+2016,Army West Point,Mike Johnson,Fr.,OL,7,1
+2016,Army West Point,Jaxson Deaton,Fr.,OL,11,2
+2016,Army West Point,Mike Houghton,Jr.,OL,11,8
+2016,Army West Point,Josh Boylan,Jr.,OL,6,2
+2016,Army West Point,Brett Toth,Jr.,OL,13,12
+2016,Army West Point,Bryce Holland,Jr.,OL,13,13
+2016,Army West Point,Colby Enegren,Sr.,OL,12,5
+2016,Army West Point,Tim Gant,So.,OL,5,1
+2016,Army West Point,Rick Kurz,So.,OL,11,9
+2016,Auburn,Darius James,Jr.,OL,13,9
+2016,Auburn,Alex Kozan,Sr.,OL,13,13
+2016,Auburn,Robert Leff,Sr.,OL,13,13
+2016,Auburn,Austin Golson,Jr.,OL,13,13
+2016,Auburn,Braden Smith,Jr.,OL,13,13
+2016,Auburn,Xavier Dampeer,Sr.,OL,6,4
+2016,BYU,Andrew Eide,Sr.,OL,13,13
+2016,BYU,Keyan Norman,Jr.,OL,13,13
+2016,BYU,Thomas Shoaf,Fr.,OL,11,9
+2016,BYU,Tuni Kanuch,Jr.,OL,13,9
+2016,BYU,Tejan Koroma,Jr.,OL,13,13
+2016,BYU,Parker Dawe,Sr.,OL,12,3
+2016,BYU,Austin Hoyt,So.,OL,13,2
+2016,BYU,Ului Lapuaho,Jr.,OL,2,2
+2016,Ball St.,Steven Bell,Sr.,OL,5,5
+2016,Ball St.,Drake Miller,Sr.,OL,12,12
+2016,Ball St.,Pat Maloney,Jr.,OL,12,12
+2016,Ball St.,Vinnie Palazeti,Jr.,OL,12,12
+2016,Ball St.,Alex Joss,So.,OL,12,12
+2016,Ball St.,Andrew Poenitsch,Fr.,OL,1,1
+2016,Ball St.,Kadin Booker,So.,OL,8,6
+2016,Baylor,Ishmael Wilson,Jr.,OL,13,11
+2016,Baylor,Blake Blackmar,So.,OL,13,12
+2016,Baylor,Patrick Lawrence,So.,OL,13,13
+2016,Baylor,Tanner Thrift,Jr.,OL,13,3
+2016,Baylor,Kyle Fuller,Sr.,OL,13,13
+2016,Baylor,Dom Desouza,Jr.,OL,13,13
+2016,Boise St.,Travis Averill,Sr.,OL,13,13
+2016,Boise St.,Steven Baggett,Sr.,OL,13,13
+2016,Boise St.,Mario Yakoo,Sr.,OL,12,12
+2016,Boise St.,Mason Hampton,Jr.,OL,11,11
+2016,Boise St.,Archie Lewis,Jr.,OL,13,13
+2016,Boise St.,John Molchon,Fr.,OL,7,3
+2016,Boston College,Chris Lindstrom,So.,OL,13,13
+2016,Boston College,Aaron Monteiro,So.,OL,12,12
+2016,Boston College,Jon Baker,Jr.,OL,13,13
+2016,Boston College,Sam Schmal,Jr.,OL,10,1
+2016,Boston College,Jim Cashman,Sr.,OL,12,3
+2016,Boston College,Jimmy Lowery,Sr.,OL,13,12
+2016,Boston College,Elijah Johnson,Fr.,OL,12,10
+2016,Bowling Green,JJ Beggan,Sr.,OL,11,11
+2016,Bowling Green,Ben Steward,Sr.,OL,11,11
+2016,Bowling Green,Logan Dietz,Sr.,OL,12,12
+2016,Bowling Green,Ryan Hunter,Jr.,OL,12,12
+2016,Bowling Green,Tim McAuliffe,Sr.,OL,12,12
+2016,Bowling Green,Lorenzo Taborn,Fr.,OL,9,2
+2016,Buffalo,Marcus McCoy,Sr.,OL,7,1
+2016,Buffalo,James O'Hagan,So.,OL,12,12
+2016,Buffalo,Brandon Manosalvas,Jr.,OL,12,12
+2016,Buffalo,Tyler O'Henly,Jr.,OL,4,3
+2016,Buffalo,Roubbens Joseph,Sr.,OL,12,12
+2016,Buffalo,David Goldsby,Jr.,OL,12,12
+2016,Buffalo,Tomas Jack-Kurdyla,Fr.,OL,10,8
+2016,California,Steven Moore,Sr.,OL,11,11
+2016,California,Chris Borrayo,Sr.,OL,11,11
+2016,California,Aaron Cochran,Jr.,OL,11,10
+2016,California,Addison Ooms,So.,OL,12,12
+2016,California,Patrick Mekari,So.,OL,8,4
+2016,California,Dwayne Wallace,Jr.,OL,12,9
+2016,California,Jeremiah Stuckey,Sr.,OL,5,3
+2016,Central Mich.,Kenny Rogers,Sr.,OL,13,8
+2016,Central Mich.,Austin Doan,Jr.,OL,9,9
+2016,Central Mich.,Derek Edwards,Jr.,OL,13,12
+2016,Central Mich.,J.P. Quinn,Jr.,OL,13,13
+2016,Central Mich.,Shakir Carr,So.,OL,11,9
+2016,Central Mich.,Steve Eipper,So.,OL,4,1
+2016,Charlotte,Chris Brown,So.,OL,11,10
+2016,Charlotte,Nate Davis,So.,OL,9,8
+2016,Charlotte,Jamal Covington,Sr.,OL,7,4
+2016,Charlotte,Thomas La Bianca,Sr.,OL,12,12
+2016,Charlotte,Eugene German,Jr.,OL,8,7
+2016,Charlotte,Wolfgang Zacherl,Jr.,OL,12,4
+2016,Charlotte,Jarred Barr,Sr.,OL,12,1
+2016,Charlotte,Casey Perry,Sr.,OL,12,12
+2016,Charlotte,Cameron Clark,Fr.,OL,11,2
+2016,Cincinnati,Will Steur,Jr.,OL,10,5
+2016,Cincinnati,Deyshawn Bond,Sr.,OL,12,12
+2016,Cincinnati,Ryan Leahy,Sr.,OL,12,9
+2016,Cincinnati,Idarius Ray,Sr.,OL,9,8
+2016,Cincinnati,Ryan Stout,So.,OL,12,12
+2016,Cincinnati,Keith Minor,So.,OL,2,2
+2016,Cincinnati,Korey Cunningham,Jr.,OL,12,12
+2016,Clemson,Tremayne Anchrum,Fr.,OL,11,1
+2016,Clemson,Sean Pollard,Fr.,OL,11,7
+2016,Clemson,Jay Guillermo,Sr.,OL,14,13
+2016,Clemson,Tyrone Crowder,Jr.,OL,13,13
+2016,Clemson,Taylor Hearn,So.,OL,14,14
+2016,Clemson,Jake Fruhmorgen,So.,OL,7,7
+2016,Clemson,Mitch Hyatt,So.,OL,14,13
+2016,Coastal Carolina,Voghens Larrieux,Sr.,OL,12,12
+2016,Coastal Carolina,Dom DiGalbo,Sr.,OL,12,5
+2016,Coastal Carolina,Sam Ekwonike,Sr.,OL,12,12
+2016,Coastal Carolina,Brock Merritt,So.,OL,6,1
+2016,Coastal Carolina,Chase Tidwell,Sr.,OL,8,6
+2016,Coastal Carolina,Jamarion McBride,So.,OL,12,7
+2016,Coastal Carolina,Adam Lawhorn,So.,OL,12,12
+2016,Coastal Carolina,Ethan Howard,Fr.,OL,9,3
+2016,Colorado,Aaron Haigler,Fr.,OL,12,8
+2016,Colorado,Tim Lynott,Fr.,OL,14,14
+2016,Colorado,Gerrad Kough,Jr.,OL,11,11
+2016,Colorado,Sam Kronshage,Jr.,OL,11,6
+2016,Colorado,Sully Wiefels,Sr.,OL,14,1
+2016,Colorado,Shane Callahan,Sr.,OL,13,1
+2016,Colorado,Alex Kelley,Sr.,OL,13,13
+2016,Colorado,Jeromy Irwin,Jr.,OL,13,13
+2016,Colorado,Jonathan Huckins,Jr.,OL,9,3
+2016,Colorado St.,Paul Thurston,Sr.,OL,11,8
+2016,Colorado St.,Colby Meeks,So.,OL,13,4
+2016,Colorado St.,Nick Callender,Sr.,OL,13,10
+2016,Colorado St.,Fred Zerblis,Sr.,OL,13,13
+2016,Colorado St.,Jake Bennett,Jr.,OL,13,13
+2016,Colorado St.,Zack Golditch,Jr.,OL,13,13
+2016,Colorado St.,Trae Moxley,Jr.,OL,13,3
+2016,Duke,Zach Harmon,So.,OL,12,10
+2016,Duke,Casey Blaser,Sr.,OL,12,12
+2016,Duke,Tanner Stone,Sr.,OL,12,12
+2016,Duke,Austin Davis,Jr.,OL,12,12
+2016,Duke,Sterling Korona,Jr.,OL,11,1
+2016,Duke,Gabe Brandner,Jr.,OL,11,11
+2016,Duke,Zach Baker,Fr.,OL,9,2
+2016,East Carolina,Brandon Smith,Jr.,OL,12,12
+2016,East Carolina,J.T. Boyd,Sr.,OL,12,12
+2016,East Carolina,Garrett McGhin,So.,OL,12,11
+2016,East Carolina,Christian Matau,Jr.,OL,12,9
+2016,East Carolina,Justin Sandifer,Jr.,OL,6,2
+2016,East Carolina,Messiah Rice,So.,OL,10,10
+2016,East Carolina,Will Dancy,Sr.,OL,12,4
+2016,Eastern Mich.,Steve Nielsen,Fr.,OL,11,1
+2016,Eastern Mich.,Jake Hurcombe,Sr.,OL,13,12
+2016,Eastern Mich.,Matt Thornton,Sr.,OL,1,1
+2016,Eastern Mich.,Darien Terrell,Sr.,OL,5,3
+2016,Eastern Mich.,Cole Gardner,Sr.,OL,13,13
+2016,Eastern Mich.,Jimmy Leatiota,So.,OL,13,13
+2016,Eastern Mich.,Ka'John Armstrong,So.,OL,13,9
+2016,Eastern Mich.,Andrew Wylie,Sr.,OL,13,13
+2016,FIU,Daquane Wilkie,So.,OL,12,8
+2016,FIU,Kai Absheer,So.,OL,12,11
+2016,FIU,Michael Montero,Sr.,OL,12,12
+2016,FIU,Dieugot Joseph,Sr.,OL,12,12
+2016,FIU,Trenton Saunders,Sr.,OL,12,12
+2016,FIU,James Cruise,Jr.,OL,12,1
+2016,FIU,Neal Mars,So.,OL,11,4
+2016,Fla. Atlantic,Roman Fernandez,Jr.,OL,10,10
+2016,Fla. Atlantic,Jakobi Smith,Jr.,OL,12,8
+2016,Fla. Atlantic,Antonyo Woods,Jr.,OL,11,11
+2016,Fla. Atlantic,Dillon DeBoer,Sr.,OL,12,12
+2016,Fla. Atlantic,Steven Leggett,So.,OL,12,10
+2016,Fla. Atlantic,Matthew Weiner,So.,OL,9,8
+2016,Fla. Atlantic,Jack Breshears,Fr.,OL,6,1
+2016,Fla. Atlantic,Kelly Parfitt,Sr.,OL,3,3
+2016,Fla. Atlantic,Bryan Beck,Fr.,OL,6,3
+2016,Fla. Atlantic,Tarrick Thomas,Fr.,OL,4,4
+2016,Florida,Martez Ivey,So.,OL,13,12
+2016,Florida,Fred Johnson,So.,OL,12,8
+2016,Florida,Tyler Jordan,So.,OL,11,8
+2016,Florida,T.J. McCoy,Fr.,OL,7,4
+2016,Florida,Cam Dillard,Jr.,OL,8,8
+2016,Florida,Kavaris Harkless,So.,OL,7,1
+2016,Florida,David Sharpe,Jr.,OL,13,13
+2016,Florida,Jawaan Taylor,Fr.,OL,13,12
+2016,Florida St.,Landon Dickerson,Fr.,OL,7,7
+2016,Florida St.,Alec Eberle,So.,OL,13,13
+2016,Florida St.,Roderick Johnson,Jr.,OL,13,13
+2016,Florida St.,Derrick Kelly II,So.,OL,5,2
+2016,Florida St.,Rick Leonard,Jr.,OL,7,6
+2016,Florida St.,Brock Ruble,So.,OL,9,7
+2016,Florida St.,Wilson Bell,Jr.,OL,10,5
+2016,Florida St.,Kareem Are,Sr.,OL,10,9
+2016,Florida St.,Cole Minshew,Fr.,OL,5,3
+2016,Fresno St.,Christian Cronk,So.,OL,12,12
+2016,Fresno St.,Jacob Vazquez,Sr.,OL,10,7
+2016,Fresno St.,Micah St. Andrew,So.,OL,12,12
+2016,Fresno St.,Aaron Mitchell,Jr.,OL,12,12
+2016,Fresno St.,David Patterson,Jr.,OL,12,12
+2016,Fresno St.,Logan Hughes,So.,OL,11,6
+2016,Ga. Southern,Drew Wilson,Fr.,OL,10,5
+2016,Ga. Southern,Jeremiah Culbreth,So.,OL,10,10
+2016,Ga. Southern,Ryan Northrup,So.,OL,12,12
+2016,Ga. Southern,Max Magana,Sr.,OL,12,10
+2016,Ga. Southern,Curtis Rainey,So.,OL,12,9
+2016,Ga. Southern,John Freeman,Jr.,OL,11,1
+2016,Ga. Southern,Andy Kwon,Sr.,OL,12,12
+2016,Ga. Southern,Sean Gaddy,Sr.,OL,2,1
+2016,Georgia,Greg Pyke,Sr.,OL,13,13
+2016,Georgia,Dyshon Sims,Jr.,OL,13,2
+2016,Georgia,Lamont Gaillard,So.,OL,13,13
+2016,Georgia,Isaiah Wynn,Jr.,OL,12,12
+2016,Georgia,Aulden Bynum,Jr.,OL,12,2
+2016,Georgia,Brandon Kublanow,Sr.,OL,13,13
+2016,Georgia,Tyler Catalina,Sr.,OL,13,12
+2016,Georgia St.,Alex Stoehr,Jr.,OL,12,12
+2016,Georgia St.,Akil Hawkins,Sr.,OL,11,1
+2016,Georgia St.,Gabe Mobley,So.,OL,12,11
+2016,Georgia St.,Sebastian Willer,Jr.,OL,12,11
+2016,Georgia St.,Michael Ivory,Sr.,OL,12,12
+2016,Georgia St.,Tyler Simonsen,Sr.,OL,11,2
+2016,Georgia St.,Hunter Atkinson,Fr.,OL,12,11
+2016,Georgia Tech,Andrew Marshall,Jr.,OL,11,9
+2016,Georgia Tech,Trey Klock,So.,OL,10,4
+2016,Georgia Tech,Eason Fromayan,Jr.,OL,13,10
+2016,Georgia Tech,Freddie Burden,Sr.,OL,12,12
+2016,Georgia Tech,Shamire Devine,Jr.,OL,13,7
+2016,Georgia Tech,Parker Braun,Fr.,OL,12,8
+2016,Georgia Tech,Will Bryan,So.,OL,13,11
+2016,Georgia Tech,Jahaziel Lee,Fr.,OL,9,3
+2016,Georgia Tech,Kenny Cooper,Fr.,OL,5,1
+2016,Hawaii,J.R. Hensley,Fr.,OL,6,1
+2016,Hawaii,RJ Hollis,Sr.,OL,14,14
+2016,Hawaii,John Wa'a,Jr.,OL,14,14
+2016,Hawaii,Elijah Tupai,Jr.,OL,12,3
+2016,Hawaii,Dejon Allen,Jr.,OL,14,14
+2016,Hawaii,Asotui Eli,So.,OL,13,11
+2016,Hawaii,Leo Koloamatangi,Sr.,OL,13,13
+2016,Houston,Alex Fonatana,Jr.,OL,11,5
+2016,Houston,Braylon Jones,Fr.,OL,11,5
+2016,Houston,Na'Ty Rodgers,Jr.,OL,8,7
+2016,Houston,Marcus Oliver,Jr.,OL,10,8
+2016,Houston,Mason Denley,So.,OL,8,6
+2016,Houston,Josh Jones,Fr.,OL,13,13
+2016,Houston,Will Noble,So.,OL,12,12
+2016,Houston,Kameron Eloph,So.,OL,6,4
+2016,Houston,Mac Long,Sr.,OL,12,4
+2016,Idaho,Noah Johnson,Fr.,OL,10,10
+2016,Idaho,Calvin White,Sr.,OL,13,13
+2016,Idaho,Mason Woods,Sr.,OL,13,13
+2016,Idaho,Patrick Johnson,So.,OL,9,2
+2016,Idaho,Jordan Rose,Jr.,OL,12,11
+2016,Idaho,Steven Matlock,Sr.,OL,13,13
+2016,Idaho,Zion Dixon,Fr.,OL,10,2
+2016,Idaho,Darius Peterson,Sr.,OL,13,1
+2016,Illinois,Austin Schmidt,Sr.,OL,11,11
+2016,Illinois,Christian DiLauro,Jr.,OL,12,12
+2016,Illinois,Nick Allegretti,Fr.,OL,12,12
+2016,Illinois,Joe Spencer,Sr.,OL,11,11
+2016,Illinois,Connor Brennan,Sr.,OL,11,4
+2016,Illinois,Jordan Fagan,Jr.,OL,7,1
+2016,Illinois,Gabe Megginson,Fr.,OL,10,7
+2016,Illinois,Darta Lee,Fr.,OL,6,2
+2016,Indiana,Simon Stepaniak,So.,OL,12,2
+2016,Indiana,Brandon Knight,So.,OL,8,6
+2016,Indiana,Wes Martin,So.,OL,13,13
+2016,Indiana,Wes Rogers,Sr.,OL,13,13
+2016,Indiana,Dan Feeney,Sr.,OL,9,9
+2016,Indiana,Jacob Bailey,Sr.,OL,12,7
+2016,Indiana,Dimitric Camiel,Sr.,OL,2,2
+2016,Indiana,Coy Cronk,Fr.,OL,13,13
+2016,Iowa,Cole Croston,Sr.,OL,9,8
+2016,Iowa,Levi Paulsen,Fr.,OL,8,1
+2016,Iowa,Keegan Render,So.,OL,13,7
+2016,Iowa,Lucas LeGrand,So.,OL,10,2
+2016,Iowa,James Daniels,So.,OL,11,11
+2016,Iowa,Ike Boettger,Jr.,OL,12,12
+2016,Iowa,Boone Myers,Jr.,OL,12,10
+2016,Iowa,Sean Welsh,Jr.,OL,12,12
+2016,Iowa St.,Julian Good-Jones,Fr.,OL,11,10
+2016,Iowa St.,Patrick Scoggins,Sr.,OL,12,11
+2016,Iowa St.,Jaypee Philbert,Jr.,OL,2,2
+2016,Iowa St.,Bryce Meeker,Fr.,OL,12,1
+2016,Iowa St.,Brian Seda,Sr.,OL,12,9
+2016,Iowa St.,Nick Fett,Sr.,OL,12,11
+2016,Iowa St.,Brian Bobek,Sr.,OL,12,11
+2016,Kansas,Hakeem Adeniji,Fr.,OL,12,12
+2016,Kansas,Jordan Shelley-Smith,Sr.,OL,1,1
+2016,Kansas,D'Andre Banks,Sr.,OL,12,12
+2016,Kansas,Larry Hughes,So.,OL,11,5
+2016,Kansas,Jayson Rhodes,Jr.,OL,11,11
+2016,Kansas,Mesa Ribordy,Fr.,OL,11,11
+2016,Kansas,Joe Gibson,Jr.,OL,6,6
+2016,Kansas,Jacob Bragg,So.,OL,10,2
+2016,Kansas St.,Will Ash,Sr.,OL,13,2
+2016,Kansas St.,Terrale Johnson,Sr.,OL,13,13
+2016,Kansas St.,Reid Najvar,Jr.,OL,13,13
+2016,Kansas St.,Dalton Risner,So.,OL,13,13
+2016,Kansas St.,Scott Frantz,Fr.,OL,13,13
+2016,Kansas St.,Abdul Beecham,So.,OL,8,5
+2016,Kansas St.,Tyler Mitchell,Fr.,OL,9,6
+2016,Kent St.,Reno Reda,Sr.,OL,12,12
+2016,Kent St.,Brock Macaulay,Jr.,OL,8,2
+2016,Kent St.,Mike Marinelli,Fr.,OL,8,4
+2016,Kent St.,Wayne Scott,Sr.,OL,12,12
+2016,Kent St.,Nathan Puthoff,Jr.,OL,6,6
+2016,Kent St.,Connor Shinsky,So.,OL,12,12
+2016,Kent St.,Stefano Millin,So.,OL,12,12
+2016,Kentucky,Landon Young,Fr.,OL,11,3
+2016,Kentucky,Jon Toth,Sr.,OL,13,13
+2016,Kentucky,Nick Haynes,Jr.,OL,13,13
+2016,Kentucky,Ramsey Meyers,Jr.,OL,12,3
+2016,Kentucky,Kyle Meadows,Jr.,OL,13,13
+2016,Kentucky,Cole Mosier,Jr.,OL,10,10
+2016,Kentucky,Jervontius Stallings,So.,OL,12,8
+2016,LSU,Maea Teuhema,So.,OL,12,10
+2016,LSU,Toby Weathersby,So.,OL,8,3
+2016,LSU,KJ Malone,Jr.,OL,12,12
+2016,LSU,Andy Dodd,Jr.,OL,6,1
+2016,LSU,Josh Boutte,Sr.,OL,11,11
+2016,LSU,Ethan Pocic,Sr.,OL,12,12
+2016,LSU,William Clapp,So.,OL,11,11
+2016,Louisiana,Eddie Gordon,Sr.,OL,13,13
+2016,Louisiana,Grant Horst,Jr.,OL,11,11
+2016,Louisiana,D'Aquin Winthrow,Jr.,OL,13,13
+2016,Louisiana,Robert Hunt,Fr.,OL,13,11
+2016,Louisiana,Raynard Ford,Jr.,OL,10,1
+2016,Louisiana,Kevin Dotson,Fr.,OL,13,12
+2016,Louisiana,Craig Smith,Jr.,OL,5,1
+2016,Louisiana,Adrian Goodacre,So.,OL,12,1
+2016,Louisiana Tech,Kirby Wixson,Sr.,OL,14,2
+2016,Louisiana Tech,Shane Carpenter,So.,OL,14,3
+2016,Louisiana Tech,O'Shea Dugas,So.,OL,14,11
+2016,Louisiana Tech,Ethan Reed,So.,OL,14,14
+2016,Louisiana Tech,David Mahaffey,Sr.,OL,12,1
+2016,Louisiana Tech,Joseph Brunson,Sr.,OL,14,14
+2016,Louisiana Tech,Darrell Brown,Sr.,OL,14,14
+2016,Louisiana Tech,Joshua Outlaw,Jr.,OL,12,7
+2016,Louisville,Lukayus McNeil,So.,OL,13,12
+2016,Louisville,Khalil Hunter,Sr.,OL,13,13
+2016,Louisville,Kioloa Mahoni,Sr.,OL,13,13
+2016,Louisville,Tobijah Hughley,Sr.,OL,13,13
+2016,Louisville,Kenny Thomas,So.,OL,10,1
+2016,Louisville,Geron Christian,So.,OL,13,13
+2016,Marshall,Nate Devers,So.,OL,12,5
+2016,Marshall,Jordan Dowrey,So.,OL,12,12
+2016,Marshall,Sandley Jean-Felix,Jr.,OL,10,4
+2016,Marshall,Alex Locklear,Fr.,OL,10,1
+2016,Marshall,AJ Addison,Jr.,OL,11,2
+2016,Marshall,Fedrice Binot,So.,OL,12,12
+2016,Marshall,Michael Selby,Sr.,OL,6,6
+2016,Marshall,Levi Brown,Fr.,OL,11,11
+2016,Marshall,Clint Van Horn,Sr.,OL,9,9
+2016,Maryland,Terrance Davis,Fr.,OL,13,9
+2016,Maryland,Michael Dunn,Sr.,OL,11,11
+2016,Maryland,Maurice Shelton,Sr.,OL,11,4
+2016,Maryland,Mike Minter,Jr.,OL,13,11
+2016,Maryland,Derwin Gray,So.,OL,13,3
+2016,Maryland,Brendan Moore,So.,OL,13,13
+2016,Maryland,Damian Prince,So.,OL,13,13
+2016,Maryland,Quarvez Boulware,So.,OL,6,1
+2016,Massachusetts,Fabian Hoeller,Sr.,OL,12,12
+2016,Massachusetts,Elijah Wilkinson,Sr.,OL,9,9
+2016,Massachusetts,Michael Boland,Sr.,OL,12,12
+2016,Massachusetts,Anthony Fernandez,So.,OL,1,1
+2016,Massachusetts,Jake Largay,So.,OL,12,7
+2016,Massachusetts,Jack Driscoll,Fr.,OL,10,9
+2016,Massachusetts,"Ray Thomas-Ishman, Sr.",Fr.,OL,12,12
+2016,Memphis,Christopher Roberson,Sr.,OL,13,9
+2016,Memphis,Jace Neville,So.,OL,13,5
+2016,Memphis,Gabe Kuhn,Jr.,OL,13,13
+2016,Memphis,Drew Kyser,So.,OL,13,13
+2016,Memphis,Trevon Tate,So.,OL,13,12
+2016,Memphis,Lio Lafaele,Jr.,OL,12,2
+2016,Memphis,Dustin Woodard,Fr.,OL,13,11
+2016,Miami (FL),Tyler Gauthier,So.,OL,8,4
+2016,Miami (FL),Tyree St. Louis,So.,OL,13,8
+2016,Miami (FL),Danny Isidora,Sr.,OL,13,12
+2016,Miami (FL),Alex Gall,Sr.,OL,11,4
+2016,Miami (FL),Trevor Darling,Jr.,OL,11,9
+2016,Miami (FL),Kc McDermott,Jr.,OL,12,11
+2016,Miami (FL),Sunny Odogwu,Sr.,OL,5,5
+2016,Miami (FL),Nick Linder,Jr.,OL,9,9
+2016,Miami (OH),Jordan Diamond,Sr.,OL,13,12
+2016,Miami (OH),Danny Godlevske,Fr.,OL,12,10
+2016,Miami (OH),Sam McCollum,So.,OL,13,13
+2016,Miami (OH),Randy Heideman,Jr.,OL,11,2
+2016,Miami (OH),Matt Skibinski,Fr.,OL,2,1
+2016,Miami (OH),Mitch Palmer,So.,OL,3,3
+2016,Miami (OH),Jordan Rigg,So.,OL,13,12
+2016,Miami (OH),Collin Buchanan,Sr.,OL,12,12
+2016,Michigan,Kyle Kalis,Sr.,OL,13,13
+2016,Michigan,Erik Magnuson,Sr.,OL,13,13
+2016,Michigan,Ben Braden,Sr.,OL,12,11
+2016,Michigan,Ben Bredeson,Fr.,OL,13,8
+2016,Michigan,Grant Newsome,So.,OL,5,5
+2016,Michigan,Patrick Kugler,Sr.,OL,5,1
+2016,Michigan,Juwann Bushell-Beatty,Jr.,OL,10,1
+2016,Michigan,Mason Cole,Jr.,OL,13,12
+2016,Michigan St.,Benny McGowan,Sr.,OL,12,9
+2016,Michigan St.,Brian Allen,Jr.,OL,12,12
+2016,Michigan St.,Kodi Kieler,Sr.,OL,11,11
+2016,Michigan St.,Miguel Machado,Sr.,OL,12,8
+2016,Michigan St.,David Beedle,So.,OL,11,5
+2016,Michigan St.,Brandon Clemons,Sr.,OL,12,11
+2016,Michigan St.,Cole Chewins,Fr.,OL,12,3
+2016,Michigan St.,Tyler Higby,Fr.,OL,10,6
+2016,Middle Tenn.,Hunter Rogers,Sr.,OL,12,1
+2016,Middle Tenn.,Josh Chester,Sr.,OL,13,13
+2016,Middle Tenn.,Daniel Stephens,Sr.,OL,13,13
+2016,Middle Tenn.,Maurquice Shakir,Sr.,OL,13,13
+2016,Middle Tenn.,Robert Behanan,Jr.,OL,13,2
+2016,Middle Tenn.,Chandler Brewer,So.,OL,13,13
+2016,Middle Tenn.,Carlos Johnson,Jr.,OL,10,9
+2016,Middle Tenn.,Jonathan Roth,Fr.,OL,9,2
+2016,Minnesota,Donnell Greene,So.,OL,13,8
+2016,Minnesota,Vincent Calhoun,Jr.,OL,10,7
+2016,Minnesota,Garrison Wright,Jr.,OL,13,13
+2016,Minnesota,Connor Mayes,Jr.,OL,13,6
+2016,Minnesota,Tyler Moore,So.,OL,12,12
+2016,Minnesota,Jared Weyler,So.,OL,10,8
+2016,Minnesota,Matt Leidner,Jr.,OL,5,1
+2016,Minnesota,Jonah Pirsig,Sr.,OL,10,10
+2016,Mississippi St.,Devon Desper,Sr.,OL,13,13
+2016,Mississippi St.,Justin Senior,Sr.,OL,13,13
+2016,Mississippi St.,Jamaal Clayborn,Sr.,OL,13,13
+2016,Mississippi St.,Elgton Jenkins,So.,OL,12,5
+2016,Mississippi St.,Deion Calhoun,So.,OL,9,9
+2016,Mississippi St.,Martinas Rankin,Jr.,OL,13,10
+2016,Mississippi St.,Michael Story,Fr.,OL,8,2
+2016,Missouri,Tyler Howell,Jr.,OL,12,12
+2016,Missouri,Alec Abeln,Jr.,OL,7,6
+2016,Missouri,Paul Adams,So.,OL,12,12
+2016,Missouri,Kevin Pendleton,So.,OL,12,12
+2016,Missouri,Adam Ploudre,Jr.,OL,10,7
+2016,Missouri,Jonah Dubinski,Fr.,OL,6,2
+2016,Missouri,Sam Bailey,So.,OL,9,9
+2016,NC State,Joe Scelfo,Sr.,OL,13,13
+2016,NC State,Tony Adams,Jr.,OL,13,13
+2016,NC State,Garrett Bradbury,So.,OL,13,13
+2016,NC State,Tyler Jones,So.,OL,13,13
+2016,NC State,Terronne Prescod,So.,OL,13,3
+2016,NC State,Will Richardson,So.,OL,12,10
+2016,NIU,Levon Myers,Sr.,OL,12,12
+2016,NIU,Josh Ruka,Sr.,OL,12,12
+2016,NIU,Lincoln Howard,Sr.,OL,12,4
+2016,NIU,Luke Shively,Jr.,OL,12,12
+2016,NIU,Max Scharping,So.,OL,12,12
+2016,NIU,Jordan Steckler,So.,OL,11,8
+2016,Navy,Adam West,Sr.,OL,14,14
+2016,Navy,Evan Martin,Jr.,OL,14,14
+2016,Navy,Maurice Morris,Sr.,OL,14,10
+2016,Navy,Parker Wade,Jr.,OL,13,4
+2016,Navy,Andrew Wood,So.,OL,14,14
+2016,Navy,Blake Copeland,Sr.,OL,14,14
+2016,Nebraska,Cole Conrad,So.,OL,13,5
+2016,Nebraska,Dylan Utter,Sr.,OL,13,13
+2016,Nebraska,Corey Whitaker,Sr.,OL,13,2
+2016,Nebraska,Tanner Farmer,So.,OL,11,11
+2016,Nebraska,Sam Hahn,Sr.,OL,13,9
+2016,Nebraska,David Knevel,Jr.,OL,10,8
+2016,Nebraska,Nick Gates,So.,OL,13,13
+2016,Nevada,Jacob Henry,Sr.,OL,11,11
+2016,Nevada,Jeremy Macauley,Sr.,OL,11,11
+2016,Nevada,Austin Corbett,Jr.,OL,11,11
+2016,Nevada,Nathan Goltry,Sr.,OL,11,11
+2016,Nevada,Daren Echeveria,So.,OL,9,2
+2016,Nevada,Sean Krepsz,So.,OL,11,9
+2016,New Mexico,Avery Jordan,Jr.,OL,12,7
+2016,New Mexico,Blaise Fountain,Jr.,OL,13,13
+2016,New Mexico,Aaron Jenkins,So.,OL,13,13
+2016,New Mexico,Reno Henderson,Sr.,OL,13,13
+2016,New Mexico,Charlie Grammel,Fr.,OL,13,6
+2016,New Mexico,Chris Lewis,Sr.,OL,12,9
+2016,New Mexico,Garrett Adcock,Sr.,OL,4,4
+2016,New Mexico St.,Thomas McGwire,Jr.,OL,4,2
+2016,New Mexico St.,Dezmand Candelarie,Jr.,OL,11,11
+2016,New Mexico St.,Jamin Smith,Jr.,OL,1,1
+2016,New Mexico St.,Abram Holland,Sr.,OL,12,11
+2016,New Mexico St.,Anthony McMeans,Sr.,OL,12,12
+2016,New Mexico St.,Brian Trujillo,Fr.,OL,3,2
+2016,New Mexico St.,Sebastian Anderson,Fr.,OL,10,10
+2016,New Mexico St.,Jefferson Hagen,Fr.,OL,4,1
+2016,New Mexico St.,Brayton Medina,Jr.,OL,11,2
+2016,New Mexico St.,Sage Doxtater,Fr.,OL,9,9
+2016,North Carolina,Lucas Crowley,Sr.,OL,13,13
+2016,North Carolina,R.J. Prince,Jr.,OL,13,12
+2016,North Carolina,Bentley Spain,Jr.,OL,13,13
+2016,North Carolina,Caleb Peterson,Sr.,OL,5,5
+2016,North Carolina,Jon Heck,Sr.,OL,12,12
+2016,North Carolina,Tommy Hatton,Fr.,OL,9,8
+2016,North Carolina,Nick Polino,Fr.,OL,13,1
+2016,North Carolina,William Sweet,So.,OL,13,1
+2016,North Texas,T.J. Henson,Jr.,OL,11,10
+2016,North Texas,Trey Keenan,Sr.,OL,13,13
+2016,North Texas,Chris Miles,So.,OL,8,2
+2016,North Texas,Sam Rice,Sr.,OL,13,13
+2016,North Texas,Jordan Murray,So.,OL,12,10
+2016,North Texas,Creighton Barr,So.,OL,9,6
+2016,North Texas,Garrett Gunter,So.,OL,4,3
+2016,North Texas,Elex Woodworth,So.,OL,11,8
+2016,Northwestern,Brad North,Jr.,OL,13,13
+2016,Northwestern,J.B. Butler,So.,OL,12,7
+2016,Northwestern,Tommy Doles,So.,OL,13,13
+2016,Northwestern,Blake Hance,So.,OL,13,13
+2016,Northwestern,Connor Mahoney,Sr.,OL,8,6
+2016,Northwestern,Eric Olson,Sr.,OL,13,13
+2016,Northwestern,Jared Thomas,Fr.,OL,7,1
+2016,Notre Dame,Alex Bars,Jr.,OL,12,12
+2016,Notre Dame,Sam Mustipher,Jr.,OL,12,12
+2016,Notre Dame,Quenton Nelson,Jr.,OL,12,12
+2016,Notre Dame,Mike McGlinchey,Sr.,OL,12,12
+2016,Notre Dame,Colin McGovern,Sr.,OL,11,8
+2016,Notre Dame,Hunter Bivin,Sr.,OL,12,1
+2016,Ohio,Josh Cooper,Sr.,OL,12,12
+2016,Ohio,Jared McCray,Jr.,OL,9,1
+2016,Ohio,Troy Watson,Sr.,OL,13,13
+2016,Ohio,Jake Pruehs,Jr.,OL,14,13
+2016,Ohio,Durrell Wood,Jr.,OL,14,14
+2016,Ohio,Joe Anderson,Jr.,OL,11,1
+2016,Ohio,Joe Lowery,Jr.,OL,13,13
+2016,Ohio St.,Isaiah Prince,So.,OL,13,12
+2016,Ohio St.,Jamarco Jones,Jr.,OL,13,13
+2016,Ohio St.,Pat Elflein,Sr.,OL,13,13
+2016,Ohio St.,Michael Jordan,Fr.,OL,13,13
+2016,Oklahoma,Bobby Evans,Fr.,OL,12,12
+2016,Oklahoma,Cody Ford,Fr.,OL,4,3
+2016,Oklahoma,Alex Dalton,So.,OL,6,1
+2016,Oklahoma,Dru Samia,So.,OL,13,13
+2016,Oklahoma,Erick Wren,Sr.,OL,12,10
+2016,Oklahoma,Jonathan Alvarez,Jr.,OL,9,3
+2016,Oklahoma,Orlando Brown,So.,OL,13,13
+2016,Oklahoma,Ben Powers,So.,OL,11,10
+2016,Oklahoma St.,Zac Veatch,Sr.,OL,13,7
+2016,Oklahoma St.,Larry Williams,Jr.,OL,6,5
+2016,Oklahoma St.,Brad Lundblade,Jr.,OL,13,13
+2016,Oklahoma St.,Zachary Crabtree,Jr.,OL,13,13
+2016,Oklahoma St.,Marcus Keyes,Fr.,OL,13,13
+2016,Oklahoma St.,Victor Salako,Sr.,OL,13,13
+2016,Oklahoma St.,Michael Wilson,Fr.,OL,9,8
+2016,Old Dominion,Tyler Compton,Sr.,OL,13,3
+2016,Old Dominion,Cullen Casey,Jr.,OL,10,2
+2016,Old Dominion,Devin Hannan,Fr.,OL,13,13
+2016,Old Dominion,Chad Hendricks,So.,OL,13,10
+2016,Old Dominion,Tony Barnett,Fr.,OL,10,6
+2016,Old Dominion,Nick Clarke,So.,OL,13,13
+2016,Old Dominion,Troy Butler,Sr.,OL,12,12
+2016,Old Dominion,Darius Garcia,Jr.,OL,6,6
+2016,Ole Miss,Alex Givens,Fr.,OL,12,5
+2016,Ole Miss,Greg Little,Fr.,OL,12,5
+2016,Ole Miss,Daronte Bouldin,Jr.,OL,11,4
+2016,Ole Miss,Rod Taylor,Jr.,OL,9,7
+2016,Ole Miss,Robert Conyers,Sr.,OL,10,8
+2016,Ole Miss,Sean Rawlings,So.,OL,11,8
+2016,Ole Miss,Jordan Sims,So.,OL,12,11
+2016,Ole Miss,Javon Patterson,So.,OL,12,12
+2016,Oregon,Brady Aiello,Fr.,OL,12,10
+2016,Oregon,Jake Hanson,Fr.,OL,12,11
+2016,Oregon,Shane Lemieux,Fr.,OL,12,12
+2016,Oregon,Calvin Throckmorton,Fr.,OL,12,12
+2016,Oregon,Cameron Hunt,Sr.,OL,12,12
+2016,Oregon,Tyrell Crosby,Jr.,OL,2,2
+2016,Oregon St.,Dustin Stanton,Sr.,OL,12,12
+2016,Oregon St.,Sean Harlow,Sr.,OL,9,9
+2016,Oregon St.,Fred Lauina,Jr.,OL,10,5
+2016,Oregon St.,Yanni Demogerontas,So.,OL,3,2
+2016,Oregon St.,Blake Brandel,Fr.,OL,12,12
+2016,Oregon St.,Brayden Kearsley,Jr.,OL,2,1
+2016,Oregon St.,Gus Lavaka,Fr.,OL,10,7
+2016,Oregon St.,Gavin Andrews,Sr.,OL,12,12
+2016,Penn St.,Connor McGovern,Fr.,OL,13,9
+2016,Penn St.,Ryan Bates,So.,OL,14,14
+2016,Penn St.,Steven Gonzalez,So.,OL,11,3
+2016,Penn St.,Brian Gaia,Sr.,OL,14,14
+2016,Penn St.,Chasz Wright,So.,OL,14,5
+2016,Penn St.,Paris Palmer,Sr.,OL,9,4
+2016,Penn St.,Brendan Mahon,Jr.,OL,9,9
+2016,Penn St.,Andrew Nelson,Jr.,OL,6,6
+2016,Pittsburgh,Adam Bisnowaty,Sr.,OL,13,13
+2016,Pittsburgh,Dorian Johnson,Sr.,OL,13,13
+2016,Pittsburgh,Jaryd Jones-Smith,Jr.,OL,5,1
+2016,Pittsburgh,Alex Officer,Jr.,OL,13,13
+2016,Pittsburgh,Alex Bookser,So.,OL,13,13
+2016,Pittsburgh,Brian O'Neill,So.,OL,13,13
+2016,Pittsburgh,Connor Dintino,So.,OL,10,1
+2016,Purdue,Cameron Cermin,Sr.,OL,11,7
+2016,Purdue,Jordan Roos,Sr.,OL,12,12
+2016,Purdue,Jason King,Sr.,OL,12,12
+2016,Purdue,Kirk Barron,So.,OL,12,12
+2016,Purdue,Martesse Patterson,So.,OL,2,2
+2016,Purdue,Jalen Neal,Jr.,OL,11,2
+2016,Purdue,Michael Mendez,Fr.,OL,8,3
+2016,Purdue,Matt McCann,Fr.,OL,11,10
+2016,Rice,Peter Godber,Jr.,OL,11,11
+2016,Rice,Trey Martin,Jr.,OL,8,8
+2016,Rice,Calvin Anderson,So.,OL,12,12
+2016,Rice,Cory Klingler,So.,OL,12,11
+2016,Rice,Sam Pierce,So.,OL,10,10
+2016,Rice,Joseph Dill,Fr.,OL,4,1
+2016,Rice,Isaiah Edwards,Fr.,OL,9,5
+2016,Rice,Crockett Mokry,Fr.,OL,2,1
+2016,Rice,Connor Patterson,Sr.,OL,1,1
+2016,Rutgers,Zack Heeman,So.,OL,3,1
+2016,Rutgers,Tariq Cole,So.,OL,10,10
+2016,Rutgers,Dorian Miller,Jr.,OL,11,11
+2016,Rutgers,Derrick Nelson,Sr.,OL,11,11
+2016,Rutgers,J.J. Denman,Sr.,OL,9,6
+2016,Rutgers,Chris Muller,Sr.,OL,11,11
+2016,Rutgers,Kamaal Seymour,Fr.,OL,9,5
+2016,SMU,Evan Brown,Jr.,OL,12,12
+2016,SMU,Braylon Hyder,Jr.,OL,11,7
+2016,SMU,Nick Natour,So.,OL,10,10
+2016,SMU,Daniel McCarty,Jr.,OL,7,7
+2016,SMU,Jerry Saena,Jr.,OL,12,12
+2016,SMU,Bryce Wilds,Fr.,OL,12,1
+2016,SMU,Chauncey Briggs,Sr.,OL,11,11
+2016,San Diego St.,Arthur Flores,Sr.,OL,14,14
+2016,San Diego St.,Kwayde Miller,Sr.,OL,14,14
+2016,San Diego St.,Nico Siragusa,Sr.,OL,14,14
+2016,San Diego St.,Antonio Rosales,Jr.,OL,14,14
+2016,San Jose St.,Evan Sarver,Sr.,OL,12,9
+2016,San Jose St.,Jeremiah Kolone,Jr.,OL,12,12
+2016,San Jose St.,Nate Velichko,Jr.,OL,7,7
+2016,San Jose St.,Chris Gonzalez,Jr.,OL,10,10
+2016,San Jose St.,Dominic Fredrickson,Fr.,OL,3,2
+2016,San Jose St.,Troy Kowalski,Fr.,OL,11,9
+2016,San Jose St.,Keoni Taylor,Jr.,OL,11,11
+2016,South Alabama,Dominic Esposito,Jr.,OL,13,12
+2016,South Alabama,Ryan Alexander,Fr.,OL,9,4
+2016,South Alabama,Harrison Louden,Jr.,OL,11,6
+2016,South Alabama,Steve McKenzie,Sr.,OL,13,8
+2016,South Alabama,Steven Foster,Sr.,OL,11,11
+2016,South Alabama,Noah Fisher,So.,OL,13,13
+2016,South Alabama,Troy Thingstad,Fr.,OL,6,1
+2016,South Alabama,Curtis Williams,Sr.,OL,7,6
+2016,South Alabama,De'Arius Young,Sr.,OL,10,5
+2016,South Carolina,Cory Helms,Jr.,OL,13,13
+2016,South Carolina,Blake Camper,So.,OL,6,1
+2016,South Carolina,Zack Bailey,So.,OL,13,13
+2016,South Carolina,Mason Zandi,Sr.,OL,13,13
+2016,South Carolina,Donell Stanley,So.,OL,1,1
+2016,South Carolina,Malik Young,So.,OL,13,9
+2016,South Carolina,Alan Knott,Jr.,OL,12,12
+2016,South Carolina,D.J. Park,Jr.,OL,13,3
+2016,South Fla.,Kofi Amichia,Sr.,OL,12,12
+2016,South Fla.,Dominique Threatt,Sr.,OL,12,12
+2016,South Fla.,Jeremi Hall,Jr.,OL,12,12
+2016,South Fla.,Cameron Ruff,Jr.,OL,12,12
+2016,South Fla.,Marcus Norman,Fr.,OL,12,8
+2016,South Fla.,William Atterbury,So.,OL,4,4
+2016,Southern California,Jordan Simmons,Sr.,OL,13,2
+2016,Southern California,Chad Wheeler,Sr.,OL,13,11
+2016,Southern California,Zach Banner,Sr.,OL,11,11
+2016,Southern California,Chuma Edoga,So.,OL,9,2
+2016,Southern California,Damien Mama,Jr.,OL,13,12
+2016,Southern California,Chris Brown,So.,OL,13,1
+2016,Southern California,Viane Talamaivao,Jr.,OL,13,13
+2016,Southern California,Nico Falah,Jr.,OL,13,12
+2016,Southern California,Toa Lobendahn,Jr.,OL,1,1
+2016,Southern Miss.,Cameron Tom,Sr.,OL,13,13
+2016,Southern Miss.,Devin Farrior,Jr.,OL,12,8
+2016,Southern Miss.,Brandon Farmer,Sr.,OL,13,12
+2016,Southern Miss.,Oliver Bates,Sr.,OL,11,6
+2016,Southern Miss.,Jacob Fleming,Sr.,OL,8,4
+2016,Southern Miss.,Ty Pollard,Fr.,OL,13,13
+2016,Southern Miss.,Wil Freeman,Sr.,OL,13,9
+2016,Stanford,Jesse Burkett,Jr.,OL,13,13
+2016,Stanford,Brandon Fanaika,Jr.,OL,9,5
+2016,Stanford,A.T. Hall,Jr.,OL,13,13
+2016,Stanford,David Bright,Sr.,OL,12,10
+2016,Stanford,Johnny Caspers,Sr.,OL,12,11
+2016,Stanford,Casey Tucker,Jr.,OL,8,7
+2016,Stanford,Nate Herbig,Fr.,OL,13,6
+2016,Syracuse,Donnie Foster,So.,OL,6,2
+2016,Syracuse,Aaron Roberts,So.,OL,12,12
+2016,Syracuse,Omari Palmer,Sr.,OL,3,3
+2016,Syracuse,Jason Emerich,Sr.,OL,2,2
+2016,Syracuse,Evan Adams,Fr.,OL,12,9
+2016,Syracuse,Colin Byrne,Fr.,OL,10,8
+2016,Syracuse,Cody Conway,So.,OL,9,8
+2016,Syracuse,Michael Lasker,Sr.,OL,11,4
+2016,Syracuse,Jamar McGloster,Jr.,OL,12,12
+2016,TCU,Aviante Collins,Sr.,OL,13,13
+2016,TCU,Patrick Morris,Jr.,OL,11,11
+2016,TCU,Matt Pryor,Jr.,OL,13,13
+2016,TCU,Joseph Noteboom,Jr.,OL,13,13
+2016,TCU,Austin Schlottmann,Jr.,OL,11,11
+2016,TCU,Trey Elliott,So.,OL,6,2
+2016,TCU,Cordel Iwuagwu,Fr.,OL,8,2
+2016,Temple,Matt Hennessy,Fr.,OL,4,1
+2016,Temple,Brendan McGowan,Sr.,OL,14,14
+2016,Temple,Dion Dawkins,Sr.,OL,14,14
+2016,Temple,Cole Boozer,Jr.,OL,14,1
+2016,Temple,Leon Johnson,Jr.,OL,14,13
+2016,Temple,Adrian Sullivan,Jr.,OL,14,14
+2016,Temple,Gordon Thomas,So.,OL,4,1
+2016,Temple,Jovahn Fair,Fr.,OL,14,13
+2016,Tennessee,Venzell Boulware,Fr.,OL,7,3
+2016,Tennessee,Drew Richmond,Fr.,OL,9,5
+2016,Tennessee,Coleman Thomas,Jr.,OL,11,9
+2016,Tennessee,Brett Kendrick,Jr.,OL,13,13
+2016,Tennessee,Jack Jones,So.,OL,9,6
+2016,Tennessee,Dylan Wiesman,Sr.,OL,10,10
+2016,Tennessee,Jashon Robertson,Jr.,OL,13,12
+2016,Tennessee,Chance Hall,So.,OL,6,6
+2016,Texas,Zach Shackelford,Fr.,OL,9,9
+2016,Texas,Kent Perkins,Sr.,OL,10,10
+2016,Texas,Patrick Vahe,So.,OL,12,9
+2016,Texas,Connor Williams,So.,OL,11,11
+2016,Texas,Elijah Rodriguez,So.,OL,12,3
+2016,Texas,Brandon Hodges,Jr.,OL,11,9
+2016,Texas,Alex Anderson,So.,OL,4,1
+2016,Texas,Jake McMillon,So.,OL,10,5
+2016,Texas,Tristan Nickelson,Jr.,OL,8,3
+2016,Texas A&M,Colton Prater,Fr.,OL,12,12
+2016,Texas A&M,Jermaine Eluemunor,Sr.,OL,12,12
+2016,Texas A&M,Avery Gennesy,Sr.,OL,13,13
+2016,Texas A&M,Connor Lanfear,So.,OL,8,8
+2016,Texas A&M,Koda Martin,So.,OL,13,4
+2016,Texas A&M,Erik McCoy,Fr.,OL,13,13
+2016,Texas A&M,Keaton Sutherland,So.,OL,8,4
+2016,Texas St.,Jacob Rowland,Fr.,OL,10,6
+2016,Texas St.,Willie Williams,Fr.,OL,5,1
+2016,Texas St.,Guilliano Cattaneo,Sr.,OL,9,8
+2016,Texas St.,Tryston Mizerak,Jr.,OL,8,8
+2016,Texas St.,Felix Romero,Sr.,OL,10,10
+2016,Texas St.,Ryan Melton,Sr.,OL,12,12
+2016,Texas St.,Aaron Brewer,Fr.,OL,12,11
+2016,Texas Tech,Justin Murphy,So.,OL,9,8
+2016,Texas Tech,Baylen Brown,Sr.,OL,12,12
+2016,Texas Tech,Madison Akamnonu,Fr.,OL,12,7
+2016,Texas Tech,Paul Stawarz,So.,OL,12,8
+2016,Texas Tech,Terence Steele,Fr.,OL,12,12
+2016,Texas Tech,Tony Morales,Sr.,OL,12,12
+2016,Texas Tech,Bailey Smith,Fr.,OL,3,1
+2016,Toledo,Storm Norton,Sr.,OL,12,11
+2016,Toledo,Paul Perschon,Sr.,OL,12,12
+2016,Toledo,Nate Jeppesen,Jr.,OL,12,8
+2016,Toledo,Brant Weiss,Jr.,OL,11,5
+2016,Toledo,Mike Ebert,Sr.,OL,10,9
+2016,Toledo,Elijah Nkansah,Jr.,OL,9,8
+2016,Toledo,Yazeed Atariwa,So.,OL,10,1
+2016,Toledo,Bryce Harris,Fr.,OL,9,6
+2016,Troy,Antonio Garcia,Sr.,OL,13,11
+2016,Troy,Tyler Lassiter,Sr.,OL,13,12
+2016,Troy,Xavier Fields,Sr.,OL,13,12
+2016,Troy,Deontae Crumitie,So.,OL,13,12
+2016,Troy,Kirk Kelley,Fr.,OL,8,2
+2016,Troy,Steven Rowzee,Fr.,OL,13,11
+2016,Tulane,Todd Jacquet,Sr.,OL,12,12
+2016,Tulane,Kenneth Santa Marina,Jr.,OL,9,7
+2016,Tulane,Chris Taylor,Sr.,OL,12,12
+2016,Tulane,Leeward Brown,Fr.,OL,12,12
+2016,Tulane,John Leglue,So.,OL,12,12
+2016,Tulane,Junior Diaz,So.,OL,3,3
+2016,Tulsa,Willie Wright,So.,OL,12,12
+2016,Tulsa,Evan Plagg,Jr.,OL,12,12
+2016,Tulsa,Zac Uhles,Jr.,OL,13,2
+2016,Tulsa,Blake Belcher,Sr.,OL,9,9
+2016,Tulsa,Tyler Bowling,So.,OL,13,13
+2016,Tulsa,Chandler Miller,So.,OL,13,13
+2016,Tulsa,Alex Pagonis,Sr.,OL,13,4
+2016,UCF,Jordan Johnson,Fr.,OL,12,11
+2016,UCF,Aaron Evans,Jr.,OL,12,11
+2016,UCF,Tate Hernly,Jr.,OL,10,4
+2016,UCF,Wyatt Miller,So.,OL,12,12
+2016,UCF,Chavis Dickey,Jr.,OL,12,1
+2016,UCF,Jason Rae,Sr.,OL,12,12
+2016,UCF,Chester Brown,Sr.,OL,11,2
+2016,UCF,Tyler Hudanick,So.,OL,6,6
+2016,UCLA,Josh Wariboko-Alali,So.,OL,7,2
+2016,UCLA,Kenny Lacy,Sr.,OL,11,9
+2016,UCLA,Poasi Moala,Sr.,OL,10,3
+2016,UCLA,Kolton Miller,Jr.,OL,5,5
+2016,UCLA,Conor McDermott,Sr.,OL,12,12
+2016,UConn,Andreas Knappe,Sr.,OL,12,12
+2016,UConn,Richard Levy,Sr.,OL,12,12
+2016,UConn,Brendan Vechery,Jr.,OL,11,2
+2016,UConn,Ryan Crozier,So.,OL,12,12
+2016,UConn,Trey Rutherford,Jr.,OL,12,7
+2016,UConn,Matt Peart,Fr.,OL,12,11
+2016,UConn,Thomas Hopkins,Jr.,OL,5,3
+2016,UConn,Bryan Cespedes,Fr.,OL,1,1
+2016,ULM,Eastwood Thomas,So.,OL,11,10
+2016,ULM,Devin Jackson Jr,So.,OL,12,9
+2016,ULM,Frank Sutton Jr,Jr.,OL,12,11
+2016,ULM,Rey Baltazar,Sr.,OL,12,12
+2016,ULM,Keaton Baggs,So.,OL,1,1
+2016,ULM,Jeff Savage,Sr.,OL,12,11
+2016,ULM,Bobby Reynolds,So.,OL,11,5
+2016,UNLV,Jaron Caldwell,Fr.,OL,10,1
+2016,UNLV,Michael Chevalier,Jr.,OL,12,12
+2016,UNLV,Kyle Saxelid,Jr.,OL,12,11
+2016,UNLV,Nathan Jacobson,So.,OL,12,12
+2016,UNLV,Will Kreitler,Sr.,OL,12,12
+2016,UNLV,Justin Polu,So.,OL,12,12
+2016,UTEP,John De La Rosa,Sr.,OL,11,9
+2016,UTEP,Jerome Daniels,Sr.,OL,10,10
+2016,UTEP,Will Hernandez,Jr.,OL,12,12
+2016,UTEP,Derron Gatewood,So.,OL,12,12
+2016,UTEP,Anthony Kyles,Sr.,OL,8,1
+2016,UTEP,Jerrod Brooks,So.,OL,12,5
+2016,UTEP,Greg Long,Fr.,OL,9,4
+2016,UTEP,Tanner Stallings,Jr.,OL,7,7
+2016,UTSA,Jevonte Domond,Sr.,OL,12,12
+2016,UTSA,Stefan Beard,Jr.,OL,11,11
+2016,UTSA,Juan Perez-Isidoro,Jr.,OL,8,6
+2016,UTSA,Reed Darragh,Jr.,OL,13,4
+2016,UTSA,Kyle McKinney,Jr.,OL,13,7
+2016,UTSA,Gabriel Casillas,Sr.,OL,13,13
+2016,UTSA,Austin Pratt,Jr.,OL,12,12
+2016,Utah,J.J. Dielman,Sr.,OL,5,5
+2016,Utah,Nick Nowakowski,Sr.,OL,13,8
+2016,Utah,Garett Bolles,Jr.,OL,13,13
+2016,Utah,Sam Tevi,Sr.,OL,11,11
+2016,Utah,Salesi Uhatafe,Jr.,OL,13,13
+2016,Utah,Jackson Barton,So.,OL,13,2
+2016,Utah,Isaac Asiata,Sr.,OL,13,13
+2016,Utah St.,Austin Stephens,Sr.,OL,12,12
+2016,Utah St.,Austin Albrecht,Sr.,OL,12,12
+2016,Utah St.,Jake Simonich,Sr.,OL,12,12
+2016,Utah St.,KJ Uluave,So.,OL,12,4
+2016,Utah St.,Jude Hockel,Sr.,OL,12,8
+2016,Utah St.,Preston Brooksby,Jr.,OL,12,11
+2016,Utah St.,Cody Boyer,So.,OL,6,1
+2016,Vanderbilt,Barrett Gouger,Sr.,OL,13,13
+2016,Vanderbilt,Will Holden,Sr.,OL,13,12
+2016,Vanderbilt,Delando Crooks,Jr.,OL,4,4
+2016,Vanderbilt,Bruno Reagan,So.,OL,13,13
+2016,Vanderbilt,Ean Pfeifer,So.,OL,11,9
+2016,Vanderbilt,Justin Skule,So.,OL,13,13
+2016,Virginia,Michael Mooney,Sr.,OL,12,11
+2016,Virginia,Jake Fieler,So.,OL,12,2
+2016,Virginia,Jack English,Jr.,OL,12,11
+2016,Virginia,Jack McDonald,Jr.,OL,12,11
+2016,Virginia,Eric Smith,Sr.,OL,12,12
+2016,Virginia,R.J. Proctor,Fr.,OL,8,1
+2016,Virginia,Jackson Matteo,Sr.,OL,12,12
+2016,Virginia Tech,Wyatt Teller,Jr.,OL,14,12
+2016,Virginia Tech,Jonathan McLaughlin,Sr.,OL,14,14
+2016,Virginia Tech,Augie Conte,Sr.,OL,14,14
+2016,Virginia Tech,Colt Pettit,So.,OL,14,3
+2016,Virginia Tech,Eric Gallo,Jr.,OL,13,12
+2016,Virginia Tech,Kyle Chung,Jr.,OL,6,2
+2016,Virginia Tech,Yosuah Nijman,So.,OL,14,14
+2016,Wake Forest,Tyler Hayworth,Sr.,OL,12,12
+2016,Wake Forest,A'Lique Terry,Jr.,OL,6,2
+2016,Wake Forest,Ryan Anderson,So.,OL,13,13
+2016,Wake Forest,Phil Haynes,So.,OL,13,13
+2016,Wake Forest,Justin Herron,So.,OL,12,12
+2016,Wake Forest,Patrick Osterhage,So.,OL,13,1
+2016,Wake Forest,Josh T. Harris,Sr.,OL,10,10
+2016,Wake Forest,Nathan Gilliam,Fr.,OL,10,1
+2016,Wake Forest,Jake Benzinger,Fr.,OL,10,1
+2016,Washington,Shane Brostek,Sr.,OL,11,7
+2016,Washington,Jake Eldrenkamp,Sr.,OL,12,12
+2016,Washington,Trey Adams,So.,OL,14,14
+2016,Washington,Kaleb McGary,So.,OL,14,14
+2016,Washington,Andrew Kirkland,Jr.,OL,14,5
+2016,Washington,Coleman Shelton,Jr.,OL,14,14
+2016,Washington,Nick Harris,Fr.,OL,12,4
+2016,Washington St.,Andre Dillard,So.,OL,13,13
+2016,Washington St.,Eduardo Middleton,Sr.,OL,13,13
+2016,Washington St.,Cody O'Connell,Jr.,OL,13,12
+2016,Washington St.,Riley Sorenson,Sr.,OL,13,13
+2016,Washington St.,Cole Madison,Jr.,OL,13,13
+2016,Washington St.,B.J. Salmonson,Jr.,OL,12,1
+2016,West Virginia,Colton McKivitz,Fr.,OL,13,10
+2016,West Virginia,Marcell Lazard,Jr.,OL,11,6
+2016,West Virginia,Tony Matteo,Sr.,OL,13,11
+2016,West Virginia,Adam Pankey,Sr.,OL,12,11
+2016,West Virginia,Tyler Orlosky,Sr.,OL,13,13
+2016,West Virginia,Kyle Bosch,Jr.,OL,13,13
+2016,Western Ky.,Dennis Edwards,So.,OL,14,13
+2016,Western Ky.,Brandon Ray,Jr.,OL,14,14
+2016,Western Ky.,Matt Nord,Jr.,OL,14,1
+2016,Western Ky.,Jimmie Sims,Jr.,OL,12,7
+2016,Western Ky.,Forrest Lamp,Sr.,OL,12,11
+2016,Western Ky.,Darrell Williams,Sr.,OL,14,14
+2016,Western Ky.,Max Halpin,Sr.,OL,14,14
+2016,Western Mich.,Taylor Moton,Sr.,OL,14,14
+2016,Western Mich.,Chukwuma Okorafor,Jr.,OL,14,14
+2016,Western Mich.,Jackson Day,Sr.,OL,14,14
+2016,Western Mich.,John Keenoy,So.,OL,14,14
+2016,Western Mich.,Luke Juriga,So.,OL,14,14
+2016,Wisconsin,Jon Dietzen,Fr.,OL,10,8
+2016,Wisconsin,David Edwards,Fr.,OL,13,7
+2016,Wisconsin,Ryan Ramczyk,Jr.,OL,14,14
+2016,Wisconsin,Beau Benzschawel,So.,OL,14,14
+2016,Wisconsin,Brett Connors,So.,OL,12,4
+2016,Wisconsin,Michael Deiter,So.,OL,14,14
+2016,Wisconsin,Micah Kapoi,So.,OL,14,2
+2016,Wisconsin,Jacob Maxwell,So.,OL,7,7
+2016,Wyoming,Zach Wallace,So.,OL,14,14
+2016,Wyoming,Kaden Jackson,So.,OL,14,14
+2016,Wyoming,Chase Roullier,Sr.,OL,14,14
+2016,Wyoming,Brinkley Jolly,So.,OL,7,7
+2016,Wyoming,Gavin Rush,Fr.,OL,14,14
+2016,Wyoming,Ryan Cummings,Jr.,OL,7,7
