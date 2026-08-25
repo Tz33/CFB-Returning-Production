@@ -1,0 +1,899 @@
+season,school,player_name,class_year,position,gp,gs
+2020,Air Force,Nicholas Noyen,Sr.,OL,5,5
+2020,Air Force,Adam Jewell,Sr.,OL,5,5
+2020,Air Force,Parker Ferguson,Sr.,OL,6,6
+2020,Air Force,Kyle Krepsz,Sr.,OL,5,5
+2020,Air Force,Nolan Laufenberg,Sr.,OL,5,5
+2020,Air Force,Britton Beasley,Sr.,OL,4,1
+2020,Air Force,Hawk Wimmer,Jr.,OL,5,1
+2020,Air Force,George Silvanic,Sr.,OL,6,5
+2020,Air Force,Kristopher Campbell,Jr.,OL,4,1
+2020,Air Force,Ryan Booth,Jr.,OL,4,1
+2020,Akron,Bryce Petersen,Sr.,OL,6,6
+2020,Akron,Ryan Beckman,Fr.,OL,6,6
+2020,Akron,Xavior Gray,Fr.,OL,6,6
+2020,Akron,Owen Murphy,Fr.,OL,6,5
+2020,Akron,Jordan Daniels,Fr.,OL,6,6
+2020,Alabama,Deonte Brown,Sr.,OL,13,13
+2020,Alabama,Chris Owens,Sr.,OL,11,3
+2020,Alabama,Alex Leatherwood,Sr.,OL,13,13
+2020,Alabama,Kendall Randolph,Jr.,OL,12,5
+2020,Alabama,Emil Ekiyor Jr.,So.,OL,13,13
+2020,Alabama,Landon Dickerson,Sr.,OL,12,11
+2020,Alabama,Evan Neal,So.,OL,12,12
+2020,App State,Ryan Neuzil,Sr.,OL,12,12
+2020,App State,Cole Garrison,Sr.,OL,10,10
+2020,App State,Noah Hannon,Sr.,OL,12,12
+2020,App State,Baer Hunter,Sr.,OL,12,12
+2020,App State,Cooper Hodges,So.,OL,11,11
+2020,App State,Anderson Hardy,So.,OL,12,3
+2020,App State,Lyle Hiers,Fr.,OL,11,1
+2020,App State,Damion Daley,So.,OL,12,2
+2020,Arizona,Josh McCauley,Sr.,OL,5,5
+2020,Arizona,Tyson Gardner,Jr.,OL,3,1
+2020,Arizona,Robert Congel,Jr.,OL,5,5
+2020,Arizona,Donovan Laie,Jr.,OL,5,5
+2020,Arizona,Josh Donovan,Sr.,OL,5,2
+2020,Arizona,Paiton Fears,Jr.,OL,5,5
+2020,Arizona,Jordan Morgan,So.,OL,2,2
+2020,Arizona St.,Henry Hattis,Sr.,OL,4,4
+2020,Arizona St.,Cade Cote,Sr.,OL,4,4
+2020,Arizona St.,Dohnovan West,So.,OL,4,4
+2020,Arizona St.,Ben Scott,Fr.,OL,4,4
+2020,Arizona St.,Kellen Diesch,Sr.,OL,4,4
+2020,Arkansas,Brady Latham,Fr.,OL,10,10
+2020,Arkansas,Ty Clary,Sr.,OL,8,7
+2020,Arkansas,Dalton Wagner,Jr.,OL,8,5
+2020,Arkansas,Noah Gatlin,So.,OL,5,5
+2020,Arkansas,Ricky Stromberg,So.,OL,9,8
+2020,Arkansas,Myron Cunningham,Sr.,OL,10,10
+2020,Arkansas,Beaux Limmer,Fr.,OL,7,5
+2020,Arkansas St.,Ethan Miner,Fr.,OL,9,1
+2020,Arkansas St.,Jarrett Horst,Jr.,OL,7,7
+2020,Arkansas St.,Nour-Eddine Seidnaly,Sr.,OL,4,4
+2020,Arkansas St.,Jacob Still,Sr.,OL,10,10
+2020,Arkansas St.,Justin Dutton,Jr.,OL,7,2
+2020,Arkansas St.,"Andre Harris, Jr.",Jr.,OL,8,7
+2020,Arkansas St.,Wyatt Luebke,Jr.,OL,11,10
+2020,Arkansas St.,Ivory Scott,Sr.,OL,11,11
+2020,Arkansas St.,Ernesto Ramirez,Jr.,OL,6,1
+2020,Arkansas St.,Avery Demmons,Jr.,OL,10,2
+2020,Army West Point,JB Hunter,Sr.,OL,10,10
+2020,Army West Point,Luke McCleery,Sr.,OL,11,8
+2020,Army West Point,Kamaron Holloway,Jr.,OL,7,1
+2020,Army West Point,Noah Knapp,Jr.,OL,9,2
+2020,Army West Point,Mason Kolinchak,Jr.,OL,6,3
+2020,Army West Point,Dean Powell,Jr.,OL,10,1
+2020,Army West Point,Connor Bishop,So.,OL,11,10
+2020,Army West Point,Jordyn Law,Fr.,OL,7,2
+2020,Army West Point,Connor Finucane,Fr.,OL,10,1
+2020,Army West Point,Mike Johnson,Sr.,OL,12,12
+2020,Auburn,Tashawn Manning,Jr.,OL,11,11
+2020,Auburn,Austin Troxell,Jr.,OL,8,4
+2020,Auburn,Keiondre Jones,Fr.,OL,11,7
+2020,Auburn,Nick Brahms,Jr.,OL,11,11
+2020,Auburn,Brodarious Hamm,Jr.,OL,9,8
+2020,Auburn,Alec Jackson,Jr.,OL,10,8
+2020,Auburn,Brandon Council,Jr.,OL,5,5
+2020,Auburn,Brenden Coffey,Jr.,OL,5,1
+2020,BYU,Joe Tukuafu,Jr.,OL,9,4
+2020,BYU,Chandon Herring,Sr.,OL,12,11
+2020,BYU,Brady Christensen,Jr.,OL,12,12
+2020,BYU,James Empey,Jr.,OL,8,8
+2020,BYU,Tristen Hoge,Sr.,OL,8,7
+2020,BYU,Clark Barrington,So.,OL,10,10
+2020,BYU,Blake Freeland,So.,OL,11,8
+2020,Ball St.,Porter Haught,So.,OL,2,1
+2020,Ball St.,Kaleb Slaven,Sr.,OL,7,7
+2020,Ball St.,Anthony Todd,Sr.,OL,8,8
+2020,Ball St.,Curtis Blackwell,Sr.,OL,8,8
+2020,Ball St.,Jaylen Turner,So.,OL,8,8
+2020,Ball St.,Joseph Boggs,So.,OL,8,8
+2020,Baylor,Khalil Keith,Jr.,OL,9,4
+2020,Baylor,Ryan Miller,Sr.,OL,9,6
+2020,Baylor,Jason Moore,Jr.,OL,9,9
+2020,Baylor,Xavier Newman,Sr.,OL,5,4
+2020,Baylor,Connor Galvin,Jr.,OL,8,8
+2020,Baylor,Casey Phillips,So.,OL,8,2
+2020,Baylor,Blake Bedier,Sr.,OL,8,8
+2020,Baylor,Jake Burton,Sr.,OL,8,8
+2020,Baylor,Mose Jeffery,So.,OL,4,2
+2020,Boise St.,Donte Harrington,Sr.,OL,5,1
+2020,Boise St.,Nick Crabtree,Sr.,OL,6,6
+2020,Boise St.,John Ojukwu,Jr.,OL,7,7
+2020,Boise St.,Jake Stetz,Sr.,OL,7,7
+2020,Boise St.,Kekaniokoa Holomalia-Gonzalez,So.,OL,6,5
+2020,Boise St.,Garrett Curran,So.,OL,7,7
+2020,Boise St.,Uzo Osuji,Sr.,OL,7,1
+2020,Boston College,Ben Petrula,Sr.,OL,11,11
+2020,Boston College,Alec Lindstrom,Jr.,OL,11,11
+2020,Boston College,Tyler Vrabel,Jr.,OL,11,11
+2020,Boston College,Christian Mahogany,So.,OL,11,11
+2020,Boston College,Zion Johnson,Sr.,OL,11,11
+2020,Bowling Green,Jeremiah Banks-Wall,Fr.,OL,5,1
+2020,Bowling Green,Tim Tanner-Blair,Sr.,OL,4,3
+2020,Bowling Green,Joe Ware,Sr.,OL,4,4
+2020,Bowling Green,Derek Downs,Jr.,OL,4,4
+2020,Bowling Green,Sam Neverov,Jr.,OL,5,5
+2020,Bowling Green,Cameron Stage,So.,OL,5,5
+2020,Bowling Green,Jalen Grant,Fr.,OL,5,3
+2020,Buffalo,Kayode Awosika,Sr.,OL,7,7
+2020,Buffalo,Jake Fuzak,Sr.,OL,7,7
+2020,Buffalo,Jack Klenk,Sr.,OL,7,6
+2020,Buffalo,Jacob Gall,Jr.,OL,7,7
+2020,Buffalo,Mike Novitsky,So.,OL,7,7
+2020,California,Jake Curhan,Sr.,OL,2,2
+2020,California,Valentino Daltoso,Sr.,OL,1,1
+2020,California,Michael Saffell,Sr.,OL,4,4
+2020,California,Matthew Cindric,So.,OL,4,3
+2020,California,Will Craig,So.,OL,2,2
+2020,California,Brandon Mello,So.,OL,3,2
+2020,California,McKade Mettauer,So.,OL,4,4
+2020,California,Brayden Rohme,Fr.,OL,4,2
+2020,Central Mich.,Danny Motowski,So.,OL,4,4
+2020,Central Mich.,Derek Smith,Sr.,OL,6,6
+2020,Central Mich.,Jamezz Kimbrough,Jr.,OL,6,6
+2020,Central Mich.,Tyden Ferris,So.,OL,6,4
+2020,Central Mich.,Bernhard Raimann,Jr.,OL,6,6
+2020,Central Mich.,Deiyantei Powell-Woods,So.,OL,3,3
+2020,Central Mich.,Cade Klimczak,Fr.,OL,6,1
+2020,Charlotte,Jaelin Fisher,Sr.,OL,5,5
+2020,Charlotte,D'Mitri Emmanuel,Jr.,OL,6,6
+2020,Charlotte,Jonathan Timmons,Sr.,OL,2,2
+2020,Charlotte,Jon Jacobs,Sr.,OL,6,5
+2020,Charlotte,Ty'Kieast Crawford,Fr.,OL,6,2
+2020,Charlotte,Hunter Kelly,Sr.,OL,6,4
+2020,Charlotte,Panda Askew,Fr.,OL,5,1
+2020,Charlotte,Ashton Gist,Jr.,OL,6,6
+2020,Cincinnati,Jakari Robinson,Jr.,C,7,4
+2020,Cincinnati,Vincent McConnell,Jr.,OL,9,9
+2020,Cincinnati,Darius Harper,Sr.,OL,10,10
+2020,Cincinnati,Jeremy Cooper,Jr.,OL,9,3
+2020,Cincinnati,Dylan O'Quinn,Jr.,OL,10,7
+2020,Cincinnati,Colin Woodside,Jr.,OL,10,1
+2020,Cincinnati,James Hudson,Jr.,OL,10,10
+2020,Cincinnati,Jake Renfro,Fr.,OL,7,6
+2020,Clemson,Cade Stewart,Sr.,OL,12,12
+2020,Clemson,Matt Bockhorst,Jr.,OG,12,12
+2020,Clemson,Jackson Carman,Jr.,OT,12,12
+2020,Clemson,Jordan McFadden,So.,OT,12,12
+2020,Clemson,Will Putnam,So.,OL,12,12
+2020,Coastal Carolina,Willie Lampkin,Fr.,OL,12,12
+2020,Coastal Carolina,Kameren Stewart,So.,OL,9,2
+2020,Coastal Carolina,Steven Bedosky,Sr.,OL,12,12
+2020,Coastal Carolina,Trey Carter,Sr.,OL,12,12
+2020,Coastal Carolina,Antwine Loper,Jr.,OL,11,10
+2020,Coastal Carolina,Sam Thompson,Sr.,OL,12,12
+2020,Colorado,Chance Lytle,Jr.,OL,3,3
+2020,Colorado,Colby Pursell,Jr.,OL,3,3
+2020,Colorado,William Sherman,Jr.,OL,6,6
+2020,Colorado,Kary Kutsch,Sr.,OL,5,5
+2020,Colorado,Frank Fillip,So.,OL,6,6
+2020,Colorado,Casey Roddick,So.,OL,6,6
+2020,Colorado St.,"John Blasco, Jr.",Jr.,OL,3,1
+2020,Colorado St.,Barry Wesley,Jr.,OL,4,4
+2020,Colorado St.,Keith Williams,Sr.,OL,3,3
+2020,Colorado St.,Adam Korutz,Sr.,OL,4,4
+2020,Colorado St.,Elijah Johnson,Jr.,OL,4,4
+2020,Colorado St.,Cam Reddy,So.,OL,4,4
+2020,Duke,Rakavius Chambers,Sr.,OL,11,8
+2020,Duke,Will Taylor,Jr.,OL,6,6
+2020,Duke,Maurice McIntyre,So.,OL,9,3
+2020,Duke,Casey Holman,So.,OL,11,11
+2020,Duke,Jacob Monk,So.,OL,11,11
+2020,Duke,Graham Barton,Fr.,C,6,5
+2020,Duke,Devery Hamilton,Sr.,OT,11,11
+2020,East Carolina,D'Ante Smith,Sr.,OL,1,1
+2020,East Carolina,Sean Bailey,Sr.,OL,9,9
+2020,East Carolina,Nishad Strother,Fr.,OL,7,7
+2020,East Carolina,Bailey Malovic,Jr.,OL,8,8
+2020,East Carolina,Fernando Frye,Sr.,OL,9,9
+2020,East Carolina,Justin Chase,Sr.,OL,9,2
+2020,East Carolina,Avery Jones,So.,OL,9,8
+2020,East Carolina,Walter Stribling,Fr.,OL,9,1
+2020,Eastern Mich.,Jake Donnellon,Sr.,OL,5,5
+2020,Eastern Mich.,Mike Van Hoeven,Sr.,OL,6,6
+2020,Eastern Mich.,Sidy Sow,Jr.,OL,6,6
+2020,Eastern Mich.,Brian Dooley,So.,OL,6,6
+2020,Eastern Mich.,Marcellus Johnson,So.,OL,6,6
+2020,Eastern Mich.,Richard Bates Jr.,Jr.,OL,5,1
+2020,FIU,D'Antne Demery,Sr.,OL,2,2
+2020,FIU,Lyndell Hudson II,So.,OL,5,5
+2020,FIU,Mershawn Miller,Jr.,OL,3,3
+2020,FIU,Shane McGough,Sr.,OL,4,4
+2020,FIU,Sione Finau,So.,OL,5,5
+2020,FIU,Dontae Keys,Sr.,OL,4,2
+2020,FIU,Miles Frazier,Fr.,OL,3,1
+2020,FIU,Obinna Nwankwo,Sr.,OL,5,3
+2020,Fla. Atlantic,BJ Etienne,Jr.,OL,8,8
+2020,Fla. Atlantic,Nick Weber,Jr.,OL,9,9
+2020,Fla. Atlantic,Devin Hayes,So.,OL,9,2
+2020,Fla. Atlantic,Doug Johnson,So.,OL,2,1
+2020,Fla. Atlantic,Marquice Robinson,So.,OL,8,7
+2020,Fla. Atlantic,Federico Maranges,Fr.,OL,7,7
+2020,Fla. Atlantic,Adarius Tolliver,Fr.,OL,6,1
+2020,Florida,Brett Heggie,Sr.,OL,12,12
+2020,Florida,Stone Forsythe,Sr.,OL,12,12
+2020,Florida,Jean Delance,Sr.,OL,12,11
+2020,Florida,Richard Gouraige,So.,OL,12,12
+2020,Florida,Stewart Reese,Sr.,OL,11,11
+2020,Florida,Joshua Braun,Fr.,OL,11,1
+2020,Florida St.,Baveon Johnson,Sr.,OL,9,8
+2020,Florida St.,Brady Scott,Jr.,OL,8,1
+2020,Florida St.,Maurice Smith,Fr.,OL,8,7
+2020,Florida St.,Dontae Lucas,So.,OL,8,7
+2020,Florida St.,Darius Washington,Fr.,OL,7,5
+2020,Florida St.,Andrew Boselli,Sr.,OL,4,1
+2020,Florida St.,Devontay Love-Taylor,Sr.,OL,7,7
+2020,Florida St.,Robert Scott Jr.,Fr.,OL,8,7
+2020,Florida St.,Thomas Shrader,Fr.,OL,4,1
+2020,Fresno St.,Matt Smith,Sr.,OL,6,6
+2020,Fresno St.,Syrus Tuitele,Sr.,OL,6,6
+2020,Fresno St.,Quireo Woodley,Jr.,OL,6,6
+2020,Fresno St.,Dontae Bull,Jr.,OL,4,4
+2020,Fresno St.,Tyrone Sampson Jr.,So.,OL,4,1
+2020,Fresno St.,Dante Adkins Jr.,Fr.,OL,4,4
+2020,Fresno St.,Mose Vavao,Fr.,OL,6,2
+2020,Ga. Southern,Drew Wilson,Sr.,OL,13,13
+2020,Ga. Southern,Caleb Kelly,Jr.,OL,13,9
+2020,Ga. Southern,Brian Miller,Jr.,OL,12,6
+2020,Ga. Southern,Khalil Crowder,So.,OL,12,11
+2020,Ga. Southern,Aaron Dowdell,Sr.,OL,13,13
+2020,Ga. Southern,Logan Langemeier,So.,OL,13,13
+2020,Georgia,Xavier Truss,Fr.,OL,6,1
+2020,Georgia,Ben Cleveland,Sr.,OL,9,9
+2020,Georgia,Justin Shaffer,Sr.,OL,10,10
+2020,Georgia,Jamaree Salyer,Jr.,OL,10,10
+2020,Georgia,Owen Condon,So.,OL,4,1
+2020,Georgia,Warren Ericson,So.,OL,9,2
+2020,Georgia,Trey Hill,Jr.,OL,8,8
+2020,Georgia,Warren McClendon,Fr.,OL,10,9
+2020,Georgia St.,Shamarious Gilmore,Sr.,OL,10,10
+2020,Georgia St.,Malik Sumter,Jr.,OL,10,10
+2020,Georgia St.,Pat Bartlett,Jr.,OL,10,10
+2020,Georgia St.,Travis Glover,So.,OL,10,10
+2020,Georgia St.,Despelado Alexandre,So.,OL,3,1
+2020,Georgia St.,Johnathan Bass,So.,OL,8,7
+2020,Georgia Tech,Charlie Clark,Jr.,OL,1,1
+2020,Georgia Tech,Jack Coco,Jr.,OL,11,1
+2020,Georgia Tech,Mikey Minihan,Jr.,OL,11,11
+2020,Georgia Tech,Zach Quinney,Jr.,OL,11,11
+2020,Georgia Tech,Jack DeFoor,Sr.,OL,11,11
+2020,Georgia Tech,Ryan Johnson,Sr.,OL,11,11
+2020,Georgia Tech,Jordan Williams,Fr.,OL,11,10
+2020,Hawaii,Taaga Tuulima,Sr.,OL,9,9
+2020,Hawaii,Micah Vanterpool,Jr.,OL,9,5
+2020,Hawaii,Ilm Manning,Jr.,OL,7,5
+2020,Hawaii,Solo Vaipulu,Jr.,OL,9,9
+2020,Hawaii,Michael Elitise,Sr.,OL,9,8
+2020,Hawaii,Caden Hillborn,Fr.,OL,2,1
+2020,Hawaii,Gene Pryor,Sr.,OL,8,8
+2020,Hawaii,Kohl Levao,Sr.,OL,1,1
+2020,Houston,Patrick Paul,Fr.,OL,2,2
+2020,Houston,Keenan Murphy,Sr.,OL,8,8
+2020,Houston,Dennis Bardwell,Sr.,OL,6,6
+2020,Houston,Max Banes,So.,OL,8,5
+2020,Houston,Jordan Boatman,Jr.,OL,1,1
+2020,Houston,Jack Freeman,So.,OL,6,5
+2020,Houston,Braylon Jones,Sr.,OL,7,7
+2020,Houston,Reuben Unije,So.,OL,7,6
+2020,Illinois,Doug Kramer,Sr.,OL,5,5
+2020,Illinois,Kendrick Green,Jr.,OL,8,8
+2020,Illinois,Alex Palczewski,Sr.,OL,4,4
+2020,Illinois,Alex Pihlstrom,Jr.,OL,8,2
+2020,Illinois,Jordyn Slaughter,So.,OL,6,1
+2020,Illinois,Julian Pearl,So.,OL,8,3
+2020,Illinois,Verdis Brown,So.,OL,8,8
+2020,Illinois,Vederian Lowe,Sr.,OL,8,8
+2020,Indiana,Luke Haggard,Jr.,OL,6,4
+2020,Indiana,Mackenzie Nworah,Sr.,OL,8,5
+2020,Indiana,Harry Crider,Sr.,OL,8,8
+2020,Indiana,Caleb Jones,Jr.,OL,5,5
+2020,Indiana,Mike Katic,Fr.,OL,6,4
+2020,Indiana,Matthew Bedford,So.,OL,7,7
+2020,Indiana,Dylan Powell,Sr.,OL,8,6
+2020,Iowa,Alaric Jackson,Sr.,OL,7,7
+2020,Iowa,Cole Banwart,Sr.,OL,7,7
+2020,Iowa,Mark Kallenberger,Jr.,OL,6,4
+2020,Iowa,Cody Ince,So.,OL,8,6
+2020,Iowa,Tyler Linderbaum,So.,OL,8,8
+2020,Iowa,Jack Plumb,So.,OL,6,2
+2020,Iowa,Kyler Schott,Jr.,OL,4,1
+2020,Iowa,Coy Cronk,Sr.,OL,1,1
+2020,Iowa St.,Sean Foster,Sr.,OL,12,12
+2020,Iowa St.,Colin Newell,Jr.,OL,12,12
+2020,Iowa St.,Derek Schweiger,Jr.,OL,12,12
+2020,Iowa St.,Trevor Downing,So.,OL,1,1
+2020,Iowa St.,Joey Ramos,So.,OL,8,5
+2020,Iowa St.,Darrell Simmons,Fr.,OL,12,11
+2020,Iowa St.,Jake Remsburg,Fr.,OL,8,6
+2020,Iowa St.,Brady Petersen,Fr.,OL,1,1
+2020,Kansas,Malik Clark,Sr.,OL,9,9
+2020,Kansas,Chris Hughes,Sr.,OL,6,6
+2020,Kansas,Earl Bostick Jr.,Sr.,OL,9,7
+2020,Kansas,Jacobi Lott,So.,OL,7,7
+2020,Kansas,Api Mane,Sr.,OL,6,5
+2020,Kansas,Adagio Lopeti,So.,OL,7,5
+2020,Kansas,Ar'maj Reed-Adams,Fr.,OL,5,3
+2020,Kansas,Bryce Cabeldue,Fr.,OL,4,2
+2020,Kansas,Garrett Jones,Fr.,OL,4,1
+2020,Kansas St.,Ben Adler,Jr.,OL,8,8
+2020,Kansas St.,Josh Rivas,Jr.,OL,8,8
+2020,Kansas St.,Cooper Beebe,Fr.,OL,9,8
+2020,Kansas St.,Christian Duffie,So.,OL,9,8
+2020,Kansas St.,Noah Johnson,Sr.,OL,10,10
+2020,Kansas St.,KT Leveston,So.,OL,10,5
+2020,Kansas St.,Taylor Poitier,Fr.,OL,4,2
+2020,Kansas St.,Dawson Delforge,Jr.,OL,8,1
+2020,Kent St.,Bill Kuduk,Jr.,OL,4,4
+2020,Kent St.,Adam Gregorie,Sr.,OL,4,4
+2020,Kent St.,Nathan Monnin,Sr.,OL,4,4
+2020,Kent St.,Julian Sams,Jr.,OL,1,1
+2020,Kent St.,Elijah Ratliff,So.,OL,4,2
+2020,Kent St.,Daniel Johnson,So.,OL,3,3
+2020,Kent St.,Jack Clement,Jr.,OL,4,4
+2020,Kentucky,Luke Fortner,Sr.,OT,10,10
+2020,Kentucky,Drake Jackson,Sr.,OL,10,9
+2020,Kentucky,Landon Young,Sr.,OT,11,11
+2020,Kentucky,Austin Dotson,Jr.,OT,11,4
+2020,Kentucky,Darian Kinnard,Jr.,OT,11,11
+2020,Kentucky,Kenneth Horsey,So.,OG,8,8
+2020,LSU,Ed Ingram,Jr.,OL,9,9
+2020,LSU,Austin Deculus,Sr.,OL,10,10
+2020,LSU,Chasen Hines,Jr.,OL,9,9
+2020,LSU,Cameron Wire,So.,OL,9,6
+2020,LSU,Charles Turner III,Fr.,OL,8,1
+2020,LSU,Liam Shanahan,Sr.,OL,10,10
+2020,Liberty,Damian Bounds,Sr.,OL,10,8
+2020,Liberty,Thomas Sargeant,Sr.,OL,11,11
+2020,Liberty,Cooper McCaw,Jr.,OL,11,11
+2020,Liberty,Tristan Schultz,Sr.,OL,11,11
+2020,Liberty,Brendan Schlittler,So.,OL,10,10
+2020,Liberty,Jacob Bodden,So.,OL,11,4
+2020,Louisiana,Zach Robertson,Sr.,OL,9,4
+2020,Louisiana,David Hudson,Jr.,OL,5,1
+2020,Louisiana,Carlos Rubio,Jr.,OL,10,7
+2020,Louisiana,Shane Vallot,Jr.,OL,11,11
+2020,Louisiana,Max Mitchell,Jr.,OL,10,10
+2020,Louisiana,O'Cyrus Torrence,So.,OL,11,11
+2020,Louisiana,Ken Marks,Sr.,OL,11,11
+2020,Louisiana Tech,Antawn Lewis,Jr.,OL,5,5
+2020,Louisiana Tech,Walker Hankinson,Fr.,OL,6,5
+2020,Louisiana Tech,Kody Russey,Sr.,OL,10,10
+2020,Louisiana Tech,Abraham Delfin,Jr.,OL,10,10
+2020,Louisiana Tech,Joshua Mote,Jr.,OL,10,10
+2020,Louisiana Tech,Biron Rossell,So.,OL,6,1
+2020,Louisiana Tech,Donavaughn Campbell,Sr.,OL,6,6
+2020,Louisiana Tech,Dakota White,Fr.,OL,8,3
+2020,Louisville,Robbie Bell,Sr.,OL,8,4
+2020,Louisville,Caleb Chandler,Jr.,OL,11,11
+2020,Louisville,Cole Bentley,Sr.,OL,9,9
+2020,Louisville,Adonis Boone,Jr.,OL,10,10
+2020,Louisville,Joshua Black,Fr.,OL,1,1
+2020,Louisville,Austin Collins,Fr.,OL,2,1
+2020,Louisville,Cam DeGeorge,Sr.,OL,9,7
+2020,Louisville,Renato Brown,Fr.,OL,11,9
+2020,Marshall,Tarik Adams,Sr.,OL,7,2
+2020,Marshall,Cain Madden,Sr.,OL,9,9
+2020,Marshall,Alex Mollette,Sr.,OL,10,10
+2020,Marshall,Alex Salguero,Sr.,OL,10,10
+2020,Marshall,Will Ulmer,Sr.,OL,9,9
+2020,Marshall,Dalton Tucker,So.,OL,10,2
+2020,Marshall,Josh Ball,Sr.,OL,8,8
+2020,Maryland,Marcus Minor,Sr.,OL,3,3
+2020,Maryland,Johnny Jordan,Sr.,OL,4,4
+2020,Maryland,Evan Gregory,Jr.,OL,3,1
+2020,Maryland,Spencer Anderson,So.,OL,5,5
+2020,Maryland,Jaelyn Duncan,Jr.,OL,5,5
+2020,Maryland,Johari Branch,Jr.,OL,5,5
+2020,Maryland,Amelio Moran,So.,OL,2,1
+2020,Massachusetts,Larnel Coleman,Sr.,OL,4,4
+2020,Massachusetts,Brian Abosi,Sr.,OL,4,4
+2020,Massachusetts,Dalton Tomlison,Jr.,OL,4,4
+2020,Massachusetts,Max Longman,Fr.,OL,4,4
+2020,Massachusetts,Reggie Marks III,Jr.,OL,4,4
+2020,Memphis,Obinna Eze,Jr.,OL,11,11
+2020,Memphis,Isaac Ellis,So.,OL,11,11
+2020,Memphis,Evan Fields,So.,OL,5,4
+2020,Memphis,Manuel Orona-Lopez,Sr.,OL,11,11
+2020,Memphis,Dylan Parham,Jr.,OL,11,11
+2020,Memphis,Matt Dale,Sr.,OL,11,6
+2020,Miami (FL),Corey Gaynor,Sr.,OL,11,11
+2020,Miami (FL),"DJ Scaife, Jr.",Jr.,OL,11,11
+2020,Miami (FL),John Campbell Jr.,Jr.,OL,7,4
+2020,Miami (FL),Zion Nelson,So.,OL,11,7
+2020,Miami (FL),Ousman Traore,So.,OL,8,2
+2020,Miami (FL),Jakai Clark,So.,OL,10,9
+2020,Miami (FL),Jarrid Williams,Sr.,OL,10,10
+2020,Miami (OH),Rusty Feth,So.,OL,3,3
+2020,Miami (OH),Tommy Doyle,Sr.,OL,3,3
+2020,Miami (OH),Danny Godlevske,Sr.,OL,3,3
+2020,Miami (OH),David Redding,Jr.,OL,2,1
+2020,Miami (OH),Bennett Clark,So.,OL,3,2
+2020,Miami (OH),Caleb Shaffer,So.,OL,3,3
+2020,Michigan,Chuck Filiaga,Sr.,OL,6,6
+2020,Michigan,Andrew Stueber,Sr.,OL,6,6
+2020,Michigan,Ryan Hayes,Jr.,OL,2,2
+2020,Michigan,Jalen Mayfield,Jr.,OL,2,2
+2020,Michigan,Karsen Barnhart,So.,OL,6,4
+2020,Michigan,Zach Carpenter,So.,OL,5,1
+2020,Michigan,Zak Zinter,Fr.,OL,6,4
+2020,Michigan,Andrew Vastardis,Sr.,OL,4,4
+2020,Michigan St.,J.D. Duplain,So.,OL,7,5
+2020,Michigan St.,Nick Samac,So.,OL,7,6
+2020,Michigan St.,Matt Allen,Sr.,OL,2,1
+2020,Michigan St.,AJ Arcuri,Sr.,OL,7,7
+2020,Michigan St.,Kevin Jarvis,Jr.,OL,7,7
+2020,Michigan St.,Matt Carrick,Jr.,OL,7,7
+2020,Michigan St.,Blake Bueter,Jr.,OL,5,2
+2020,Middle Tenn.,Steven Losoya,So.,OL,7,3
+2020,Middle Tenn.,Cole Kirby,Jr.,OL,9,3
+2020,Middle Tenn.,Jahlil Ryles,So.,OL,6,5
+2020,Middle Tenn.,Tyler Thurman,So.,OL,3,3
+2020,Middle Tenn.,Marcus Greer,So.,OL,9,9
+2020,Middle Tenn.,Dorian Hinton,So.,OL,8,6
+2020,Middle Tenn.,Robert Jones,Sr.,OL,8,7
+2020,Middle Tenn.,Eric Magwood,Sr.,OL,5,2
+2020,Middle Tenn.,Jordan Palmer,Jr.,OL,6,6
+2020,Middle Tenn.,Lance Robinson,Fr.,OL,2,1
+2020,Minnesota,Conner Olson,Sr.,OL,7,7
+2020,Minnesota,Sam Schlueter,Sr.,OL,7,7
+2020,Minnesota,Blaise Andries,Jr.,OL,7,7
+2020,Minnesota,Axel Ruschmeyer,Jr.,OL,6,6
+2020,Minnesota,John Michael Schmitz,Jr.,OL,6,6
+2020,Minnesota,Nathan Boe,So.,OL,6,1
+2020,Minnesota,Aireontae Ersery,Fr.,OL,1,1
+2020,Mississippi St.,James Jackson,Jr.,OL,11,2
+2020,Mississippi St.,LaQuinston Sharp,Sr.,OL,9,4
+2020,Mississippi St.,Cole Smith,So.,OL,10,9
+2020,Mississippi St.,Charles Cross,Fr.,OL,10,10
+2020,Mississippi St.,Brandon Cunningham,Fr.,OL,9,1
+2020,Mississippi St.,Kwatrivous Johnson,So.,OL,8,3
+2020,Mississippi St.,Kameron Jones,So.,OL,6,6
+2020,Mississippi St.,Greg Eiland,Sr.,OL,10,9
+2020,Mississippi St.,Dareuan Parker,Sr.,OL,11,11
+2020,Missouri,Luke Griffin,So.,OL,9,1
+2020,Missouri,Michael Maietti,Sr.,OL,10,10
+2020,Missouri,Larry Borom,Sr.,OL,8,8
+2020,Missouri,Case Cook,Sr.,OL,10,10
+2020,Missouri,Xavier Delgado,Jr.,OL,9,8
+2020,Missouri,Bobby Lawrence,Jr.,OL,9,2
+2020,Missouri,Javon Foster,Jr.,OL,9,2
+2020,Missouri,Zeke Powell,Jr.,OL,9,8
+2020,Missouri,Dylan Spencer,Fr.,OL,2,1
+2020,NC State,Dylan McMahon,Fr.,OL,9,7
+2020,NC State,Joe Sculthorpe,Sr.,OL,12,12
+2020,NC State,Justin Witt,Sr.,OL,9,5
+2020,NC State,Grant Gibson,Jr.,OL,12,12
+2020,NC State,Bryson Speas,Jr.,OL,12,7
+2020,NC State,Ikem Ekwonu,So.,OL,12,12
+2020,NC State,Tyrone Riley,Sr.,OL,5,5
+2020,NIU,Nolan Potter,So.,OL,6,6
+2020,NIU,Marques Cox,Jr.,OL,6,6
+2020,NIU,Logan Zschernitz,So.,OL,6,6
+2020,NIU,Benn Olson,Sr.,OL,6,3
+2020,NIU,Brayden Patton,Sr.,OL,6,5
+2020,NIU,John Champe,Fr.,OL,6,3
+2020,Navy,Pierce Banbury,Sr.,C,10,9
+2020,Navy,Sean RATTAY,Sr.,OG,9,1
+2020,Navy,Billy Honaker,Sr.,OL,10,10
+2020,Navy,Peter Nestrowitz,Sr.,OL,10,10
+2020,Navy,Justin Self,Sr.,OL,10,10
+2020,Navy,Luca FRATIANNE,Jr.,OL,7,1
+2020,Navy,Bryce Texeira,Jr.,OG,10,6
+2020,Navy,Kip Frankland,So.,OT,9,3
+2020,Nebraska,Boe Wilson,Sr.,OL,4,2
+2020,Nebraska,Matt Farniok,Sr.,OL,8,8
+2020,Nebraska,Brenden Jaimes,Sr.,OL,7,7
+2020,Nebraska,Cameron Jurgens,So.,OL,7,7
+2020,Nebraska,Bryce Benhart,Fr.,OL,8,8
+2020,Nebraska,Ethan Piper,Fr.,OL,8,7
+2020,Nebraska,Turner Corcoran,Fr.,OL,3,1
+2020,Nevada,Nate Brown,Sr.,OL,9,9
+2020,Nevada,Jermaine Ledbetter,Sr.,OL,9,9
+2020,Nevada,Aaron Frost,Jr.,OL,9,9
+2020,Nevada,Tyler Orsini,Sr.,OL,9,9
+2020,Nevada,Jacob Gardner,Fr.,OL,9,9
+2020,New Mexico,Cade Briggs,So.,OL,7,7
+2020,New Mexico,Teton Saltes,Sr.,OL,7,6
+2020,New Mexico,Austin Cook,Sr.,OL,7,7
+2020,New Mexico,Kyle Stapley,Sr.,OL,7,7
+2020,New Mexico,Ben Davis,Sr.,OL,7,1
+2020,New Mexico,Isaac Gutierrez,So.,OL,7,7
+2020,North Carolina,Brian Anderson,Jr.,OL,11,11
+2020,North Carolina,Marcus McKethan,Jr.,OL,12,12
+2020,North Carolina,Ed Montilus,So.,OL,9,6
+2020,North Carolina,Jordan Tucker,Jr.,OL,11,9
+2020,North Carolina,Joshua Ezeudu,So.,OL,10,10
+2020,North Carolina,Asim Richards,So.,OL,12,11
+2020,North Texas,Jacob Brammer,Jr.,OL,10,10
+2020,North Texas,Manase Mose,Jr.,OL,10,10
+2020,North Texas,Cole Brown,So.,OL,10,10
+2020,North Texas,Daizion Carroll,So.,OL,10,8
+2020,North Texas,Chris Cassidy,Fr.,OL,10,2
+2020,North Texas,Anterrious Gray,Jr.,OL,10,10
+2020,Northwestern,Nik Urban,Sr.,OL,9,9
+2020,Northwestern,Gunnar Vogel,Sr.,OL,9,9
+2020,Northwestern,Sam Gerak,Jr.,OL,8,6
+2020,Northwestern,Ethan Wiederkehr,Jr.,OL,8,8
+2020,Northwestern,Charlie Schmidt,So.,OL,8,1
+2020,Northwestern,Peter Skoronski,Fr.,OL,9,9
+2020,Notre Dame,Robert Hainsey,Sr.,OL,12,12
+2020,Notre Dame,Josh Lugg,Sr.,OL,11,3
+2020,Notre Dame,Jarrett Patterson,Jr.,OL,8,8
+2020,Notre Dame,Aaron Banks,Sr.,OL,12,12
+2020,Notre Dame,Zeke Correll,So.,OL,3,2
+2020,Notre Dame,Dillan Gibbons,Sr.,OL,12,1
+2020,Notre Dame,Tommy Kraemer,Sr.,OL,11,10
+2020,Notre Dame,Liam Eichenberg,Sr.,OL,12,12
+2020,Ohio,Brett Kittrell,Sr.,OL,3,3
+2020,Ohio,Hagen Meservy,Sr.,OL,3,3
+2020,Ohio,Kurt Danneker,Jr.,OL,2,2
+2020,Ohio,Samson Jackson,Sr.,OL,3,1
+2020,Ohio,Brody Rodgers,Sr.,OL,3,3
+2020,Ohio,Nick Sink,Sr.,OL,3,3
+2020,Ohio St.,Nicholas Petit-Frere,Jr.,OL,7,7
+2020,Ohio St.,Max Wray,Jr.,OL,7,1
+2020,Ohio St.,Dawand Jones,So.,OL,5,1
+2020,Ohio St.,Wyatt Davis,Sr.,OL,8,8
+2020,Ohio St.,Thayer Munford,Sr.,OL,7,7
+2020,Ohio St.,Josh Myers,Sr.,OL,6,6
+2020,Ohio St.,Matthew Jones,Jr.,OL,8,3
+2020,Ohio St.,Harry Miller,So.,OL,7,6
+2020,Ohio St.,Nathan Brock,Sr.,OL,2,1
+2020,Oklahoma,Erik Swenson,Sr.,OL,11,11
+2020,Oklahoma,Adrian Ealy,Jr.,OL,11,11
+2020,Oklahoma,Marquis Hayes,Jr.,OL,11,11
+2020,Oklahoma,Creed Humphrey,Jr.,OL,11,11
+2020,Oklahoma,Tyrese Robinson,Jr.,OL,11,11
+2020,Oklahoma St.,Teven Jenkins,Sr.,OL,7,7
+2020,Oklahoma St.,Ry Schneider,Sr.,OL,11,10
+2020,Oklahoma St.,Hunter Woodard,So.,OL,11,10
+2020,Oklahoma St.,Hunter Anthony,So.,OL,3,1
+2020,Oklahoma St.,Jake Springfield,Fr.,OL,10,9
+2020,Oklahoma St.,Preston Wilson,Fr.,OL,11,4
+2020,Oklahoma St.,Cole Birmingham,Fr.,OL,2,2
+2020,Oklahoma St.,Josh Sills,Jr.,OL,11,11
+2020,Oklahoma St.,Rody Schneider,Fr.,OL,1,1
+2020,Ole Miss,Reece McIntyre,Fr.,OL,8,2
+2020,Ole Miss,Ben Brown,Jr.,OL,10,10
+2020,Ole Miss,Royce Newman,Sr.,OL,10,10
+2020,Ole Miss,Nick Broeker,So.,OL,10,10
+2020,Ole Miss,Jeremy James,Fr.,OL,10,10
+2020,Ole Miss,Caleb Warren,Fr.,OL,10,8
+2020,Oregon,Alex Forsyth,Jr.,OL,7,7
+2020,Oregon,Ryan Walk,Jr.,OL,7,7
+2020,Oregon,Steven Jones,So.,OL,7,1
+2020,Oregon,Malaesala Aumavae-Laulu,Jr.,OL,6,6
+2020,Oregon,George Moore,Sr.,OL,7,7
+2020,Oregon,T.J. Bass,Jr.,OL,7,7
+2020,Oregon St.,Nathan Eldridge,Sr.,OL,7,7
+2020,Oregon St.,Joshua Gray,Fr.,OL,7,7
+2020,Oregon St.,Nous Keobounnam,Sr.,OL,5,5
+2020,Oregon St.,Keli'i Montibon,Sr.,OL,2,2
+2020,Oregon St.,Jake Levengood,So.,OL,7,7
+2020,Oregon St.,Brandon Kipper,Jr.,OL,7,7
+2020,Penn St.,Will Fries,Sr.,OL,9,9
+2020,Penn St.,Michal Menet,Sr.,OL,9,9
+2020,Penn St.,Mike Miranda,Jr.,OL,9,9
+2020,Penn St.,C.J. Thorpe,Jr.,OL,6,3
+2020,Penn St.,Rasheed Walker,Jr.,OL,9,9
+2020,Penn St.,Caedan Wallace,So.,OL,9,7
+2020,Pittsburgh,Matt Goncalves,Fr.,OL,9,3
+2020,Pittsburgh,Jimmy Morrissey,Sr.,OL,11,11
+2020,Pittsburgh,Bryce Hargrove,Sr.,OL,11,11
+2020,Pittsburgh,Owen Drexel,Jr.,OL,6,1
+2020,Pittsburgh,Gabe Houy,Jr.,OL,9,8
+2020,Pittsburgh,Carson Van Lynn,Jr.,OL,11,3
+2020,Pittsburgh,Carter Warren,Jr.,OL,9,8
+2020,Pittsburgh,Jake Kradel,So.,OL,8,8
+2020,Pittsburgh,Blake Zubovic,So.,OL,7,2
+2020,Purdue,Spencer Holstege,So.,OL,6,5
+2020,Purdue,Grant Hermanns,Sr.,OL,5,5
+2020,Purdue,DJ Washington,Jr.,OL,6,1
+2020,Purdue,Sam Garvin,Jr.,OL,5,5
+2020,Purdue,Cam Craig,So.,OL,1,1
+2020,Purdue,Kyle Jornigan,Fr.,OL,3,1
+2020,Rice,Shea Baker,Jr.,OL,5,5
+2020,Rice,Clay Servin,So.,OL,5,5
+2020,Rice,Cole Garcia,So.,OL,5,3
+2020,Rice,Izeya Floyd,Fr.,OL,3,2
+2020,Rice,Issac Klarkowski,Fr.,OL,5,5
+2020,Rice,Jovaun Woolford,Sr.,OL,5,5
+2020,Rutgers,Bryan Felter,Fr.,OL,8,6
+2020,Rutgers,Nick Krimin,Sr.,OL,9,9
+2020,Rutgers,Brendan Bordner,Sr.,OL,9,3
+2020,Rutgers,Sam Vretman,Sr.,OL,5,3
+2020,Rutgers,Reggie Sutton,Jr.,OL,9,9
+2020,Rutgers,Raiqwon O'Neal,Jr.,OL,8,7
+2020,Rutgers,Cedrice Paillant,Jr.,OL,9,7
+2020,SMU,Hayden Howerton,Sr.,OL,10,10
+2020,SMU,Alan Ali,Jr.,OL,10,10
+2020,SMU,Beau Morris,Sr.,OL,10,10
+2020,SMU,Jaylon Thomas,Jr.,OL,9,9
+2020,SMU,Danielson Ike,Fr.,OL,9,1
+2020,SMU,Cameron Ervin,Fr.,OL,10,1
+2020,SMU,Justin Osborne,Fr.,OL,8,8
+2020,SMU,Marcus Bryant,Fr.,OL,6,1
+2020,San Diego St.,Kyle Spalding,Sr.,OL,8,8
+2020,San Diego St.,Zachary Thomas,Sr.,OL,8,8
+2020,San Diego St.,Chris Martinez,Jr.,OL,6,4
+2020,San Diego St.,Alama Uluave,Jr.,OL,8,8
+2020,San Diego St.,William Dunkle,So.,OL,5,4
+2020,San Diego St.,Jacob Capra,Sr.,OL,8,8
+2020,San Jose St.,Kyle Hoppe,Sr.,OL,4,4
+2020,San Jose St.,Trevor Robbins,Sr.,OL,8,8
+2020,San Jose St.,Jack Snyder,Sr.,OL,8,8
+2020,San Jose St.,Tyler Stevens,Jr.,OL,6,6
+2020,San Jose St.,Jesse Chamberlain,Jr.,OL,6,5
+2020,San Jose St.,Jaime Navarro,So.,OL,7,7
+2020,San Jose St.,Scott Breslin,Jr.,OL,8,1
+2020,South Alabama,Brian Ankerson,Sr.,OL,11,11
+2020,South Alabama,Hadon Merchant,Jr.,OL,7,5
+2020,South Alabama,Tyler Jernigan,So.,OL,10,6
+2020,South Alabama,Trey Simpson,So.,OL,8,6
+2020,South Alabama,Wyatt Green,So.,OL,10,6
+2020,South Alabama,Braden Moody,So.,OL,6,3
+2020,South Alabama,Conner Estes,Jr.,OL,8,7
+2020,South Alabama,Jacob Shoemaker,Sr.,OL,8,7
+2020,South Alabama,Hayden Burton,Jr.,OL,8,4
+2020,South Carolina,Jazston Turnetine,Jr.,OL,6,3
+2020,South Carolina,Eric Douglas,Jr.,OL,10,10
+2020,South Carolina,Jovaughn Gwyn,So.,OL,10,10
+2020,South Carolina,Dylan Wonnum,Jr.,OL,10,10
+2020,South Carolina,Sadarius Hutcherson,Sr.,OL,10,10
+2020,South Carolina,Jakai Moore,Fr.,OL,8,6
+2020,South Carolina,Vershon Lee,Fr.,OL,3,1
+2020,South Fla.,Michael Wiggs,Sr.,OL,8,8
+2020,South Fla.,Demetris Harris,Jr.,OL,6,6
+2020,South Fla.,Jean Marcellus,Jr.,OL,2,1
+2020,South Fla.,Jarett Hopple,Sr.,OL,7,4
+2020,South Fla.,Brad Cecil,Jr.,OL,7,7
+2020,South Fla.,Donovan Jennings,Jr.,OL,7,7
+2020,South Fla.,Joshua Blanchard,Fr.,OL,8,7
+2020,South Fla.,Dustyn Hall,Fr.,OL,7,4
+2020,South Fla.,Demontrey Jacobs,Jr.,OL,7,1
+2020,Southern California,Liam Jimmons,Sr.,OL,6,6
+2020,Southern California,Jalen McKenzie,Jr.,OL,6,6
+2020,Southern California,Brett Neilon,Jr.,OL,5,5
+2020,Southern California,Andrew Vorhees,Jr.,OL,5,5
+2020,Southern California,Justin Dedich,So.,OL,2,1
+2020,Southern California,Courtland Ford,Fr.,OL,1,1
+2020,Southern California,Alijah Vera-Tucker,Jr.,OL,6,6
+2020,Southern Miss.,Arvin Fletcher,Sr.,OL,10,10
+2020,Southern Miss.,Bryce Foxworth,Sr.,OL,7,5
+2020,Southern Miss.,Trace Clopton,Jr.,OL,5,5
+2020,Southern Miss.,Louis Smith,Fr.,OL,6,5
+2020,Southern Miss.,Tre Johnson,Sr.,OL,3,1
+2020,Southern Miss.,Gerquan Scott,Fr.,OL,9,4
+2020,Southern Miss.,Khalique Washington,Sr.,OL,10,9
+2020,Southern Miss.,Coker Wright,So.,OL,5,5
+2020,Southern Miss.,Tykeem Doss,Jr.,OL,9,6
+2020,Stanford,Branson Bragg,So.,OL,5,5
+2020,Stanford,Barrett Miller,So.,OT,5,5
+2020,Stanford,Drew Dalman,Sr.,C,5,5
+2020,Stanford,Foster Sarell,Sr.,OT,5,5
+2020,Stanford,Walter Rouse,So.,OT,5,5
+2020,Syracuse,Airon Servais,Sr.,OL,11,11
+2020,Syracuse,Chris Elmore,Sr.,OL,11,9
+2020,Syracuse,Dakota Davis,Jr.,OL,6,3
+2020,Syracuse,Carlos Vettorello,So.,OL,11,10
+2020,Syracuse,Matthew Bergeron,So.,OL,11,11
+2020,Syracuse,Darius Tisdale,Jr.,OL,11,10
+2020,TCU,Kellton Hollins,Sr.,OL,7,1
+2020,TCU,Austin Myers,Sr.,OT,6,5
+2020,TCU,Quazzel White,Jr.,OT,3,2
+2020,TCU,Wes Harris,Jr.,OG,4,4
+2020,TCU,Coy McMillon,Jr.,C,10,5
+2020,TCU,Andrew Coker,Fr.,OT,8,8
+2020,TCU,Steve Avila,So.,OL,9,8
+2020,TCU,John Lanz,So.,OG,8,7
+2020,TCU,Blake Hickey,Sr.,C,7,3
+2020,TCU,T.J. Storment,Sr.,OT,9,7
+2020,Temple,Joseph Hooper,Sr.,OL,6,5
+2020,Temple,Wisdom Quarshie,Fr.,OL,4,1
+2020,Temple,Vincent Picozzi,Sr.,OL,6,6
+2020,Temple,Leon Pinto,Sr.,OL,2,1
+2020,Temple,Isaac Moore,Jr.,OL,7,4
+2020,Temple,David Nwaogwugwu,So.,OL,4,2
+2020,Temple,Adam Klein,Jr.,OL,4,3
+2020,Temple,Michael Niese,Sr.,OL,6,6
+2020,Temple,C.J. Perez,Sr.,OL,7,7
+2020,Tennessee,Brandon Kennedy,Sr.,OL,8,8
+2020,Tennessee,Trey Smith,Sr.,OL,10,10
+2020,Tennessee,Jerome Carvin,Jr.,OL,10,4
+2020,Tennessee,Jahmir Johnson,Sr.,OL,6,5
+2020,Tennessee,Wanya Morris,So.,OL,9,7
+2020,Tennessee,Darnell Wright,So.,OL,10,9
+2020,Tennessee,Javontez Spraggins,Fr.,OL,8,1
+2020,Tennessee,Cooper Mays,Fr.,OL,10,2
+2020,Tennessee,Cade Mays,Jr.,OL,7,7
+2020,Texas,Christian Jones,So.,OL,10,10
+2020,Texas,Tyler Johnson,So.,OL,1,1
+2020,Texas,Denzel Okafor,Sr.,OL,9,9
+2020,Texas,Samuel Cosmi,Jr.,OL,8,8
+2020,Texas,Derek Kerstetter,Sr.,OL,9,9
+2020,Texas,Junior Angilau,So.,OL,10,10
+2020,Texas,Jake Majors,Fr.,OL,3,2
+2020,Texas,Andrej Karic,Fr.,OL,3,1
+2020,Texas A&M,Ryan McCollum,Sr.,OL,10,10
+2020,Texas A&M,Jared Hocker,Sr.,OL,10,10
+2020,Texas A&M,Carson Green,Sr.,OL,10,10
+2020,Texas A&M,Dan Moore,Sr.,OL,10,10
+2020,Texas A&M,Kenyon Green,So.,OL,10,10
+2020,Texas St.,Tate Heitmeier,Jr.,OL,11,10
+2020,Texas St.,Reece Jordan,Sr.,OL,12,12
+2020,Texas St.,Jaydan Smith,Jr.,OL,4,2
+2020,Texas St.,Dalton Cooper,So.,OL,12,12
+2020,Texas St.,Eddie Rivas,Jr.,OL,11,10
+2020,Texas St.,Russell Baker,Jr.,OL,12,12
+2020,Texas St.,Alex Costilla,Jr.,OL,6,1
+2020,Texas St.,Trenton Scott,Fr.,OL,1,1
+2020,Texas Tech,Jack Anderson,Jr.,OL,10,10
+2020,Texas Tech,Dawson Deaton,Jr.,OL,10,10
+2020,Texas Tech,Weston Wright,So.,OL,10,10
+2020,Texas Tech,Josh Burger,Sr.,OL,10,10
+2020,Texas Tech,Caleb Rogers,Fr.,OL,9,3
+2020,Texas Tech,Ethan Carde,So.,OL,10,7
+2020,Toledo,Luke Doerger,Sr.,OL,6,6
+2020,Toledo,Tyler Long,So.,OL,6,5
+2020,Toledo,Nick Rosi,So.,OL,6,6
+2020,Toledo,Lavel Dumont,So.,OL,1,1
+2020,Toledo,Bryce Harris,Sr.,OL,6,6
+2020,Toledo,Vitaliy Gurman,Sr.,OL,6,6
+2020,Troy,Dylan Bradshaw,Sr.,OL,11,11
+2020,Troy,Bubba Hudson,Jr.,OL,3,3
+2020,Troy,Austin Stidham,Jr.,OL,10,10
+2020,Troy,Grant Betts,So.,OL,11,11
+2020,Troy,Jake Andrews,So.,OL,11,11
+2020,Troy,Derrick Graham,Fr.,OL,11,9
+2020,Tulane,Sincere Haynesworth,So.,OL,12,12
+2020,Tulane,Caleb Thomas,Fr.,OL,5,4
+2020,Tulane,Corey Dublin,Sr.,OL,12,11
+2020,Tulane,Timothy Shafter,Jr.,OL,8,3
+2020,Tulane,Joey Claybrook,Jr.,OL,10,9
+2020,Tulane,Ben Knutson,Sr.,OL,12,7
+2020,Tulane,Josh Remetich,Fr.,OL,8,5
+2020,Tulane,Trey Tuggle,Fr.,OL,9,8
+2020,Tulsa,Dante Bivens,Jr.,OL,9,9
+2020,Tulsa,Chris Paul,Jr.,OL,8,8
+2020,Tulsa,Gerard Wheeler,Jr.,OL,9,9
+2020,Tulsa,Dylan Couch,Sr.,OL,9,9
+2020,Tulsa,Jaden Muskrat,Fr.,OL,4,1
+2020,Tulsa,Tyler Smith,Fr.,OL,9,9
+2020,UAB,Greg Fecanin,Sr.,OL,5,2
+2020,UAB,Colby Ragland,Sr.,OL,7,7
+2020,UAB,Andrew Smith Jr.,Sr.,OL,9,7
+2020,UAB,Jakoby Jones,Sr.,OL,9,4
+2020,UAB,Matthew Trehern,Jr.,OL,9,9
+2020,UAB,Will Rykard,Fr.,OL,5,3
+2020,UAB,Sidney Wells,Sr.,OL,9,9
+2020,UAB,Kadeem Telfort,Jr.,OL,6,4
+2020,UCF,Cole Schneider,Jr.,OL,10,9
+2020,UCF,Samuel Jackson,Jr.,OL,9,8
+2020,UCF,Edward Collins,So.,OL,10,10
+2020,UCF,Lokahi Pauole,So.,OL,10,8
+2020,UCF,Matthew Lee,Fr.,OL,10,10
+2020,UCF,Marcus Tatum,Sr.,OL,10,5
+2020,UCLA,Sam Marrazzo,Jr.,OL,7,7
+2020,UCLA,Alec Anderson,So.,OL,7,7
+2020,UCLA,Jon Gaines II,So.,OL,7,4
+2020,UCLA,Sean Rhyan,So.,OL,7,7
+2020,UCLA,Duke Clemens,So.,OL,6,3
+2020,UCLA,"Paul Grattan, Jr.",Sr.,OL,7,7
+2020,ULM,Dakota Torbert,Jr.,OG,8,3
+2020,ULM,Zach Breaux,So.,C,8,6
+2020,ULM,Blake Lodes,So.,OT,10,10
+2020,ULM,Vic Cutler,Fr.,OT,8,2
+2020,ULM,Evan Henry,Fr.,OT,10,7
+2020,ULM,T.J. Fiailoa,Jr.,OG,10,9
+2020,ULM,Samuel Williams,Sr.,OT,8,8
+2020,ULM,Garrett Hirsch,Sr.,OL,9,2
+2020,UNLV,Tiger Shanks,Fr.,OL,2,2
+2020,UNLV,Leif Fautanu,Fr.,OL,5,4
+2020,UNLV,Matt Brayton,Sr.,OL,5,5
+2020,UNLV,Julio Garcia,Sr.,OL,6,6
+2020,UNLV,Justice Oluwaseun,Jr.,OL,6,6
+2020,UNLV,Clayton Bradley,Sr.,OL,4,3
+2020,UNLV,Jaron Caldwell,Sr.,OL,6,4
+2020,UTEP,Andrew Meyer,So.,OL,8,8
+2020,UTEP,Jeremiah Byers,Fr.,OL,7,3
+2020,UTEP,Darta Lee,Sr.,OL,7,6
+2020,UTEP,Zuri Henry,Jr.,OL,7,7
+2020,UTEP,Bobby Deharo,Jr.,OL,8,8
+2020,UTEP,Elijah Klein,So.,OL,8,8
+2020,UTSA,Ahofitu Maka,Jr.,OL,11,11
+2020,UTSA,Demetris Allen,Fr.,OL,6,2
+2020,UTSA,Josh Oatis,Sr.,OL,8,5
+2020,UTSA,Kevin Davis,Jr.,OL,10,10
+2020,UTSA,Bosah Osakwe,Sr.,OL,3,2
+2020,UTSA,Dominic Pastucci,Sr.,OL,10,4
+2020,UTSA,Spencer Burford,Jr.,OL,11,10
+2020,UTSA,Terrell Haynes,So.,OL,11,6
+2020,UTSA,Brandon Rolfe,Sr.,OL,7,2
+2020,UTSA,Makai Hart,Jr.,OL,9,8
+2020,Utah,Nick Ford,Jr.,OL,5,5
+2020,Utah,Orlando Umana,Sr.,OL,1,1
+2020,Utah,Braeden Daniels,So.,OL,5,1
+2020,Utah,Simi Moala,So.,OL,5,4
+2020,Utah,Keaton Bills,Fr.,OL,4,4
+2020,Utah,Sataoa Laumea,Fr.,OL,5,5
+2020,Utah,Jaren Kump,Fr.,OL,5,5
+2020,Utah St.,Demytrick Ali'ifua,Sr.,OL,6,6
+2020,Utah St.,Alfred Edwards,Jr.,OL,6,6
+2020,Utah St.,Karter Shaw,So.,OL,6,6
+2020,Utah St.,Andy Koch,So.,OL,5,4
+2020,Utah St.,Jacob South,So.,OL,4,4
+2020,Utah St.,Falepule Alo,Fr.,OL,5,4
+2020,Vanderbilt,Julian Hernandez,So.,OL,5,4
+2020,Vanderbilt,Grant Miller,Sr.,OL,9,9
+2020,Vanderbilt,Dan Dawkins,Jr.,OL,7,4
+2020,Vanderbilt,Tyler Steen,Jr.,OL,9,9
+2020,Vanderbilt,Drew Birchmeier,Sr.,OL,7,5
+2020,Vanderbilt,Ben Cox,Fr.,OL,7,1
+2020,Vanderbilt,Connor Mignone,Sr.,OL,8,8
+2020,Vanderbilt,Bradley Ashmore,Fr.,OL,8,5
+2020,Virginia,Ryan Nelson,Jr.,OL,10,10
+2020,Virginia,Chris Glaser,Sr.,OL,10,10
+2020,Virginia,Dillon Reinkensmeyer,Sr.,OL,7,7
+2020,Virginia,Ryan Swoboda,Jr.,OL,10,10
+2020,Virginia,Joe Bissinger,So.,OL,10,3
+2020,Virginia,Olusegun Oluwatimi,Jr.,OL,10,10
+2020,Virginia Tech,Lecitus Smith,Jr.,OL,11,11
+2020,Virginia Tech,Silas Dzansi,Jr.,OL,9,4
+2020,Virginia Tech,Austin Cannon,Sr.,OL,10,1
+2020,Virginia Tech,Christian Darrisaw,Jr.,OL,10,10
+2020,Virginia Tech,Luke Tenuta,So.,OL,9,9
+2020,Virginia Tech,Doug Nester,So.,OL,9,7
+2020,Virginia Tech,Brock Hoffman,Sr.,OL,11,11
+2020,Virginia Tech,Bryan Hudson,So.,OL,8,2
+2020,Wake Forest,Je'Vionte Nash,Sr.,OL,9,9
+2020,Wake Forest,Taleni Suhren,Sr.,OL,8,2
+2020,Wake Forest,Sean Maginn,Jr.,OL,9,9
+2020,Wake Forest,Loic Ngassam Nya,Jr.,OL,8,8
+2020,Wake Forest,Zach Tom,Jr.,OL,9,9
+2020,Wake Forest,Michael Jurgens,So.,OL,8,8
+2020,Washington,Luke Wattenberg,Sr.,OL,4,4
+2020,Washington,Henry Bainivalu,Jr.,OL,4,4
+2020,Washington,Jaxson Kirkland,Jr.,OL,4,4
+2020,Washington,Victor Curne,So.,OL,4,4
+2020,Washington,Ulumoo Ale,So.,OL,4,4
+2020,Washington St.,Abraham Lucas,Jr.,OL,4,4
+2020,Washington St.,Josh Watson,Sr.,OL,4,4
+2020,Washington St.,Liam Ryan,Sr.,OL,4,4
+2020,Washington St.,Brian Greene,Jr.,OL,4,4
+2020,Washington St.,Jarrett Kingston,So.,OL,4,4
+2020,West Virginia,Brandon Yates,So.,OL,10,9
+2020,West Virginia,John Hughes,So.,OL,10,6
+2020,West Virginia,Briason Mays,So.,OL,8,4
+2020,West Virginia,Junior Uzebu,So.,OL,1,1
+2020,West Virginia,Chase Behrndt,Sr.,OL,9,9
+2020,West Virginia,Michael Brown,Sr.,OL,10,10
+2020,West Virginia,Zach Frazier,Fr.,OL,10,9
+2020,Western Ky.,Seth Joest,Sr.,OL,12,12
+2020,Western Ky.,Jordan Meredith,Sr.,OL,12,12
+2020,Western Ky.,Tyler Witt,Sr.,OL,12,12
+2020,Western Ky.,Cole Spencer,Jr.,OL,12,12
+2020,Western Ky.,Gunner Britton,So.,OL,12,2
+2020,Western Ky.,Mason Brooks,Jr.,OL,12,12
+2020,Western Mich.,Dylan Deatherage,Jr.,OL,6,6
+2020,Western Mich.,Jaylon Moore,Sr.,OL,6,6
+2020,Western Mich.,Mark Brooks,Sr.,OL,6,6
+2020,Western Mich.,Mike Caliendo,Sr.,OL,6,6
+2020,Western Mich.,Wesley French,Sr.,OL,6,6
+2020,Wisconsin,Michael Furtney,So.,OL,7,1
+2020,Wisconsin,Cormac Sampson,So.,OL,5,2
+2020,Wisconsin,Cole Van Lanen,Sr.,OL,5,5
+2020,Wisconsin,Tyler Beach,Jr.,OL,7,6
+2020,Wisconsin,Logan Bruss,Jr.,OL,6,6
+2020,Wisconsin,Kayden Lyles,Jr.,OL,4,4
+2020,Wisconsin,Josh Seltzner,Jr.,OL,6,3
+2020,Wisconsin,Jon Dietzen,Sr.,OL,7,7
+2020,Wisconsin,Tanor Bortolini,Fr.,OL,2,1
+2020,Wyoming,Rudy Stofer,Jr.,OT,1,1
+2020,Wyoming,Eric Abojei,Jr.,OG,6,6
+2020,Wyoming,Keegan Cryder,Jr.,C,6,6
+2020,Wyoming,Logan Harris,Sr.,OG,5,5
+2020,Wyoming,Zach Watts,So.,OG,2,1
+2020,Wyoming,Frank Crum,So.,OT,6,6
+2020,Wyoming,Latrell Bible,Fr.,C,6,5

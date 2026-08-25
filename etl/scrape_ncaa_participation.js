@@ -17,9 +17,27 @@
 //
 // Please keep the per-request delay — ~135 sequential requests once a year
 // is polite traffic; hammering the site is not.
+//
+// Operational notes (learned scraping 2015-2025, Aug 2026):
+// - Akamai bot protection. ONE tab, sequential requests, ~2.5s + jitter apart.
+//   Two tabs in parallel, or a stray extra request while a batch is running,
+//   earned multi-hour IP bans. A 403 "Access Denied" page IS the ban — stop
+//   probing (every blocked request extends it) and wait a few hours.
+// - Background fetch() can get the JS challenge (HTTP 200, <5KB, no <table>),
+//   but a real page navigation to any /teams/<id>/roster passes and refreshes
+//   the cookie; fetches made afterwards ride on it. Loop: navigate to arm ->
+//   fetch the season -> re-navigate if a response looks like a challenge.
+// - Persist progress per team (sessionStorage survives navigation; closing
+//   the tab loses it) so a blip doesn't cost the whole season.
+// - Chrome throttles setTimeout in hidden tabs; if the tab won't stay visible,
+//   drive the delay from a Web Worker timer instead.
+// - Sanity checks: every FBS team should appear with ~5 x games-played OL
+//   starts (48-78 for a full season; ~0 only for COVID opt-outs in 2020).
+// - The site lists a few teams' linemen as OT/OG/C rather than OL;
+//   etl/compute_ol_continuity.py accepts all of them.
 
 const POSITIONS = ['OL', 'OT', 'OG', 'OC', 'C', 'G', 'T'];
-const DELAY_MS = 250;
+const DELAY_MS = 2500;
 
 function parseRoster(html, school) {
   const doc = new DOMParser().parseFromString(html, 'text/html');

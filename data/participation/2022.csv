@@ -1,0 +1,990 @@
+season,school,player_name,class_year,position,gp,gs
+2022,Air Force,Adam Karas,Jr.,OT,13,8
+2022,Air Force,Ethan Jackman,Jr.,OL,12,1
+2022,Air Force,Everett Smalley,Jr.,OL,13,13
+2022,Air Force,Thor Paglialong,Jr.,OL,13,13
+2022,Air Force,Kaleb Holcomb,Jr.,OT,13,5
+2022,Air Force,Wesley Ndago,Jr.,OL,12,12
+2022,Air Force,Isaac Cochran,Sr.,OL,13,13
+2022,Akron,Ronan Chambers,So.,OL,11,1
+2022,Akron,Anthony Whigan,Sr.,OL,10,10
+2022,Akron,Brian Kilbane,Fr.,OL,8,1
+2022,Akron,Max Banes,Jr.,OL,8,7
+2022,Akron,Xavior Gray,So.,OL,3,1
+2022,Akron,Jordan Daniels,So.,OL,6,4
+2022,Akron,Nate Williams,So.,OL,11,11
+2022,Akron,Alex Robarge,So.,OL,11,6
+2022,Akron,Owen Murphy,So.,OL,1,1
+2022,Akron,Tony Georges,So.,OL,11,9
+2022,Akron,Ka'Marii Landers,Fr.,OL,7,5
+2022,Alabama,Emil Ekiyor Jr.,Sr.,OL,13,12
+2022,Alabama,Javion Cohen,Jr.,OL,12,11
+2022,Alabama,Tyler Booker,Fr.,OL,12,1
+2022,Alabama,Seth McLaughlin,So.,OL,11,8
+2022,Alabama,Darrian Dalcourt,Sr.,OL,7,5
+2022,Alabama,JC Latham,So.,OL,13,13
+2022,Alabama,Tyler Steen,Sr.,OL,13,13
+2022,Alabama,Kendall Randolph,Sr.,OL,13,3
+2022,App State,Isaiah Helms,Jr.,OL,12,12
+2022,App State,Troy Everett,Fr.,OL,10,6
+2022,App State,Anderson Hardy,Jr.,OL,12,12
+2022,App State,Cooper Hodges,Jr.,OL,12,12
+2022,App State,Damion Daley,Jr.,OL,12,12
+2022,App State,Bucky Williams,Jr.,OL,12,6
+2022,Arizona,Josh Donovan,Sr.,OL,12,8
+2022,Arizona,Jonah Savaiinaea,Fr.,OL,12,12
+2022,Arizona,Wendell Moe Jr.,Fr.,OL,4,3
+2022,Arizona,Paiton Fears,Sr.,OL,12,12
+2022,Arizona,Sam Langi,Sr.,OL,10,2
+2022,Arizona,Josh Baker,So.,OL,12,12
+2022,Arizona,Jordan Morgan,Jr.,OL,10,10
+2022,Arizona St.,LaDarius Henderson,Sr.,OL,6,6
+2022,Arizona St.,Des Holmes,Sr.,OL,10,10
+2022,Arizona St.,Isaia Glass,So.,OL,11,11
+2022,Arizona St.,Ben Scott,Jr.,OL,10,10
+2022,Arizona St.,Ben Bray,So.,OL,5,1
+2022,Arizona St.,Chris Martinez,Sr.,OL,11,11
+2022,Arizona St.,Joey Ramos,Jr.,OL,2,1
+2022,Arizona St.,Emmit Bohle,Sr.,OL,12,7
+2022,Arkansas,Beaux Limmer,Jr.,OL,13,13
+2022,Arkansas,Ricky Stromberg,Sr.,OL,12,12
+2022,Arkansas,Ty'Kieast Crawford,Jr.,OL,10,2
+2022,Arkansas,Luke Jones,Sr.,OL,13,13
+2022,Arkansas,Brady Latham,Jr.,OL,12,12
+2022,Arkansas,Dalton Wagner,Sr.,OL,12,12
+2022,Arkansas St.,Mehki Butler,So.,OL,12,12
+2022,Arkansas St.,Aleric Watson,Fr.,OL,4,2
+2022,Arkansas St.,Ethan Miner,So.,OL,12,12
+2022,Arkansas St.,Noah Smith,Fr.,OL,11,2
+2022,Arkansas St.,Makilan Thomas,Fr.,OL,12,12
+2022,Arkansas St.,Ernesto Ramirez,Sr.,OL,12,6
+2022,Arkansas St.,Robert Holmes,Jr.,OL,3,3
+2022,Arkansas St.,Jordan Rhodes,Sr.,OL,11,11
+2022,Army West Point,Connor Finucane,Jr.,OL,12,12
+2022,Army West Point,Sam Barczak,Sr.,OL,12,3
+2022,Army West Point,Jackson Filipowicz,Jr.,OL,11,11
+2022,Army West Point,Shayne Buckingham,Sr.,OL,10,7
+2022,Army West Point,David Hayward,Jr.,OL,9,2
+2022,Army West Point,Will Jeffcoat,So.,OL,12,2
+2022,Army West Point,Simon Dellinger,Jr.,OL,11,4
+2022,Army West Point,Connor Bishop,Sr.,OL,12,12
+2022,Army West Point,Jordyn Law,Jr.,OL,8,7
+2022,Auburn,Tate Johnson,Jr.,OL,4,4
+2022,Auburn,Jeremiah Wright,Jr.,OL,12,1
+2022,Auburn,Keiondre Jones,Jr.,OL,12,2
+2022,Auburn,Kilian Zierer,Sr.,OL,12,12
+2022,Auburn,Kameron Stutts,Sr.,OL,12,11
+2022,Auburn,Alec Jackson,Sr.,OL,12,6
+2022,Auburn,Brandon Council,Sr.,OL,12,12
+2022,Auburn,Austin Troxell,Sr.,OL,8,8
+2022,Auburn,Brenden Coffey,Sr.,OL,9,4
+2022,BYU,Joe Tukuafu,Sr.,OL,10,3
+2022,BYU,Clark Barrington,Jr.,OL,13,13
+2022,BYU,Blake Freeland,Jr.,OL,13,13
+2022,BYU,Harris LaChance,Jr.,OL,12,12
+2022,BYU,Connor Pay,So.,OL,12,12
+2022,BYU,Kingsley Suamataia,Fr.,OL,12,12
+2022,Ball St.,Corey Stewart,Jr.,OL,9,9
+2022,Ball St.,Damon Kaylor,So.,OL,12,11
+2022,Ball St.,Joseph Boggs,Sr.,OL,10,10
+2022,Ball St.,Seth Schmidt,Jr.,OL,10,4
+2022,Ball St.,Ethan Crowe,Jr.,OL,12,12
+2022,Ball St.,Tommy Lorincz,Jr.,OL,9,3
+2022,Ball St.,Jaylen Turner,Sr.,OL,11,11
+2022,Baylor,Micah Mazzccua,So.,OL,11,10
+2022,Baylor,Ryan Lengyel,Fr.,OL,2,1
+2022,Baylor,Grant Miller,Sr.,OL,12,12
+2022,Baylor,Mose Jeffery,Sr.,OL,13,4
+2022,Baylor,Connor Galvin,Sr.,OL,13,13
+2022,Baylor,Gavin Byers,Jr.,OL,13,8
+2022,Baylor,Khalil Keith,Sr.,OL,6,5
+2022,Baylor,Jacob Gall,Sr.,OL,13,13
+2022,Boise St.,Ben Dooley,Jr.,OL,6,2
+2022,Boise St.,Mason Randolph,Fr.,OL,10,10
+2022,Boise St.,Kekaniokoa Holomalia-Gonzalez,Sr.,OL,10,8
+2022,Boise St.,Will Farrar,Sr.,OL,14,10
+2022,Boise St.,Garrett Curran,Sr.,OL,12,11
+2022,Boise St.,Cade Beresford,Sr.,OL,13,13
+2022,Boise St.,John Ojukwu,Sr.,OL,14,14
+2022,Boise St.,Roger Carreon,Fr.,OL,1,1
+2022,Boston College,Kevin Cline,Jr.,OL,2,2
+2022,Boston College,Dwayne Allick,Jr.,OL,12,11
+2022,Boston College,Jackson Ness,Sr.,OL,10,7
+2022,Boston College,Finn Dirstine,Sr.,OL,4,4
+2022,Boston College,Jack Conley,Sr.,OL,12,12
+2022,Boston College,Ozzy Trapilo,Jr.,OL,10,10
+2022,Boston College,Nick Thomas,So.,OL,7,3
+2022,Boston College,Drew Kendall,So.,OL,11,11
+2022,Boston College,Jude Bowry,Fr.,OL,7,2
+2022,Bowling Green,Cade Zimmerly,So.,OG,3,2
+2022,Bowling Green,Jalen Grant,Jr.,OG,13,12
+2022,Bowling Green,Alex Wollschlaeger,So.,OT,12,12
+2022,Bowling Green,Jeremiah Banks-Wall,Jr.,OT,3,1
+2022,Bowling Green,Jakari Robinson,Sr.,C,10,9
+2022,Bowling Green,Bronson Warner,So.,OG,13,13
+2022,Bowling Green,Cedric Dunbar II,Jr.,OT,8,3
+2022,Bowling Green,Kameren Stewart,Jr.,OT,12,9
+2022,Bowling Green,Tunde Fatukasi,So.,OT,10,4
+2022,Buffalo,Dom Polizzi,Sr.,OL,9,1
+2022,Buffalo,Jack Hasz,Sr.,OL,12,12
+2022,Buffalo,Tyler Doty,Jr.,OL,13,10
+2022,Buffalo,Isaiah Wright,Fr.,OL,13,13
+2022,Buffalo,Nick Hartnett,Jr.,OL,13,3
+2022,Buffalo,Gabe Wallace,Sr.,OL,12,12
+2022,Buffalo,Desmond Bessent,Sr.,OL,13,13
+2022,California,Brayden Rohme,Jr.,OL,10,9
+2022,California,Brian Driscoll,Jr.,OL,12,12
+2022,California,Ben Coleman,Jr.,OL,11,11
+2022,California,Spencer Lovell,Sr.,OL,3,3
+2022,California,Sioape Vatikani,Fr.,OL,12,9
+2022,California,Matthew Cindric,Sr.,OL,6,6
+2022,California,Ender Aguilar,So.,OL,4,2
+2022,California,Everett Johnson,Jr.,OL,9,1
+2022,California,T.J. Session,Jr.,OL,11,7
+2022,Central Mich.,Deiyantei Powell-Woods,Jr.,OL,11,11
+2022,Central Mich.,Jamezz Kimbrough,Sr.,OL,11,11
+2022,Central Mich.,Tyden Ferris,Jr.,OL,11,11
+2022,Central Mich.,Brayden Swartout,So.,OL,12,11
+2022,Central Mich.,Davis Heinzen,So.,OL,12,12
+2022,Central Mich.,Cole Johnson,Sr.,OL,9,1
+2022,Central Mich.,Cade Klimczak,So.,OL,1,1
+2022,Charlotte,Jonny King,So.,OL,9,7
+2022,Charlotte,Knox Boyd,Fr.,OL,4,1
+2022,Charlotte,Jaxon Hughes,Jr.,OL,11,11
+2022,Charlotte,Panda Askew,So.,OL,11,8
+2022,Charlotte,Jon Jacobs,Sr.,OL,12,5
+2022,Charlotte,Ashton Gist,Sr.,OL,12,12
+2022,Charlotte,TJ Moore,Sr.,OL,2,2
+2022,Charlotte,Matt Rosso,Jr.,OL,12,11
+2022,Charlotte,Antonio Gaines,Fr.,OL,4,3
+2022,Cincinnati,James Tunstall,Sr.,OL,13,13
+2022,Cincinnati,Joe Huber,So.,OL,13,13
+2022,Cincinnati,Gavin Gerhardt,Jr.,OL,13,13
+2022,Cincinnati,Jeremy Cooper,Sr.,OL,12,8
+2022,Cincinnati,Dylan O'Quinn,Sr.,OL,13,13
+2022,Cincinnati,Lorenz Metz,Sr.,OL,5,4
+2022,Clemson,Will Putnam,Sr.,OL,14,14
+2022,Clemson,Jordan McFadden,Sr.,OL,14,14
+2022,Clemson,Marcus Tate,So.,OL,11,11
+2022,Clemson,Mitchell Mayes,Jr.,OL,11,4
+2022,Clemson,Mason Trotter,Jr.,OL,1,1
+2022,Clemson,Walker Parks,Jr.,OL,13,13
+2022,Clemson,Blake Miller,Fr.,OL,14,14
+2022,Coastal Carolina,Will McDonald,Jr.,OL,12,12
+2022,Coastal Carolina,Donnell Wilson,Jr.,OL,13,12
+2022,Coastal Carolina,Willie Lampkin,Jr.,OL,13,13
+2022,Coastal Carolina,Willie Moise,So.,OL,12,11
+2022,Coastal Carolina,Dillon Luther,Jr.,OL,12,1
+2022,Coastal Carolina,Antwine Loper,Sr.,OL,12,12
+2022,Colorado,Van Wells,Fr.,C,11,8
+2022,Colorado,Austin Johnson,So.,OL,12,8
+2022,Colorado,Gerard Christian-Lichtenhan,So.,OL,12,7
+2022,Colorado,Jake Wiley,So.,OL,12,10
+2022,Colorado,Noah Fenske,So.,OL,12,1
+2022,Colorado,Frank Fillip,Jr.,OL,10,6
+2022,Colorado,Casey Roddick,Sr.,OL,12,12
+2022,Colorado,Tommy Brown,Sr.,OL,12,12
+2022,Colorado St.,Owen Snively,So.,OL,8,2
+2022,Colorado St.,Jacob Gardner,Jr.,OL,12,12
+2022,Colorado St.,George Miki-Han,Fr.,OL,6,5
+2022,Colorado St.,Dirk Nelson,So.,OL,4,1
+2022,Colorado St.,Brian Crespo-Jaquez,So.,OL,1,1
+2022,Colorado St.,Ches Jackson,Sr.,OL,3,1
+2022,Colorado St.,Keegan Hamilton,Fr.,OL,7,3
+2022,Colorado St.,Gray Davis,Sr.,OL,10,10
+2022,Colorado St.,Dontae Keys,Sr.,OL,10,10
+2022,Colorado St.,Dante Bivens,Sr.,OL,11,11
+2022,Duke,Graham Barton,Jr.,C,13,13
+2022,Duke,Maurice McIntyre,Sr.,OL,6,6
+2022,Duke,John Gelotte,Jr.,OT,4,2
+2022,Duke,Jacob Monk,Sr.,OL,11,10
+2022,Duke,Justin Pickett,So.,OT,12,3
+2022,Duke,"Andre Harris, Jr.",Sr.,OL,13,11
+2022,Duke,Chance Lytle,Sr.,OL,13,12
+2022,Duke,Jack Burns,Sr.,OL,13,8
+2022,East Carolina,Isaiah Foote,So.,OL,13,13
+2022,East Carolina,Avery Jones,Jr.,OL,12,12
+2022,East Carolina,Noah Henderson,Jr.,OL,13,12
+2022,East Carolina,Hampton Ergle,So.,OL,4,1
+2022,East Carolina,Justin Redd,Sr.,OL,13,13
+2022,East Carolina,Nishad Strother,So.,OL,13,13
+2022,East Carolina,Parker Moorer,So.,OL,12,1
+2022,East Carolina,Ethan Lang,Fr.,OL,1,1
+2022,Eastern Mich.,Mickey Rewolinski,So.,OL,10,4
+2022,Eastern Mich.,Dimitri Douglas,Sr.,OL,8,3
+2022,Eastern Mich.,Richard Bates Jr.,Sr.,OL,12,10
+2022,Eastern Mich.,Alex Howie,Sr.,OL,9,9
+2022,Eastern Mich.,Brian Dooley,Sr.,OL,13,13
+2022,Eastern Mich.,Marcellus Johnson,Sr.,OL,13,13
+2022,Eastern Mich.,Sidy Sow,Sr.,OL,13,13
+2022,FIU,Reynard Burnett,Jr.,OL,2,1
+2022,FIU,Wyatt Lawson,Fr.,OL,8,4
+2022,FIU,Julius Pierce,So.,OL,11,7
+2022,FIU,Lyndell Hudson II,Jr.,OL,8,7
+2022,FIU,Shamar Hobdy-Lee,So.,OL,12,11
+2022,FIU,Sam Hill,So.,OL,5,1
+2022,FIU,Phillip Houston,So.,OL,5,5
+2022,FIU,Jacob Peace,Jr.,OL,11,9
+2022,FIU,John Bock II,Fr.,OL,12,10
+2022,Fla. Atlantic,Kamaar Bell,Fr.,OL,9,5
+2022,Fla. Atlantic,Chaz Neal,Sr.,OL,12,12
+2022,Fla. Atlantic,Marquice Robinson,Jr.,OL,12,10
+2022,Fla. Atlantic,Nick Weber,Sr.,OL,12,12
+2022,Fla. Atlantic,Brendan Bordner,Sr.,OL,12,12
+2022,Fla. Atlantic,Dorian Hinton,So.,OL,11,9
+2022,Florida,Kingsley Eguakun,Jr.,OL,13,13
+2022,Florida,Michael Tarquin,Jr.,OL,9,8
+2022,Florida,Richard Gouraige,Sr.,OL,13,13
+2022,Florida,Ethan White,Sr.,OL,13,13
+2022,Florida,Austin Barber,So.,OL,13,5
+2022,Florida,Richie Leonard IV,So.,OL,11,1
+2022,Florida,Kamryn Waites,So.,OL,13,1
+2022,Florida,O'Cyrus Torrence,Jr.,OL,11,11
+2022,Florida St.,Robert Scott Jr.,So.,OL,11,11
+2022,Florida St.,Maurice Smith,So.,OL,12,12
+2022,Florida St.,Dillan Gibbons,Sr.,OL,13,13
+2022,Florida St.,Darius Washington,So.,OL,11,7
+2022,Florida St.,D'Mitri Emmanuel,Sr.,OL,13,13
+2022,Florida St.,Jazston Turnetine,Sr.,OL,13,8
+2022,Florida St.,Bless Harris,Jr.,OL,1,1
+2022,Fresno St.,Jacob Spomer,So.,OL,14,14
+2022,Fresno St.,Jacob Isaia,Sr.,OL,14,10
+2022,Fresno St.,Mose Vavao,Jr.,OL,14,14
+2022,Fresno St.,Tyrone Sampson Jr.,Sr.,OL,13,3
+2022,Fresno St.,Osmar Velez,Jr.,OL,10,1
+2022,Fresno St.,Braylen Nelson,So.,OL,10,6
+2022,Fresno St.,Bula Schmidt,Sr.,OL,14,14
+2022,Fresno St.,Dontae Bull,Sr.,OL,7,7
+2022,Fresno St.,Daniel Taumalolo,Jr.,OL,11,1
+2022,Ga. Southern,Khalil Crowder,Sr.,OL,11,11
+2022,Ga. Southern,Rasheed Miller,So.,OL,8,1
+2022,Ga. Southern,Caleb Kelly,Sr.,OL,11,11
+2022,Ga. Southern,Logan Langemeier,Sr.,OL,13,13
+2022,Ga. Southern,Brian Miller,Sr.,OL,11,11
+2022,Ga. Southern,Pichon Wimbley,Fr.,OL,12,12
+2022,Georgia,Devin Willock,So.,OL,15,2
+2022,Georgia,Broderick Jones,So.,OL,15,15
+2022,Georgia,Amarius Mims,So.,OL,14,2
+2022,Georgia,Tate Ratledge,Fr.,OL,14,14
+2022,Georgia,Xavier Truss,Jr.,OL,15,14
+2022,Georgia,Warren McClendon,Jr.,OL,14,13
+2022,Georgia,Sedrick Van Pran,So.,OL,15,15
+2022,Georgia St.,Pat Bartlett,Sr.,OL,11,11
+2022,Georgia St.,Travis Glover,Sr.,OL,11,9
+2022,Georgia St.,Johnathan Bass,Sr.,OL,5,2
+2022,Georgia St.,Avery Reece,Jr.,C,11,1
+2022,Georgia St.,Luis Cristobal,Jr.,OL,8,5
+2022,Georgia St.,Mason Cook,So.,OL,11,3
+2022,Georgia St.,Montavious Cunningham,Fr.,OL,8,4
+2022,Georgia St.,Bryson Broadway,Jr.,OL,10,10
+2022,Georgia St.,Malik Sumter,Sr.,C,12,12
+2022,Georgia Tech,Joe Fusile,Fr.,OL,10,8
+2022,Georgia Tech,Jakiah Leftwich,Fr.,OL,10,4
+2022,Georgia Tech,Jordan Williams,So.,OL,12,12
+2022,Georgia Tech,Paula Vaipulu,So.,OL,9,4
+2022,Georgia Tech,Weston Franklin,So.,OL,12,12
+2022,Georgia Tech,Paul Tchio,So.,OL,3,1
+2022,Georgia Tech,Corey Robinson II,Fr.,OL,12,12
+2022,Georgia Tech,Pierce Quick,So.,OL,11,8
+2022,Hawaii,Eliki Tanuvasa,Sr.,OL,9,8
+2022,Hawaii,Sergio Muasau,So.,OL,11,7
+2022,Hawaii,Stephan Bernal-Wendt,Sr.,OL,8,8
+2022,Hawaii,Ilm Manning,Sr.,OL,13,13
+2022,Hawaii,Solo Vaipulu,Sr.,OL,4,3
+2022,Hawaii,Micah Vanterpool,Sr.,OL,13,13
+2022,Hawaii,Austin Hopp,Sr.,OL,13,13
+2022,Houston,Chayse Todd,So.,OL,10,1
+2022,Houston,Tank Jenkins,Jr.,OL,13,2
+2022,Houston,Jack Freeman,Jr.,OL,13,13
+2022,Houston,Cam'Ron Johnson,So.,OL,13,13
+2022,Houston,Patrick Paul,So.,OL,13,13
+2022,Houston,Reuben Unije,Jr.,OL,7,2
+2022,Houston,Tyler Johnson,So.,OL,12,10
+2022,Houston,Lance Robinson,So.,OL,13,11
+2022,Illinois,Julian Pearl,Jr.,OL,12,12
+2022,Illinois,Alex Pihlstrom,Sr.,OL,13,13
+2022,Illinois,Jordyn Slaughter,Jr.,OL,13,1
+2022,Illinois,Zy Crisler,So.,OL,13,13
+2022,Illinois,Isaiah Adams,Jr.,OL,13,13
+2022,Illinois,Alex Palczewski,Sr.,OL,13,13
+2022,Indiana,Parker Hanna,Sr.,OL,12,7
+2022,Indiana,Joshua Sales Jr.,So.,OL,10,4
+2022,Indiana,Caleb Murphy,Jr.,OL,12,2
+2022,Indiana,Mike Katic,Jr.,OL,12,12
+2022,Indiana,Kahlil Benson,Jr.,OL,12,5
+2022,Indiana,Zach Carpenter,Jr.,OL,10,10
+2022,Indiana,Tim Weaver,Jr.,OL,8,7
+2022,Indiana,Matthew Bedford,Sr.,OL,1,1
+2022,Indiana,Luke Haggard,Sr.,OL,12,12
+2022,Iowa,Gennings Dunker,Fr.,OL,10,1
+2022,Iowa,Nick DeJong,Jr.,OL,12,8
+2022,Iowa,Beau Stephens,Fr.,OL,12,10
+2022,Iowa,Tyler Elsbury,So.,OL,10,2
+2022,Iowa,Connor Colby,So.,OL,13,13
+2022,Iowa,Jack Plumb,Sr.,OL,12,5
+2022,Iowa,Logan Jones,So.,OL,13,13
+2022,Iowa,Mason Richman,So.,OL,13,13
+2022,Iowa St.,Zach Ross,Sr.,OL,12,3
+2022,Iowa St.,Jake Remsburg,Jr.,OL,8,6
+2022,Iowa St.,Tyler Miller,So.,OL,12,10
+2022,Iowa St.,Darrell Simmons,Jr.,OL,12,11
+2022,Iowa St.,Grant Treiber,Jr.,OL,12,7
+2022,Iowa St.,Jarrod Hufford,Jr.,OL,12,12
+2022,Iowa St.,Trevor Downing,Sr.,OL,12,12
+2022,James Madison,Cole Potts,So.,OL,11,11
+2022,James Madison,Josh Toner,Fr.,OL,9,2
+2022,James Madison,Tanner Morris,So.,OL,11,11
+2022,James Madison,Tyler Stephens,So.,OL,11,11
+2022,James Madison,Tyshawn Wyatt,So.,OL,11,11
+2022,James Madison,Nick Kidwell,Jr.,OL,9,9
+2022,Kansas,Dominick Puni,Sr.,OL,13,13
+2022,Kansas,Michael Ford Jr.,So.,OL,13,13
+2022,Kansas,Bryce Cabeldue,Jr.,OL,13,13
+2022,Kansas,Mike Novitsky,Sr.,OL,13,13
+2022,Kansas,Earl Bostick Jr.,Sr.,OL,13,13
+2022,Kansas St.,Cooper Beebe,Jr.,OL,14,14
+2022,Kansas St.,Taylor Poitier,Jr.,OL,1,1
+2022,Kansas St.,Hadley Panzer,So.,OL,14,13
+2022,Kansas St.,KT Leveston,Sr.,OL,14,14
+2022,Kansas St.,Christian Duffie,Sr.,OL,14,14
+2022,Kansas St.,Hayden Gillum,Sr.,OL,14,14
+2022,Kent St.,Sam Allan,Sr.,OL,12,12
+2022,Kent St.,Elijah Lamptey,Jr.,OL,10,2
+2022,Kent St.,Savion Washington,Jr.,OL,11,10
+2022,Kent St.,Marcellus Marshall,Jr.,OL,12,12
+2022,Kent St.,Elijah Ratliff,Sr.,OL,12,12
+2022,Kent St.,Jack Bailey,Jr.,OL,12,12
+2022,Kentucky,Tashawn Manning,Sr.,OL,12,12
+2022,Kentucky,David Wohlabaugh Jr.,Fr.,OL,8,1
+2022,Kentucky,Deondre Buford,So.,OL,13,2
+2022,Kentucky,Jager Burton,Fr.,OL,13,13
+2022,Kentucky,Eli Cox,Jr.,OL,13,13
+2022,Kentucky,Jeremy Flax,Jr.,OL,12,12
+2022,Kentucky,Quintin Wilson,Sr.,OL,5,1
+2022,Kentucky,Kenneth Horsey,Sr.,OL,12,11
+2022,LSU,Emery Jones Jr.,Fr.,OL,14,12
+2022,LSU,Garrett Dellinger,So.,OL,9,6
+2022,LSU,Charles Turner III,Jr.,OL,12,12
+2022,LSU,Marlon Martinez,Jr.,OL,12,1
+2022,LSU,Anthony Bradford,Jr.,OL,13,12
+2022,LSU,Cameron Wire,Sr.,OL,4,1
+2022,LSU,Will Campbell,Fr.,OL,13,13
+2022,LSU,Miles Frazier,So.,OL,13,12
+2022,Liberty,Jonathan Graham,Jr.,OL,13,9
+2022,Liberty,Jacob Bodden,Jr.,OL,5,3
+2022,Liberty,Cooper McCaw,Sr.,OL,13,3
+2022,Liberty,Brendan Schlittler,Jr.,OL,13,13
+2022,Liberty,Cam Reddy,Sr.,OL,13,13
+2022,Liberty,Naasir Watkins,Sr.,OL,11,11
+2022,Liberty,X'Zauvea Gadlin,Sr.,OL,13,13
+2022,Louisiana,George Jackson,So.,OT,12,4
+2022,Louisiana,David Hudson,Sr.,OG,12,11
+2022,Louisiana,Jax Harrington,So.,OG,11,11
+2022,Louisiana,Carlos Rubio,Sr.,OT,10,10
+2022,Louisiana,AJ Gillie,So.,OG,12,12
+2022,Louisiana,Nathan Thomas,So.,OT,13,13
+2022,Louisiana,James Ohonba,Jr.,OG,12,1
+2022,Louisiana Tech,Abraham Delfin,Sr.,OL,3,3
+2022,Louisiana Tech,Carson Bruno,So.,OL,12,12
+2022,Louisiana Tech,Biron Rossell,Jr.,OL,9,1
+2022,Louisiana Tech,Erron Mahoney-Bean,So.,OL,1,1
+2022,Louisiana Tech,Dakota White,So.,OL,12,12
+2022,Louisiana Tech,Joshua Mote,Sr.,OL,11,11
+2022,Louisiana Tech,Bert Hale,So.,OL,10,7
+2022,Louisiana Tech,Ray Kelly,So.,OL,6,2
+2022,Louisiana Tech,Isaac Ellis,Jr.,OL,12,12
+2022,Louisville,Adonis Boone,Sr.,OL,12,8
+2022,Louisville,Bryan Hudson,Jr.,OL,13,13
+2022,Louisville,Michael Gonzalez,So.,OL,12,5
+2022,Louisville,Caleb Chandler,Sr.,OL,13,13
+2022,Louisville,Renato Brown,So.,OL,13,13
+2022,Louisville,Luke Kandra,So.,OL,8,2
+2022,Louisville,Trevor Reid,Sr.,OL,12,11
+2022,Marshall,Dalton Tucker,Jr.,OL,13,13
+2022,Marshall,Ethan Driskell,So.,OL,13,13
+2022,Marshall,Logan Osburn,So.,OL,13,13
+2022,Marshall,Kendrick Sartor,Sr.,OL,13,13
+2022,Marshall,Trent Holler,So.,OL,12,5
+2022,Marshall,Cedrice Paillant,Sr.,OL,10,8
+2022,Maryland,Spencer Anderson,Sr.,OL,13,13
+2022,Maryland,Mason Lunsford,Sr.,OL,11,9
+2022,Maryland,Delmar Glaze,Jr.,OL,13,13
+2022,Maryland,Aric Harris,Jr.,OL,6,3
+2022,Maryland,Coltin Deery,Fr.,OL,10,2
+2022,Maryland,Jaelyn Duncan,Sr.,OL,12,12
+2022,Maryland,Johari Branch,Sr.,OL,13,12
+2022,Massachusetts,Josh Atwood,So.,OL,12,11
+2022,Massachusetts,Max Longman,So.,OL,9,9
+2022,Massachusetts,Ethan Mottinger,So.,OL,12,7
+2022,Massachusetts,Xavier Graham,So.,OL,7,6
+2022,Massachusetts,Jonny Hassard,So.,OL,12,12
+2022,Massachusetts,Connor Vasher,Jr.,OL,6,1
+2022,Massachusetts,Ben Bohnenberger,Jr.,OL,7,1
+2022,Massachusetts,Cole Garcia,Jr.,OL,12,12
+2022,Memphis,Austin Myers,Sr.,OL,12,12
+2022,Memphis,Matt Dale,Sr.,OL,13,13
+2022,Memphis,Jacob Likes,Jr.,OL,13,13
+2022,Memphis,Mak Pounders,Fr.,OL,7,2
+2022,Memphis,Jonah Gambill,So.,OL,11,11
+2022,Memphis,Davion Carter,So.,OL,12,11
+2022,Memphis,Brackston Alford,So.,OL,13,3
+2022,Miami (FL),Anez Cooper,Fr.,OL,10,4
+2022,Miami (FL),Matthew McCoy,Fr.,OL,2,1
+2022,Miami (FL),Jakai Clark,Sr.,OL,10,9
+2022,Miami (FL),Jalen Rivers,Fr.,OL,8,6
+2022,Miami (FL),Laurence Seymore,So.,OG,6,4
+2022,Miami (FL),Jonathan Denis,So.,OL,5,2
+2022,Miami (FL),Logan Sagapolu,So.,OL,5,1
+2022,Miami (FL),John Campbell Jr.,Sr.,OL,11,10
+2022,Miami (FL),"DJ Scaife, Jr.",Sr.,OL,11,10
+2022,Miami (FL),Justice Oluwaseun,Sr.,OL,5,4
+2022,Miami (OH),Reid Holskey,Jr.,OL,11,11
+2022,Miami (OH),Kolby Borders,So.,OL,9,9
+2022,Miami (OH),Ben Jackson,Jr.,OL,12,1
+2022,Miami (OH),Sam Vaughan,Jr.,OL,1,1
+2022,Miami (OH),Rusty Feth,Sr.,OL,11,11
+2022,Miami (OH),Caleb Shaffer,Sr.,OL,12,12
+2022,Miami (OH),Will Jados,So.,OL,12,10
+2022,Miami (OH),John Brekke,Sr.,OL,10,4
+2022,Michigan,Karsen Barnhart,Sr.,OL,9,8
+2022,Michigan,Zak Zinter,Jr.,OL,13,13
+2022,Michigan,Jeffrey Persi,Jr.,OL,14,1
+2022,Michigan,Giovanni El-Hadi,So.,OL,14,3
+2022,Michigan,Trevor Keegan,Sr.,OL,10,10
+2022,Michigan,Trente Jones,Sr.,OL,11,6
+2022,Michigan,Olusegun Oluwatimi,Sr.,OL,13,13
+2022,Michigan,Ryan Hayes,Sr.,OL,11,11
+2022,Michigan,Alessandro Lorenzetti,Fr.,OL,1,1
+2022,Michigan St.,Matt Carrick,Sr.,OL,9,9
+2022,Michigan St.,Brandon Baldwin,Jr.,OL,9,5
+2022,Michigan St.,Geno VanDeMark,Fr.,OL,10,2
+2022,Michigan St.,J.D. Duplain,Sr.,OL,12,12
+2022,Michigan St.,Nick Samac,Sr.,OL,12,12
+2022,Michigan St.,Spencer Brown,Jr.,OL,12,12
+2022,Michigan St.,Brian Greene,Sr.,OL,10,1
+2022,Michigan St.,Jarrett Horst,Sr.,OL,8,7
+2022,Middle Tenn.,Seth Falley,Jr.,OL,6,3
+2022,Middle Tenn.,Jacqui Graham,Jr.,OL,11,10
+2022,Middle Tenn.,Jordan Palmer,Sr.,OL,11,9
+2022,Middle Tenn.,Jahlil Ryles,Jr.,OL,9,4
+2022,Middle Tenn.,Sterling Porcher,So.,OL,13,13
+2022,Middle Tenn.,Wilson Kelly,Fr.,OL,10,4
+2022,Middle Tenn.,J'Shun Bodiford,So.,OL,9,1
+2022,Middle Tenn.,Tyler Falvey,Jr.,OL,13,13
+2022,Middle Tenn.,Keylan Rutledge,Fr.,OL,11,6
+2022,Middle Tenn.,Ethan Ellis,Jr.,OL,13,2
+2022,Minnesota,Nathan Boe,Sr.,OL,13,1
+2022,Minnesota,Aireontae Ersery,So.,OL,13,13
+2022,Minnesota,Chuck Filiaga,Sr.,OL,13,13
+2022,Minnesota,Axel Ruschmeyer,Sr.,OL,13,13
+2022,Minnesota,Quinn Carroll,Sr.,OL,13,13
+2022,Minnesota,John Michael Schmitz,Sr.,OL,12,12
+2022,Mississippi St.,Cole Smith,Sr.,OL,13,13
+2022,Mississippi St.,Albert Reese IV,Fr.,OL,13,1
+2022,Mississippi St.,Kameron Jones,Sr.,OL,12,12
+2022,Mississippi St.,Kwatrivous Johnson,Sr.,OL,9,5
+2022,Mississippi St.,Nick Jones,Jr.,OL,13,12
+2022,Mississippi St.,Percy Lewis,Jr.,OL,13,1
+2022,Mississippi St.,LaQuinston Sharp,Sr.,OL,12,12
+2022,Mississippi St.,Steven Losoya,Jr.,OL,13,9
+2022,Missouri,Armand Membou,Fr.,OL,11,5
+2022,Missouri,Xavier Delgado,Sr.,OL,12,12
+2022,Missouri,Javon Foster,Sr.,OL,13,13
+2022,Missouri,Mitchell Walters,So.,OL,13,4
+2022,Missouri,Connor Wood,Sr.,OL,13,12
+2022,Missouri,Connor Tollison,So.,OL,13,13
+2022,Missouri,EJ Ndoma-Ogar,So.,OL,6,2
+2022,Missouri,Zeke Powell,Sr.,OL,4,4
+2022,NC State,Derrick Eason,Jr.,OL,13,3
+2022,NC State,Grant Gibson,Sr.,OL,10,10
+2022,NC State,"Anthony Carter, Jr.",Fr.,OL,9,1
+2022,NC State,Dylan McMahon,So.,OL,13,13
+2022,NC State,Anthony Belton,So.,OL,13,8
+2022,NC State,Timothy McKay,So.,OL,13,10
+2022,NC State,Bryson Speas,Sr.,OL,13,8
+2022,NC State,Chandler Zavala,Sr.,OL,12,12
+2022,NIU,Logan Zschernitz,Sr.,OL,10,10
+2022,NIU,J.J. Lippe,Sr.,OL,9,7
+2022,NIU,John Champe,Jr.,OL,12,11
+2022,NIU,Pete Nygra,So.,OL,12,11
+2022,NIU,Nolan Potter,Sr.,OL,11,10
+2022,NIU,Evan Buss,So.,OL,12,8
+2022,NIU,Marques Cox,Jr.,OL,4,4
+2022,Navy,Joshua Pena,Jr.,OG,11,10
+2022,Navy,Jamie Romo,Sr.,OL,4,1
+2022,Navy,Lirion Murtezi,Jr.,OG,11,5
+2022,Navy,David Hixon,So.,C,6,6
+2022,Navy,Ahmad Bradley,Jr.,OG,12,3
+2022,Navy,Kip Frankland,Sr.,OT,11,11
+2022,Navy,Sam Glover,Jr.,OT,11,11
+2022,Navy,Connor McMahon,So.,OT,10,9
+2022,Nebraska,Henry Lutovsky,Fr.,OL,11,2
+2022,Nebraska,Bryce Benhart,So.,OL,12,11
+2022,Nebraska,Ethan Piper,So.,OL,10,8
+2022,Nebraska,Trent Hixson,Sr.,OL,12,12
+2022,Nebraska,Broc Bando,Sr.,OL,10,10
+2022,Nebraska,Turner Corcoran,So.,OL,12,12
+2022,Nebraska,Teddy Prochazka,So.,OL,3,3
+2022,Nebraska,Kevin Williams,Sr.,OL,4,1
+2022,Nebraska,Hunter Anthony,Jr.,OL,11,1
+2022,Nevada,Kai Arneson,Fr.,OL,11,3
+2022,Nevada,Joey Capra,So.,OL,12,5
+2022,Nevada,Bryce Petersen,Sr.,OL,9,9
+2022,Nevada,Grant Starck,Jr.,OL,12,12
+2022,Nevada,Trey Hamilton,Sr.,OL,11,4
+2022,Nevada,Jacob Nunez,So.,OL,3,1
+2022,Nevada,Andrew Madrigal,Fr.,OL,11,8
+2022,Nevada,Zac Welch,Jr.,OL,8,6
+2022,Nevada,Josh Grabowski,Fr.,OL,2,2
+2022,Nevada,Isaiah World,Fr.,OL,11,10
+2022,New Mexico,Tavien Ford,So.,OL,11,9
+2022,New Mexico,Greg Brown II,So.,OL,10,1
+2022,New Mexico,Isaac Gutierrez,Sr.,OL,10,10
+2022,New Mexico,Isaiah Sillemon,Fr.,OL,6,2
+2022,New Mexico,Ise Matautia,Fr.,OL,8,7
+2022,New Mexico,Radson Jang,Sr.,OL,11,4
+2022,New Mexico,CJ James,So.,OL,10,10
+2022,New Mexico,J.C. Davis,So.,OL,10,10
+2022,New Mexico,DJ Wingfield,Jr.,OL,1,1
+2022,New Mexico St.,Canaan Yarro,So.,OL,12,12
+2022,New Mexico St.,Doro Omerhi,Sr.,OL,12,10
+2022,New Mexico St.,Carson Pharris,So.,OL,9,1
+2022,New Mexico St.,Jae'vone Brown,Fr.,OL,8,4
+2022,New Mexico St.,Shiyazh Pete,Fr.,OL,12,9
+2022,New Mexico St.,Gabriel Preciado,Sr.,OL,13,13
+2022,New Mexico St.,Isaiah Mursalat,Jr.,OL,12,8
+2022,New Mexico St.,AJ Vaipulu,Fr.,OL,11,8
+2022,North Carolina,Ed Montilus,Sr.,OL,14,14
+2022,North Carolina,Jonathan Adorno,Jr.,OL,13,2
+2022,North Carolina,Asim Richards,Sr.,OL,14,14
+2022,North Carolina,William Barnes,Sr.,OL,13,13
+2022,North Carolina,Corey Gaynor,Sr.,OL,14,14
+2022,North Carolina,Spencer Rolland,Sr.,OL,13,13
+2022,North Texas,Jett Duncan,So.,OL,14,14
+2022,North Texas,Kaci Moreka,Jr.,OL,14,6
+2022,North Texas,Cole Brown,Jr.,OL,8,8
+2022,North Texas,Febechi Nwaiwu,Fr.,OL,14,12
+2022,North Texas,Daizion Carroll,Jr.,OL,4,2
+2022,North Texas,Gabe Blair,So.,OL,14,14
+2022,North Texas,Manase Mose,Sr.,OL,14,14
+2022,Northwestern,Josh Priebe,Jr.,OL,8,8
+2022,Northwestern,Caleb Tiernan,So.,OL,11,5
+2022,Northwestern,Zachary Franks,Jr.,OL,9,1
+2022,Northwestern,Conrad Rowley,Sr.,OL,2,2
+2022,Northwestern,Charlie Schmidt,Sr.,OL,12,12
+2022,Northwestern,Peter Skoronski,Jr.,OL,12,12
+2022,Northwestern,Ethan Wiederkehr,Sr.,OL,12,12
+2022,Northwestern,Vincent Picozzi,Sr.,OL,10,10
+2022,Notre Dame,Josh Lugg,Sr.,OL,13,13
+2022,Notre Dame,Joe Alt,So.,OL,13,13
+2022,Notre Dame,Blake Fisher,Fr.,OL,13,13
+2022,Notre Dame,Jarrett Patterson,Sr.,OL,12,12
+2022,Notre Dame,Andrew Kristofic,Jr.,OL,11,1
+2022,Notre Dame,Zeke Correll,Jr.,OL,13,13
+2022,Ohio,Joe Oakes,Jr.,OL,3,2
+2022,Ohio,Bryce Ramer,Sr.,OL,13,3
+2022,Ohio,Kurt Danneker,Sr.,OL,11,11
+2022,Ohio,Parker Titsworth,Jr.,OL,14,14
+2022,Ohio,Shedrick Rhodes Jr.,So.,OL,13,11
+2022,Ohio,Jay Amburgey,Jr.,OL,10,10
+2022,Ohio,Christophe Atkinson,Jr.,OL,12,1
+2022,Ohio,Jacob Dennison,So.,OL,10,4
+2022,Ohio,Hagen Meservy,Sr.,OL,13,13
+2022,Ohio,Brody Rodgers,Sr.,OL,13,1
+2022,Ohio St.,Luke Wypler,Jr.,OL,13,13
+2022,Ohio St.,Donovan Jackson,So.,OL,13,12
+2022,Ohio St.,Toby Wilson,So.,OL,3,1
+2022,Ohio St.,Dawand Jones,Sr.,OL,12,12
+2022,Ohio St.,Josh Fryar,Jr.,OL,12,1
+2022,Ohio St.,Paris Johnson Jr.,Jr.,OT,13,13
+2022,Ohio St.,Matthew Jones,Sr.,OL,12,12
+2022,Oklahoma,Andrew Raym,Jr.,OL,10,10
+2022,Oklahoma,Savion Byrd,So.,OL,10,1
+2022,Oklahoma,Wanya Morris,Sr.,OL,9,8
+2022,Oklahoma,Anton Harrison,Jr.,OL,12,12
+2022,Oklahoma,Robert Congel,Sr.,OL,11,3
+2022,Oklahoma,Chris Murray,Sr.,OL,12,12
+2022,Oklahoma,Jacob Sexton,Fr.,OL,10,1
+2022,Oklahoma,Tyler Guyton,So.,OT,10,5
+2022,Oklahoma,McKade Mettauer,Jr.,OL,13,13
+2022,Oklahoma St.,Eli Russ,So.,OL,9,1
+2022,Oklahoma St.,Caleb Etienne,Jr.,OL,13,13
+2022,Oklahoma St.,Hunter Woodard,Sr.,OL,8,7
+2022,Oklahoma St.,Jake Springfield,Jr.,OL,13,13
+2022,Oklahoma St.,Joe Michalski,Jr.,OL,11,4
+2022,Oklahoma St.,Preston Wilson,Jr.,OL,10,10
+2022,Oklahoma St.,Taylor Miterko,Jr.,OL,13,12
+2022,Oklahoma St.,Jason Brooks Jr.,So.,OL,10,3
+2022,Old Dominion,Gary Hoover,Sr.,OL,5,1
+2022,Old Dominion,Leroy Thomas,Jr.,OL,12,11
+2022,Old Dominion,Xavier Black,So.,OL,12,12
+2022,Old Dominion,Stephon Dubose-Bourne,Fr.,OL,5,1
+2022,Old Dominion,Nick Saldiveri,Jr.,OL,11,11
+2022,Old Dominion,Santana Saunders,So.,OL,11,1
+2022,Old Dominion,Khadere Kounta,Jr.,OL,12,12
+2022,Old Dominion,Tyran Hunt,Sr.,OL,11,10
+2022,Old Dominion,Chris Adams,Fr.,OL,2,1
+2022,Ole Miss,Micah Pettus,Fr.,OL,13,9
+2022,Ole Miss,Nick Broeker,Sr.,OL,13,13
+2022,Ole Miss,Caleb Warren,Jr.,OL,13,12
+2022,Ole Miss,Jayden Williams,Fr.,OL,13,13
+2022,Ole Miss,Eli Acker,So.,OL,13,5
+2022,Ole Miss,Jeremy James,Jr.,OL,13,13
+2022,Oregon,Malaesala Aumavae-Laulu,Sr.,OL,13,13
+2022,Oregon,Alex Forsyth,Sr.,OL,12,12
+2022,Oregon,Jackson Powers-Johnson,So.,OL,12,1
+2022,Oregon,T.J. Bass,Sr.,OL,13,13
+2022,Oregon,Steven Jones,Jr.,OL,5,4
+2022,Oregon,Ryan Walk,Sr.,OL,12,12
+2022,Oregon,Marcus Harper II,So.,OL,13,10
+2022,Oregon St.,Marco Brewer,Jr.,OL,7,5
+2022,Oregon St.,Zach Holmes,Fr.,OL,1,1
+2022,Oregon St.,Heneli Bloomfield,Jr.,OL,11,7
+2022,Oregon St.,Tanner Miller,So.,OL,13,1
+2022,Oregon St.,Jake Levengood,Jr.,OL,13,13
+2022,Oregon St.,Taliese Fuaga,So.,OL,13,13
+2022,Oregon St.,Brandon Kipper,Sr.,OL,13,13
+2022,Oregon St.,Joshua Gray,So.,OL,13,13
+2022,Penn St.,Sal Wormley,Jr.,OL,13,13
+2022,Penn St.,Caedan Wallace,Jr.,OL,8,7
+2022,Penn St.,Landon Tengwall,Fr.,OL,5,5
+2022,Penn St.,Bryce Effner,Sr.,OL,13,6
+2022,Penn St.,Olumuyiwa Fashanu,So.,OL,8,8
+2022,Penn St.,Juice Scruggs,Sr.,OL,13,13
+2022,Penn St.,Hunter Nourzad,Sr.,OL,11,8
+2022,Penn St.,Drew Shelton,Fr.,OL,7,5
+2022,Pittsburgh,Jake Kradel,Sr.,OL,13,13
+2022,Pittsburgh,Branson Taylor,So.,OL,13,4
+2022,Pittsburgh,Ryan Jacoby,Jr.,OL,13,5
+2022,Pittsburgh,Blake Zubovic,Sr.,OL,13,9
+2022,Pittsburgh,Matt Goncalves,Jr.,OL,13,13
+2022,Pittsburgh,Carter Warren,Sr.,OL,4,4
+2022,Pittsburgh,Owen Drexel,Sr.,OL,6,5
+2022,Pittsburgh,Gabe Houy,Sr.,OL,8,5
+2022,Pittsburgh,Marcus Minor,Sr.,OL,13,13
+2022,Purdue,Spencer Holstege,Jr.,OL,13,13
+2022,Purdue,Eric Miller,Sr.,OL,14,14
+2022,Purdue,Mahamane Moussa,So.,OL,14,9
+2022,Purdue,Gus Hartwig,Jr.,C,11,11
+2022,Purdue,Josh Kaltenberger,So.,OL,14,3
+2022,Purdue,Marcus Mbow,So.,OL,14,14
+2022,Purdue,Cam Craig,Jr.,OL,3,3
+2022,Purdue,Daniel Johnson,Sr.,OL,5,2
+2022,Purdue,Sione Finau,Jr.,OL,14,1
+2022,Rice,John Long,Fr.,OL,12,10
+2022,Rice,Clay Servin,Jr.,OL,13,13
+2022,Rice,Issac Klarkowski,So.,OL,8,5
+2022,Rice,Shea Baker,Sr.,OL,13,13
+2022,Rice,Ethan Onianwa,Fr.,OL,13,12
+2022,Rice,Trey Phillippi,Fr.,OL,9,4
+2022,Rice,Braedon Nutter,So.,OL,3,3
+2022,Rice,John Hughes,Fr.,OL,10,6
+2022,Rutgers,Gus Zilinskas,So.,OL,4,1
+2022,Rutgers,Ireland Brown,Jr.,OL,11,11
+2022,Rutgers,Hollin Pierce,So.,OL,12,12
+2022,Rutgers,Kwabena Asamoah,Fr.,OL,3,3
+2022,Rutgers,J.D. DiRenzo,Sr.,OL,12,12
+2022,Rutgers,Willie Tyler III,Sr.,OL,11,9
+2022,Rutgers,Curtis Dunlap Jr.,Sr.,OL,12,12
+2022,SMU,Justin Osborne,Jr.,OL,13,11
+2022,SMU,Branson Hickman,So.,OL,12,12
+2022,SMU,Marcus Bryant,Jr.,OL,13,12
+2022,SMU,Jaylon Thomas,Sr.,OL,12,11
+2022,SMU,Owen Condon,Sr.,OL,12,10
+2022,SMU,Joe Bissinger,Sr.,OL,13,9
+2022,San Diego St.,Ross Ulugalu-Maseuli,Fr.,OL,7,6
+2022,San Diego St.,Josh Simmons,Fr.,OL,13,13
+2022,San Diego St.,Brandon Crenshaw-Dickson,Jr.,OL,13,12
+2022,San Diego St.,Joey Wright,So.,OL,11,1
+2022,San Diego St.,Thomas Mirabella,So.,OL,12,5
+2022,San Diego St.,Cade Bennett,So.,OL,12,12
+2022,San Diego St.,Alama Uluave,Sr.,OL,13,13
+2022,San Diego St.,Dean Abdullah,So.,OL,6,3
+2022,San Jose St.,Tyler Ostrom,Sr.,OL,11,7
+2022,San Jose St.,Jaime Navarro,Sr.,OL,12,11
+2022,San Jose St.,Fernando Carmona,Fr.,OT,12,12
+2022,San Jose St.,Anthony Pardue,Sr.,OL,12,12
+2022,San Jose St.,Ryan Stewart,Fr.,OL,3,3
+2022,San Jose St.,James McNorton,Fr.,OL,9,9
+2022,San Jose St.,Malik Williams,So.,OT,10,4
+2022,San Jose St.,Marist Talavou,So.,OL,11,2
+2022,South Alabama,Josh McCulloch,Jr.,OL,8,8
+2022,South Alabama,Reggie Smith,Jr.,OL,13,13
+2022,South Alabama,Adrein Strickland,So.,OL,11,11
+2022,South Alabama,Kent Foster,Sr.,OL,9,2
+2022,South Alabama,James Jackson,Sr.,OL,11,11
+2022,South Alabama,Dontae Lucas,So.,OL,9,9
+2022,South Alabama,PJ Mixon,Sr.,OL,7,2
+2022,South Carolina,Tyshawn Wannamaker,So.,OL,6,4
+2022,South Carolina,Jaylen Nichols,Sr.,OL,12,7
+2022,South Carolina,Jakai Moore,Jr.,OL,13,8
+2022,South Carolina,Trai Jones,So.,OL,12,3
+2022,South Carolina,Vershon Lee,Jr.,OL,12,7
+2022,South Carolina,Wyatt Campbell,Sr.,OL,9,1
+2022,South Carolina,Jovaughn Gwyn,Sr.,OL,13,13
+2022,South Carolina,Dylan Wonnum,Sr.,OL,10,10
+2022,South Carolina,Eric Douglas,Sr.,OL,13,13
+2022,South Fla.,Demontrey Jacobs,Sr.,OL,8,8
+2022,South Fla.,Brad Cecil,Sr.,OL,8,8
+2022,South Fla.,Dustyn Hall,So.,OL,8,8
+2022,South Fla.,Donovan Jennings,Sr.,OL,4,4
+2022,South Fla.,Derrell Bailey Jr.,So.,OL,8,3
+2022,South Fla.,Demetris Harris,Sr.,OL,8,8
+2022,South Fla.,Mike Lofton,So.,OL,12,3
+2022,Southern California,Gino Quinones,Jr.,OL,14,2
+2022,Southern California,Justin Dedich,Sr.,OL,13,13
+2022,Southern California,Courtland Ford,So.,OL,10,3
+2022,Southern California,Mason Murphy,Fr.,OL,14,5
+2022,Southern California,Jonah Monheim,So.,OL,14,14
+2022,Southern California,Andrew Vorhees,Sr.,OL,11,11
+2022,Southern California,Bobby Haskins,Sr.,OL,13,9
+2022,Southern California,Brett Neilon,Sr.,OL,13,13
+2022,Southern Miss.,John Bolding,Jr.,OL,13,10
+2022,Southern Miss.,Gerquan Scott,So.,OL,13,13
+2022,Southern Miss.,Matt Ryals,So.,OL,13,2
+2022,Southern Miss.,Coker Wright,Jr.,OL,10,1
+2022,Southern Miss.,Briason Mays,Jr.,OL,12,12
+2022,Southern Miss.,Tykeem Doss,Sr.,OL,13,13
+2022,Southern Miss.,Paul Gainer,Sr.,OL,12,4
+2022,Southern Miss.,Kyron Barnes,Fr.,OL,9,5
+2022,Southern Miss.,Bryce Ramsey,So.,OL,12,5
+2022,Stanford,Logan Berzins,Jr.,OL,11,1
+2022,Stanford,Walter Rouse,Sr.,OT,10,10
+2022,Stanford,Jake Hornibrook,Sr.,OG,11,11
+2022,Stanford,Levi Rogers,Jr.,OG,11,11
+2022,Stanford,Drake Nugent,Sr.,C,12,12
+2022,Stanford,Myles Hinton,Jr.,OT,7,7
+2022,Stanford,Barrett Miller,Sr.,OG,9,4
+2022,Stanford,Drake Metcalf,Jr.,C,3,1
+2022,Stanford,Jack Leyrer,So.,OL,4,3
+2022,Syracuse,Matthew Bergeron,Jr.,OL,11,11
+2022,Syracuse,Christopher Bleich,Jr.,OL,12,12
+2022,Syracuse,Enrique Cruz Jr.,Fr.,OL,8,5
+2022,Syracuse,Carlos Vettorello,Jr.,OL,13,13
+2022,Syracuse,Jakob Bradford,So.,OL,8,1
+2022,Syracuse,Josh Ilaoa,So.,OL,13,1
+2022,Syracuse,Kalan Ellis,So.,OL,11,9
+2022,Syracuse,Dakota Davis,Sr.,OL,13,13
+2022,TCU,Brandon Coleman,Jr.,OL,15,15
+2022,TCU,Steve Avila,Sr.,OL,15,15
+2022,TCU,Andrew Coker,Jr.,OL,15,15
+2022,TCU,Alan Ali,Sr.,OL,15,15
+2022,TCU,Wes Harris,Sr.,OL,15,15
+2022,Temple,Victor Stoffel,So.,OL,7,7
+2022,Temple,Jimto Obidegwu,So.,OL,4,1
+2022,Temple,Wisdom Quarshie,So.,OL,10,9
+2022,Temple,Bryce Thoman,So.,OL,10,8
+2022,Temple,Richard Rodriguez,Jr.,OL,8,8
+2022,Temple,James Faminu,Fr.,OL,6,5
+2022,Temple,Adam Klein,Sr.,OL,10,10
+2022,Temple,Isaac Moore,Sr.,OL,12,12
+2022,Tennessee,Darnell Wright,Sr.,OL,13,13
+2022,Tennessee,Cooper Mays,Jr.,OL,13,13
+2022,Tennessee,Jeremiah Crawford,Sr.,OL,10,6
+2022,Tennessee,Javontez Spraggins,Jr.,OL,13,13
+2022,Tennessee,Gerald Mincey,So.,OL,9,7
+2022,Tennessee,Jerome Carvin,Sr.,OL,13,13
+2022,Texas,Andrej Karic,So.,OL,12,3
+2022,Texas,Christian Jones,Sr.,OL,13,13
+2022,Texas,Hayden Conner,So.,OL,13,13
+2022,Texas,Jake Majors,So.,OL,13,13
+2022,Texas,Cole Hutson,Fr.,OL,13,13
+2022,Texas,Kelvin Banks Jr.,Fr.,OL,13,13
+2022,Texas A&M,Reuben Fatheree II,So.,OL,12,12
+2022,Texas A&M,Jordan Spasojevic-Moko,So.,OL,5,2
+2022,Texas A&M,Trey Zuhn III,Fr.,OL,11,11
+2022,Texas A&M,Matthew Wykoff,Fr.,OL,12,9
+2022,Texas A&M,Layden Robinson,Jr.,OL,12,12
+2022,Texas A&M,Aki Ogunbiyi,So.,OL,6,4
+2022,Texas A&M,Dametrious Crownover,Fr.,OL,8,1
+2022,Texas A&M,Bryce Foster,So.,OL,4,4
+2022,Texas A&M,Mark Nabou Jr.,Fr.,OL,2,1
+2022,Texas A&M,Kam Dewberry,Fr.,OL,7,5
+2022,Texas St.,Kyle Hergel,Jr.,OL,12,11
+2022,Texas St.,Silas Robinson,Jr.,OL,8,6
+2022,Texas St.,Russell Baker,Sr.,OL,10,7
+2022,Texas St.,Dalton Cooper,So.,OL,12,11
+2022,Texas St.,Alex Costilla,Jr.,OL,8,6
+2022,Texas St.,Evan Lovell,Jr.,OL,5,3
+2022,Texas St.,Richard West,Sr.,OL,12,11
+2022,Texas Tech,Dennis Wilburn,Sr.,OL,13,12
+2022,Texas Tech,Weston Wright,Sr.,OL,12,12
+2022,Texas Tech,Landon Peterson,Jr.,OL,8,8
+2022,Texas Tech,Matt Keeler,So.,OL,13,2
+2022,Texas Tech,Jacoby Jackson,So.,OL,12,6
+2022,Texas Tech,Caleb Rogers,Jr.,OL,13,13
+2022,Texas Tech,Ty Buchanan,Fr.,OL,4,1
+2022,Texas Tech,Monroe Mills,So.,OL,10,10
+2022,Toledo,Kendall Major,Jr.,OL,12,12
+2022,Toledo,Kelvin Ateman,Sr.,OL,11,8
+2022,Toledo,Mitchell Berg,Sr.,OL,9,8
+2022,Toledo,Devan Rogers,Jr.,C,13,10
+2022,Toledo,Drew Beckenhaupt,Fr.,OL,1,1
+2022,Toledo,Vinny Sciury,So.,OL,14,14
+2022,Toledo,Michael Bergen,So.,OL,10,2
+2022,Toledo,Lavel Dumont,Jr.,OL,5,2
+2022,Toledo,Nick Rosi,So.,OL,14,14
+2022,Troy,Daniel King,So.,OL,14,14
+2022,Troy,Austin Stidham,Sr.,OL,14,14
+2022,Troy,Jake Andrews,Jr.,OL,14,14
+2022,Troy,Grant Betts,Jr.,OL,14,14
+2022,Troy,Deandre Butler,Sr.,OL,14,14
+2022,Tulane,Josh Remetich,So.,OL,9,7
+2022,Tulane,Joey Claybrook,Sr.,OL,14,14
+2022,Tulane,Sincere Haynesworth,Sr.,OL,14,13
+2022,Tulane,Rashad Green,So.,OL,14,14
+2022,Tulane,Prince Pines,Jr.,OL,14,14
+2022,Tulane,Kanan Ray,Jr.,OL,7,7
+2022,Tulsa,Tautai Li'o Marks,So.,C,11,11
+2022,Tulsa,Dillon Wade,So.,OL,12,12
+2022,Tulsa,Chester Baah,Jr.,OL,11,11
+2022,Tulsa,Will Farniok,Sr.,OL,11,11
+2022,Tulsa,Kai-Leon Herbert,Sr.,OL,1,1
+2022,Tulsa,Jaden Muskrat,So.,OL,12,11
+2022,Tulsa,Darrell Simpson,Sr.,OL,12,3
+2022,UAB,Kadeem Telfort,Sr.,OL,11,10
+2022,UAB,Quincy McGee,Jr.,OL,13,13
+2022,UAB,Brady Wilson,So.,OL,11,7
+2022,UAB,Trey Bedosky,So.,OL,7,2
+2022,UAB,Eli Richey,Fr.,OL,6,1
+2022,UAB,Matthew Trehern,Sr.,OL,13,13
+2022,UAB,Will Rykard,Jr.,OL,9,9
+2022,UAB,Sidney Wells,Sr.,OL,13,13
+2022,UCF,Matthew Lee,Jr.,OL,14,14
+2022,UCF,Lokahi Pauole,Sr.,OL,14,14
+2022,UCF,Samuel Jackson,Sr.,OL,14,14
+2022,UCF,Ryan Swoboda,Sr.,OL,14,14
+2022,UCF,Tylan Grable,Sr.,OL,14,14
+2022,UCLA,Jon Gaines II,Sr.,OL,12,12
+2022,UCLA,Garrett DiGiorgio,Fr.,OL,13,13
+2022,UCLA,Duke Clemens,Sr.,OL,13,13
+2022,UCLA,Raiqwon O'Neal,Jr.,OL,13,13
+2022,UCLA,Atonio Mafi,Sr.,OL,12,12
+2022,UCLA,Sam Marrazzo,Sr.,OL,13,1
+2022,UConn,Noel Ofori-Nyadu,Sr.,OL,12,12
+2022,UConn,Christopher Fortin,So.,OL,10,3
+2022,UConn,Christian Haynes,Sr.,OL,12,12
+2022,UConn,Valentin Senn,So.,OL,12,12
+2022,UConn,Chase Lundt,Sr.,OL,12,12
+2022,UConn,Jake Guidone,Sr.,OL,12,12
+2022,ULM,Peyton Dunn,So.,OG,11,11
+2022,ULM,Keydrell Lewis,So.,OT,12,9
+2022,ULM,Vic Cutler,Sr.,C,12,12
+2022,ULM,Nick Lowe,Jr.,OL,6,1
+2022,ULM,Elijah Fisher,Fr.,OL,12,9
+2022,ULM,Stacey Wilkins,So.,OT,10,3
+2022,ULM,Zarian McGill,So.,C,12,12
+2022,ULM,Tellek Lockette,Fr.,OG,7,3
+2022,UNLV,Preston Nichols,Sr.,OL,11,11
+2022,UNLV,Brandon Logan,Jr.,OL,9,2
+2022,UNLV,Daviyon McDaniel,Sr.,OL,12,12
+2022,UNLV,Amani Trigg-Wright,Sr.,OL,12,11
+2022,UNLV,Tiger Shanks,So.,OL,10,10
+2022,UNLV,Leif Fautanu,Jr.,OL,12,12
+2022,UNLV,D.J. Stuckey,Sr.,OL,4,1
+2022,UTEP,Andrew Meyer,Jr.,OL,12,11
+2022,UTEP,Justin Mayers,So.,OL,12,12
+2022,UTEP,Jeremiah Byers,So.,OL,12,12
+2022,UTEP,Elijah Klein,Jr.,OL,12,12
+2022,UTEP,Zuri Henry,Sr.,OL,4,3
+2022,UTEP,Steven Hubbard,Jr.,OL,11,10
+2022,UTEP,Robert Mervin,Sr.,OL,12,1
+2022,UTSA,Kevin Davis,Sr.,OL,14,13
+2022,UTSA,Ernesto Almaraz,Sr.,OL,10,8
+2022,UTSA,Frankie Martinez,So.,OL,14,3
+2022,UTSA,Demetris Allen,Jr.,OL,1,1
+2022,UTSA,Terrell Haynes,Sr.,OL,14,12
+2022,UTSA,Walker Baty,So.,OL,13,7
+2022,UTSA,Makai Hart,Sr.,OL,2,2
+2022,UTSA,Payne He'Bert,Jr.,OL,6,3
+2022,UTSA,Ahofitu Maka,Sr.,OL,14,14
+2022,UTSA,Venly Tatafu,So.,OL,12,7
+2022,Utah,Paul Maile,Jr.,OL,12,12
+2022,Utah,Sataoa Laumea,So.,OL,14,14
+2022,Utah,Braeden Daniels,Jr.,OL,14,14
+2022,Utah,Michael Mokofisi,Fr.,OL,13,13
+2022,Utah,Jaren Kump,So.,OL,13,2
+2022,Utah,Keaton Bills,So.,OL,14,13
+2022,Utah,Johnny Maea,Jr.,OL,7,2
+2022,Utah St.,Jacob South,Sr.,OL,12,11
+2022,Utah St.,Cole Motes,So.,OL,12,4
+2022,Utah St.,Wade Meacham,Sr.,OL,13,13
+2022,Utah St.,Weylin Lapuaho,Fr.,OL,13,13
+2022,Utah St.,Chandler Dolphin,Sr.,OL,13,13
+2022,Utah St.,Alfred Edwards,Sr.,OL,12,11
+2022,Vanderbilt,Jake Ketschek,So.,OL,5,3
+2022,Vanderbilt,Julian Hernandez,Sr.,OL,10,10
+2022,Vanderbilt,Junior Uzebu,Sr.,OL,12,5
+2022,Vanderbilt,Gunnar Hansen,So.,OL,11,11
+2022,Vanderbilt,Gage Pitchford,So.,OL,10,1
+2022,Vanderbilt,Delfin Xavier Castillo,So.,OL,6,5
+2022,Vanderbilt,Bradley Ashmore,Jr.,OL,9,9
+2022,Vanderbilt,Ben Cox,Jr.,OL,6,5
+2022,Vanderbilt,Jacob Brammer,Sr.,OL,12,11
+2022,Virginia,Jonathan Leech,Jr.,OL,9,8
+2022,Virginia,Ty Furnish,So.,OL,10,9
+2022,Virginia,Derek Devine,Sr.,OL,10,10
+2022,Virginia,Noah Josey,So.,OL,9,5
+2022,Virginia,Jestus Johnson III,Jr.,OL,8,1
+2022,Virginia,Logan Taylor,So.,OL,10,10
+2022,Virginia,McKale Boley,Fr.,OL,6,2
+2022,Virginia,John Paul Flores,Sr.,OL,10,5
+2022,Virginia Tech,Jesse Hanson,Jr.,OL,11,11
+2022,Virginia Tech,Johnny Jordan,Sr.,OL,11,11
+2022,Virginia Tech,Silas Dzansi,Sr.,OL,11,11
+2022,Virginia Tech,Kaden Moore,So.,OL,11,11
+2022,Virginia Tech,Parker Clements,So.,OL,11,11
+2022,Wake Forest,Michael Jurgens,Jr.,OL,13,13
+2022,Wake Forest,DeVonte Gordon,So.,OL,13,13
+2022,Wake Forest,Loic Ngassam Nya,Sr.,OL,13,13
+2022,Wake Forest,Sean Maginn,Sr.,OL,13,13
+2022,Wake Forest,Je'Vionte Nash,Sr.,OL,13,13
+2022,Washington,Roger Rosengarten,Fr.,OL,13,13
+2022,Washington,Jaxson Kirkland,Sr.,OL,10,10
+2022,Washington,Ulumoo Ale,Jr.,OL,11,1
+2022,Washington,Nate Kalepo,So.,OL,12,3
+2022,Washington,Henry Bainivalu,Sr.,OL,13,13
+2022,Washington,Troy Fautanu,So.,OL,13,13
+2022,Washington,Corey Luciano,Sr.,OL,13,13
+2022,Washington St.,Christian Hilborn,Fr.,OL,13,13
+2022,Washington St.,Konner Gomness,So.,OL,13,13
+2022,Washington St.,Jarrett Kingston,Jr.,OL,8,8
+2022,Washington St.,Ma'ake Fifita,So.,OL,9,8
+2022,Washington St.,Fa'alili Fa'amoe,Fr.,OL,7,7
+2022,Washington St.,Quinn McCarthy,So.,OL,12,3
+2022,Washington St.,Grant Stephens,Sr.,OL,13,12
+2022,West Virginia,Zach Frazier,So.,OL,12,12
+2022,West Virginia,Tomas Rimac,Fr.,OL,12,5
+2022,West Virginia,Doug Nester,Jr.,OL,11,11
+2022,West Virginia,Jordan White,Fr.,OL,4,3
+2022,West Virginia,Wyatt Milum,So.,OL,12,12
+2022,West Virginia,Ja'Quay Hubbard,So.,OL,12,11
+2022,Western Ky.,Vincent Murphy,So.,OL,14,14
+2022,Western Ky.,Rusty Staats,Jr.,OL,14,14
+2022,Western Ky.,Quantavious Leslie,So.,OL,14,14
+2022,Western Ky.,Marshall Jackson,Fr.,OL,12,2
+2022,Western Ky.,Wes Dorsey,So.,OL,11,6
+2022,Western Ky.,Gunner Britton,Jr.,OL,14,14
+2022,Western Ky.,Mark Goode,So.,OL,6,6
+2022,Western Mich.,Jack Sherwin,So.,OT,12,11
+2022,Western Mich.,Dylan Deatherage,Sr.,OL,12,12
+2022,Western Mich.,Jacob Gideon,So.,OL,10,10
+2022,Western Mich.,Addison West,So.,OL,12,12
+2022,Western Mich.,Adam Vandervest,So.,OL,8,6
+2022,Western Mich.,Trevor Campbell,Sr.,OL,10,7
+2022,Western Mich.,Eleasah Anderson,Sr.,OL,4,3
+2022,Wisconsin,Michael Furtney,Sr.,OL,12,8
+2022,Wisconsin,Tanor Bortolini,So.,OL,10,9
+2022,Wisconsin,Jack Nelson,So.,OL,11,11
+2022,Wisconsin,Logan Brown,Jr.,OL,6,3
+2022,Wisconsin,Riley Mahlman,Fr.,OL,7,6
+2022,Wisconsin,Joe Tippmann,Jr.,OL,12,12
+2022,Wisconsin,Trey Wedig,So.,OL,10,8
+2022,Wisconsin,Tyler Beach,Sr.,OL,11,9
+2022,Wyoming,Emmanuel Pregnon,Fr.,OT,11,11
+2022,Wyoming,Zach Watts,Jr.,OG,13,13
+2022,Wyoming,Jack Walsh,Fr.,OL,11,2
+2022,Wyoming,Nofoafia Tulafono,So.,OG,13,13
+2022,Wyoming,Caden Barnett,Fr.,OL,12,1
+2022,Wyoming,Frank Crum,Jr.,OT,12,12
+2022,Wyoming,Eric Abojei,Sr.,OG,13,13

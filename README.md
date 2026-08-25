@@ -55,6 +55,14 @@ starts should be ≈ 5 × games played. The feature is deliberately separate fro
 production-share composites — it is a starts share, not a yards share — and must
 earn model weight through the validation harness before it enters projections.
 
+**Validation** (`analysis/validate_ol_continuity.py`, 2016–2025 pairs, COVID seasons
+excluded, n=907): returning OL starts share adds **+5.1 SP+ per unit share beyond
+`overall_pct`** (season-clustered bootstrap p<.001, 95% CI [+2.7, +8.0]; R² gain
++.016). Teams returning <25% of OL starts averaged −3.6 SP+ / −0.66 wins; 75%+
+averaged +1.0 SP+ / +0.40 wins. The feature passes the gate and is a candidate for
+`model/` projections; it is not yet wired into them. `player_participation` covers
+seasons 2015–2025 (`data/participation/`), so the metric exists for 2016–2026.
+
 ## Win projections (2026-08 milestone)
 
 ```
