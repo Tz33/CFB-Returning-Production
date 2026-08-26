@@ -9,17 +9,28 @@ index (2021+) with the raw returning share (earlier), with a portal_era dummy
 absorbing the level shift. The portal adjustment's incremental value is
 identified by the head-to-head against the raw-returning baseline (same rows,
 raw shares in place of the adjusted indexes), not by the pooled coefficients.
+
+Offensive-line continuity (returning share of prior-season OL games started,
+from NCAA GP/GS) enters as its own additive term: it is a starts share, not a
+yards share, is nearly orthogonal to prior SP+ and only weakly related to the
+yards-based offensive share, and a fixed blend into continuity_off fits no
+better than letting OLS weight it (~1/3 of the offensive-continuity weight on
+2016-2024 data). It sits in both the model and the raw-returning baseline so
+the portal-adjustment head-to-head stays clean; NO_OL_FEATURES is the ablation
+spec the backtest scores against it.
 Defensive shares for the 2015-2016 seasons rest on sparse CFBD stats (see
 README data caveats), so early folds fit the defensive coefficient on noise.
 """
 import numpy as np
 import pandas as pd
 
-FEATURES = ["sp_prev", "continuity_off", "continuity_def",
+FEATURES = ["sp_prev", "continuity_off", "continuity_def", "continuity_ol",
             "new_head_coach", "recruit_z", "portal_era", "is_new_fbs"]
 # baseline (b): identical spec but raw returning shares replace the portal-adjusted indexes
-BASELINE_FEATURES = ["sp_prev", "off_pct", "def_pct",
+BASELINE_FEATURES = ["sp_prev", "off_pct", "def_pct", "continuity_ol",
                      "new_head_coach", "recruit_z", "portal_era", "is_new_fbs"]
+# ablation: the v2 spec without the OL term (identical rows — continuity_ol is imputed, never NaN)
+NO_OL_FEATURES = [f for f in FEATURES if f != "continuity_ol"]
 COVID_SEASONS = {2020, 2021}
 
 

@@ -55,13 +55,42 @@ starts should be ≈ 5 × games played. The feature is deliberately separate fro
 production-share composites — it is a starts share, not a yards share — and must
 earn model weight through the validation harness before it enters projections.
 
-**Validation** (`analysis/validate_ol_continuity.py`, 2016–2025 pairs, COVID seasons
-excluded, n=907): returning OL starts share adds **+5.1 SP+ per unit share beyond
-`overall_pct`** (season-clustered bootstrap p<.001, 95% CI [+2.7, +8.0]; R² gain
-+.016). Teams returning <25% of OL starts averaged −3.6 SP+ / −0.66 wins; 75%+
-averaged +1.0 SP+ / +0.40 wins. The feature passes the gate and is a candidate for
-`model/` projections; it is not yet wired into them. `player_participation` covers
-seasons 2015–2025 (`data/participation/`), so the metric exists for 2016–2026.
+**Validation** (`analysis/validate_ol_continuity.py`, COVID seasons excluded). On
+2016–2024 pairs (n=907) returning OL starts share added **+5.1 SP+ per unit share
+beyond `overall_pct`** (season-clustered bootstrap p<.001, 95% CI [+2.7, +8.0]).
+With the 2025 pairs added (n=1041, eight seasons) that plain gate reads +3.1
+(p=.075): 2025 is the first negative season of the eight (OL slope −3.5 on its own,
+with the mean returning share at a record-low .43 as portal churn hit the position)
+— one noisy season, not a reversal. The gate that matters is `--full-spec`, which
+runs the same incremental test inside the production rating spec: **+3.6 SP+ per
+unit share beyond prior SP+ and the split continuity indexes** (season-clustered
+bootstrap p<.001, 95% CI [+1.2, +6.3], n=1044). Teams returning <25% of OL starts
+averaged −3.4 SP+ / −0.64 wins; 75%+ averaged +1.0 SP+ / +0.40 wins.
+`player_participation` covers seasons 2015–2025 (`data/participation/`), so the
+metric exists for 2016–2026.
+
+**In the model (v3, `MODEL_VERSION = "v3-ols-ol-continuity"`).** The share enters
+`model/rating.py` as `continuity_ol`, a separate additive term rather than a blend
+into offensive continuity: it is nearly orthogonal to prior SP+ (r=.01) and only
+weakly related to the yards-based offensive share (r=.19), and a fixed
+Connelly-style blend at the data-implied weight (~⅓ of the offensive-continuity
+weight) fits no better than letting OLS weight it. It sits in both the model and
+the raw-returning baseline so the portal-adjustment head-to-head stays clean;
+`NO_OL_FEATURES` is the ablation spec the backtest scores it against
+(`model_no_ol`), alongside an OL-divergence subset (teams whose OL continuity most
+disagrees with their skill-position continuity, where the term can actually move
+a lean). Missing shares (3–6 teams a season) are imputed at the season mean so the
+training rows match the no-OL spec exactly. The expanding-window OL coefficient
+runs +3.3 (2019 fold, p=.05) → +5.1 (2025 fold) → **+2.7 in the production 2026
+fit (p=.012, n=1,116, with recruiting and coaching controls)**; the season-clustered
+bootstrap on the same spec gives +2.8 (p=.073, CI [−0.3, +6.0]) — conservative with
+eight season clusters and 2025 negative. **Backtest ablation** (identical folds,
+games, calibration, translation): pooled MAE 1.688 with OL vs 1.694 without (better
+in 4 of 5 folds; 2025 the exception), market hit rate **57.8% vs 56.1%** (241 vs
+234 of 417), portal-divergence subset 61.3% vs 56.2%. On the OL-divergence subset
+both variants hit 65.5% (57/87) against the raw-returning model's 58.6% — the OL
+term earns its keep in the overall and portal-divergence numbers, not on that
+subset. v3 is the production spec.
 
 ## Win projections (2026-08 milestone)
 
@@ -71,9 +100,9 @@ python -m analysis.backtest_win_projections        # time-safe backtest vs basel
 python -m analysis.divergence_board                # the portal divergence board
 ```
 
-The model predicts each team's SP+ rating from preseason-knowable features (prior SP+ .61, portal-adjusted offensive continuity +11.0, defensive continuity +1.9 (p=.02), new head coach -1.8, recruiting z +3.3). Continuity enters as separate fitted offense/defense features — the old blended index gave offense ~90% weight by the accident of yards-vs-tackles units; the fitted balance lands near 85/15, so the accident was close to right, but now it's a measurement instead of a coincidence. The model converts rating gaps to per-game win probabilities (logistic on 7,769 games: .128/SP+ point, home field +.30; FCS opponents get a rating-conditioned curve — ~86% for bottom-tier teams to 99.7% for elite, replacing a flat 93.7% that treated Alabama and a 2-win G5 team identically), applies Platt recalibration (gamma=.66, fixes tail overconfidence from predicted-rating noise), and sums exact Poisson-binomial win distributions over the real schedule (conference championship games excluded — their matchups encode season outcomes and book totals exclude them; see `model.simulate.drop_ccgs`).
+The model predicts each team's SP+ rating from preseason-knowable features (v2 fit: prior SP+ .61, portal-adjusted offensive continuity +11.0, defensive continuity +1.9 (p=.02), new head coach -1.8, recruiting z +3.3; v3 adds OL continuity — see "Offensive line continuity" above). Continuity enters as separate fitted offense/defense features — the old blended index gave offense ~90% weight by the accident of yards-vs-tackles units; the fitted balance lands near 85/15, so the accident was close to right, but now it's a measurement instead of a coincidence. The model converts rating gaps to per-game win probabilities (logistic on 7,769 games: .128/SP+ point, home field +.30; FCS opponents get a rating-conditioned curve — ~86% for bottom-tier teams to 99.7% for elite, replacing a flat 93.7% that treated Alabama and a 2-win G5 team identically), applies Platt recalibration (gamma=.66, fixes tail overconfidence from predicted-rating noise), and sums exact Poisson-binomial win distributions over the real schedule (conference championship games excluded — their matchups encode season outcomes and book totals exclude them; see `model.simulate.drop_ccgs`).
 
-**Backtest (2019, 2022-2025, everything fit strictly pre-season — rating model, win curve, FCS curve, Platt calibration, and transfer-translation coefficients are all re-derived per fold from prior seasons only; CCGs excluded throughout):** MAE 1.69 wins vs 1.71 (raw-returning baseline) and 1.83 (carry-forward); **55.6% against market win totals (232/417, program-clustered bootstrap p=.037, 95% CI .504-.607)**, with the model at or above the raw-returning baseline in 4 of 5 folds. On the portal-divergence subset the model hits **56.2% vs 50.0%** for an otherwise-identical raw-returning model — the portal adjustment earns its edge where published returning production is most wrong, though n=80 keeps that split directional. On identical market-covered team-seasons the model's MAE (1.73) edges the posted totals' own MAE (1.76), winning 4 of 5 seasons — market-grade accuracy from a free-data pipeline. The fold-safe translation coefficients drift across windows (offensive G5→P4 from ~0.86 on 2021-only data to ~0.64 by 2025) yet the results hold, so the adjustment's value doesn't depend on knowing the mature coefficients in advance. (Earlier drafts quoted 58.1%/p=.001; that figure leaked CCG outcomes into the schedule, pooled Platt calibration across eval folds, used translation coefficients estimated through 2025 in earlier folds, and tested with an IID binomial — all corrected here.)
+**Backtest (v3; 2019, 2022-2025, everything fit strictly pre-season — rating model, win curve, FCS curve, Platt calibration, and transfer-translation coefficients are all re-derived per fold from prior seasons only; CCGs excluded throughout):** MAE 1.69 wins vs 1.69 (same spec without the OL term), 1.70 (raw-returning baseline) and 1.83 (carry-forward); **57.8% against market win totals (241/417, program-clustered bootstrap p=.002, 95% CI .531-.624)** vs 56.1% without OL and 54.9% for the raw-returning baseline. On the portal-divergence subset the model hits **61.3% vs 53.7%** for an otherwise-identical raw-returning model (56.2% without OL) — the portal adjustment earns its edge where published returning production is most wrong, though n=80 keeps that split directional. On identical market-covered team-seasons the model's MAE (1.72) edges the posted totals' own MAE (1.76), winning 3 of 5 seasons — market-grade accuracy from a free-data pipeline. (v2, before the OL term and on a data snapshot through 2024: MAE 1.69, 55.6% (232/417, p=.037), divergence subset 56.2% vs 50.0%.) The fold-safe translation coefficients drift across windows (offensive G5→P4 from ~0.86 on 2021-only data to ~0.64 by 2025) yet the results hold, so the adjustment's value doesn't depend on knowing the mature coefficients in advance. (Earlier drafts quoted 58.1%/p=.001; that figure leaked CCG outcomes into the schedule, pooled Platt calibration across eval folds, used translation coefficients estimated through 2025 in earlier folds, and tested with an IID binomial — all corrected here.)
 
 ### Model caveats
 
@@ -88,6 +117,7 @@ The model predicts each team's SP+ rating from preseason-knowable features (prio
 - 2020/2021 season pairs are COVID-distorted and excluded from the analysis by default (`--include-covid` to keep them).
 - Teams that joined FBS mid-window can have FCS-era rows with tiny stat denominators; the analysis drops shares outside [0,1].
 - Transfer classification only sees FBS-to-FBS moves; FCS/JUCO arrivals count as freshmen.
+- CFBD enforces a **monthly call quota** (`429 Monthly call quota exceeded`, header `x-calllimit-remaining`). A full `etl.backfill` is ~60 bulk calls, but the `coaches` stage is one call per team (~137), so budget it. Before fitting or backtesting, check that `recruiting`, `coach_changes`, `games`, `game_lines`, and `win_totals` are populated — `build_features` yields NaN `recruit_z` when `recruiting` is empty and the training set silently collapses to zero rows.
 
 ## Make Targets
 

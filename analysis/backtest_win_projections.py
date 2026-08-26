@@ -6,7 +6,11 @@ AND Platt calibration are fit strictly on earlier seasons; the eval season's
 actual completed regular-season games are simulated; expected wins are scored
 against actual wins counted over the exact same game set. Metrics: MAE vs two
 baselines, market win-total hit rates (overall and on the portal-divergence
-subset), and calibration of the win distributions.
+subset), and calibration of the win distributions. A `model_no_ol` variant
+(the spec without the OL continuity term, identical rows) isolates that feature
+on identical folds, and an OL-divergence subset — teams whose returning OL
+starts share most disagrees with their skill-position continuity, centered by
+season — scores it where it can actually move a lean.
 
 Market hit-rate p-values use a program-clustered bootstrap (teams repeat
 across seasons and share games, so pooled team-seasons are not IID Bernoulli
@@ -37,12 +41,13 @@ from analysis.fold_translation import (ADJUSTED_START, FoldTranslator,
 from db.session import engine
 from db.translation import TRANSLATION
 from model.features import build_features
-from model.rating import (FEATURES, BASELINE_FEATURES, COVID_SEASONS,
+from model.rating import (FEATURES, BASELINE_FEATURES, NO_OL_FEATURES, COVID_SEASONS,
                           expanding_window_fit, predict_ratings)
 from model.game_prob import fit_logistic, fit_win_curve, fcs_win_curve, game_prob
 from model.simulate import SCHEDULE_SQL, simulate_season
 
 EVAL_SEASONS = [2019, 2022, 2023, 2024, 2025]
+MARKET_VARIANTS = ("model", "model_no_ol", "baseline_raw_ret")
 CAL_START = 2016  # earliest season with a trainable expanding-window fit behind it
 
 MARKET_SQL = """
@@ -62,6 +67,19 @@ def divergence_subset(df: pd.DataFrame, quantile: float = 0.8) -> pd.DataFrame:
     """Rows in the top (1-quantile) tail of |portal-adjusted minus raw| gap."""
     cutoff = df["gap"].abs().quantile(quantile)
     return df[df["gap"].abs() >= cutoff]
+
+
+def ol_divergence_gaps(features_df: pd.DataFrame, season: int) -> pd.DataFrame:
+    """team_id + gap for one season: OL continuity minus offensive continuity,
+    centered by season (continuity_off is an index >1 in the portal era while the
+    OL share is bounded at 1, so the raw difference carries a level shift)."""
+    rows = features_df[(features_df["season"] == season)
+                       & features_df["ret_ol_starts_share"].notna()]
+    if rows.empty:
+        return pd.DataFrame(columns=["team_id", "gap"])
+    gap = rows["continuity_ol"] - rows["continuity_off"]
+    return pd.DataFrame({"team_id": rows["team_id"].to_numpy(),
+                         "gap": (gap - gap.mean()).to_numpy()})
 
 
 def simulate_fold(season: int, features_df: pd.DataFrame, feature_set: list[str],
@@ -202,8 +220,9 @@ def main() -> None:
         return
 
     mae_rows, market_rows, calib_rows, market_mae_rows = [], [], [], []
-    all_records: dict[str, list] = {"model": [], "baseline_raw_ret": []}
-    div_records: dict[str, list] = {"model": [], "baseline_raw_ret": []}
+    all_records: dict[str, list] = {v: [] for v in MARKET_VARIANTS}
+    div_records: dict[str, list] = {v: [] for v in MARKET_VARIANTS}
+    ol_records: dict[str, list] = {v: [] for v in MARKET_VARIANTS}
     for season in EVAL_SEASONS:
         curve = fit_win_curve(engine, max_season=season - 1)
         fcs_p = fcs_win_curve(engine, max_season=season - 1)
@@ -214,6 +233,7 @@ def main() -> None:
             "model": simulate_fold(season, fold_df, FEATURES, curve, fcs_p, platt),
             "baseline_raw_ret": simulate_fold(season, fold_df, BASELINE_FEATURES, curve, fcs_p, platt),
             "baseline_carry": carry_forward_fold(season, fold_df, curve, fcs_p, platt),
+            "model_no_ol": simulate_fold(season, fold_df, NO_OL_FEATURES, curve, fcs_p, platt),
         }
         for name, sim in sims.items():
             mae_rows.append({
@@ -223,7 +243,8 @@ def main() -> None:
 
         market = pd.read_sql(text(MARKET_SQL), engine, params={"season": season})
         gaps = pd.read_sql(text(DIVERGENCE_SQL), engine, params={"season": season})
-        for name in ("model", "baseline_raw_ret"):
+        ol_gaps = ol_divergence_gaps(fold_df, season)
+        for name in MARKET_VARIANTS:
             joined = sims[name].merge(market, on="team_id")
             joined["lean"] = np.sign(joined["expected_wins"] - joined["win_total"])
             joined["result"] = np.sign(joined["actual_wins"] - joined["win_total"])
@@ -238,6 +259,11 @@ def main() -> None:
                 d_wins, d_n, d_p = hit_stats(div)
                 div_records[name].append(hit_records(div))
                 row.update({"div_hits": d_wins, "div_n": d_n, "div_p": d_p})
+            if not ol_gaps.empty:
+                ol_sub = joined.merge(divergence_subset(ol_gaps, args.quantile), on="team_id")
+                o_wins, o_n, o_p = hit_stats(ol_sub)
+                ol_records[name].append(hit_records(ol_sub))
+                row.update({"ol_hits": o_wins, "ol_n": o_n, "ol_p": o_p})
             market_rows.append(row)
 
         for threshold, col in ((6, "p_ge_6"), (8, "p_ge_8")):
@@ -256,7 +282,7 @@ def main() -> None:
     print("(p-values: program-clustered bootstrap vs 0.5; per-season binomial "
           "p's below are descriptive only)")
     mk = pd.DataFrame(market_rows)
-    for name in ("model", "baseline_raw_ret"):
+    for name in MARKET_VARIANTS:
         pooled = pd.concat(all_records[name])
         hits, n = int(pooled["hit"].sum()), len(pooled)
         boot = cluster_bootstrap(pooled)
@@ -268,6 +294,12 @@ def main() -> None:
             dboot = cluster_bootstrap(div_pooled)
             line += (f" | divergence subset: {dh}/{dn} = {dh / dn:.3f} "
                      f"(cluster p={dboot['p']:.3f}, 95% CI {dboot['ci_lo']:.3f}-{dboot['ci_hi']:.3f})")
+        if ol_records[name]:
+            ol_pooled = pd.concat(ol_records[name])
+            oh, on = int(ol_pooled["hit"].sum()), len(ol_pooled)
+            oboot = cluster_bootstrap(ol_pooled)
+            line += (f"\n      OL-divergence subset: {oh}/{on} = {oh / on:.3f} "
+                     f"(cluster p={oboot['p']:.3f}, 95% CI {oboot['ci_lo']:.3f}-{oboot['ci_hi']:.3f})")
         print(line)
     print(mk.round(3).to_string(index=False))
 

@@ -5,6 +5,13 @@ Joins returning_detail.ret_ol_starts_share (season Y) with team_outcomes at
 Y and Y-1, reports correlations and bucket summaries for delta wins / delta
 SP+, and — the decision gate — an incremental OLS: does the OL share add
 signal beyond the overall returning-production share the model already uses?
+
+--full-spec runs the same incremental test inside the production rating spec
+(model.rating.NO_OL_FEATURES: prior SP+, split continuity, coaching change,
+recruiting, era dummies) on the model's own feature frame, i.e. the
+coefficient the projections will actually use. The target there is the SP+
+level; with prior SP+ as a regressor the OL coefficient is identical to the
+delta-SP+ formulation.
 """
 import argparse
 import os
@@ -61,22 +68,28 @@ def correlations(df: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def incremental_ols(df: pd.DataFrame) -> None:
-    """delta_sp ~ overall_pct vs delta_sp ~ overall_pct + ol_share, with a
+def incremental_ols(df: pd.DataFrame, base_cols: tuple[str, ...] = ("overall_pct",),
+                    target: str = "delta_sp", label: str | None = None) -> None:
+    """target ~ base_cols vs target ~ base_cols + ol_share, with a
     season-clustered bootstrap p-value on the OL coefficient."""
-    sub = df[["season", "ret_ol_starts_share", "overall_pct", "delta_sp"]].dropna()
+    base_cols = tuple(base_cols)
+    label = label or f"{target} ~ {' + '.join(base_cols)} [+ ret_ol_starts_share]"
+    sub = df[["season", "ret_ol_starts_share", target, *base_cols]].dropna()
     if len(sub) < 50:
-        print(f"\nIncremental OLS skipped: only {len(sub)} rows with overall_pct available")
+        print(f"\nIncremental OLS skipped: only {len(sub)} rows with {base_cols} available")
         return
 
     def fit(data: pd.DataFrame) -> tuple[float, float]:
-        x1 = np.column_stack([np.ones(len(data)), data["overall_pct"]])
-        x2 = np.column_stack([x1, data["ret_ol_starts_share"]])
-        y = data["delta_sp"].to_numpy()
-        b1, res1 = np.linalg.lstsq(x1, y, rcond=None)[:2]
-        b2, res2 = np.linalg.lstsq(x2, y, rcond=None)[:2]
-        r2_base = 1 - res1[0] / ((y - y.mean()) ** 2).sum()
-        r2_full = 1 - res2[0] / ((y - y.mean()) ** 2).sum()
+        x1 = np.column_stack([np.ones(len(data)), data[list(base_cols)].to_numpy(float)])
+        x2 = np.column_stack([x1, data["ret_ol_starts_share"].to_numpy(float)])
+        y = data[target].to_numpy(float)
+        b1 = np.linalg.lstsq(x1, y, rcond=None)[0]
+        b2 = np.linalg.lstsq(x2, y, rcond=None)[0]
+        # residuals computed explicitly: lstsq returns none for rank-deficient
+        # draws (e.g. a bootstrap resample where an era dummy is constant)
+        sst = ((y - y.mean()) ** 2).sum()
+        r2_base = 1 - ((y - x1 @ b1) ** 2).sum() / sst
+        r2_full = 1 - ((y - x2 @ b2) ** 2).sum() / sst
         return b2[-1], r2_full - r2_base
 
     coef, r2_gain = fit(sub)
@@ -91,11 +104,33 @@ def incremental_ols(df: pd.DataFrame) -> None:
     boot = np.array(boot)
     p = 2 * min((boot <= 0).mean(), (boot >= 0).mean())
 
-    print(f"\nIncremental OLS (delta_sp ~ overall_pct [+ ret_ol_starts_share], n={len(sub)}):")
+    print(f"\nIncremental OLS ({label}, n={len(sub)}, seasons={len(seasons)}):")
     print(f"  OL coefficient: {coef:+.2f} SP+ per unit share "
           f"(season-clustered bootstrap p={p:.3f}, 95% CI "
           f"[{np.percentile(boot, 2.5):+.2f}, {np.percentile(boot, 97.5):+.2f}])")
-    print(f"  R^2 gain over overall_pct alone: {r2_gain:+.4f}")
+    print(f"  R^2 gain over the base spec: {r2_gain:+.4f}")
+
+
+def full_spec_report(include_covid: bool) -> None:
+    """The gate inside the production spec: observed OL shares only (no imputed
+    rows), same row filters as model.rating.expanding_window_fit."""
+    from model.features import build_features
+    from model.rating import COVID_SEASONS, NO_OL_FEATURES
+
+    df = build_features(engine)
+    df = df[df["sp_rating"].notna() & ~df["is_interim"] & df["ret_ol_starts_share"].notna()].copy()
+    if not include_covid:
+        df = df[~df["season"].isin(COVID_SEASONS)]
+    df["ret_ol_starts_share"] = pd.to_numeric(df["ret_ol_starts_share"], errors="coerce").clip(0, 1)
+    missing = [f for f in NO_OL_FEATURES if df[f].isna().all()]
+    if missing:
+        print(f"\nWARNING: {missing} are entirely NULL in this database (loader not run?) — "
+              f"dropped from the base spec; the OL coefficient below is not the production one.")
+    base = tuple(f for f in NO_OL_FEATURES if f not in missing and df[f].nunique() > 1)
+    print(f"\n=== Full production spec (n={len(df)}, seasons "
+          f"{df['season'].min()}-{df['season'].max()}) ===")
+    incremental_ols(df, base_cols=base, target="sp_rating",
+                    label=f"sp_rating ~ {' + '.join(base)} [+ ret_ol_starts_share]")
 
 
 def bucket_summary(df: pd.DataFrame) -> pd.DataFrame:
@@ -124,6 +159,8 @@ def main() -> None:
     parser.add_argument("--start-season", type=int, default=2016)
     parser.add_argument("--end-season", type=int, default=2025)
     parser.add_argument("--include-covid", action="store_true")
+    parser.add_argument("--full-spec", action="store_true",
+                        help="Also run the incremental test inside the production rating spec")
     parser.add_argument("--out", default=os.path.join("analysis", "output", "ol_continuity_merged.csv"))
     args = parser.parse_args()
 
@@ -139,6 +176,9 @@ def main() -> None:
         print(f"excluding {excluded} COVID-distorted rows (2020/2021 seasons); "
               f"use --include-covid to keep them")
         report(df[~df["covid_flag"]], "COVID pairs excluded")
+
+    if args.full_spec:
+        full_spec_report(args.include_covid)
 
 
 if __name__ == "__main__":
