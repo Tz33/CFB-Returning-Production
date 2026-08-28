@@ -1,6 +1,8 @@
 # CFB Returning Production
 
-Utilities for loading CollegeFootballData rosters and stats into Postgres, computing returning and incoming production summaries, and validating that returning production predicts year-over-year team success.
+Talent retention in college football's transfer-portal era, measured and modeled. Starting from Bill Connelly's "returning production," this project (1) shows the raw stat is measuring less every year as rosters turn over, (2) builds a portal-adjusted version that credits incoming transfers at tier-translated value, (3) adds offensive-line continuity from scraped NCAA games-started data, and (4) feeds all of it into a preseason win-projection model that is backtested leak-free against sportsbook win totals: 57.8% lean hit rate (241/417, p=.002) and lower error than the posted totals themselves (MAE 1.72 vs 1.76). The 2026 projections are frozen in `writing/projections_2026.csv`; the write-up and figures are in `writing/`.
+
+Under the hood: an ETL layer that loads CollegeFootballData rosters and stats into Postgres, computes returning and incoming production summaries, and a validation harness that tests every feature before it enters the model.
 
 ## Setup
 
