@@ -27,3 +27,9 @@ analysis/output/
 # Migrations cache
 alembic/__pycache__/
 
+
+# Claude Code local settings (machine-specific paths and permissions)
+.claude/
+
+# Generated review preview (1MB of embedded PNGs; regenerate from writing/substack_draft.md)
+writing/preview.html

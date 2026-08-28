@@ -5,8 +5,8 @@ Published returning-production numbers (what markets and Connelly-derived
 models anchor on) measure raw retention. The portal-adjusted continuity index
 credits incoming transfers at translated value. Where the two diverge most is
 where consensus win totals should be systematically wrong — backtested at
-60.0% against market totals on this subset vs 51.2% for a raw-returning model
-(2022-2025 folds, n=80).
+61.3% against market totals on this subset vs 53.7% for a raw-returning model
+(2022-2025 folds, n=80; v3, CCG-safe folds).
 
 Market column degrades gracefully: win_totals rows for the season if loaded,
 else a count of posted game spreads, else '—'.
@@ -72,8 +72,8 @@ def main() -> None:
 
     df = build_board(args.season)
     print(f"Portal divergence board, {args.season} — {len(df)} teams")
-    print("Backtested on the top-divergence quintile 2022-2025: model 60.0% vs market "
-          "(n=80, p=.09), raw-returning baseline 51.2% on identical teams. "
+    print("Backtested on the top-divergence quintile 2022-2025: model 61.3% vs market "
+          "(n=80, cluster p=.039), raw-returning baseline 53.7% on identical teams. "
           "Rerun analysis/backtest_win_projections.py to refresh.")
 
     print_board(df.nlargest(args.top, "gap"),
